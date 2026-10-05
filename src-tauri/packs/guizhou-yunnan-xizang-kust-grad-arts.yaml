@@ -1,0 +1,241 @@
+# 昆明理工大学研究生学位论文（人文类）：学校通知要求统一使用该模板，未发布单独的文字规范，规则取自模板示例格式
+meta:
+  id: guizhou-yunnan-xizang-kust-grad-arts
+  title: 昆明理工大学研究生学位论文（人文类）
+  version: '2025'
+  source: https://yjs.kmust.edu.cn/info/1264/4251.htm
+  org: 昆明理工大学
+  kind: university
+  category: 研究生（人文类）
+  verified: true
+  valid_from: '2025'
+page:
+  source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：正文各节的页面设置
+  paper: A4
+  margins_cm:
+    top: 2.5
+    bottom: 2
+    left: 2.5
+    right: 2
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+page_numbers:
+  source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：各节的页码格式
+  front_format: upperRoman
+  body_format: decimal
+roles:
+  chapter:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：章标题（5 段）
+    cn_font: 黑体
+    size: 三号
+    bold: false
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 1
+    after_lines: 1
+  section_1:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：一级节标题（6 段）
+    cn_font: 黑体
+    size: 小三
+    bold: false
+    align: center
+    line:
+      rule: exact
+      value: 20
+    before: 12
+    after: 12
+    first_line_chars: 0
+  section_2:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：二级节标题（8 段）
+    cn_font: 黑体
+    size: 四号
+    bold: false
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 6
+    after: 0
+    first_line_chars: 0
+  section_3:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：三级节标题（3 段）
+    cn_font: 黑体
+    size: 小四
+    bold: false
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 6
+    after: 6
+    first_line_chars: 0
+  body:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：正文（53 段）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: false
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：文摘要标题（1 段）
+    cn_font: 黑体
+    size: 三号
+    bold: false
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 1
+    after_lines: 1
+  abstract_title_en:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：英文摘要标题（1 段）
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 1
+    after_lines: 1
+  abstract_body:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：摘要正文（4 段）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: false
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 2
+  keywords_zh:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：文关键词（1 段）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 0
+  keywords_en:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：英文关键词（1 段）
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 0
+  toc_title:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：目录标题（1 段）
+    cn_font: 黑体
+    size: 三号
+    bold: false
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 1
+    after_lines: 1
+  references_title:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：参考文献标题（1 段）
+    cn_font: 黑体
+    size: 三号
+    bold: false
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 1
+    after_lines: 1
+  ref_item:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：参考文献条目（31 段）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: false
+    align: left
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 0
+  ack_title:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：致谢标题（1 段）
+    cn_font: 黑体
+    size: 三号
+    bold: false
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 1
+    after_lines: 1
+  appendix_title:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：附录标题（1 段）
+    cn_font: 黑体
+    size: 三号
+    bold: false
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 1
+    after_lines: 1
+  fig_caption:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：图题（2 段）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: false
+    align: center
+    line:
+      rule: auto
+      value: 1
+    before: 6
+    after: 6
+    first_line_chars: 0
+  table_caption:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：表题（3 段）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: false
+    align: center
+    line:
+      rule: auto
+      value: 1
+    before: 6
+    after: 6
+    first_line_chars: 0
+checks:
+  keywords:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：关键词的分隔符
+    zh_separator: ；
+    en_separator: ;
+  caption_numbering:
+    source: 模板《昆明理工大学研究生学位论文模板-人文类》示例格式（规范未作文字规定）：图表题注按章编号

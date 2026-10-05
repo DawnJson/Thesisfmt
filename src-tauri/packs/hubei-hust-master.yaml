@@ -1,0 +1,215 @@
+meta:
+  id: hubei-hust-master
+  title: 华中科技大学硕士学位论文（生命学院参考模板）
+  version: 2024-09
+  source: https://life.hust.edu.cn/info/1858/4742.htm
+  valid_from: 2024-09
+  org: 华中科技大学
+  kind: university
+  category: 硕士
+  verified: false
+page:
+  source: 模板《2024年9月版-生命学院-硕士-华中科技大学学位论文参考模板.docx》示例格式（规范未作文字规定）
+  paper: A4
+  margins_cm:
+    top: 4.5
+    bottom: 2.8
+    left: 2.8
+    right: 2.8
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.7
+page_numbers:
+  source: 模板目录示例：摘要、目录用罗马数字（I、II…），正文用阿拉伯数字（1…），均从 1 起；模板示例格式（规范未作文字规定）
+  front_format: upperRoman
+  body_format: decimal
+  restart_at: 1
+headers:
+  source: 模板第 1 章“论文页眉，楷体，小二”
+  align: center
+  cn_font: 楷体
+  size: 小二
+roles:
+  chapter:
+    source: 模板第 1 章“章和节的题名用黑体，字号分别用三号和四号”；章标题示例“黑体，居中，三号”；行距取模板示例格式
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+  section_1:
+    source: 模板第 1 章“章和节的题名用黑体，字号分别用三号和四号”；节标题示例“黑体，四号”；行距取模板示例格式
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    line:
+      rule: auto
+      value: 1.5
+  section_2:
+    source: 模板 1.1.1“三级标题可选，黑体，小四号”；行距取模板示例格式
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: auto
+      value: 1.5
+  body:
+    source: 模板第 1 章“正文内容用宋体，英文用 Times New Roman，小四号；行间距 1.5 倍；正文注意两侧对齐”
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: auto
+      value: 1.5
+  abstract_title_zh:
+    source: 模板《摘要》页示例格式（标题黑体三号居中；规范未作文字规定）
+    cn_font: 黑体
+    size: 三号
+    align: center
+  abstract_title_en:
+    source: 模板《Abstract》页示例格式（规范未作文字规定）
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+  abstract_body:
+    source: 模板摘要要求 9)“摘要、关键词采用中文宋体；英文 Times New Roman；小四号”；英文摘要“Times New Roman，小四，1.5 倍行距”
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: auto
+      value: 1.5
+  keywords_zh:
+    source: 模板摘要要求 9)“摘要、关键词采用中文宋体；英文 Times New Roman；小四号”
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  keywords_en:
+    source: 模板摘要要求 9)“英文 Times New Roman；小四号”；英文摘要“1.5 倍行距”
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: auto
+      value: 1.5
+  toc_title:
+    source: 模板《目 录》页示例格式（黑体三号居中；规范未作文字规定）
+    cn_font: 黑体
+    size: 三号
+    align: center
+  toc_chapter:
+    source: 模板“目录编写要求：2. 中文宋体，英文和数字 Times New Roman，四号，行距：固定值 25 磅”
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    line:
+      rule: exact
+      value: 25
+  toc_item:
+    source: 模板“目录编写要求：2. 中文宋体，英文和数字 Times New Roman，四号，行距：固定值 25 磅”
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    line:
+      rule: exact
+      value: 25
+  references_title:
+    source: 模板《参考文献》页示例格式（黑体三号居中；规范未作文字规定）
+    cn_font: 黑体
+    size: 三号
+    align: center
+  ref_item:
+    source: 模板参考文献条目示例格式（宋体 / Times New Roman 小四；规范未作文字规定）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  ack_title:
+    source: 模板《致 谢》页示例格式（黑体三号居中；规范未作文字规定）
+    cn_font: 黑体
+    size: 三号
+    align: center
+  appendix_title:
+    source: 模板“附录 1 攻读硕士学位期间取得的研究成果”示例格式（黑体三号居中；规范未作文字规定）
+    cn_font: 黑体
+    size: 三号
+    align: center
+  fig_caption:
+    source: 模板 4.1“图注也只需加注中文，宋体，五号”；居中取模板示例格式
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: 模板 4.2“表格题目应居中放置于表格顶端”；宋体五号取模板示例格式（规范未作文字规定）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  equation:
+    source: 模板 4.6.2“公式中主要字母的字号与正文一样（即小四号）”
+    size: 小四
+checks:
+  keywords:
+    source: 模板摘要要求 8)“关键词应有 3 至 8 个……关键词之间用分号隔开”；英文关键词分隔符取模板示例“Keyword 1, Keyword 2”
+    min_count: 3
+    max_count: 8
+    zh_separator: ；
+    en_separator: ','
+  caption_numbering:
+    source: 模板 4.1“图序号按‘章’进行编号，如图 4-1”；4.2“表格序号按‘章’进行编号，如第 3 章第 1 个表为‘表 3-1’”
+  punctuation:
+    source: 模板 4.4“标点符号的使用，应符合国家标准 GB／T 15834—2011《标点符号用法》”
+  table_caption:
+    source: 模板 4.2“表格题目应居中放置于表格顶端”
+  table_cell:
+    source: 模板 4.2“表头及表中文字应小于正文字号，一般为宋体，五号；若其中含英文或数字时，字体为 Times New Roman，五号”
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  abstract_text:
+    source: 模板摘要要求 4)“硕士学位论文摘要一般为 500－600 汉字”；6)“一般不用图、表”；10)“应有与中文摘要和关键词相对应的英文摘要和关键词”
+    zh_min_chars: 500
+    zh_max_chars: 600
+    chars_approx: true
+    no_figures: true
+    keywords_match: true
+  citations:
+    source: 模板《参考文献》“参考文献目录按正文中引用先后顺序排列，重复引用的文献，按第一次出现的顺序编号”
+  footnotes:
+    source: 模板《参考文献》注释体例（3）排版：中文小五宋体、英文 Times New Roman 9 号，单倍行距，顶格无缩进，序号用①、每页重新编序
+    format:
+      source: 模板注释体例（3）排版“【字体】中文：小五，宋体；英文：times new roman 9 号字体；【段落】顶格写，无首行缩进，也无左缩进【行距】单倍行距”
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小五
+      line:
+        rule: auto
+        value: 1.0
+    circled: true
+    restart_each_page: true
+layout:
+  page_start:
+    source: 模板目录示例：摘要页码 I、正文第 1 章页码 1；模板示例格式（规范未作文字规定）
+    front_first: 1
+    body_first: 1
+manual:
+- text: 本规则包依据生命学院发布的《华中科技大学学位论文参考模板》（2024年9月版）正文中的说明文字及其示例排版，未找到华中科技大学研究生院的统一格式规范文字，故未标记为已核实。
+  source: https://life.hust.edu.cn/info/1858/4742.htm
+- text: 页眉内容为“华中科技大学硕士学位论文”，模板为居中的静态文字；页眉字体取“华文楷体”，模板实际字号约 16.5 磅，与规范“小二”（18 磅）不一致，以规范为准。
+  source: 模板第 1 章“论文页眉，楷体，小二”
+- text: 学位论文表格要使用三线格并居中放置；规范未给线宽。
+  source: 模板 4.2“学位论文中的表格要使用三线格，居中放置”
+- text: 图一般居中放置，宽度不得超过文字边缘；图中文字缩放后字号不得大于五号；图像分辨率尽量不低于 300 dpi；说明字体与比例尺的字体应至少比正文小一号。
+  source: 模板 4.1 关于图
+- text: 公式居中排列，公式编号按章顺序编排（如第 2 章第 3 个公式标注为 2-3）并右对齐；模板示例写作“（2.1）”，与此处写法不一致，未作自动检查。
+  source: 模板 4.6.2 公式
+- text: 表格题目与表格尽量不要分页；实在需要分页时，请在下一页续表。
+  source: 模板 4.2 关于表格
+- text: 目录自动生成时，只需列出二级标题（有需要可列三级标题）。
+  source: 模板“目录编写要求：1.”
+- text: 硕士学位论文的字数一般不少于 2.5 万字，从绪论到总结与展望的总页数一般不少于 65 页；主体研究内容不得少于 2 章，加上绪论、总结与展望，累计不得少于 5 章。
+  source: 模板第 1 章绪论、1.4 本文主要内容
+- text: 硕士学位申请人的文献阅读量一般不少于 40 篇，其中外文文献一般不少于 1/3，近五年的论文一般不少于 1/3。
+  source: 模板《参考文献》
+- text: 题名一般不宜超过 30 个字；摘要及全文中均建议不出现“我们、本文”等字样。
+  source: 模板第 1 章；摘要要求 5)

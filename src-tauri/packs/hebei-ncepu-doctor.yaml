@@ -1,0 +1,155 @@
+# 华北电力大学博士学位论文：规则全部来自《华北电力大学博士学位论文撰写规范》（研究生院，2024 年 6 月）
+meta:
+  id: hebei-ncepu-doctor
+  title: 华北电力大学博士学位论文
+  version: "2024-06"
+  source: https://yjsy.ncepu.edu.cn/zyxw/xwlw/d1235822dbde49f095df4e83581c235b.htm
+  valid_from: "2024-06"
+  org: 华北电力大学
+  kind: university
+  category: 博士
+  verified: true
+
+page:
+  source: "《博士学位论文撰写规范》3.9：要求用标准 A4 幅面白纸，页边距为上 3 厘米、下 2.7 厘米、左 3 厘米、右 3 厘米（包括页眉、页码）"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.7, left: 3.0, right: 3.0}
+
+page_numbers:
+  source: "《博士学位论文撰写规范》2.20：摘要、目录、图表清单、主要符号表用小五号罗马数字编连续码，页码位于页脚居中；主体部分起用小五号阿拉伯数字编连续码；封面、扉页、声明不编入页码；3.1 数字、英文字体用 Times New Roman"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  cover_no_number: true
+
+headers:
+  source: "《博士学位论文撰写规范》3.4：页眉字号为小 5 号宋体，居中打印页眉；奇数页眉本章的题序及标题，偶数页眉为“华北电力大学博士学位论文”"
+  content: chapter_title
+  even: {text: 华北电力大学博士学位论文}
+  align: center
+  cn_font: 宋体
+  size: 小五
+
+roles:
+  chapter:
+    source: "《博士学位论文撰写规范》3.2：章标题黑体小 2 号；3.7 表1：章序及章名居中排；3.2 行距多倍行距 1.25，段前 1 行、段后 0.5 行"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.25}
+    before_lines: 1
+    after_lines: 0.5
+    first_line_chars: 0
+  section_1:
+    source: "《博士学位论文撰写规范》3.2：节标题黑体小 3 号；3.7 表1：题序顶格书写；行距多倍行距 1.25，段前、段后 0.5 行"
+    cn_font: 黑体
+    size: 小三
+    line: {rule: auto, value: 1.25}
+    before_lines: 0.5
+    after_lines: 0.5
+    first_line_chars: 0
+  section_2:
+    source: "《博士学位论文撰写规范》3.2：条标题黑体 4 号；3.7 表1：题序顶格书写；行距多倍行距 1.25，段前、段后 0.5 行"
+    cn_font: 黑体
+    size: 四号
+    line: {rule: auto, value: 1.25}
+    before_lines: 0.5
+    after_lines: 0.5
+    first_line_chars: 0
+  section_3:
+    source: "《博士学位论文撰写规范》3.2：款、项标题黑体小 4 号，段前 0 行，段后 0 行；行距多倍行距 1.25；3.7 表1：题序顶格书写"
+    cn_font: 黑体
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+    first_line_chars: 0
+  body:
+    source: "《博士学位论文撰写规范》3.1：中文字体宋体，数字、英文 Times New Roman；3.2：正文宋体小 4 号，段前 0 行，段后 0 行，行距多倍行距 1.25"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "《博士学位论文撰写规范》3.5.1：摘要题头应居中，“摘    要”小 2 号黑体"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  abstract_body:
+    source: "《博士学位论文撰写规范》3.1：论文所用中文字体要求为宋体，数字、英文字体要求为 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+  toc_chapter:
+    source: "《博士学位论文撰写规范》3.6：目录中各章题序及标题用黑体小 4 号字"
+    cn_font: 黑体
+    size: 小四
+  toc_item:
+    source: "《博士学位论文撰写规范》3.6：目录中其余用宋体小 4 号字"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  ref_item:
+    source: "《博士学位论文撰写规范》3.1：论文所用中文字体要求为宋体，数字、英文字体要求为 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+  fig_caption:
+    source: "《博士学位论文撰写规范》2.13.1：图题置于图下，居中书写，要求中文用宋体 5 号字，英文用 Times New Roman 5 号字"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: "《博士学位论文撰写规范》2.12：表题置于表上，居中排写，要求中文用宋体 5 号字，英文用 Times New Roman 字体 5 号字"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "《博士学位论文撰写规范》1.3.2 应列取 3~5 个关键词；3.5 关键词：（词）；（词）；…，英文 Keywords：×××，×××，…（范例英文关键词用“，”分隔）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: "，"
+  caption_numbering:
+    source: "《博士学位论文撰写规范》2.12、2.13.1：表序、图序一般按章编排，如“表1-1”“图1-1”"
+  table_caption:
+    source: "《博士学位论文撰写规范》2.12：表题置于表上"
+  figure_caption:
+    source: "《博士学位论文撰写规范》2.13.1：图题置于图下"
+  table_cell:
+    source: "《博士学位论文撰写规范》2.12：表中文字用宋体 5 号字；3.1 数字、英文用 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  equation_number:
+    source: "《博士学位论文撰写规范》3.8：公式应标注序号，并将序号置于括号内，按章编排，如第一章第一个公式的序号为“（1-1）”，序号右端对齐"
+  chapter_number:
+    source: "《博士学位论文撰写规范》3.7 表1：章序及章名居中排，章序用阿拉伯数字（第1章）"
+  citations:
+    source: "《博士学位论文撰写规范》2.6：引文标注采用顺序编码制，编号用方括号内阿拉伯数字；1.6：所有被引用文献均要列入参考文献中，必须按顺序标注"
+
+layout:
+  new_page:
+    source: "《博士学位论文撰写规范》2.5.1：论文正文分章节撰写，每章应另起一页"
+    roles: [chapter]
+  first_chapter_odd_page:
+    source: "《博士学位论文撰写规范》3.9：绪论起始页为奇数页"
+
+manual:
+  - {text: "页眉：除封面及内封外各页加页眉，在版芯上边线隔一行加粗、细双线（粗线在上，宽 0.8mm），双线上居中打印页眉；奇数页眉本章的题序及标题，偶数页眉为“华北电力大学博士学位论文”。", source: "《博士学位论文撰写规范》3.4"}
+  - {text: "摘要字数（以汉字计）博士学位论文 1000～2000 字；摘要页不需写出论文题目；英文摘要与中文摘要内容应完全一致；摘要中不宜使用公式、化学结构式、图表和非公知公用的符号和术语，不标注引用文献编号。", source: "《博士学位论文撰写规范》2.3、1.3.1"}
+  - {text: "博士学位论文的扉页、摘要、目录、图题及表题等，都要求用中、英文两种文字给出，中文在前；博士生需加英文目录（英文目录各章题序及标题 Times New Roman 4 号加粗，其余 Times New Roman 小 4 号）。", source: "《博士学位论文撰写规范》2.2、2.4、3.6"}
+  - {text: "中文摘要关键词在正文之后隔一行顶格书写；英文摘要的关键词用小写。", source: "《博士学位论文撰写规范》3.5"}
+  - {text: "目录应包括全部章、节、条三级标题及页号；一级标题顶格书写，二级标题缩进一格，三级标题缩进两格。", source: "《博士学位论文撰写规范》2.4"}
+  - {text: "章标题字数一般在 15 字以内，一般不加标点符号；各层次题序及标题不得置于页面的最后一行（孤行）。", source: "《博士学位论文撰写规范》2.5.1、3.7"}
+  - {text: "表格不加左、右边线，建议采用三线表；表名中不允许使用标点符号，表序与表名之间空一格；续表在随后各页重复表的编号，编号后加“（续表）”，表题可省略，续表应重复表头。", source: "《博士学位论文撰写规范》2.12"}
+  - {text: "图名在图序之后空一格排写；图注或其他说明置于图题之上；插图之前文中必须有提示（如“见图1-1”）；插图与其图题不得拆开排写于两页。", source: "《博士学位论文撰写规范》2.13.1、2.13.2"}
+  - {text: "公式原则上应居中书写，公式末不加标点；公式较长时在等号处转行，运算符号仅书写于转行式前。", source: "《博士学位论文撰写规范》2.11、3.8"}
+  - {text: "博士学位论文的参考文献数一般不少于 100 篇，其中外文文献一般不少于总数的 1/2；近五年的文献一般应不少于总数的 1/3，并应有近两年的参考文献。", source: "《博士学位论文撰写规范》1.6"}
+  - {text: "每章应另起一页之外：论文主体各章后应有一节“本章小结”；结论作为正文最后一章单独排写，内容一般在 2000 字以内。", source: "《博士学位论文撰写规范》1.5.2、1.5.3"}

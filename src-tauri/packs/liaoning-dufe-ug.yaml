@@ -1,0 +1,179 @@
+meta:
+  id: liaoning-dufe-ug
+  title: 东北财经大学本科毕业论文
+  version: "2022-12"
+  source: https://jwc.dufe.edu.cn/content_70798.html
+  valid_from: "2022-12"
+  org: 东北财经大学
+  kind: university
+  category: 本科
+  verified: true
+
+# 依据：《东北财经大学本科毕业论文写作规范》（下称「规范」）三「毕业论文格式编排」。
+# 全文图表连续编号（图1、表1），参考文献采用（著者，出版年）形式，故不启用按章编号与顺序编码检查。
+page:
+  source: "规范三（一）：一律用国际标准A4纸打印。上、下、左、右的页边距一律设为2厘米，不设装订线"
+  paper: A4
+  margins_cm: {top: 2.0, bottom: 2.0, left: 2.0, right: 2.0}
+
+page_numbers:
+  source: "规范三（十）：封面不加页码；全文排印连续页码，页码在页面底端（页脚）居中书写"
+  footer_align: center
+  cover_no_number: true
+
+# 正文奇偶页页眉内容不同（奇数页为论文题目，偶数页为“东北财经大学2020届本科毕业论文”），其余各部分页眉为该部分标题，故不写 content / same_odd_even，见 manual。
+headers:
+  source: "规范三（十一）3：页眉文字内容的字体为5号宋体加粗，居中独占行"
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "规范三（三）9：一级标题“一、”，4号黑体，独占行，单倍行距；正文标题首行缩进2字符；段前段后各1行（同条）"
+    cn_font: 黑体
+    size: 四号
+    line: {rule: auto, value: 1.0}
+    first_line_chars: 2
+    before_lines: 1
+    after_lines: 1
+  section_1:
+    source: "规范三（三）9：二级标题“（一）”，小4号宋体字，独占行，单倍行距；正文标题首行缩进2字符；段前段后各0.5行（同条）"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: auto, value: 1.0}
+    first_line_chars: 2
+    before_lines: 0.5
+    after_lines: 0.5
+  body:
+    source: "规范三（三）8：论文正文内容的汉字一律按小4号宋体字排版，英文和数字建议采用Times New Roman；行距原则上为22磅固定值；9：正文标题与段落首行缩进2字符"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 22}
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "规范三（三）5：中文摘要标题为“摘  要”，3号黑体，居中独占行，单倍行距；段前两行、段后一行（同条）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before_lines: 2
+    after_lines: 1
+  abstract_title_en:
+    source: "规范三（三）6：英文摘要的标题为“ABSTRACT”，3号Times New Roman粗体，居中独占行，单倍行距，段前两行、段后一行"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before_lines: 2
+    after_lines: 1
+  abstract_body:
+    source: "规范三（三）5、6：摘要内容用小4号宋体，首行缩进2字符，行距为22磅固定值；英文摘要小4号Times New Roman，首行缩进2字符，行距22磅固定值"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 22}
+    first_line_chars: 2
+  keywords_zh:
+    source: "规范三（三）5：“关键词”三字用4号黑体，内容用小4号黑体（两部分字号不同，仅检查字体）"
+    cn_font: 黑体
+  keywords_en:
+    source: "规范三（三）6：英文关键词“Key words”为4号Times New Roman加粗，内容用小4号Times New Roman（两部分字号不同，仅检查字体）"
+    latin_font: Times New Roman
+  toc_title:
+    source: "规范三（三）7：目录标题为“目  录”，3号黑体，居中独占行，单倍行距，段前两行、段后一行"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before_lines: 2
+    after_lines: 1
+  toc_chapter:
+    source: "规范三（三）7：目录内容的汉字部分为小4号仿宋（模板用仿宋_GB2312，字体名不同，故不查中文字体），页码和连线为Times New Roman字体，1.5倍行距，一律居左"
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.5}
+  toc_item:
+    source: "规范三（三）7：目录内容的汉字部分为小4号仿宋（模板用仿宋_GB2312，字体名不同，故不查中文字体），页码和连线为Times New Roman字体，1.5倍行距，一律居左"
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.5}
+  references_title:
+    source: "规范三（三）12：主要参考文献名称用4号黑体"
+    cn_font: 黑体
+    size: 四号
+  ref_item:
+    source: "规范三（三）12：另起行空两格，中文用宋体小4号字体排印参考文献内容；外文用Times New Roman小4号字体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+  appendix_title:
+    source: "规范三（三）11：附录项目名称用4号黑体，居中独占行，单倍行距；段前、段后各0.5行（规范三（三）11）"
+    cn_font: 黑体
+    size: 四号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before_lines: 0.5
+    after_lines: 0.5
+  ack_title:
+    source: "规范三（三）13：后记的标题为“后  记”，4号黑体，居中独占行，单倍行距；段前两行、段后一行（同条）"
+    cn_font: 黑体
+    size: 四号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before_lines: 2
+    after_lines: 1
+  fig_caption:
+    source: "规范三（五）：图名格式为“图1  ××图”，用5号黑体在图的下方居中编排"
+    cn_font: 黑体
+    size: 五号
+    align: center
+  table_caption:
+    source: "规范三（四）1：表头包括表号、标题和计量单位，用5号黑体加粗，在表体上方编排（表号居左、标题居中、计量单位居右，同一行内对齐方式不同，未检查对齐）"
+    cn_font: 黑体
+    size: 五号
+    bold: true
+
+checks:
+  abstract_text:
+    source: "规范二（二）：摘要字数在300～500字之间"
+    zh_min_chars: 300
+    zh_max_chars: 500
+  table_caption:
+    source: "规范三（四）：表号表名置于表上"
+  figure_caption:
+    source: "规范三（四）：图号图名应置于图下"
+  figure_citation:
+    source: "规范三（五）：正文中应当有必要的引导语，以便引出图形。图形的引导语必须在所引导的图形之前"
+  table_cell:
+    source: "规范三（四）2：表格主体部分中的文字和数码均使用5号字，文字为宋体，数码为Times New Roman字体（数字过多时可用小5号字，故不查字号）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+  footnotes:
+    source: "规范三（三）10：注释采用脚注方式；编号格式采用“①②……”，编号方式采用“每页重新编号”"
+    circled: true
+    restart_each_page: true
+
+layout:
+  toc:
+    source: "规范二（四）：目录列出论文正文的一、二级标题名称及对应页码，以及附录、主要参考文献、后记等的对应页码"
+  new_page:
+    source: "规范三（三）5、6、7：中文摘要及关键词另起一节；英文摘要及关键词另起一节；目录另起一节"
+    roles: [abstract_title_zh, abstract_title_en, toc_title]
+
+manual:
+  - {text: "关键词通常不超过7个，中文关键词词间空一格、不加标点；英文关键词“Key words”后接冒号，不同关键词之间加英文分号“;”。", source: "规范二（二）、三（三）5、6"}
+  - {text: "页眉：中文摘要、英文摘要、目录、附录、主要参考文献和后记的页眉文字分别是“摘要”“ABSTRACT”“目录”“附录”“主要参考文献”“后记”；正文奇数页页眉为论文题目，偶数页为“东北财经大学2020届本科毕业论文”；页眉线型为上粗下细的文武线。", source: "规范三（十一）"}
+  - {text: "页码：中英文摘要合在一起排页码，从“1”开始；目录单独排页码，从“1”开始；正文单独编排页码，从“1”开始。", source: "规范三（十）"}
+  - {text: "表体：统计类表格所有表线为细实线（1/2磅）；会计类表格上下端线为粗实线（1.5磅），其余为细实线；表的左右两端不应封口（无左右边线）；同一个表格应尽量排在同一页上。", source: "规范三（四）2、4"}
+  - {text: "图、表一律用阿拉伯数字连续编号（图1、表1）；正文中须有引导语，表的引导语必须在所引导的表之前。", source: "规范三（四）、（五）"}
+  - {text: "公式编号排在右侧，编号形式为“（1）式”，连续编号；公式下面有说明时顶格书写。", source: "规范三（六）"}
+  - {text: "正文引用文献采用“（著者，出版年）”或“著者（出版年）”形式，不用脚注；参考文献先中文后外文，中外文统一编号，编号形式为阿拉伯数字后加圆点（如“1.”）。", source: "规范二（八）、三（三）12"}
+  - {text: "脚注内容最后须标明引文的页码或页码区间（中文页码区间形式为“75~83”，英文为“68-93”，不得混用）。", source: "规范三（三）10"}
+  - {text: "数字：阿拉伯数字超过4位时，应使用空格作为千分位的分组符号。", source: "规范三（七）"}
+  - {text: "正文字数要求在7000-10000字之间。", source: "规范二（五）"}

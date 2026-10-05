@@ -1,0 +1,182 @@
+meta:
+  id: beijing-a-cugb-master
+  title: 中国地质大学（北京）硕士学位论文（学术型）
+  version: "2021-02"
+  source: https://graduate.cugb.edu.cn/c/2023-06-06/781585.shtml
+  valid_from: "2021-02"
+  org: 中国地质大学（北京）
+  kind: university
+  category: 硕士（学术型）
+  verified: true
+
+page:
+  source: "《硕士学位论文书写指南（学术型）》“用纸及打印规格”：纸张尺寸 A4；每一面的上方（天头）和左侧（订口）应分别留边25mm以上，下方（地脚）和右侧（切口）应分别留边20mm以上"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.0, left: 2.5, right: 2.0, at_least: true}
+
+page_numbers:
+  source: "《硕士学位论文书写指南（学术型）》“篇眉和页码”：页码从引言开始按阿拉伯数字连续编排，前置部分用阿拉伯数字单独编排；页码位于页面底端，居中书写"
+  front_format: decimal
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+
+headers:
+  source: "《硕士学位论文书写指南（学术型）》“篇眉和页码”(1)：页眉从第一章开始，采用宋体五号字居中书写。奇数页写“中国地质大学（北京）硕士学位论文”，偶数页写大标题（章的题目）"
+  text: "中国地质大学（北京）硕士学位论文"
+  even: {content: chapter_title}
+  front_none: true
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "《硕士学位论文书写指南（学术型）》“论文字体、字型及字号要求”：大标题 黑体二号；居中取自模板《附件4 硕士学位论文模板（学术型）（2021年修订）.docx》示例格式（书写指南未作文字规定）；“段落及行间距要求”：全文行间距一律取“1.5倍行距”，段间距（段前、段后）均取“0行距”"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 二号
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  section_1:
+    source: "《硕士学位论文书写指南（学术型）》“论文字体、字型及字号要求”：一级节标题 黑体三号；“段落及行间距要求”：全文行间距一律取“1.5倍行距”，段间距（段前、段后）均取“0行距”"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  section_2:
+    source: "《硕士学位论文书写指南（学术型）》“论文字体、字型及字号要求”：二级节标题 黑体四号；“段落及行间距要求”：全文行间距一律取“1.5倍行距”，段间距（段前、段后）均取“0行距”"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  section_3:
+    source: "《硕士学位论文书写指南（学术型）》“论文字体、字型及字号要求”：三级节标题 黑体小四；“段落及行间距要求”：全文行间距一律取“1.5倍行距”，段间距（段前、段后）均取“0行距”"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  body:
+    source: "《硕士学位论文书写指南（学术型）》“论文字体、字型及字号要求”：正文 宋体小四号；首行缩进 2 字符取自模板《附件4 硕士学位论文模板（学术型）（2021年修订）.docx》示例格式（书写指南未作文字规定）；“段落及行间距要求”：全文行间距一律取“1.5倍行距”，段间距（段前、段后）均取“0行距”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "中文摘要标题 模板《附件4 硕士学位论文模板（学术型）（2021年修订）.docx》示例格式（书写指南未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  abstract_title_en:
+    source: "英文摘要标题 模板《附件4 硕士学位论文模板（学术型）（2021年修订）.docx》示例格式（书写指南未作文字规定）"
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  abstract_body:
+    source: "《硕士学位论文书写指南（学术型）》“论文字体、字型及字号要求”：摘要正文按正文 宋体小四号；首行缩进 2 字符取自模板《附件4 硕士学位论文模板（学术型）（2021年修订）.docx》示例格式（书写指南未作文字规定）；“段落及行间距要求”：全文行间距一律取“1.5倍行距”，段间距（段前、段后）均取“0行距”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  toc_title:
+    source: "目录标题 模板《附件4 硕士学位论文模板（学术型）（2021年修订）.docx》示例格式（书写指南未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  references_title:
+    source: "参考文献标题 模板《附件4 硕士学位论文模板（学术型）（2021年修订）.docx》示例格式（书写指南未作文字规定）"
+    cn_font: 黑体
+    size: 二号
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  ref_item:
+    source: "《硕士学位论文书写指南（学术型）》“论文字体、字型及字号要求”：参考文献 宋体五号；“段落及行间距要求”：全文行间距一律取“1.5倍行距”，段间距（段前、段后）均取“0行距”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  ack_title:
+    source: "致谢标题 模板《附件4 硕士学位论文模板（学术型）（2021年修订）.docx》示例格式（书写指南未作文字规定）"
+    cn_font: 黑体
+    size: 二号
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  fig_caption:
+    source: "《硕士学位论文书写指南（学术型）》“论文字体、字型及字号要求”：表题与图题 宋体五号；图序及图名居中置于图的正下方；“段落及行间距要求”：全文行间距一律取“1.5倍行距”，段间距（段前、段后）均取“0行距”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  table_caption:
+    source: "《硕士学位论文书写指南（学术型）》“论文字体、字型及字号要求”：表题与图题 宋体五号；居中取自模板《附件4 硕士学位论文模板（学术型）（2021年修订）.docx》示例格式（书写指南未作文字规定）；“段落及行间距要求”：全文行间距一律取“1.5倍行距”，段间距（段前、段后）均取“0行距”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+
+checks:
+  keywords:
+    source: "《硕士学位论文书写指南（学术型）》“摘要”：应在有摘要的一页下方另起一行注明论文的关键词（3～5个）；分隔符取自模板《附件4 硕士学位论文模板（学术型）（2021年修订）.docx》示例格式（书写指南未作文字规定）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "，"
+    en_separator: ","
+  abstract_text:
+    source: "《硕士学位论文书写指南（学术型）》“摘要”：硕士学位论文中中文摘要字数在800～1000字为宜（限一页）"
+    zh_min_chars: 800
+    zh_max_chars: 1000
+  table_caption:
+    source: "《硕士学位论文书写指南（学术型）》“有关图、表等”：表序及表名置于表的上方"
+  figure_caption:
+    source: "《硕士学位论文书写指南（学术型）》“有关图、表等”：图序及图名居中置于图的正下方"
+  citations:
+    source: "《硕士学位论文书写指南（学术型）》“参考文献”：参考文献按照在正文中引用的顺序进行编码"
+
+layout:
+  page_limits:
+    - {role: abstract_title_zh, max_pages: 1, source: "《硕士学位论文书写指南（学术型）》“摘要”：中文摘要字数……（限一页）"}
+
+manual:
+  - {text: "大标题（章）之后空一行。", source: "《硕士学位论文书写指南（学术型）》“段落及行间距要求”"}
+  - {text: "图、表、公式等与正文之间要有一行的间距。", source: "《硕士学位论文书写指南（学术型）》“有关图、表等”"}
+  - {text: "文中的图、表、附注、公式一律采用阿拉伯数字分章（或连续）编号，如图2-5，表3-2，公式(5-1)；若图或表中有附注，采用英文小写字母顺序编号，附注写在图或表的右下方。", source: "《硕士学位论文书写指南（学术型）》“有关图、表等”"}
+  - {text: "公式的编号用括号括起写在右边行末，其间不加虚线。", source: "《硕士学位论文书写指南（学术型）》“有关图、表等”(3)"}
+  - {text: "表中参数应标明量和单位的符号；图中的术语、符号、单位等应同文字表述所用一致。", source: "《硕士学位论文书写指南（学术型）》“有关图、表等”"}
+  - {text: "引用的文献在正文中用方括号和阿拉伯数字按顺序以右上角标形式标注在引用处；参考文献著录格式应遵循 GB/T 7714-2015。", source: "《硕士学位论文书写指南（学术型）》“参考文献”"}
+  - {text: "题名一般不宜超过25字，外文题名一般不宜超过 10 个实词。", source: "《硕士学位论文书写指南（学术型）》“题名”"}
+  - {text: "严格执行 GB3100～3102：93 有关量和单位的规定；单位名称可用国际通用符号或中文名称，但全文应统一。", source: "《硕士学位论文书写指南（学术型）》“量和单位”"}

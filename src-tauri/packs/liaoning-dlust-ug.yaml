@@ -1,0 +1,209 @@
+meta:
+  id: liaoning-dlust-ug
+  title: 大连科技学院本科毕业设计（论文）
+  version: "2021"
+  source: https://sub2.dlust.edu.cn/kejijw/detail-1429.html
+  valid_from: "2021"
+  org: 大连科技学院
+  kind: university
+  category: 本科
+  verified: true
+
+# 依据：《大连科技学院毕业设计（论文）规范化要求》（下称「规范」）与教务处发布的《2021届毕业设计（论文）模板》（下称「模板」，模板内的说明文字同为学校规定）。
+page:
+  source: "规范四（一）版面要求：纸张A4；页边距上、下、左、右各2.5cm；页眉边距1.5cm，页脚边距1.75cm"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 2.5, right: 2.5}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "规范四（二）：自摘要页起加页脚，摘要、目录共同编页码，采用大写罗马数字，Times New Roman小五号居中；四（四）2：正文页脚重新编排页码，阿拉伯数字，Times New Roman小五号，页底居中"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  restart_at: 1
+  cover_no_number: true
+
+# 摘要、目录页眉左端“大连科技学院****届本科毕业设计（论文）”、右端“摘要”/“Abstract”，正文页眉居中，两者不同，故不写 content / align，见 manual。
+headers:
+  source: "规范四（二）：自摘要页起加页眉：宋体五号；四（四）1：页眉“大连科技学院XXXX届本科毕业设计（论文）”（五号、宋体、居中）"
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "规范四（三）1：一级标题（章）二号、黑体、加粗、居中；标题中英文、数字采用Times New Roman字体；1.5倍行距见模板“一级标题排版”说明；段前0行段后1行（规范四（三）1）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 二号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.5}
+    before_lines: 0
+    after_lines: 1
+  section_1:
+    source: "规范四（三）2：二级标题（节）三号、黑体、加粗、居左；标题中英文、数字采用Times New Roman字体；段前段后0行（规范四（三）2）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: left
+    line: {rule: auto, value: 1.5}
+    before_lines: 0
+    after_lines: 0
+  section_2:
+    source: "规范四（三）3：三级标题（条）四号、黑体、加粗、居左；标题中英文、数字采用Times New Roman字体；段前段后0行（规范四（三）3）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    align: left
+    line: {rule: auto, value: 1.5}
+    before_lines: 0
+    after_lines: 0
+  body:
+    source: "规范四（四）3：正文：中文小四号宋体，英文、数字小四号Times New Roman，段前段后0行，两端对齐，1.5倍行距，首行缩进2个中文字符"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.5}
+    first_line_chars: 2
+    before_lines: 0
+    after_lines: 0
+  abstract_title_zh:
+    source: "规范四（二）1：中文摘要标题按一级标题排版（二号黑体加粗居中，段前0行段后1行，1.5倍行距）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 二号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.5}
+    before_lines: 0
+    after_lines: 1
+  abstract_title_en:
+    source: "规范四（二）2：英文摘要标题按一级标题排版（Times New Roman，二号，加粗，居中，段前0行段后1行，1.5倍行距，见模板说明）"
+    latin_font: Times New Roman
+    size: 二号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.5}
+    before_lines: 0
+    after_lines: 1
+  abstract_body:
+    source: "规范四（二）1、2：摘要内容用小四号宋体，1.5倍行距；英文摘要采用小四号Times New Roman字体，1.5倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  keywords_zh:
+    source: "规范四（二）1：摘要内容及关键词用小四号宋体，1.5倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  keywords_en:
+    source: "规范四（二）2：英文摘要和英文关键词采用小四号Times New Roman字体，1.5倍行距"
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  toc_title:
+    source: "规范四（二）3：“目录”二字用二号黑体，居中，段前0行，段后1行，1.5倍行距"
+    cn_font: 黑体
+    size: 二号
+    align: center
+    line: {rule: auto, value: 1.5}
+    before_lines: 0
+    after_lines: 1
+  toc_chapter:
+    source: "规范四（二）3：目录标题采用四号黑体，段前段后0行，居左，1.5倍行距；页码四号Times New Roman字体"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    line: {rule: auto, value: 1.5}
+    before_lines: 0
+    after_lines: 0
+  toc_item:
+    source: "规范四（二）3：目录标题采用四号黑体，段前段后0行，居左，1.5倍行距；页码四号Times New Roman字体"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    line: {rule: auto, value: 1.5}
+    before_lines: 0
+    after_lines: 0
+  references_title:
+    source: "规范四（五）1：“参考文献”四个字用一级标题排版（二号黑体加粗居中，段前0行段后1行，1.5倍行距）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 二号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.5}
+    before_lines: 0
+    after_lines: 1
+  ref_item:
+    source: "规范四（五）2：参考文献内容中文小四号宋体；外文、数字、标点小四号Times New Roman，1.5倍行距；序号左顶格"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.5}
+  fig_caption:
+    source: "规范四（六）：图题中文用五号宋体，英文、数字用五号Times New Roman，置于图的正下方；居中取自模板《2021届毕业设计（论文）模板》图题示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: "规范四（七）：表题置于表的上方居中，中文用五号宋体，英文、数字用五号Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "规范二（二）：关键词要求3-6个；四（二）1：中文关键词之间用“，”相隔；四（二）2：英文关键词之间用英文半角“,”相隔"
+    min_count: 3
+    max_count: 6
+    zh_separator: "，"
+    en_separator: ","
+  abstract_text:
+    source: "规范二（二）：中文摘要一般不少于400汉字"
+    zh_min_chars: 400
+  caption_numbering:
+    source: "规范四（六）：图号编码用章序号，如“图3.1”表示第3章第1图；四（七）：表号用章序号编码，如“表3.1”"
+  table_caption:
+    source: "规范四（七）：表题置于表的上方居中"
+  figure_caption:
+    source: "规范四（六）：图题置于图的正下方"
+  table_cell:
+    source: "模板《2021届毕业设计（论文）模板》表格说明：表格中的文字大小一般为五号宋体（规范未作文字规定）"
+    cn_font: 宋体
+    size: 五号
+  citations:
+    source: "规范二（七）：参考文献按引用文献的顺序，统一编号，列于文末；四（四）4：文内引用用方括号和阿拉伯数字按顺序标注"
+
+layout:
+  toc:
+    source: "规范二（三）：目录由毕业设计（论文）的章、节、条、附录等的序号、名称和页码组成"
+  new_page:
+    source: "规范四（三）1：一级标题（章）另起一页"
+    roles: [chapter]
+  page_start:
+    source: "规范四（四）2：正文页码：从正文开始页脚重新编排页码，阿拉伯数字连续编页"
+    body_first: 1
+
+manual:
+  - {text: "摘要页眉左端为“大连科技学院****届本科毕业设计（论文）”，右端为“摘要”/“Abstract”；正文页眉为“大连科技学院XXXX届本科毕业设计（论文）”，居中。", source: "规范四（二）、四（四）1"}
+  - {text: "“关键词”三字（英文为“Key Words”）加粗，最后一个关键词后无标点符号。", source: "规范四（二）1、2"}
+  - {text: "参考文献序号用阿拉伯数字加方括号，与内容用一个半角空格分隔，每条以实心点结束；一行排不下时换行缩进，与第一个词对齐。", source: "规范四（五）2"}
+  - {text: "参考文献不少于10篇，至少有一篇外文参考文献；引用网络资源须为官方网站公布内容。", source: "规范二（七）、四（五）3"}
+  - {text: "图号、图题与图例在同一页；表题与表在同一页；图中标注文字、表中内容字号原则上不大于图题、表题的字号。", source: "规范四（六）、（七）"}
+  - {text: "公式一般单行居中排版，式号与公式同行居右侧，按章序号编号，如式（3-1）。", source: "规范四（八）公式"}
+  - {text: "题目应简短明确，字数一般不超过20个字。", source: "规范二（一）封面"}

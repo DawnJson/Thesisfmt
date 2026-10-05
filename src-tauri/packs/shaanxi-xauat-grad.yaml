@@ -1,0 +1,246 @@
+# 西安建筑科技大学研究生学位论文（硕士、博士，自然科学类与人文社科类格式相同，一个规则包）
+meta:
+  id: shaanxi-xauat-grad
+  title: 西安建筑科技大学研究生学位论文
+  version: "2023"
+  source: https://gs.xauat.edu.cn/info/1023/3637.htm
+  valid_from: "2023-06"
+  org: 西安建筑科技大学
+  kind: university
+  category: 研究生
+  verified: true
+
+page:
+  source: "《西安建筑科技大学研究生学位论文撰写标准》（西建大研〔2023〕7号）表3.1：A4；上3cm 下2cm 左2.5cm 右2.5cm，装订线0.5cm；页眉2cm；页脚1.5cm"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.0, left: 2.5, right: 2.5}
+  header_distance_cm: 2.0
+  footer_distance_cm: 1.5
+
+page_numbers:
+  source: "撰写标准表3.1：中英文摘要页及目录页码用罗马数字（I II III），正文页码用阿拉伯数字，页码字号为五号 Times New Roman，放置页面外侧下角（二（二）2(4)）"
+  front_format: upperRoman
+  body_format: decimal
+  footer_latin_font: Times New Roman
+  footer_size: 五号
+  outside: true
+
+headers:
+  source: "撰写标准表3.1：页眉五号宋体居中，奇数页页眉为正文中相应各章的名称（偶数页为“西安建筑科技大学博士/硕士学位论文”，博硕两种文字不同，见 manual）"
+  content: chapter_title
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "撰写标准表3.5：章标题中文三号黑体、英文三号 Times New Roman，居中，段前1行段后1行，单倍行距"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    before_lines: 1
+    after_lines: 1
+    line: {rule: auto, value: 1.0}
+  section_1:
+    source: "撰写标准表3.5：二级标题（1.1）中文四号黑体、英文四号 Times New Roman，居左，段前、段后各0.5行，单倍行距"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    before_lines: 0.5
+    after_lines: 0.5
+    line: {rule: auto, value: 1.0}
+  section_2:
+    source: "撰写标准表3.5：三级标题（1.1.1）中文小四号宋体、英文 Times New Roman，居左，段前、段后各0.5行，单倍行距（英文加粗，中文是否加粗未规定，不设 bold）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    before_lines: 0.5
+    after_lines: 0.5
+    line: {rule: auto, value: 1.0}
+  body:
+    source: "撰写标准表3.5：正文中文小四号宋体、英文小四号 Times New Roman，两端对齐，首行缩进2字符，行距最小值22磅，段前段后0行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: atLeast, value: 22}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "撰写标准表3.3：摘要标题三号黑体（二字间空1个汉字字符），段前1行、段后0.5行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    before_lines: 1
+    after_lines: 0.5
+    line: {rule: auto, value: 1.0}
+  abstract_title_en:
+    source: "撰写标准表3.3：英文摘要标题三号 Times New Roman 大写加粗，段前1行、段后0.5行，单倍行距"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    before_lines: 1
+    after_lines: 0.5
+    line: {rule: auto, value: 1.0}
+  abstract_body:
+    source: "撰写标准表3.3：摘要正文小四号宋体（英文小四号 Times New Roman），段落首行左缩进2个字符，行距最小值22磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: atLeast, value: 22}
+  keywords_zh:
+    source: "撰写标准表3.3：关键词行小四号，段前0.5行、段后0行，行距最小值22磅，首行无缩进（“关键词：”为黑体、内容为宋体，同一段内字体不同，不设中文字体）"
+    latin_font: Times New Roman
+    size: 小四
+    before_lines: 0.5
+    after_lines: 0
+    line: {rule: atLeast, value: 22}
+    first_line_chars: 0
+  keywords_en:
+    source: "撰写标准表3.3：英文关键词小四号 Times New Roman，段前0.5行、段后0行，行距最小值22磅，首行无缩进"
+    latin_font: Times New Roman
+    size: 小四
+    before_lines: 0.5
+    after_lines: 0
+    line: {rule: atLeast, value: 22}
+    first_line_chars: 0
+  toc_title:
+    source: "撰写标准表3.4：目录标题三号黑体，二字间空1个汉字字符，段前、段后各1行，居中，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 1
+    after_lines: 1
+    line: {rule: auto, value: 1.0}
+  toc_chapter:
+    source: "撰写标准表3.4：目录一级标题中文小四黑体、英文小四 Times New Roman，行距最小值22磅，段前段后0行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: atLeast, value: 22}
+    before: 0
+    after: 0
+  toc_item:
+    source: "撰写标准表3.4：目录二、三级标题中文小四宋体、英文小四 Times New Roman，行距最小值22磅，段前段后0行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: atLeast, value: 22}
+    before: 0
+    after: 0
+  references_title:
+    source: "撰写标准表3.6：参考文献标题中文三号黑体，居中，段前、段后1行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 1
+    after_lines: 1
+    line: {rule: auto, value: 1.0}
+  ref_item:
+    source: "撰写标准表3.6：参考文献条目中文小四号宋体、英文小四号 Times New Roman，悬挂缩进2字符，段前段后0行，行距1.25倍"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+    hanging_chars: 2
+  ack_title:
+    source: "撰写标准表3.6：致谢标题中文三号黑体，居中，段前、段后1行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 1
+    after_lines: 1
+    line: {rule: auto, value: 1.0}
+  appendix_title:
+    source: "撰写标准表3.7：附录标题中文三号黑体，居中，段前、段后1行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 1
+    after_lines: 1
+    line: {rule: auto, value: 1.0}
+  fig_caption:
+    source: "撰写标准表3.6：图的编号、图题置于图的下方居中，中文五号宋体、英文五号 Times New Roman，行距最小值14磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: atLeast, value: 14}
+  table_caption:
+    source: "撰写标准表3.6：表的编号、表题置于表的上方居中，中文五号宋体、英文五号 Times New Roman，行距最小值14磅（中文表题段前0.5行为行单位，未设）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: atLeast, value: 14}
+    after: 0
+  table_source:
+    source: "撰写标准表3.6：表注置于表的下方，中文五号宋体、英文五号 Times New Roman，居中（超过一行居左），段前段后0行，行距最小值14磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: atLeast, value: 14}
+    before: 0
+    after: 0
+
+checks:
+  keywords:
+    source: "撰写标准二（二）1：关键词3—5个，之间用“；”分开；表3.3：英文关键词之间用英文分号“;”"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "撰写标准二（二）4（2）：所有插图应按分章编号，如图1.3；表格应按章编号，如表2.1"
+  table_caption:
+    source: "撰写标准二（二）4（2）2)③：表的编号表题应从表格上方居中排列"
+  figure_caption:
+    source: "撰写标准二（二）4（2）1)①：图的编号及图名应在图的下方居中标出"
+  figure_citation:
+    source: "撰写标准二（二）4（2）1)③：插图须紧跟文述，一般应先见图号及图的内容后再见图"
+  table_lines:
+    source: "撰写标准二（二）4（2）2)①：三线表，表的上、下边线为单直线，线粗1.5磅；第三条线为单直线，线粗1磅（必要时可加辅助线）"
+    top_bottom_pt: 1.5
+    header_pt: 1.0
+  table_cell:
+    source: "撰写标准二（二）4（2）2)②：表单元格中的文字一般应居中书写（上下居中，左右居中），不宜居中的可两端对齐；表3.6：中文五号宋体、英文五号 Times New Roman（内容过多可用小五号，故不限制字号）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    align: center
+  equation_number:
+    source: "撰写标准二（二）4（2）3)：公式均需有公式号，公式号置于小括号中，如公式（2-3），写在右边行末"
+  chapter_number:
+    source: "撰写标准二（二）2(1)：目录中章、节号均使用阿拉伯数字，如章为“第1章”，分层次序为1.1及1.1.1"
+  footnotes:
+    source: "撰写标准二（二）5：注释（脚注）列于页脚处，用阿拉伯数字加圆圈标注，如“①”；表3.5：小五号宋体、英文小五号 Times New Roman，单倍行距"
+    format:
+      source: "撰写标准表3.5：脚注置于页脚处，中文小五号宋体，英文小五号 Times New Roman，单倍行距"
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小五
+      line: {rule: auto, value: 1.0}
+    circled: true
+
+layout:
+  toc:
+    source: "撰写标准二（二）2：目录由编号、标题和页码组成，页码从正文开始直至全文结束"
+  new_page:
+    source: "撰写标准二（二）2：目录页排在中英文摘要之后，另页右面起"
+    roles: [toc_title]
+
+manual:
+  - {text: "偶数页页眉为“西安建筑科技大学博士学位论文”或“西安建筑科技大学硕士学位论文”（按学位层次，不作自动检查）；页眉线型 1.5 磅，上粗下细。", source: "撰写标准表3.1"}
+  - {text: "目录页另页右面起，目录页码另编。", source: "撰写标准二（二）2"}
+  - {text: "中文论文题目一般不宜超过35字；摘要正文博士约1000—1500字、硕士约700—1000字。", source: "撰写标准二（一）1、二（二）1"}
+  - {text: "参考文献：自然科学类序号与正文标引序号一致；人文社科类可按类别分别列出并按统一顺序编号；格式按 GB/T 7714—2015，序号方括号，条目末尾以“.”结束，标点符号均采用半角。", source: "撰写标准二（二）5、表3.6"}
+  - {text: "硕士论文参考文献一般不少于40篇（期刊不少于30篇，国外文献不少于15篇），博士一般不少于100篇（期刊不少于80篇，国外不少于40篇），均以近5年文献为主。", source: "撰写标准二（二）5"}
+  - {text: "封面、指导教师团队页、答辩委员会页、声明页、中英文内页封面采用研究生院统一提供的模板。", source: "撰写标准二（一）、三（二）（三）"}
+  - {text: "正文层次标号：第一级（1）（2）（3），第二级1）2）3），第三级①②③。", source: "撰写标准二（二）4（3）5)"}
+  - {text: "图中字号尽量采用五号宋体字（字数较多时可用小五号），同一插图内字号统一；坐标图边框为 0.5 磅实线；所有插图须统一注明资料来源。", source: "撰写标准二（二）4（2）1)⑨⑩、表3.6"}
+  - {text: "学位论文要求双面打印装订。", source: "撰写标准三（九）"}

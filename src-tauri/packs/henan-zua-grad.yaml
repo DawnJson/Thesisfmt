@@ -1,0 +1,210 @@
+meta:
+  id: henan-zua-grad
+  title: 郑州航空工业管理学院学位论文（学术型 / 专业学位硕士）
+  version: "2024-10"
+  source: https://yjsc.zua.edu.cn/info/1084/1369.htm
+  org: 郑州航空工业管理学院
+  kind: university
+  category: 研究生
+  verified: true
+
+page:
+  source: "《郑州航空工业管理学院学位论文撰写规范-模板（202410更新）》表4.1：A4（210×297）；上、左3cm，下、右2.5cm，页眉1.5cm、页脚1.7cm，装订线0.5 cm"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.5, left: 3.0, right: 2.5}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.7
+
+page_numbers:
+  source: "规范3.3：页码从正文开始按阿拉伯数字（1，2，3……）连续编排，之前的部分（中文摘要、Abstract、目录等）用大写罗马数字（Ⅰ，Ⅱ，Ⅲ……）单独编排，均居中排列；表4.1：页码宋体5号居中"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_size: 五号
+  restart_at: 1
+
+headers:
+  source: "规范3.3：篇眉从独创性声明开始，内容与该部分的一级标题相同；表4.1：篇眉宋体5号居中"
+  content: chapter_title
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "规范2.7：层次标题行距20磅；模板《郑州航空工业管理学院学位论文撰写规范-模板202410更新.docx》标题 1 样式：黑体小二、加粗、居中（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: exact, value: 20}
+  section_1:
+    source: "规范2.7：层次标题行距20磅；规范3.2.1：各层次序号均左顶格起排；模板标题 2 样式：黑体小三、加粗（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    align: left
+    line: {rule: exact, value: 20}
+  section_2:
+    source: "规范2.7：层次标题行距20磅；规范3.2.1：各层次序号均左顶格起排"
+    align: left
+    line: {rule: exact, value: 20}
+  body:
+    source: "规范2.7：正文采用宋体（英语用Times New Roman）小四号字，行与行之间、段落和层次标题以及各段落之间均为20磅行距；两端对齐、首行缩进2字符、段前后0取自模板示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "模板《郑州航空工业管理学院学位论文撰写规范-模板202410更新.docx》“摘 要”标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+  abstract_title_en:
+    source: "模板《郑州航空工业管理学院学位论文撰写规范-模板202410更新.docx》“Abstract”标题示例格式（规范未作文字规定）"
+    latin_font: Times New Roman
+    size: 小二
+    bold: true
+    align: center
+  abstract_body:
+    source: "模板摘要：内容为宋体小四号，英文摘要采用Times New Roman小四号字书写，行与行之间、段落之间均为20磅行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+  keywords_zh:
+    source: "模板摘要：中文摘要宋体小四号，行与行之间、段落之间均为20磅行距（关键词沿用摘要格式，字体取自模板示例）"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 20}
+  keywords_en:
+    source: "模板Abstract：英文关键词采用Times New Roman小四号字书写，行与行之间、段落之间均为20磅行距"
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+  toc_title:
+    source: "模板《郑州航空工业管理学院学位论文撰写规范-模板202410更新.docx》“目 录”标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+  toc_chapter:
+    source: "模板《郑州航空工业管理学院学位论文撰写规范-模板202410更新.docx》目录示例格式（规范2.6仅规定顶格排列，未规定字体）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  toc_item:
+    source: "模板《郑州航空工业管理学院学位论文撰写规范-模板202410更新.docx》目录示例格式（规范2.6仅规定顶格排列，未规定字体）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  references_title:
+    source: "模板《郑州航空工业管理学院学位论文撰写规范-模板202410更新.docx》“参考文献”标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 18
+    after: 18
+  ref_item:
+    source: "模板参考文献：内容为五号宋体"
+    cn_font: 宋体
+    size: 五号
+  ack_title:
+    source: "模板《郑州航空工业管理学院学位论文撰写规范-模板202410更新.docx》“致 谢”标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 18
+    after: 18
+  appendix_title:
+    source: "模板《郑州航空工业管理学院学位论文撰写规范-模板202410更新.docx》“附录 A”标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 18
+    after: 18
+  fig_caption:
+    source: "规范3.4.1：图标题采用五号黑体，图序和图题间空一个汉字，居中排于图的下方"
+    cn_font: 黑体
+    size: 五号
+    align: center
+  table_caption:
+    source: "规范3.4.2：表标题采用五号黑体，表序和表题间空一个汉字，居中排于表的上方"
+    cn_font: 黑体
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "模板摘要：关键词（3-8个），以分号分隔；英文关键词与关键词之间用“;”隔开"
+    min_count: 3
+    max_count: 8
+    zh_separator: "；"
+    en_separator: ";"
+  abstract_text:
+    source: "模板Abstract：英文摘要内容必须与中文摘要完全对应；英文关键词内容必须与中文关键词完全对应；模板摘要：中文摘要约300~600字左右"
+    zh_min_chars: 300
+    zh_max_chars: 600
+    chars_approx: true
+    keywords_match: true
+  caption_numbering:
+    source: "规范3.4.1：图序一律采用阿拉伯数字分章编号，第3章第2个图的图序为“图 3.2”；规范3.4.2：表序分章编号，如“表3.1”"
+  table_caption:
+    source: "规范3.4.2：表标题……居中排于表的上方"
+  figure_caption:
+    source: "规范3.4.1：图标题……居中排于图的下方"
+  table_lines:
+    source: "规范3.4.2：表的编排建议采用国际通行的三线表；上线条和下线条为1.5磅，中间线为0.5磅"
+    top_bottom_pt: 1.5
+    header_pt: 0.5
+  continued_caption:
+    source: "规范3.4.2：表格较大、需要转页排时，需在续表上方居中注明“续表”，续表的表头应重复排出"
+  equation_number:
+    source: "规范3.4.3 公式：公式后应注明编号，公式号应置于小括号中，如公式(2-3)，写在右边行末"
+  chapter_number:
+    source: "规范3.2.1：各层次标题一律用阿拉伯数字连续编号，如“1”，“2.1”，“3.1.2”"
+  appendix_number:
+    source: "规范2.10：附录的序号用A，B，C…系列，如附录A，附录B…；模板：论文的附录依序用大写正体英文字母A、B、C……编序号"
+  figure_citation:
+    source: "规范3.4.1：图在文中的布局要合理，一般随文编排，先见文字后见图"
+  citations:
+    source: "规范2.9：参考文献应按文中引用出现的顺序排列，按顺序编码制；模板参考文献：以文献在整个论文中出现的次序用[1]、[2]、[3]……统一排序"
+  footnotes:
+    source: "规范2.8：用“脚注”的方式标注在当前页的下方，建议采用阿拉伯数字编号；模板注释脚注：每页单独编号"
+    restart_each_page: true
+
+layout:
+  table_span:
+    source: "规范3.4.2：表格较大、需要转页排时，需在续表上方居中注明“续表”，续表的表头应重复排出"
+  new_page:
+    source: "规范2.1：学位论文每章一级标题从新的一页开始"
+    roles: [chapter]
+  page_start:
+    source: "规范3.3：页码从正文开始按阿拉伯数字（1，2，3……）连续编排，之前的部分用大写罗马数字（Ⅰ，Ⅱ，Ⅲ……）单独编排"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "装订线 0.5 cm。", source: "表4.1 页面设置"}
+  - {text: "英文摘要一般为 300 个左右实词；关键词之外另注分类号（《中国图书馆分类法》第四版，1-2个，分号分隔）。", source: "模板摘要、Abstract 说明"}
+  - {text: "章、节编号全部顶格排，序号与一至三级标题之间一个汉字（英文空格需两个）；段落和标题之间空一行；通常设置三级标题，不提倡使用三级以上标题。", source: "规范2.1、3.2.1"}
+  - {text: "图序、图题（表序、表题）间空一个汉字（英文空格需两个）；图的版式建议“上下型”“居中”；表格必须通栏，即表格宽度与正文版面平齐；表中参数应标明量和单位的符号。", source: "规范3.4.1、3.4.2"}
+  - {text: "附录中的公式、图和表的编号分别用 A1，A2…系列；图 A1，图 A2…系列；表 A1，表 A2…系列；每个附录应有标题。", source: "规范2.10"}
+  - {text: "公式应另起一行，左起空两个字编排；较长的公式尽可能在等号后换行，或在“+”“-”等符号后换行；公式号写在右边行末，中间不加虚线；“式中：”单独占一行，释文空两个字排，用破折号与释文连接。", source: "规范3.4.3 表达式"}
+  - {text: "参考文献：按 GB 7714 著录；作者不超过 3 位时全部列出，超过 3 位只列前 3 位，后加“等”字或相应外文；学术型硕士不少于 60 篇（外文一般不少于 20 篇），专业硕士一般不少于 30 篇（外文一般不少于 10 篇）；近五年文献一般不少于总数的 1/3，并应有近两年的参考文献；正文引用须用上标标注。", source: "规范2.9；模板参考文献说明"}
+  - {text: "论文字数：学术型硕士一般不少于 3 万字，专业硕士一般不少于 2 万字。", source: "规范3.1"}
+  - {text: "论文从中文摘要至附录部分双面印刷，其他部分单面印刷；学硕、专硕封面颜色不同；用线装或热胶装订，不能使用钉子装订。", source: "规范4.2"}

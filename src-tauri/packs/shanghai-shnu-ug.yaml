@@ -1,0 +1,186 @@
+# 上海师范大学本科毕业论文（设计）（理工科、文科共用；两者只在题序层次与注释体系上不同，见 manual）
+meta:
+  id: shanghai-shnu-ug
+  title: 上海师范大学本科毕业论文（设计）
+  version: "2023-10"
+  source: https://fineart.shnu.edu.cn/25/4c/c1127a795980/page.htm
+  valid_from: "2023-10"
+  org: 上海师范大学
+  kind: university
+  category: 本科
+  verified: true
+
+page:
+  source: "《本科毕业论文（设计）撰写与装订要求》（2023年10月修订）一、1：保留 Word 默认设置（A4，页边距左3.17，右3.17，上2.54，下2.54，装订线0，页眉1.5，页脚1.75，无文档网格）"
+  paper: A4
+  margins_cm: {top: 2.54, bottom: 2.54, left: 3.17, right: 3.17}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "撰写与装订要求一、2：页码用 Times New Roman、小五号，放置于页码底端、居中；“诚信声明”至“目录”的页码用罗马数字，正文起的页码用阿拉伯数字（规范未区分罗马数字大小写，不设前置部分格式）"
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+
+roles:
+  chapter:
+    source: "撰写与装订要求一、2：正文各级标题一般用黑体，“行距”设为单倍行距，段前段后都为0行；一级标题用三号字体，居中放置"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after: 0
+  section_1:
+    source: "撰写与装订要求一、2：二级标题用小三号字体，左侧顶格放置；黑体，单倍行距，段前段后0行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: left
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after: 0
+  section_2:
+    source: "撰写与装订要求一、2：三级标题用四号字体；黑体，单倍行距，段前段后0行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after: 0
+  section_3:
+    source: "撰写与装订要求一、2：四级标题用小四号字体；黑体，单倍行距，段前段后0行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after: 0
+  body:
+    source: "撰写与装订要求一、2：正文内容一般用宋体、小四号，首行缩进设为2字符，“行距”设为固定值20磅，段前段后都为0行；英文字体用 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "撰写与装订要求二、3：“摘要”二字用黑体、三号、居中，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+  abstract_title_en:
+    source: "撰写与装订要求二、4：英文摘要用 Times New Roman 字体，其他等格式要求同“中文摘要、关键词”（居中）"
+    latin_font: Times New Roman
+    align: center
+  abstract_body:
+    source: "撰写与装订要求二、3、4：摘要内容用宋体、小四号，每段首行缩进2字符，“行距”设为固定值20磅；英文摘要用四号 Times New Roman，其他等格式要求同中文摘要（中英文字号不同，不设字号）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+  keywords_zh:
+    source: "撰写与装订要求二、3：“关键词”三字用黑体、四号，其后关键词用宋体、小四号，“行距”设为固定值20磅（同一行字体字号不同，不设中文字体与字号）"
+    latin_font: Times New Roman
+    line: {rule: exact, value: 20}
+  keywords_en:
+    source: "撰写与装订要求二、4：英文关键词格式要求同中文摘要、关键词；英文用 Times New Roman，“行距”固定值20磅"
+    latin_font: Times New Roman
+    line: {rule: exact, value: 20}
+  toc_title:
+    source: "撰写与装订要求二、5：“目录”二字用黑体、三号、居中，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+  toc_chapter:
+    source: "撰写与装订要求二、5：目录内容及对应正文的起始页码用宋体、小四号，行距为固定值20磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+  toc_item:
+    source: "撰写与装订要求二、5：目录内容及对应正文的起始页码用宋体、小四号，行距为固定值20磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+  references_title:
+    source: "撰写与装订要求一、2：正文各级标题、“参考文献”、“附录”，一般用黑体，“行距”设为单倍行距"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    line: {rule: auto, value: 1.0}
+  appendix_title:
+    source: "撰写与装订要求一、2：正文各级标题、“参考文献”、“附录”，一般用黑体，“行距”设为单倍行距"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    line: {rule: auto, value: 1.0}
+  ref_item:
+    source: "撰写与装订要求一、2：参考文献用仿宋体、五号，1.5倍行距，悬挂缩进设为0.74厘米，“间距”中的段前和段后都为0行"
+    cn_font: 仿宋
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: auto, value: 1.5}
+    hanging_cm: 0.74
+    before: 0
+    after: 0
+  fig_caption:
+    source: "撰写与装订要求二、6（2）图：图序号和图名置于图下方，居中，宋体、小五号"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小五
+    align: center
+  table_caption:
+    source: "撰写与装订要求二、6（1）表格：表序号和表名置于表格上方，居中，宋体、小五号"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小五
+    align: center
+  table_source:
+    source: "撰写与装订要求二、6（1）表格：表格资料来源可写在表格下方，用宋体、小五号"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小五
+
+checks:
+  keywords:
+    source: "撰写与装订要求二、3：关键词一般为2-5个，以“；”分隔（最后一个关键词后不用加标点符号）；二、4：英文关键词格式要求同中文摘要、关键词，模板示例英文关键词亦用“；”"
+    min_count: 2
+    max_count: 5
+    zh_separator: "；"
+    en_separator: "；"
+  table_caption:
+    source: "撰写与装订要求二、6（1）：表序号和表名置于表格上方，居中"
+  figure_caption:
+    source: "撰写与装订要求二、6（2）：图序号和图名置于图下方，居中"
+  citations:
+    source: "撰写与装订要求二、7（1）：参考文献应按文中引用出现的顺序列出，按先后顺序用阿拉伯数字连续编号，用[1]、[2]、[3]等数码表示，并将带方括号的序号在正文中的相应位置作为上标"
+  footnotes:
+    source: "撰写与装订要求二、7（3）：注释一般用脚注，序号用①、②、③……表示，脚注的注文用宋体、小五号，单倍行距，注释每页重新编号；一、2：脚注段前段后都为0行"
+    format:
+      source: "撰写与装订要求一、2：脚注用宋体、小五号，单倍行距，“间距”中的段前和段后都为0行"
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小五
+      line: {rule: auto, value: 1.0}
+      before: 0
+      after: 0
+    circled: true
+    restart_each_page: true
+
+manual:
+  - {text: "目录层级采用两种格式之一，前后统一不得混杂：第一种（一般文科）第一章、一、（一）、1.、（1）；第二种（理工科）1、1.1、1.1.1、1.1.1.1、1.1.1.1.1；社会科学或其他专业可任选其一。因此不检查章序号是否为阿拉伯数字。", source: "撰写与装订要求二、6（目录层级）"}
+  - {text: "表、图、公式按在论文中出现的先后顺序用阿拉伯数字统一连续编号（表1、图1、公式（45）），不得重复或跳跃；全文仅有一图时在图标题前加“附图”；公式序号排在版面右侧、右对齐，与公式之间不加虚线。", source: "撰写与装订要求二、6（1）（2）（3）"}
+  - {text: "表格居中放置；表格中各栏标注量和单位；每张图表尽量放于一页内；表、图序号与名称段落间距最小值8磅，表格内容段落间距最小值16磅；资料来源应说明。", source: "撰写与装订要求二、6"}
+  - {text: "“诚信声明”至“目录”的页码用罗马数字，正文起用阿拉伯数字（程序不检查罗马数字大小写）；封面与诚信声明采用学校统一模版。", source: "撰写与装订要求一、2；引言"}
+  - {text: "封面：中文题目用黑体、小三号，英文题目用 Times New Roman、四号，其他用宋体、四号；题目一般不宜超过20字。", source: "撰写与装订要求二、1"}
+  - {text: "中文摘要一般300字左右；英文摘要应与中文摘要对应；英文摘要用四号 Times New Roman。", source: "撰写与装订要求二、3、4"}
+  - {text: "正文由导言（文科用绪论）、正文和结论（文科用结语）三部分组成；参考文献一般不少于10篇，附于文末；采用第一种目录格式的文科专业可用文科注释格式（脚注式文献），同一著作多次引用的页码写在脚注序号之后。", source: "撰写与装订要求二、6、7、8"}
+  - {text: "除独立引文外，左右两侧缩进都为0字符，段前段后0行；独立引文用仿宋体、小四号，行距固定值20磅，左右缩进2字符，首行缩进2字符。三级及以下标题若设置编号，左侧缩进0.85厘米，无编号的首行缩进2字符；五号及以下标题用宋体、小四号。", source: "撰写与装订要求一、2"}
+  - {text: "附录内容用仿宋体、五号、1.5倍行距、首行缩进2字符（规范另一处写宋体、五号、单倍行距，前后不一致，未设检查）。", source: "撰写与装订要求一、2、二、9"}
+  - {text: "A4纸双面打印，按封面、诚信声明、中文摘要与关键词、英文摘要与关键词、目录、正文、参考文献、附录的顺序装订。", source: "撰写与装订要求三"}

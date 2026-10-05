@@ -1,0 +1,247 @@
+meta:
+  id: sichuan-cdut-grad
+  title: 成都理工大学研究生学位论文（硕士、博士、专业学位硕士、博士专业学位）
+  version: "2026-03"
+  source: https://gra.cdut.edu.cn/info/1023/2130.htm
+  valid_from: "2023-09"
+  org: 成都理工大学
+  kind: university
+  category: 研究生
+  verified: true
+
+page:
+  source: "《学位论文编写格式》第3章 3.1：A4（210×297）；上、下 2.54cm，左、右 3.17cm，页眉 1.5cm、页脚 1.75cm，装订线 0cm"
+  paper: A4
+  margins_cm: {top: 2.54, bottom: 2.54, left: 3.17, right: 3.17}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "《学位论文编写格式》2.6.2.3：页码位置居于页脚居中，封面、扉页、独创性声明等不编页码；绪论/引言起用阿拉伯数字；3.1：页码 Times New Roman 体，小五，居中（摘要大写罗马、目录小写罗马分编，见 manual，故不设 front_format）"
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  cover_no_number: true
+
+headers:
+  source: "《学位论文编写格式》3.1：页眉宋体小五居中，Abstract 部分用 Times New Roman 体小五；2.6.3：页眉从中文摘要开始，奇偶页不同（奇数页为章标题，偶数页为学位论文名称，内容见 manual）"
+  content: chapter_title
+  align: center
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 小五
+
+roles:
+  chapter:
+    source: "《学位论文编写格式》3.5 一级标题：黑体小二号加粗居中，段前 12 磅，段后 3 磅，单倍行距"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 12
+    after: 3
+  section_1:
+    source: "《学位论文编写格式》3.5 二级标题：黑体小三加粗无缩进，段前 18 磅，段后 12 磅，1.5 倍行距"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    line: {rule: auto, value: 1.5}
+    before: 18
+    after: 12
+    first_line_chars: 0
+  section_2:
+    source: "《学位论文编写格式》3.5 三级标题：黑体四号无缩进，段前 12 磅，段后 9 磅，多倍行距 1.25"
+    cn_font: 黑体
+    size: 四号
+    line: {rule: auto, value: 1.25}
+    before: 12
+    after: 9
+    first_line_chars: 0
+  section_3:
+    source: "《学位论文编写格式》3.5 四级标题：楷体小四加粗无缩进，多倍行距 1.25，段前 12 磅，段后 6 磅"
+    cn_font: 楷体
+    size: 小四
+    bold: true
+    line: {rule: auto, value: 1.25}
+    before: 12
+    after: 6
+    first_line_chars: 0
+  body:
+    source: "《学位论文编写格式》3.5 段落文字：宋体小四号（英文用 Times New Roman 体小四号），两端对齐书写，段落首行左缩进 2 个汉字符，多倍行距 1.25"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.25}
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "《学位论文编写格式》3.3 中文摘要标题：“摘要”二字间空一格汉字，宋体小三号加粗居中，段前 18 磅，段后 18 磅"
+    cn_font: 宋体
+    size: 小三
+    bold: true
+    align: center
+    before: 18
+    after: 18
+  abstract_title_en:
+    source: "《学位论文编写格式》3.3 英文摘要标题：Abstract 用 Times New Roman 小三号加粗居中，单倍行距"
+    latin_font: Times New Roman
+    size: 小三
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+  abstract_body:
+    source: "《学位论文编写格式》3.3 段落文字：中文宋体小四号，英文 Times New Roman 小四号，多倍行距 1.25，正文缩进 2 字符"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    first_line_chars: 2
+  keywords_zh:
+    source: "《学位论文编写格式》3.3 关键词：“关键词”三字宋体小四号加粗；2.5.2：关键词另起一行排列于摘要下方，左顶格"
+    size: 小四
+    first_line_chars: 0
+  keywords_en:
+    source: "《学位论文编写格式》3.3 关键词：各关键词 Times New Roman 小四号；2.5.2：关键词另起一行排列于摘要下方，左顶格"
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 0
+  toc_title:
+    source: "《学位论文编写格式》3.4 目录标题：小二号黑体，加粗居中，单倍行距，段前 24 磅，段后 18 磅"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  toc_chapter:
+    source: "《学位论文编写格式》3.4 一级标题：小四号宋体，多倍行距 1.25，两端对齐，页码右对齐"
+    cn_font: 宋体
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.25}
+  toc_item:
+    source: "《学位论文编写格式》3.4 二、三级标题：小四号宋体，多倍行距 1.25，两端对齐，页码右对齐（左缩进 2 / 4 个汉字符，见 manual）"
+    cn_font: 宋体
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.25}
+  references_title:
+    source: "《学位论文编写格式》3.6 参考文献：“参考文献”使用各章标题样式（章标题格式见 3.5 一级标题）"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 12
+    after: 3
+  ref_item:
+    source: "《学位论文编写格式》3.6 参考文献：内容为五号宋体（英文用 Times New Roman 体五号），多倍行距 1.25；续行悬挂缩进 1 字符"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: auto, value: 1.25}
+    hanging_chars: 1
+  ack_title:
+    source: "《学位论文编写格式》3.6 致谢：“致  谢”两字间空一个汉字，使用章标题样式（见 3.5 一级标题）"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 12
+    after: 3
+  appendix_title:
+    source: "模板《1.成都理工大学硕士学位论文模板20230905.docx》示例格式（规范未对附录标题作文字规定，模板按章标题样式排版）"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 12
+    after: 3
+  end_title:
+    source: "《学位论文编写格式》3.6：“在读期间发表的学术论文与研究成果”使用章标题样式（见 3.5 一级标题）"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 12
+    after: 3
+  fig_caption:
+    source: "《学位论文编写格式》3.5 图序、图名：置于图的下方，黑体五号居中，单倍行距，段前 3 磅，段后 3 磅"
+    cn_font: 黑体
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 3
+    after: 3
+  table_caption:
+    source: "《学位论文编写格式》3.5 表序、表名：置于表的上方，黑体五号居中，单倍行距，段前 3 磅，段后 3 磅"
+    cn_font: 黑体
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 3
+    after: 3
+
+checks:
+  keywords:
+    source: "《学位论文编写格式》1.3.2：关键词一般 3~5 个词；2.5.2、3.3：中（英）文关键词间用分号隔开"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  abstract_text:
+    source: "《学位论文编写格式》2.5.1：摘要中不得出现图片、图表、表格或其他插图材料；1.3.3：英文关键词与中文关键词内容完全一致"
+    no_figures: true
+    keywords_match: true
+  caption_numbering:
+    source: "《学位论文编写格式》2.6.2.2：图、表、公式等一律用阿拉伯数字分章依序连续编码，如图 1-1、表 3-2"
+  punctuation:
+    source: "《学位论文编写格式》2.2：标点符号的用法以 GB/T 15834—1995《标点符号用法》为准"
+  table_caption:
+    source: "《学位论文编写格式》2.6.6.2：每一表应有简短确切的题名，连同表号置于表上；3.5：置于表的上方"
+  figure_caption:
+    source: "《学位论文编写格式》2.6.6.1：图号和图题居中排于图的下方；3.5：置于图的下方"
+  table_cell:
+    source: "《学位论文编写格式》3.5 表序、表名、表注：表中文字宋体五号"
+    cn_font: 宋体
+    size: 五号
+  equation_number:
+    source: "《学位论文编写格式》2.6.7：表达式另行起排，居中排列，用阿拉伯数字分章编号，序号加圆括号，右顶格排；3.5：序号加圆括号，右对齐"
+  chapter_number:
+    source: "《学位论文编写格式》2.6.2.1：各层次标题一律用阿拉伯数字连续编号，如“第1章 ××××”"
+
+layout:
+  toc:
+    source: "《学位论文编写格式》1.4：目录页由论文的章、条、附录等序号、名称和页码组成；2.4：目录应包括论文的全部内容，包括中英文摘要和附录等"
+  new_page:
+    source: "《学位论文编写格式》2.6.1：论文正文分章节撰写，每章应另起一页"
+    roles: [chapter]
+  page_start:
+    source: "《学位论文编写格式》2.6.2.3：页码从绪论/引言开始按阿拉伯数字（1，2，3……）连续编排，此前的中英文摘要用大写罗马数字（I，II，III…）单独编排"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "页眉奇偶页不同：奇数页页眉为“第X章  标题”（与该部分的一级标题相同），偶数页页眉随论文类型为“成都理工大学硕士学位论文”（学术学位硕士）、“成都理工大学专业学位硕士学位论文”、“成都理工大学博士学位论文”或“成都理工大学博士专业学位论文”；页眉从中文摘要开始。", source: "《学位论文编写格式》2.6.3（四类论文编写格式各自写明偶数页文字）"}
+  - {text: "目录页码从小写罗马数字（i，ii，iii…）单独编排，中英文摘要用大写罗马数字。", source: "《学位论文编写格式》2.6.2.3"}
+  - {text: "目录正文章节题名编到三级标题；一级标题顶格，二级标题左缩进 2 个汉字符，三级标题左缩进 4 个汉字符；目录页不录入图表。", source: "《学位论文编写格式》2.4、3.4"}
+  - {text: "字数要求：硕士（含专业学位硕士）学位论文不少于 3 万字，博士（含博士专业学位）学位论文不少于 5 万字。", source: "《学位论文编写格式》2.1"}
+  - {text: "论文题目最多不超过 20 字；各章标题字数一般在 15 字以内，不使用标点符号。", source: "《学位论文编写格式》1.1.2、2.6.1"}
+  - {text: "摘要页第一行书写论文中英文题目：中文题目黑体小三号加粗居中、单倍行距，英文题目 Times New Roman 小三号加粗；“摘要”二字间空一格汉字。", source: "《学位论文编写格式》2.5.1、3.3"}
+  - {text: "“关键词”三字宋体小四号加粗，“Keywords:”加粗；关键词段前、段后各 1 行。", source: "《学位论文编写格式》3.3"}
+  - {text: "中文摘要不宜使用公式、图表，不标注引用文献。", source: "《学位论文编写格式》1.3.1"}
+  - {text: "章序号与章名间空一个汉字；二、三、四级标题序号与题名间空一个空格。", source: "《学位论文编写格式》3.5"}
+  - {text: "图的位置在相关说明文字之后，版式采用“嵌入式”，图与正文之间空一行；图序与图名之间空 1 字符；图注位于图名上方，宋体小五号居中。", source: "《学位论文编写格式》2.6.6.1、3.5"}
+  - {text: "表的位置在相应说明文字之后，与正文之间空一行；表号与表题间空一个汉字符；表的编排建议使用“三线表”（规范未给线宽）。", source: "《学位论文编写格式》2.6.6.2"}
+  - {text: "表格太大需要转页时，续表上方注明“续上表”，表头也应重复排出。", source: "《学位论文编写格式》2.6.6.2（“续上表”与“续表”写法不同，未启用 continued_caption）"}
+  - {text: "表达式用 Times New Roman 体五号；较长的式必须转行时，只能在 +、-、×、÷、＜、＞ 处转行，序号编于最后一行的最右边。", source: "《学位论文编写格式》2.6.7、3.5"}
+  - {text: "附录按 A、B……字母排序，每个附录又按数字分节，如 A.1、A.2……；附录内容为五号宋体。", source: "《学位论文编写格式》3.6"}
+  - {text: "参考文献采用“著者-出版年制”：正文中标注著者姓名与出版年份，文后参考文献表条目不排序号，按语种（中文、日文、英文、俄文、其他）再按拼音或姓氏笔画、首字母排序；参考文献标题居中并列入目录。", source: "《学位论文编写格式》2.7"}
+  - {text: "“结论”“致谢”两字间空一个汉字；致谢正文宋体小四、两端对齐、首行缩进 2 个汉字符、多倍行距 1.25；“在读期间发表的学术论文与研究成果”正文宋体五号，多倍行距 1.25，续行悬挂缩进 1 字符。", source: "《学位论文编写格式》3.6"}
+  - {text: "本格式适用于理学、工学学位论文，其他学科可参考学院规定的格式；自中文摘要起双面印刷，之前部分单面印刷。", source: "《学位论文编写格式》更新说明、3.7"}

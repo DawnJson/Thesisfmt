@@ -1,0 +1,99 @@
+meta:
+  id: beijing-a-ruc-phd
+  title: 中国人民大学博士学位论文
+  version: "2018-03"
+  source: https://grs.ruc.edu.cn/info/1025/1295.htm
+  valid_from: "2018-03"
+  org: 中国人民大学
+  kind: university
+  category: 博士
+  verified: true
+
+# 规范依据：中国人民大学研究生院学位办《中国人民大学研究生学位论文及其摘要的撰写和印制要求》（2018-03-25），下称“印制要求”。
+# 该规定博士、硕士通用；图书馆提供的学位论文模板只含封面、扉页和声明，不含正文格式，故不引用模板格式。
+# 印制要求写“小三号（14pt）”，字号名与磅值不一致（小三号为 15pt），一级节标题不检查字号。
+
+page:
+  source: "印制要求 二（二）4 学位论文正文：版心 145×212mm（不含篇眉、页码），左边距 35mm，右边距 30mm，上边距 45mm，下边距 40mm；二（一）2 内页用纸 A4（210×297mm）"
+  paper: A4
+  margins_cm: {top: 4.5, bottom: 4.0, left: 3.5, right: 3.0}
+
+page_numbers:
+  source: "印制要求 二（二）4 页码位置：博士学位论文页面底端外侧（奇数页右、偶数页左）"
+  outside: true
+
+headers:
+  source: "印制要求 二（二）4 篇眉：论文题目（居中）宋体五号 10.5pt"
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "印制要求 二（二）4 大标题（第1章）：黑体小二号（18pt），居中；正文段落和标题一律采用固定行间距 20pt"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line: {rule: exact, value: 20}
+  section_1:
+    source: "印制要求 二（二）4 一级节标题（1.1）：黑体，顶头；正文段落和标题一律采用固定行间距 20pt（字号“小三号（14pt）”自相矛盾，不检查）"
+    cn_font: 黑体
+    align: left
+    line: {rule: exact, value: 20}
+  section_2:
+    source: "印制要求 二（二）4 二级节标题（1.1.1）：黑体小四号（12pt），顶头；正文段落和标题一律采用固定行间距 20pt"
+    cn_font: 黑体
+    size: 小四
+    align: left
+    line: {rule: exact, value: 20}
+  body:
+    source: "印制要求 二（二）4 正文：宋体小四号 12pt；正文段落和标题一律采用固定行间距 20pt"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 20}
+  toc_title:
+    source: "印制要求 二（二）3 学位论文目录：目录（三号，黑体，居中）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  toc_chapter:
+    source: "印制要求 二（二）3 学位论文目录：第1章 XXXXX（四号，黑体）"
+    cn_font: 黑体
+    size: 四号
+  toc_item:
+    source: "印制要求 二（二）3 学位论文目录：1.1 XXXXX、1.1.1 XXXXX（小四，宋体）"
+    cn_font: 宋体
+    size: 小四
+  references_title:
+    source: "印制要求 二（二）5 参考文献、致谢、附录等部分：标题：黑体小四号"
+    cn_font: 黑体
+    size: 小四
+  ack_title:
+    source: "印制要求 二（二）5 参考文献、致谢、附录等部分：标题：黑体小四号"
+    cn_font: 黑体
+    size: 小四
+  appendix_title:
+    source: "印制要求 二（二）5 参考文献、致谢、附录等部分：标题：黑体小四号"
+    cn_font: 黑体
+    size: 小四
+  ref_item:
+    source: "印制要求 二（二）5 参考文献、致谢、附录等部分：内容：宋体小四号"
+    cn_font: 宋体
+    size: 小四
+
+checks:
+  footnotes:
+    source: "印制要求 二（二）4 脚注：在文内相应位置用上标标注，页面底端加脚注，每页连续编号，脚注内容用宋体小五号"
+    format:
+      source: "印制要求 二（二）4 脚注内容用宋体小五号"
+      cn_font: 宋体
+      size: 小五
+
+manual:
+  - {text: "硕士学位论文页码位于页面底端右侧（本包按博士学位论文检查页码在外侧）。", source: "印制要求 二（二）4 页码位置"}
+  - {text: "大标题（第1章）占六行、一级节标题占四行、二级节标题占两行（均按宋体小四号计），即标题前后留空行数；标题格式程序无法按“行”检查。", source: "印制要求 二（二）4 大标题（第1章）黑体小二号（18pt），占六行（按宋体小四号计）居中"}
+  - {text: "学位论文封面用纸 A3，由研究生院统一印制；封面中论文题目（中、英文）、作者、指导教师和年月日用小二号黑体。", source: "印制要求 二（一）1、二（二）1 学位论文封面与书脊式样"}
+  - {text: "扉页中所有需打印字体均用三号仿宋体，论文主题词用“；”号间隔。", source: "印制要求 二（二）2 学位论文扉页"}
+  - {text: "博士学位论文及摘要双面印刷，硕士学位论文及摘要单面印刷。", source: "印制要求 二（一）2 学位论文内页及摘要用纸规格"}
+  - {text: "论文按封面、扉页（论文题目和作者）、版权页（独创性声明和论文使用授权说明）、中文摘要、外文摘要、目录、图表索引、正文、参考文献、致谢、封底的顺序装订。", source: "印制要求 二（一）3 学位论文装订要求"}
+  - {text: "摘要包括中、外文两部分，外文摘要应是中文摘要的全文翻译；摘要应突出本文的新见解和创造性成果。", source: "印制要求 一 研究生学位论文摘要包括中、外文两部分，外文摘要应是中文摘要的全文翻译"}

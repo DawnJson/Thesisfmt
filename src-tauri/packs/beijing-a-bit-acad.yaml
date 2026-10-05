@@ -1,0 +1,200 @@
+# 北京理工大学研究生学位论文（学术型，博士/硕士通用）。
+# 依据《北京理工大学研究生学位论文撰写规范》（研函〔2026〕024号）逐条核对；
+# 规范以“表 1–9”给出打印要求，缺失的值一律不写。
+meta:
+  id: beijing-a-bit-acad
+  title: 北京理工大学研究生学位论文（博士/硕士，学术型/专业型通用）
+  version: "2026"
+  source: https://grd.bit.edu.cn/docs/2026-04/8baf5a45d0424c68addba9c036d202c5.pdf
+  org: 北京理工大学
+  kind: university
+  category: 研究生（博士/硕士）
+  verified: true
+
+page:
+  source: "《撰写规范》三（一）表2 页面设置：A4（210×297）；上 3.5cm，下 2.5cm，左 2.7cm，右 2.7cm，页眉 2.5cm，页脚 2.0cm，装订线 0cm"
+  paper: A4
+  margins_cm: {top: 3.5, bottom: 2.5, left: 2.7, right: 2.7}
+  header_distance_cm: 2.5
+  footer_distance_cm: 2.0
+
+page_numbers:
+  source: "《撰写规范》三（一）表2 页码：Times New Roman，小五号字，页面底端居中排列；正文和后置部分用阿拉伯数字编连续码"
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+
+# 页眉文字：“北京理工大学博士/硕士学位论文”，不是章标题，故不设 content。
+headers:
+  source: "《撰写规范》三（一）表2 页眉：宋体五号字居中"
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "《撰写规范》三（七）表8 各章标题：黑体三号加粗顶左，行距 22 磅，间距设定为段前 1 行、段后 1 行"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: left
+    line: {rule: exact, value: 22}
+    before_lines: 1
+    after_lines: 1
+  section_1:
+    source: "《撰写规范》三（七）表8 一级节标题：黑体四号加粗顶左，行距 22 磅，间距设定为段前 1 行、段后 0.5 行"
+    cn_font: 黑体
+    size: 四号
+    bold: true
+    align: left
+    line: {rule: exact, value: 22}
+    before_lines: 1
+    after_lines: 0.5
+  section_2:
+    source: "《撰写规范》三（七）表8 二级节标题：黑体小四加粗顶左，行距 22 磅，间距设定为段前 0.5 行、段后 0.5 行"
+    cn_font: 黑体
+    size: 小四
+    bold: true
+    align: left
+    line: {rule: exact, value: 22}
+    before_lines: 0.5
+    after_lines: 0.5
+  section_3:
+    source: "《撰写规范》三（七）表8 三级节标题：黑体小四居左书写，行距 22 磅，间距设定为段前 0.5 行、段后 0.5 行"
+    cn_font: 黑体
+    size: 小四
+    align: left
+    line: {rule: exact, value: 22}
+    before_lines: 0.5
+    after_lines: 0.5
+  body:
+    source: "《撰写规范》三（七）表8 段落文字：宋体小四（英文用 Times New Roman 体 12 磅），两端对齐，段落首行左缩进 2 个汉字符，行距 22 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 22}
+  abstract_body:
+    source: "《撰写规范》三（五）表6 摘要：宋体小四号字（英文摘要 Times New Roman 小四号字），行距 22 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 22}
+  keywords_zh:
+    source: "《撰写规范》三（五）表6 关键词：宋体小四号字，行距 22 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 22}
+  keywords_en:
+    source: "《撰写规范》三（五）表6 英文关键词：Times New Roman 小四号字，行距 22 磅"
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 22}
+  toc_title:
+    source: "《撰写规范》三（六）表7 标题：黑体三号加粗居中，行距 22 磅"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: exact, value: 22}
+  toc_chapter:
+    source: "《撰写规范》三（六）表7 各章目次：宋体四号，行距 22 磅，两端对齐，页码右对齐"
+    cn_font: 宋体
+    size: 四号
+    align: justify
+    line: {rule: exact, value: 22}
+  toc_item:
+    source: "《撰写规范》三（六）表7 一、二级节标题目次：宋体小四，行距 22 磅，两端对齐（左缩进 2/4 字符因级别而异，不检查）"
+    cn_font: 宋体
+    size: 小四
+    align: justify
+    line: {rule: exact, value: 22}
+  references_title:
+    source: "《撰写规范》三（八）表9 参考文献：黑体，三号，加粗，居中（段前后 1 行，不检查）"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+  ref_item:
+    source: "《撰写规范》三（八）表9 参考文献：正文部分宋体五号（英文用 Times New Roman），行距 22 磅，段前段后 0 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: exact, value: 22}
+    before: 0
+    after: 0
+  ack_title:
+    source: "《撰写规范》三（八）表9 致谢：黑体，三号，加粗，居中，间距设定为段前 1 行、段后 1 行"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 1
+  appendix_title:
+    source: "《撰写规范》三（八）表9 附录：黑体，三号，加粗，居中；附录编号、附录标题各占 1 行"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+  fig_caption:
+    source: "《撰写规范》三（七）表8 图序、图题：置于图的下方，宋体五号居中，单倍行距，段前 6 磅，段后 6 磅"
+    cn_font: 宋体
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 6
+  table_caption:
+    source: "《撰写规范》三（七）表8 表序、表题：置于表的上方，宋体五号居中，单倍行距，段前 6 磅，段后 6 磅"
+    cn_font: 宋体
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 6
+
+checks:
+  keywords:
+    source: "《撰写规范》二（二）7(4)：硕士一般选 3～6 个，博士一般选 3～8 个（本包取 3～8 的并集，硕士上限 6 见 manual）；表6：关键词之间用分号隔开，最后一个关键词后面不加标点符号"
+    min_count: 3
+    max_count: 8
+    zh_separator: "；"
+    en_separator: ";"
+  punctuation:
+    source: "《撰写规范》一（一）1：标点符号应符合 GB/T 15834（标点符号用法）的规定"
+  table_caption:
+    source: "《撰写规范》二（三）3：表的编号和表题应置于表上方"
+  figure_caption:
+    source: "《撰写规范》二（三）2：图的编号和图题应置于图下方"
+  abstract_text:
+    source: "《撰写规范》二（二）7(3)：摘要中不可出现参考文献、图、表、化学结构式……；(5)：英文摘要的下方应标注与中文关键词对应的英文关键词"
+    no_figures: true
+    keywords_match: true
+  continued_caption:
+    source: "《撰写规范》二（三）3：表需转页接排时，在随后各页上重复表的编号，编号后跟表题（可省略）和“（续）”"
+    style: suffix
+
+layout:
+  new_page:
+    source: "《撰写规范》二（二）8(1)：目次页另起页；二（三）1(1)：每一章应另起页；二（四）：参考文献应置于正文后，并另起页"
+    roles: [toc_title, chapter, references_title]
+  first_chapter_odd_page:
+    source: "《撰写规范》二（三）1(1)：正文部分应从另页右页开始"
+  table_span:
+    source: "《撰写规范》二（三）3：表需转页接排时，在随后各页上重复表的编号，编号后跟“（续）”；续表均应重复表头"
+
+manual:
+  - {text: "页眉：奇偶页内容为“北京理工大学博士学位论文”或“北京理工大学硕士学位论文”，页眉与正文间用单横线分隔（线粗 0.5 磅，居中，长度与页面宽度一致）。", source: "《撰写规范》三（一）正文及表2 页眉"}
+  - {text: "页码：前置部分（封面除外）用罗马数字单独编连续码，正文和后置部分用阿拉伯数字编连续码。", source: "《撰写规范》三（一）"}
+  - {text: "摘要页（摘要之前的部分使用单页打印）：论文题名黑体三号字加粗居中，行距 22 磅，与正文段间间距一行；英文题名 Times New Roman 三号字加粗居中，行距 22 磅，段前 1 行、段后 1 行；“摘要”二字宋体小四加粗，“Abstract” Times New Roman 小四加粗；关键词与摘要正文之间段间距一行。", source: "《撰写规范》三（五）表6"}
+  - {text: "摘要字数：中文摘要硕士建议 500～800 字，博士建议 1000～1200 字；关键词硕士一般 3～6 个，博士一般 3～8 个。", source: "《撰写规范》二（二）7(2)(4)"}
+  - {text: "表的编排宜采用国际通行的三线表。", source: "《撰写规范》二（三）3"}
+  - {text: "公式应另行起，并缩格书写；有两个以上公式时用阿拉伯数字编号并置于括号内，编号右端对齐，序号右顶格排。", source: "《撰写规范》二（三）4；三（七）表8 表达式"}
+  - {text: "图、表较多时可分章编号；附录内图、表、公式的编号需与正文严格区分，如图 A1、表 A1、式（A1）；附录序号用 A、B、C……。", source: "《撰写规范》二（三）2、3；三（八）表9 附录"}
+  - {text: "致谢正文：仿宋小四，行距 22 磅，段前段后 0 磅；注释表：宋体小四（英文 Times New Roman 10.5 磅）；攻读学位期间发表论文与研究成果清单：宋体五号，同参考文献书写格式。", source: "《撰写规范》三（八）表9"}
+  - {text: "段落中有数学表达式时，可根据表达需要设置该段的行距。", source: "《撰写规范》三（七）表8 段落文字"}
+  - {text: "注释宜采用文中编号加脚注的方式，置于所注释正文所在页的底部。", source: "《撰写规范》二（三）6"}

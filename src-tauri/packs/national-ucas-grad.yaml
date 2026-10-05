@@ -1,0 +1,251 @@
+meta:
+  id: national-ucas-grad
+  title: 中国科学院大学研究生学位论文（中科院各研究所培养单位通用）
+  version: "2022-40号"
+  source: https://kiz.cas.cn/yjsjy/tzgg/202312/P020250716685523780227.doc
+  valid_from: "2023-冬季批次"
+  org: 中国科学院大学（中科院各研究所培养单位通用）
+  kind: university
+  category: 研究生
+  verified: true
+
+page:
+  source: "《中国科学院大学研究生学位论文撰写规范指导意见》（校发学位字〔2022〕40号）三（一）纸张要求和页面设置：A4；上、下 2.54cm，左、右 3.17cm，页眉、页脚距页边界 1.5cm"
+  paper: A4
+  margins_cm: {top: 2.54, bottom: 2.54, left: 3.17, right: 3.17}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.5
+
+page_numbers:
+  source: "指导意见二（六）2(3)：正文页码从绪论开始按阿拉伯数字连续编排，正文前的部分用大写罗马数字单独编排；三（一）：页码 Times New Roman 体小五号"
+  front_format: upperRoman
+  body_format: decimal
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+
+roles:
+  chapter:
+    source: "指导意见三（六）章标题：黑体四号加粗居中（英文和阿拉伯数字用 Times New Roman 体），单倍行距，段前 24 磅，段后 18 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  section_1:
+    source: "指导意见三（六）二级标题：黑体小四号（英文和阿拉伯数字用 Times New Roman 体）顶左，单倍行距，段前 24 磅，段后 6 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 6
+  section_2:
+    source: "指导意见三（六）三级标题：黑体小四号（英文和阿拉伯数字用 Times New Roman 体）顶左，单倍行距，段前 12 磅，段后 6 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.0}
+    before: 12
+    after: 6
+  section_3:
+    source: "指导意见三（六）四级标题：黑体小四号（英文和阿拉伯数字用 Times New Roman 体）居左，单倍行距，段前 12 磅，段后 6 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.0}
+    before: 12
+    after: 6
+  body:
+    source: "指导意见三（六）段落文字：宋体小四号（英文和阿拉伯数字用 Times New Roman 体），两端对齐书写，段落首行左缩进两个汉字符，段前段后 0 磅，1.25 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "指导意见三（四）中文摘要标题：“摘要”二字间空一个汉字符位，黑体四号加粗居中，单倍行距，段前 24 磅，段后 18 磅"
+    cn_font: 黑体
+    size: 四号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  abstract_title_en:
+    source: "指导意见三（四）英文摘要标题：Times New Roman 四号加粗居中，单倍行距，段前 24 磅，段后 18 磅"
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  abstract_body:
+    source: "指导意见三（四）段落文字：中文宋体小四号，英文 Times New Roman 小四号，1.25 倍行距，段前段后 0 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+  keywords_zh:
+    source: "指导意见三（四）关键词：宋体小四号，1.25 倍行距，段前段后 0 磅；一（三）：关键词左顶格"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+    first_line_chars: 0
+  keywords_en:
+    source: "指导意见三（四）关键词：Times New Roman 小四号，1.25 倍行距，段前段后 0 磅；一（三）：关键词左顶格"
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+    first_line_chars: 0
+  toc_title:
+    source: "指导意见三（五）目录标题：黑体四号加粗居中（英文和阿拉伯数字用 Times New Roman 体），单倍行距，段前 24 磅，段后 18 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  toc_chapter:
+    source: "指导意见三（五）章目录及其他（参考文献、附录、致谢等）：黑体四号（英文和阿拉伯数字用 Times New Roman 体），单倍行距，段前 6 磅，段后 0 磅，两端对齐，页码右对齐"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: justify
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 0
+  toc_item:
+    source: "指导意见三（五）二、三级标题目录：黑体小四号（英文和阿拉伯数字用 Times New Roman 体），单倍行距，段前 6 磅，段后 0 磅，两端对齐，页码右对齐（左缩进 1 / 2 个汉字符见 manual）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 0
+  references_title:
+    source: "指导意见三（七）参考文献：“参考文献”四字黑体四号加粗居中"
+    cn_font: 黑体
+    size: 四号
+    bold: true
+    align: center
+  ref_item:
+    source: "指导意见三（七）参考文献：著录部分宋体小四号（英文和阿拉伯数字用 Times New Roman 体），1.25 倍行距，段前段后 0 磅，两端对齐"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+  appendix_title:
+    source: "指导意见三（七）附录：标题黑体四号加粗居中"
+    cn_font: 黑体
+    size: 四号
+    bold: true
+    align: center
+  ack_title:
+    source: "指导意见三（七）致谢：标题黑体四号加粗居中，“致谢”二字间空一个汉字符位，单倍行距，段前 24 磅，段后 18 磅"
+    cn_font: 黑体
+    size: 四号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  fig_caption:
+    source: "指导意见三（六）图序、图题、图注：图序和图题加粗，宋体五号居中（英文和阿拉伯数字用 Times New Roman 体），1.25 倍行距，中文图题段前 6 磅，段后 0 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.25}
+    before: 6
+    after: 0
+  table_caption:
+    source: "指导意见三（六）表序、表题、表注：宋体五号加粗居中（英文和阿拉伯数字用 Times New Roman 体），1.25 倍行距，中文表题段前 6 磅，段后 0 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.25}
+    before: 6
+    after: 0
+
+checks:
+  keywords:
+    source: "指导意见一（三）：关键词 3～5 个，中文关键词间用中文逗号隔开，英文关键词用英文逗号隔开"
+    min_count: 3
+    max_count: 5
+    zh_separator: "，"
+    en_separator: ","
+  caption_numbering:
+    source: "指导意见二（六）2(2)：图、表、附注、公式、算式等一律用阿拉伯数字分章依序连续编码，如图 1-1、图 2-2、表 3-2"
+  continued_caption:
+    source: "指导意见二（六）6(2)③：表格太大需要转页时，在续表表头上方注明“续表”，示例“表3-1 表题（续表）”"
+    style: suffix
+  appendix_number:
+    source: "指导意见三（七）附录：“附录”二字（多个附录则为“附录一”等）"
+    style: han
+  table_caption:
+    source: "指导意见二（六）6(2)①：每一表应有简短确切的题名，连同表序置于表上居中"
+  figure_caption:
+    source: "指导意见二（六）6(1)：每一图应有简短确切的图题，连同图序置于图下居中"
+  equation_number:
+    source: "指导意见二（六）7：编号置于括号内，右端对齐；2(2) 公式一律分章依序连续编码，如第 3 章第 1 个表达式（3-1）"
+  chapter_number:
+    source: "指导意见二（六）2(1)：各层次标题一律用阿拉伯数字连续编号；模板章标题为“第 1 章”"
+  abstract_text:
+    source: "指导意见一（三）：摘要不宜使用公式、图表、表格或其他插图材料；英文关键词应与中文关键词对应"
+    no_figures: true
+    keywords_match: true
+
+layout:
+  table_span:
+    source: "指导意见二（六）6(2)③：表格太大需要转页时，续表表头上方注明“续表”，表头重复排出，示例“表3-1 表题（续表）”"
+  toc:
+    source: "指导意见一（四）：目录页由论文的章、条、附录等序号、名称和页码组成"
+  new_page:
+    source: "指导意见三（八）：中文摘要、英文摘要、目录、论文正文、参考文献、附录、致谢等均须由另页右页（奇数页）开始"
+    roles: [abstract_title_zh, abstract_title_en, toc_title, references_title, appendix_title, ack_title]
+  first_chapter_odd_page:
+    source: "指导意见二（六）1：论文正文须由另页右页（奇数页）开始；正文内部新章节无须另页右页开始"
+  page_start:
+    source: "指导意见二（六）2(3)：正文页码从绪论开始按阿拉伯数字（1，2，3……）连续编排；正文前的部分用大写罗马数字（I，II，III…）单独编排"
+    body_first: 1
+
+manual:
+  - {text: "页码位置：正文页码位居左页左下角、右页右下角；正文前的部分（中英文摘要、目录等）页码位于页面下方居中。", source: "指导意见二（六）2(3)"}
+  - {text: "页眉居中、宋体小五号（英文和阿拉伯数字用 Times New Roman 体），从摘要开始：摘要、Abstract、目录、图表目录等部分奇数页标明该部分名称、偶数页标明论文题目（英文摘要标明英文题目）；正文奇数页标明每一章名称、偶数页标明论文题目；参考文献、附录、致谢等奇数页标明各部分名称、偶数页标明论文题目。", source: "指导意见二（六）3 页眉；三（一）页眉"}
+  - {text: "中文摘要字数由各学科群学位评定分委员会按学科特点另行规定（生命科学、化学与化工等分会有具体要求，本规则包未采用）。", source: "指导意见一（三）"}
+  - {text: "目录条目缩进：二级标题缩进一个汉字符，三级标题缩进两个汉字符；目录最多编到三级标题，不包括中英文摘要。", source: "指导意见一（四）、三（五）"}
+  - {text: "论文中若有图表，应设图表目录（先列图后列表），置于目录页之后另页编排；图表目录标题黑体四号加粗居中，单倍行距，段前 24 磅，段后 18 磅，条目黑体四号。", source: "指导意见一（四）、二（六）6、三（五）"}
+  - {text: "章序号与章名间空一个汉字符，各层次序号与题名间空一个汉字符；图序、表序与题文字之间空一个汉字符；标题中尽量不使用标点符号。", source: "指导意见二（六）2(1)、三（六）"}
+  - {text: "图序、图题、图注依次置于图的下方，“注”字加粗，左缩进两个汉字符，续行缩进至“注”后；表注位于表下方，格式同；表题、图题建议中英文双语，中文题段前 6 磅段后 0 磅，英文题段前 0 磅段后 12 磅；表注、图注宋体五号（英文 Times New Roman），1.25 倍行距。", source: "指导意见二（六）6、三（六）"}
+  - {text: "每一表应有简短确切的题名，连同表序置于表的上方居中（建议中英文双语题名）。表格尽量用三线表，避免竖线；表格太大需转页时，在续表表头上方注明“续表”，表头也应重复排出（示例：表3-1 表题（续表））。", source: "指导意见二（六）6(2)①③"}
+  - {text: "表达式另行起，原则上居中；序号加圆括号，宋体五号（英文和阿拉伯数字用 Times New Roman 体），右顶格排；较长的表达式转行只能在 +、-、×、÷、＜、＞ 等运算符之后。", source: "指导意见二（六）7、三（六）表达式"}
+  - {text: "参考文献标注可采用顺序编码制或著者—出版年制，确定后正文标注与文后参考文献须对应；顺序编码制序号置于方括号并上标，续行缩进至编码之后，著者—出版年制续行缩进两个汉字符；文后参考文献应与正文引用一一对应，集中著录于正文之后，不分章节。", source: "指导意见二（七）、三（七）"}
+  - {text: "附录标题“附录”二字与题名间空一个汉字符位；内容部分宋体小四号，两端对齐，段落首行左缩进两个汉字符，段前段后 0 磅，1.25 倍行距。致谢内容宋体小四号，1.25 倍行距，段前段后 0 磅，末尾应具日期，与封面一致。", source: "指导意见三（七）、一（九）"}
+  - {text: "图片大小适当，图边界在页面范围内，图片中文字大小不超过正文文字大小；引用的图、表必须注明来源。", source: "指导意见二（六）6"}
+  - {text: "封面、原创性声明及授权使用声明、书脊使用学校统一格式（样张 1–4），作者和导师须亲笔签名；封面论文题目黑体小三号加粗居中，单倍行距，其余项目宋体四号加粗，2 倍行距。", source: "指导意见一（一）（二）、三（二）（三）"}
+  - {text: "标点符号用法以 GB/T 15834—2011 为准，数字用法以 GB/T 15835—2011 为准。", source: "指导意见二（五）"}

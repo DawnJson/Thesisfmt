@@ -1,0 +1,169 @@
+meta:
+  id: zhejiang-zjzj-ug
+  title: 浙江工业大学之江学院继续教育学院毕业论文（设计）（专升本）
+  version: "2026"
+  source: https://cj.zzjc.edu.cn/info/1013/1612.htm
+  org: 浙江工业大学之江学院（继续教育学院）
+  kind: university
+  category: 本科
+  verified: true
+
+# 依据：《毕业论文（设计）撰写要求》（附件2）二、（二）毕业论文撰写格式；
+# 以及《格式模板》（附件3）内的说明文字。简称“撰写要求”“格式模板”。
+
+page:
+  source: "撰写要求二（二）1：采用A4纸打印，页边距：上2.5厘米，下2.5厘米，左3厘米，右2.5厘米"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 3.0, right: 2.5}
+
+page_numbers:
+  source: "撰写要求二（二）6：页码统一位于页脚且居中，小五号 Times New Roman；中英文摘要和目录的页码用罗马数字Ⅰ、Ⅱ、Ⅲ，文本主体用阿拉伯数字1、2、3"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+
+roles:
+  chapter:
+    source: "撰写要求二（二）2：一级标题采用黑体三号字，居中，段前后各0.5行；数字、英文用 Times New Roman（二（二）1）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    before_lines: 0.5
+    after_lines: 0.5
+  section_1:
+    source: "撰写要求二（二）2：二级标题采用黑体小三号字，段前后各0.5行，左对齐"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: left
+    before_lines: 0.5
+    after_lines: 0.5
+  section_2:
+    source: "撰写要求二（二）2：三级标题为黑体四号字，段前0.5行，左对齐"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    before_lines: 0.5
+  body:
+    source: "撰写要求二（二）2：文本主体内容中文为宋体小四号字，多倍行距（1.3）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.3}
+  abstract_body:
+    source: "撰写要求二（二）7（4）：中文摘要内容为宋体小四号字，多倍行距（1.3）；英文摘要内容为 Times New Roman 小四号字，多倍行距（1.3）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.3}
+  toc_title:
+    source: "撰写要求二（二）7（3）：“目录”……为黑体三号字，居中，行距均为多倍行距（1.3），段前后各0.5行"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 0.5
+    after_lines: 0.5
+    line: {rule: auto, value: 1.3}
+  toc_chapter:
+    source: "撰写要求二（二）7（5）：第一级标题字体大小为四号黑体字；多倍行距（1.3）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    line: {rule: auto, value: 1.3}
+  references_title:
+    source: "撰写要求二（二）7（3）：“参考文献”等为黑体三号字，居中，行距均为多倍行距（1.3），段前后各0.5行"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 0.5
+    after_lines: 0.5
+    line: {rule: auto, value: 1.3}
+  ack_title:
+    source: "撰写要求二（二）7（3）：“致谢”等为黑体三号字，居中，行距均为多倍行距（1.3），段前后各0.5行"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 0.5
+    after_lines: 0.5
+    line: {rule: auto, value: 1.3}
+  appendix_title:
+    source: "撰写要求二（二）7（3）：“附录”等为黑体三号字，居中，行距均为多倍行距（1.3），段前后各0.5行"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 0.5
+    after_lines: 0.5
+    line: {rule: auto, value: 1.3}
+  ref_item:
+    source: "撰写要求二（二）4：参考文献的内容采用五号字大小，中文为宋体，居左顶格书写，行距均为多倍行距（1.3）；数字、英文用 Times New Roman（二（二）1）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: left
+    first_line_chars: 0
+    line: {rule: auto, value: 1.3}
+  fig_caption:
+    source: "撰写要求二（二）3：图应有图编号、图标题，均为宋体五号字，居中，列在图的下方"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: "撰写要求二（二）3：表格应有表编号、表标题，均为宋体五号字，居中，列在表的上方"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "撰写要求一.2：关键词数量一般为3～5个；关键词之间用逗号隔开，最后一个关键词后不加标点符号"
+    min_count: 3
+    max_count: 5
+    zh_separator: "，"
+    en_separator: ","
+  abstract_text:
+    source: "撰写要求一.2：中文摘要不含公式、图表和注释；每一个英文关键词必须与中文关键词相对应"
+    no_figures: true
+    keywords_match: true
+  caption_numbering:
+    source: "撰写要求二（二）3：表格、图、公式的编号均采用“章节.序号”，逐章编序，序号从1开始且必须连续，如表1.1，图1.1"
+  table_caption:
+    source: "撰写要求二（二）3：表格应有表编号、表标题，列在表的上方"
+  figure_caption:
+    source: "撰写要求二（二）3：图应有图编号、图标题，列在图的下方"
+  equation_number:
+    source: "撰写要求一.4（7）②：公式的编号用圆括号括起放在公式右边行末，公式按章单独立序号，如：（4.9）、（7.1），公式编号必须连续"
+  citations:
+    source: "格式模板参考文献说明（3）（4）：参考文献应按照正文中引用出现的顺序统一编号；正文引用与文末参考文献表的序号一一对应"
+  footnotes:
+    source: "撰写要求二（二）4：注释用页末注，注释内容采用五号字大小，中文为宋体；一.4（2）注释的序号要用①、②、③等数码表示"
+    format:
+      source: "撰写要求二（二）4：注释内容采用五号字大小，中文为宋体"
+      cn_font: 宋体
+      size: 五号
+    circled: true
+
+layout:
+  page_start:
+    source: "撰写要求二（二）6：文本主体页码用阿拉伯数字1、2、3……表示"
+    body_first: 1
+
+manual:
+  - {text: "封面和封底无页码、无页眉。", source: "撰写要求二（二）5、6"}
+  - {text: "页眉：中文摘要、目录、图目录、表目录页左侧为“浙江工业大学之江学院毕业论文（设计）”，右侧分别为“中文摘要”“目录”“图目录”“表目录”；各章节、结论、参考文献、附录、致谢页眉统一为“浙江工业大学之江学院毕业论文（设计）”，居中；小五号宋体；封面和封底无页眉。", source: "撰写要求二（二）5"}
+  - {text: "“摘要”页论文题目与副标题段前后各 0.5 行（以“行”为单位，不检查）。", source: "撰写要求二（二）7（2）"}
+  - {text: "“摘要”页论文题目采用黑体小二号字，居中；副标题采用黑体四号字，右对齐。", source: "撰写要求二（二）7（2）"}
+  - {text: "“【摘要】”“【关键词】”为黑体小四号字；“【Abstract】”“【Key Words】”为 Times New Roman 加粗小四号字；英文关键词用小写 Times New Roman 小四号字；摘要内容后下空一行书写关键词。", source: "撰写要求二（二）7（4）"}
+  - {text: "目录内容中文为黑体，列出第一、第二、第三级标题并标明起始页码，三个层次之间分别缩进两个英文字符；第二级标题小四号黑体，第三级五号黑体；图目录和表目录内容为四号黑体；目录页码应与正文一致。", source: "撰写要求二（二）7（5）、三"}
+  - {text: "中文摘要一般不超过 300 字左右；毕业论文正文一般不少于 6000 字；结论一般不超过 1000 字；各章标题字数一般在 15 字以内；题目一般不超过 24 个汉字。", source: "撰写要求一、一.1、一.2、一.4"}
+  - {text: "参考文献不少于 15 篇，其中外文文献不少于 2 篇；近 5 年内的文献数一般不少于总数的 1/3，并应有近 2 年内的文献；书写格式符合 GB7714-2005。", source: "撰写要求一、一.5"}
+  - {text: "表格允许下页接写，接写时表标题省略，表头应重复书写，并在右上方写“续表××”；表标题末尾不加标点；表编号写在表标题左方不加标点，空一格接写表标题。", source: "撰写要求一.4（8）"}
+  - {text: "分图用 a、b、c……标号，分图标题与图中代号的意义以图注形式写在图标题下方；图与图标题不能破页。", source: "撰写要求一.4（9）；格式模板图的说明"}
+  - {text: "公式应另起一行书写，文中引用写成“见公式（2.3）”。", source: "撰写要求一.4（7）、二（二）3"}
+  - {text: "标点符号符合 GB/T15834-1995《标点符号用法》；数字、量和单位符合国家规定（测量、统计数据与公历年月日用阿拉伯数字）。", source: "撰写要求一.4（3）（5）（6）"}
+  - {text: "装订顺序：封面、诚信承诺书、中英文摘要与关键词、目录（图目录和表目录）、文本主体、参考文献、附录、致谢；封面一律用铜版纸打印。", source: "撰写要求三、二（二）7（1）"}

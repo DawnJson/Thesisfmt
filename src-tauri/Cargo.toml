@@ -1,0 +1,28 @@
+[package]
+name = "thesisfmt"
+version = "0.1.0"
+description = "论文格式体检：本地检查学位论文 .docx 格式"
+license = "GPL-3.0-only"
+edition = "2021"
+
+[lib]
+name = "thesisfmt_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+zip = { version = "8.6.0", default-features = false, features = ["deflate"] }
+quick-xml = "0.37"
+regex = "1.13.1"
+serde_yaml_ng = "0.10.0"
+serde_json = { version = "1.0.151", features = ["preserve_order"] }
+serde = { version = "1.0.229", features = ["derive"] }
+
+[profile.release]
+lto = true
+opt-level = "s"
+strip = true

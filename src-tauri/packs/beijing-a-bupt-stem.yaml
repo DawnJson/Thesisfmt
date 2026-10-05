@@ -1,0 +1,269 @@
+# 北京邮电大学研究生学位论文（理工科，博士/硕士共用）。
+# 依据《北京邮电大学研究生学位论文写作与制作规范》（2025年1月15日，附件1）逐条核对；
+# 附件2 理工科模板仅用于确认规范未作文字规定的示例格式（英文关键词分隔符）。
+meta:
+  id: beijing-a-bupt-stem
+  title: 北京邮电大学研究生学位论文（理工科）
+  version: "2025-01"
+  source: https://grs.bupt.edu.cn/info/1035/3071.htm
+  valid_from: "2025-01"
+  org: 北京邮电大学
+  kind: university
+  category: 研究生（理工科）
+  verified: true
+
+page:
+  source: "《写作与制作规范》五：A4 标准纸；页边距上 2.54cm，下 2.54cm，左 3.17cm，右 3.17cm，页眉边距 1.5cm，页脚边距 1.75cm"
+  paper: A4
+  margins_cm: {top: 2.54, bottom: 2.54, left: 3.17, right: 3.17}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "《写作与制作规范》三（十三）：页码从第一章（绪论）开始按阿拉伯数字连续编排，之前的部分用大写罗马数字连续编排；页码居中位于页面底端，采用五号 Times New Roman 居中书写"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 五号
+  restart_at: 1
+
+# 奇数页页眉为章序及章标题，偶数页为“北京邮电大学硕士/博士学位论文”：奇偶页内容不同，不设 content。
+headers:
+  source: "《写作与制作规范》三（十三）：页眉采用宋体小五号居中书写；三（一）：英文字母、阿拉伯数字和半角标点符号均用 Times New Roman 字体"
+  align: center
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 小五
+
+roles:
+  chapter:
+    source: "《写作与制作规范》三（九）：章标题：黑体三号，居中对齐，首行无缩进，段前 0 行，段后 2 行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    first_line_chars: 0
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after_lines: 2
+  section_1:
+    source: "《写作与制作规范》三（九）：二级标题：黑体四号，首行无缩进，段前 0.5 行，段后 0.5 行，单倍行距"
+    cn_font: 黑体
+    size: 四号
+    first_line_chars: 0
+    line: {rule: auto, value: 1.0}
+    before_lines: 0.5
+    after_lines: 0.5
+  section_2:
+    source: "《写作与制作规范》三（九）：三级标题：黑体小四号，左对齐，首行无缩进，段前 0 行，段后 0 行，固定值 20 磅"
+    cn_font: 黑体
+    size: 小四
+    align: left
+    first_line_chars: 0
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  section_3:
+    source: "《写作与制作规范》三（九）：四级标题：宋体小四号，两端对齐，首行缩进 2 字符，段前 0 行，段后 0 行，固定值 20 磅"
+    cn_font: 宋体
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  body:
+    source: "《写作与制作规范》三（八）：正文：宋体小四号，两端对齐，首行缩进 2 字符，段前 0 和段后 0 行，固定值 20 磅；三（一）：英文字母、数字用 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "《写作与制作规范》三（四）：“摘要”标题用黑体三号字，居中对齐，首行无缩进，段前 0 行，段后 1 行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    first_line_chars: 0
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after_lines: 1
+  abstract_title_en:
+    source: "《写作与制作规范》三（五）：“ABSTRACT”标题用 Times New Roman 字体三号字加粗，居中对齐，首行无缩进，段前 0 行，段后 2 行，单倍行距"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    first_line_chars: 0
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after_lines: 2
+  abstract_body:
+    source: "《写作与制作规范》三（四）（五）：摘要内容用四号宋体（英文摘要四号字体），两端对齐，首行缩进 2 字符，段前 0 行，段后 0 行，固定值 20 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  keywords_zh:
+    source: "《写作与制作规范》三（四）：“关键词：”黑体四号字，其后关键词宋体四号，两端对齐，首行缩进 2 字符，段前 1 行，段后 0 行，固定值 20 磅"
+    size: 四号
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before_lines: 1
+    after: 0
+  keywords_en:
+    source: "《写作与制作规范》三（五）：“KEY WORDS:”四号字加粗，其后关键词四号字，两端对齐，首行缩进 2 字符，段前 2 行，段后 0 行，固定值 20 磅"
+    latin_font: Times New Roman
+    size: 四号
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before_lines: 2
+    after: 0
+  toc_title:
+    source: "《写作与制作规范》三（六）：中文“目录”标题字用三号黑体字，居中对齐，首行无缩进，段前 0 行，段后 2 行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    first_line_chars: 0
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after_lines: 2
+  toc_chapter:
+    source: "《写作与制作规范》三（六）：一级目录项：中文字体为黑体小四号，两端对齐，首行无缩进，段前和段后 0 行，固定值 20 磅"
+    cn_font: 黑体
+    size: 小四
+    align: justify
+    first_line_chars: 0
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  toc_item:
+    source: "《写作与制作规范》三（六）：二、三级目录项：中文字体为宋体小四号，两端对齐，首行无缩进，段前段后 0 行，固定值 20 磅（左缩进 2/4 字符因级别而异，不检查）"
+    cn_font: 宋体
+    size: 小四
+    align: justify
+    first_line_chars: 0
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  front_title:
+    source: "《写作与制作规范》三（七）：符号说明标题用黑体三号字，居中对齐，首行无缩进，段前 0 行，段后 2 行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    first_line_chars: 0
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after_lines: 2
+  references_title:
+    source: "《写作与制作规范》三（十四）：参考文献标题：黑体三号字，居中对齐，首行无缩进，段前 0 行，段后 2 行，单倍行距，另起一页"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    first_line_chars: 0
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after_lines: 2
+  ref_item:
+    source: "《写作与制作规范》三（十四）：参考文献文本宋体五号，两端对齐，段前 0 行，段后 0 行，固定值 20 磅；三（一）：英文字母、数字用 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: justify
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  appendix_title:
+    source: "《写作与制作规范》三（十五）：附录标题用黑体三号字，居中对齐，首行无缩进，段前 0 行，段后 2 行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    first_line_chars: 0
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after_lines: 2
+  ack_title:
+    source: "《写作与制作规范》三（十六）：致谢标题用黑体三号字，居中对齐，首行无缩进，段前 0 行，段后 2 行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    first_line_chars: 0
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after_lines: 2
+  fig_caption:
+    source: "《写作与制作规范》三（十）：图题用楷体五号，居中对齐，首行无缩进，段前 0 行，段后 0 行，固定值 20 磅"
+    cn_font: 楷体
+    size: 五号
+    align: center
+    first_line_chars: 0
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  table_caption:
+    source: "《写作与制作规范》三（十一）：表题用楷体五号，居中对齐，首行无缩进，段前 0 行，段后 0 行，固定值 20 磅"
+    cn_font: 楷体
+    size: 五号
+    align: center
+    first_line_chars: 0
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+
+checks:
+  keywords:
+    source: "《写作与制作规范》二（五）：摘要后列出 3-5 个关键词，之间用分号相隔；英文分隔符规范未作文字规定，取附件2 模板示例“KEY WORDS: keyword1; keyword2”"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "《写作与制作规范》三（十）（十一）：图的编号由“图”和从“1”开始的阿拉伯数字组成，图1-1；表1-1"
+  table_caption:
+    source: "《写作与制作规范》三（十一）：表的编号和表题应居中置于表上方"
+  figure_caption:
+    source: "《写作与制作规范》三（十）：图的编号和图题应居中置于图下方"
+  continued_caption:
+    source: "《写作与制作规范》三（十一）：如某个表需要转页接排，续表均应重复表头，如“续表2-1 XXXX”"
+  equation_number:
+    source: "《写作与制作规范》三（十二）：公式编号置于括号内，公式的编号右端对齐（1-1）"
+  abstract_text:
+    source: "《写作与制作规范》二（六）：英文摘要其后列出与中文相对应的外文关键词"
+    keywords_match: true
+  citations:
+    source: "《写作与制作规范》二（十）：引用参考文献时，应在引出处的右上方用方括号标注阿拉伯数字编排的序号；参考文献的排列按照文中引用出现的顺序列出"
+
+layout:
+  table_span:
+    source: "《写作与制作规范》三（十一）：如某个表需要转页接排，续表均应重复表头，如“续表2-1 XXXX”"
+  new_page:
+    source: "《写作与制作规范》五：论文每一部分内容以及正文部分的每一章均从奇数页开始；三（九）：每一章另起一页；三（十四）：参考文献另起一页"
+    roles: [abstract_title_zh, abstract_title_en, toc_title, chapter, references_title, appendix_title, ack_title]
+  first_chapter_odd_page:
+    source: "《写作与制作规范》五：论文每一部分内容以及正文部分的每一章均从奇数页开始"
+  page_start:
+    source: "《写作与制作规范》三（十三）：页码从第一章（绪论）开始按阿拉伯数字（1，2，3，……）连续编排，之前的部分用大写罗马数字（Ⅰ，Ⅱ，Ⅲ，……）连续编排"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "页眉分奇、偶页标注：奇数页为章序及章标题，偶数页为“北京邮电大学硕士学位论文”或“北京邮电大学博士学位论文”；页眉下横线为单实线；页码数字两侧不加“-”等修饰线。", source: "《写作与制作规范》三（十三）"}
+  - {text: "章节编排：理学、工学、医学类建议采用“第一章，1.1，1.1.1”逐级递推；章节标题简明扼要，无标点符号。", source: "《写作与制作规范》三（九）；二（九）"}
+  - {text: "关键词：“关键词：”黑体四号，其后关键词宋体四号；“KEY WORDS:”四号加粗。", source: "《写作与制作规范》三（四）（五）"}
+  - {text: "独创性（或创新性）声明和使用授权说明：标题黑体三号居中，单倍行距；内容宋体小四，两端对齐，首行缩进 2 字符，固定值 20 磅。符号说明、作者学习经历、创新成果目录的标题同样黑体三号居中。", source: "《写作与制作规范》三（三）（七）（十七）（十八）"}
+  - {text: "引文、语料、教学案例等内容可用楷体五号。", source: "《写作与制作规范》三（八）"}
+  - {text: "表的编排一般采用国际通行的三线表；有英文标题时以 Figure 1-1、Table 1-1 编号；全文编号方式应统一；图题、表题的图序与图名之间空一格，图名后不加标点。", source: "《写作与制作规范》三（十）（十一）"}
+  - {text: "分图分别以 (a)、(b)、(c)…… 作为图序，并须有分图名。", source: "《写作与制作规范》三（十）"}
+  - {text: "公式另起一行居中横排，较长的公式只可在符号处（+、-、*、/、≤、≥等）转行；语料、案例编号置于括号内，以“章”为单位更新。", source: "《写作与制作规范》三（十二）"}
+  - {text: "论文题目（包括副题和标点符号）不得超过 36 个汉字。", source: "《写作与制作规范》三（二）"}
+  - {text: "参考文献著录项目和格式原则上遵照 GB/T 7714—2015。", source: "《写作与制作规范》四"}
+  - {text: "页边距：装订线位置左侧，装订线 0 cm；纸质论文双面打印。", source: "《写作与制作规范》五"}

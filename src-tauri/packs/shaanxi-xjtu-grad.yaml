@@ -1,0 +1,235 @@
+meta:
+  id: shaanxi-xjtu-grad
+  title: 西安交通大学硕士、博士学位论文
+  version: "2018"
+  source: https://gs.xjtu.edu.cn/info/1209/5614.htm
+  valid_from: "2018-09"
+  org: 西安交通大学
+  kind: university
+  category: 研究生
+  verified: true
+
+# 依据《西安交通大学硕士、博士学位论文规范》（西交研〔2018〕6号）与《学位论文模板（2021版）》。
+page:
+  source: "规范 §2 页面设置：纸型为A4；页边距上、下、左、右分别为3.0cm, 2.5cm, 2.6cm, 2.6cm；页眉距边界2.0cm，页脚距边界1.75cm"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.5, left: 2.6, right: 2.6}
+  header_distance_cm: 2.0
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "规范 §2 页码：正文第1页起用阿拉伯数字；正文前的内容（除封面）用罗马数字单独标注；页码位于页面底端，对齐方式为“外侧”；页脚五号字"
+  front_format: upperRoman
+  body_format: decimal
+  footer_latin_font: Times New Roman
+  footer_size: 五号
+  outside: true
+
+headers:
+  source: "规范 §2 页眉：从摘要页到最后页，每页均须有页眉，五号字，居中编排；中文宋体、英文 Times New Roman（§2 总则）"
+  align: center
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 五号
+
+roles:
+  chapter:
+    source: "规范 §2 一级标题：另起一页，居中，三号字，段前空两行，段后空一行；中文宋体、英文和数字 Times New Roman；1.2 倍行距（§2 字距和行距）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    before_lines: 2
+    after_lines: 1
+    line: {rule: auto, value: 1.2}
+  section_1:
+    source: "规范 §2 二级标题：左对齐顶格，小三号字，段前空一行，段后空0.5行；1.2 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小三
+    align: left
+    before_lines: 1
+    after_lines: 0.5
+    line: {rule: auto, value: 1.2}
+  section_2:
+    source: "规范 §2 三级标题：左起空两字符，四号字，段前空0.5行，段后不空行；1.2 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    before_lines: 0.5
+    after_lines: 0
+    line: {rule: auto, value: 1.2}
+  body:
+    source: "规范 §2 正文：小四号字；全文 1.2 倍行距，段前段后不空行；两端对齐、首行缩进 2 字符为模板《西安交通大学博士、硕士学位论文模板（2021版）》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.2}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "规范 §2.4.1 摘要：按一级标题编排中文“摘要”二字（三号、居中）"
+    cn_font: 宋体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.2}
+  abstract_title_en:
+    source: "规范 §2.4.1 摘要/ABSTRACT：英文为“ABSTRACT”，按一级标题编排（三号、居中）；英文采用 Times New Roman（§2 总则）"
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.2}
+  abstract_body:
+    source: "规范 §2.4.1 摘要正文小四号字；全文 1.2 倍行距，段前段后不空行（英文摘要每段顶格，故不限对齐）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.2}
+    before: 0
+    after: 0
+  toc_title:
+    source: "规范 §2.5 “目录”二字按一级标题编排（三号、居中）"
+    cn_font: 宋体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.2}
+  keywords_zh:
+    source: "规范 §2.4.2 关键词：小四字；全文 1.2 倍行距，段前段后不空行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.2}
+    before: 0
+    after: 0
+  keywords_en:
+    source: "规范 §2.4.2 KEY WORDS：小四字；全文 1.2 倍行距，段前段后不空行"
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.2}
+    before: 0
+    after: 0
+  toc_chapter:
+    source: "规范 §2.5 目录正文；§2 总则正文小四号字、1.2 倍行距；段前段后不空行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.2}
+    before: 0
+    after: 0
+  toc_item:
+    source: "规范 §2.5 下一级标题左缩进一个字符起排；§2 总则小四号字、1.2 倍行距；段前段后不空行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.2}
+    before: 0
+    after: 0
+  references_title:
+    source: "规范 §2.9 “参考文献”四字按一级标题编排（三号、居中）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.2}
+  ref_item:
+    source: "规范 §2.9 参考文献内容采用五号字；§2.9.2 换行时采用悬行格式"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: auto, value: 1.2}
+    before: 0
+    after: 0
+    hanging_chars: 2
+  ack_title:
+    source: "规范 §2.8 “致谢”二字按一级标题编排（三号、居中）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.2}
+  appendix_title:
+    source: "规范 §2.10 附录标题各占一行，按一级标题编排（三号、居中）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.2}
+  fig_caption:
+    source: "规范 §2 图题和表题：采用中文，居中，五号字，段前空0.5行；§2.7.2 图号和图题置于图下方的居中位置（图题“段后不空行”与“图与正文间隔 0.5 行”并存，故不设段后）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    before_lines: 0.5
+    line: {rule: auto, value: 1.2}
+  table_caption:
+    source: "规范 §2 图题和表题：采用中文，居中，五号字，段前空0.5行，段后不空行；§2.7.2 表号和表题置于表上方的居中位置"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    before_lines: 0.5
+    line: {rule: auto, value: 1.2}
+    after: 0
+
+checks:
+  keywords:
+    source: "规范 §1.4 关键词由3～5个词组成；§2.4.2 每一关键词之间用分号分开"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "规范 §2.7.2 图、表、公式等的序号用阿拉伯数字分章连续编号，如图1-1、表2-1"
+  table_caption:
+    source: "规范 §2.7.2 表号和表题应置于表上方的居中位置"
+  figure_caption:
+    source: "规范 §2.7.2 图号和图题置于图下方的居中位置"
+  table_lines:
+    source: "规范 §2.7.2 2）表格（2）一律使用三线表，上下边线线粗1.5磅，表内线线粗1磅"
+    top_bottom_pt: 1.5
+    header_pt: 1.0
+  table_cell:
+    source: "规范 §2.7.2 2）表格（4）表中用字一般为五号字；1.2 倍行距（§2 字距和行距）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: auto, value: 1.2}
+  equation_number:
+    source: "规范 §2.7.2 公式编号置入小括号中，如（3-1），右对齐顶格编排，编号前不写“公式”或“式”；分章连续编号；附录内编号前加“附录A-”"
+  chapter_number:
+    source: "规范 §2.7.1 标题按一级、二级和三级分级，对应的编号为：1、1.1和1.1.1"
+  appendix_number:
+    source: "规范 §2.10 附录编号依次为附录A，附录B；附录中的图、表、公式编号前加“附录A-”字样"
+  continued_caption:
+    source: "规范 §2.7.2 2）表格（1）：表格转页接排时，随后各页重复表的编号，编号后跟（续），如表1（续）"
+    style: suffix
+
+layout:
+  toc:
+    source: "规范 §2.5 目录由编号、标题和页码组成；目录中标题的编号应与正文中标题的编号一致"
+  new_page:
+    source: "规范 §2 一级标题：另起一页；§2.9 参考文献应另起一页；§2.10 每一个附录一般应另起一页"
+    roles: [chapter, references_title, appendix_title]
+  table_span:
+    source: "规范 §2.7.2 2）表格（1）：表格转页接排时，在随后的各页上应重复表的编号，编号后跟（续），续表均应重复表头"
+  first_chapter_odd_page:
+    source: "规范 §2.7.1 正文第一章从奇数页起排"
+  page_start:
+    source: "规范 §2 页码：论文页码的第1页从正文开始用阿拉伯数字标注"
+    body_first: 1
+
+manual:
+  - {text: "页码格式为最简单的数字，不带其它符号；页边距为左右对称页边距、装订线 0cm、位置在左。", source: "规范 §2 页码；页边距"}
+  - {text: "奇数页页眉为相应内容的名称、正文中相应各章的名称，偶数页页眉为“西安交通大学博士学位论文”或“西安交通大学硕士学位论文”（章号写法与摘要、声明等页的页眉不统一，不作自动检查）；页眉文字之下划两条横线，线粗 0.5 磅，线长与页面齐宽。", source: "规范 §2 页眉"}
+  - {text: "页脚建议用页脚自动生成功能，与正文用细线隔开，线长约 1/4 页宽。", source: "规范 §2 页脚"}
+  - {text: "中文摘要正文字数，硕士学位论文约为 600 个汉字，博士学位论文约为 1000 个汉字；摘要中一般不用图、表、化学结构式。", source: "规范 §1.4 中、英文摘要页"}
+  - {text: "参考文献可采用顺序编码制或著者-出版年制，二选一，一篇论文只能选一种；著录格式按 GB/T 7714—2015；文中用上角标 [1]、[2] 标注。", source: "规范 §2.7.3、§2.9.1、§2.9.2"}
+  - {text: "注释使用上角标（序号①、②…）标注，可在页脚或文末进行说明。", source: "规范 §2.7.3 2）"}
+  - {text: "答辩委员会页应放在奇数页上起排，中文目录页应放在奇数页上起排；主要符号表在目录后另起一页起排。", source: "规范 §2.3、§2.5、§2.6"}
+  - {text: "“学位论文独创性声明”和“学位论文知识产权权属声明”单独编排在一页上，不编页码。", source: "规范 §2.12 声明"}
+  - {text: "公式下面的“式中”两字左起顶格编排，后接符号及其解释，解释之间用“；”隔开；物理量符号用斜体，单位符号用正体。", source: "规范 §2.7.2 3）公式（3）；物理量及量纲"}
+  - {text: "图中用字一般为五号字，不得小于七号字；图的大小一般为宽 6.67cm×高 5.00cm，同类图片大小应一致。", source: "规范 §2.7.2 1）插图（6）（7）"}

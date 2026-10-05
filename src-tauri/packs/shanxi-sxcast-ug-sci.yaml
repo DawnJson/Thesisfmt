@@ -1,0 +1,181 @@
+meta:
+  id: shanxi-sxcast-ug-sci
+  title: 山西应用科技学院本科毕业设计（论文）（自然科学类）
+  version: "2023-11"
+  source: https://jxkyb.sxcast.edu.cn/info/372.html
+  valid_from: "2023-11"
+  org: 山西应用科技学院
+  kind: university
+  category: 本科（自然科学类）
+  verified: true
+
+page:
+  source: "模板《11.山西应用科技学院毕业设计（论文）模版（自然科学类）》示例格式（模板内批注未规定页边距，仅纸张 A4）"
+  paper: A4
+
+page_numbers:
+  source: "模板批注：页脚只要页码，中英文摘要用罗马大写数字Ⅰ、Ⅱ等标记，Times New Roman 10.5 磅；从正文开始直至结束，使用阿拉伯数字标记页码，用宋体五号字，居中排列"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_size: 五号
+
+roles:
+  chapter:
+    source: "模板批注：一级标题：黑体、小四号、加粗、段前段后空 0.5 行、固定值 23.5 磅"
+    before_lines: 0.5
+    after_lines: 0.5
+    cn_font: 黑体
+    size: 小四
+    bold: true
+    line: {rule: exact, value: 23.5}
+  section_1:
+    source: "模板批注：二级标题：宋体、小四号、加粗、行距固定值 23.5 磅"
+    cn_font: 宋体
+    size: 小四
+    bold: true
+    line: {rule: exact, value: 23.5}
+  section_2:
+    source: "模板批注：三级标题：宋体、小四号、加粗、行距固定值 23.5 磅"
+    cn_font: 宋体
+    size: 小四
+    bold: true
+    line: {rule: exact, value: 23.5}
+  body:
+    source: "模板批注：正文，宋体、小四号、首行缩进 2 个字符、行距固定值 23.5 磅"
+    cn_font: 宋体
+    size: 小四
+    first_line_chars: 2
+    line: {rule: exact, value: 23.5}
+  abstract_title_zh:
+    source: "模板批注：黑体、小二号、加粗、居中，行距固定值 23.5 磅；摘要上下各空一行"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: exact, value: 23.5}
+  abstract_title_en:
+    source: "模板批注：Time New Roman、三号、加粗、居中，行距固定值 23.5 磅"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: exact, value: 23.5}
+  abstract_body:
+    source: "模板批注：摘要内容小四号、宋体，行距固定值 23.5 磅；英文摘要 Time New Roman、小四、行距固定值 23.5 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 23.5}
+  keywords_zh:
+    source: "模板批注：小四号、宋体，“关键词：”三字加粗（故不限制中文字体）"
+    size: 小四
+  keywords_en:
+    source: "模板批注：Time New Roman 小四号、行距固定值 23.5 磅，关键词的首字母大写，“Keywords”加粗"
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 23.5}
+  toc_title:
+    source: "模板批注：黑体、小二号、居中，行距固定值 23.5 磅；目录上下各空一行"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line: {rule: exact, value: 23.5}
+  toc_chapter:
+    source: "模板批注：目录自动生成，宋体，小四号，行距固定值 23.5 磅"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 23.5}
+  toc_item:
+    source: "模板批注：目录自动生成，宋体，小四号，行距固定值 23.5 磅"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 23.5}
+  references_title:
+    source: "模板批注：黑体、小二号、居中，加粗，行距固定值 23.5 磅；参考文献上下各空一行（独立一页）"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: exact, value: 23.5}
+  ref_item:
+    source: "模板批注：宋体小四，英文参考文献为“Times New Roman”字体，标点全部为英文状态，行距固定值 23.5 磅，首行缩进 2 个字符"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 23.5}
+    first_line_chars: 2
+  ack_title:
+    source: "模板批注：黑体、小二、居中、加粗，行距固定值 23.5 磅；致谢前后各空一行（独立一页）"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: exact, value: 23.5}
+  appendix_title:
+    source: "模板批注：黑体、小二号、居中、加粗，行距固定值 23.5 磅；附录上下各空一行；内容参考正文格式（独立一页）"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: exact, value: 23.5}
+  fig_caption:
+    source: "模板批注：编号、名称字体：宋体五号、居中，段前 0.5 行、段后 0.5 行，行距固定值 23.5 磅，不加粗"
+    before_lines: 0.5
+    after_lines: 0.5
+    cn_font: 宋体
+    size: 五号
+    bold: false
+    align: center
+    line: {rule: exact, value: 23.5}
+  table_caption:
+    source: "模板批注：表名宋体五号、段前 0.5 行、段后 0.5 行，行距固定值 23.5 磅，居中，不加粗"
+    before_lines: 0.5
+    after_lines: 0.5
+    cn_font: 宋体
+    size: 五号
+    bold: false
+    align: center
+    line: {rule: exact, value: 23.5}
+
+checks:
+  keywords:
+    source: "模板《自然科学类》示例格式（批注未规定分隔符）：中文“关键词：指标；UML；关系数据库；图表”，英文“Keywords: Criteria;UML;Relation database;Diagram”"
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "模板批注：文中的图、表、附注、公式的序号一律采用阿拉伯数字分章编号，如图 2-5，表 3-2，式(5-1)；图序前部分数字表示所在章的序号，后部分数字表示在该章的序号，如“图1-1 UML的发展历程”"
+  table_caption:
+    source: "模板批注：表序及表名置于表的上方，居中排写"
+  figure_caption:
+    source: "模板批注：图的编号和名称应下方居中，编号在前用阿拉伯数字，名称在后，末尾不加标点"
+  table_cell:
+    source: "模板批注：表格内文字：宋体五号，行距 15 磅，表头文字加粗"
+    cn_font: 宋体
+    size: 五号
+    line: {rule: exact, value: 15}
+  continued_caption:
+    source: "模板批注：表格一页排不下允许下页接写，表头应重复写，并在右上方写“续表××”"
+  equation_number:
+    source: "模板批注：公式应居中书写，编号用中文括号括起写在右边行末；图、表、公式的序号分章编号，如式(5-1)"
+
+layout:
+  table_span:
+    source: "模板批注：一张表格应为一个整体，表格一页排不下允许下页接写，表头应重复写，并在右上方写“续表××”"
+  toc:
+    source: "模板批注：目录自动生成，宋体，小四号，行距固定值 23.5 磅"
+  new_page:
+    source: "模板批注：参考文献（独立一页）；致谢（独立一页）；附录（独立一页）"
+    roles: [references_title, ack_title, appendix_title]
+
+manual:
+  - {text: "封面：“毕业设计”或“毕业论文”按题目类型自行修改；表格中的内容居中对齐；标题宋体三号、一般不超过 25 字；“本科生毕业设计/论文”宋体小初、加粗、居中、单倍行距；学院、专业班级、姓名、学号、指导教师宋体三号加粗，数字用 Times New Roman；学校名称与日期宋体三号；专业填写全称，共同指导的指导教师须全部署名。", source: "模板封面页批注"}
+  - {text: "原创性声明、关于毕业论文使用授权的声明：标题黑体小二号、居中，行距固定值 23.5 磅，标题上下各空一行。", source: "模板声明页批注"}
+  - {text: "页眉：首页不同、奇偶页不同，第一页不添加页眉；奇数页为“作者姓名：毕业论文题目”（如“王某某：基于UML的电厂信息管理系统建模研究”），偶数页为“山西应用科技学院****届本科生毕业设计”或“山西应用科技学院****届本科生毕业论文”，与封皮保持一致。", source: "模板页眉批注"}
+  - {text: "正文首页大标题（论文题目）：上下各空一行，黑体、小二号、加粗、行距固定值 23.5 磅，本页不添加页眉。", source: "模板批注"}
+  - {text: "摘要内容一般 300 字左右；英文摘要关键词的首字母大写，“Keywords”加粗。", source: "模板摘要页批注"}
+  - {text: "正文中编号用（1）、（2）等表示，下一级用①、②等表示；“（”为半个字符，首行缩进 1.5 字符。", source: "模板批注"}
+  - {text: "图、表、公式等与正文之间要有一行的间距；插图与名称为一个整体，不能跨页；若图或表中有附注，采用英文小写字母顺序编号，附注写在图或表的下方。", source: "模板图表批注"}
+  - {text: "表格线型：除表头、表尾横线实线外，其他为空线（三线表），表格不加左右边线；表中参数应标明量和单位的符号；表格应随文给出，先见文后见表。", source: "模板表格批注"}
+  - {text: "参考文献：不要在一篇参考文献段落的中间换页；作者 3 名以内的全部列出，3 名以上列出前 3 名，后加“等”（英文加“etc.”）。", source: "模板参考文献批注"}
+  - {text: "致谢正文：宋体小四号、行距固定值 23.5 磅、首行缩进 2 个字符；附录内容宋体五号、行距固定值 23.5 磅、首行缩进 2 个字符。", source: "模板致谢、附录批注"}

@@ -1,0 +1,101 @@
+# 山东交通学院高等学历继续教育毕业论文（设计）
+# 学校没有单独的撰写规范文件；继续教育学院《关于开展2026年下半年毕业生毕业论文（设计）工作的通知》四、工作要求写明
+# “具体格式要求参考《山东交通学院毕业论文（设计）格式模板》（见附件1）”，故以该模板中的格式说明文字为准。
+meta:
+  id: shandong-sdjtu-ug-jxjy
+  title: 山东交通学院高等学历继续教育毕业论文（设计）
+  version: "2026"
+  source: https://jxjy.sdjtu.edu.cn/info/1143/3628.htm
+  valid_from: "2026-09"
+  org: 山东交通学院
+  kind: university
+  category: 本科（继续教育）
+  verified: true
+
+roles:
+  chapter:
+    source: "《山东交通学院毕业论文（设计）格式模板》一级标题：用1、2、3…表示，小三号，黑体，加粗，居中"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    align: center
+  section_1:
+    source: "格式模板二级标题：用1.1、1.2、1.3表示，四号，黑体，加粗居中"
+    cn_font: 黑体
+    size: 四号
+    bold: true
+    align: center
+  section_2:
+    source: "格式模板三级标题：用1.1.1、1.1.2、1.1.3…表示，小四号，黑体，加粗，靠左"
+    cn_font: 黑体
+    size: 小四
+    bold: true
+    align: left
+  body:
+    source: "格式模板：正文内容：小四号，宋体，西文Times New Roman，1.5倍行距（首行缩进2字符取自模板示例格式，模板未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+    first_line_chars: 2
+  toc_chapter:
+    source: "格式模板目录说明：目录格式设置为宋体、小四、1.5倍行距"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  toc_item:
+    source: "格式模板目录说明：目录格式设置为宋体、小四、1.5倍行距"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  ref_item:
+    source: "格式模板参考文献说明：中文参考文献内容用五号字体大小，宋体；英语参考文献内容用Times New Roman字体，五号字体大小"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  fig_caption:
+    source: "格式模板图名的写法（1）（4）：图名居中并位于图下；中文图名设置为宋体，数字及字母Times New Roman，五号，居中"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: "格式模板表名的写法（1）（5）：表名应当在表的上方并且居中；中文表名设置为宋体，五号，且居中"
+    cn_font: 宋体
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "格式模板关键词说明：关键词数量3至5个；每一个关键词之间用“；”隔开；英文关键词之间的“;”取自模板示例"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "格式模板图名的写法（1）、表名的写法（1）：编号时应以章为单位顺序编号，如图1.1、图1.2；表1.1、表1.2"
+  table_caption:
+    source: "格式模板表名的写法（1）：表名应当在表的上方并且居中"
+  figure_caption:
+    source: "格式模板图名的写法（1）：图名居中并位于图下"
+  table_cell:
+    source: "格式模板表名的写法（4）：表内文字全文统一，设置为宋体，5号"
+    cn_font: 宋体
+    size: 五号
+  chapter_number:
+    source: "格式模板一级标题：用1、2、3…表示（章序号用阿拉伯数字）"
+
+layout:
+  new_page:
+    source: "格式模板参考文献说明：参考文献单独一页"
+    roles: [references_title]
+
+manual:
+  - {text: "提交论文时删除模板中所有红色提示内容；专升本层次论文主体要求8000字以上，高起专层次5000字以上。", source: "格式模板首页"}
+  - {text: "摘要字数控制在300字左右；关键词与摘要内容空一行；专业名称不可以作为关键词。", source: "格式模板摘要说明"}
+  - {text: "目录要写完论文后自动生成；注意参考文献和致谢的排版顺序。", source: "格式模板目录说明"}
+  - {text: "图及其名称、表及其名称要放在同一页中，不能跨接两页；表格居中排列；表格与下文应留一行空格；表名与上文留一空行。", source: "格式模板图名、表名的写法"}
+  - {text: "表中若有附注，一律用阿拉伯数字和右半圆括号按顺序编排，如注1），附注写在表的下方。", source: "格式模板表格说明（3）"}
+  - {text: "参考文献单独一页，要求近五年文献，需包含中文、外文文献，数量不少于10篇，格式符合 GB/T 7714-2015。", source: "格式模板参考文献说明"}
+  - {text: "致谢字数在300字左右；附录为可选内容，置于致谢之后，多个附录按“附录A”“附录B”等顺序排列。", source: "格式模板致谢、附录说明"}
+  - {text: "页边距、页眉页脚、页码格式模板与通知均无文字规定，未设检查。", source: "格式模板、继续教育学院通知"}

@@ -1,0 +1,174 @@
+meta:
+  id: zhejiang-zjou-grad
+  title: 浙江海洋大学硕士研究生学位论文（学术型 / 专业学位）
+  version: "2010"
+  source: https://yjs.zjou.edu.cn/info/1073/1207.htm
+  org: 浙江海洋大学
+  kind: university
+  category: 硕士
+  verified: true
+
+# 依据：《硕士研究生论文撰写与印制规范（试行）》（浙江海洋大学研究生院，2010 年 1 月），下称“规范”。
+# 学术型与专业学位两份模版的格式规定相同，合用一个规则包。
+
+page:
+  source: "规范2.2：研究生学位论文一律用A4纸双面打印，页边距分别为：左3cm，上3cm；右2.5 cm，下2.5 cm"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.5, left: 3.0, right: 2.5}
+
+page_numbers:
+  source: "规范2.5.3：论文除内外封外，均应居中编排页码；正文部分从第一章开始采用阿拉伯数字编页码；3.1 数字、英文字母均采用Times New Roman体"
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+
+headers:
+  source: "规范3.3：学位论文除内封外均加页眉，并居中打印，宋体小5号字（奇数页章题序及标题、偶数页论文标题，偶数页内容因人而异未检查）"
+  align: center
+  cn_font: 宋体
+  size: 小五
+
+roles:
+  chapter:
+    source: "规范3.1：各大标题、各章题序及标题名　黑体小2号；规范3.2：全文行距1.25倍，章节段的标题段前段后各 0.5 行；数字、英文字母均采用Times New Roman体"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    line: {rule: auto, value: 1.25}
+    before_lines: 0.5
+    after_lines: 0.5
+  section_1:
+    source: "规范3.1：各节的一级题序及标题名　黑体小3号；3.2 全文行距1.25倍，章节段的标题段前段后各 0.5 行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    line: {rule: auto, value: 1.25}
+    before_lines: 0.5
+    after_lines: 0.5
+  section_2:
+    source: "规范3.1：各节的二级题序及标题名　黑体4号；3.2 全文行距1.25倍，章节段的标题段前段后各 0.5 行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    line: {rule: auto, value: 1.25}
+    before_lines: 0.5
+    after_lines: 0.5
+  section_3:
+    source: "规范3.1：各节的三级题序及标题名　黑体小4号；3.2 全文行距1.25倍，章节段的标题段前段后各 0.5 行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    before_lines: 0.5
+    after_lines: 0.5
+  body:
+    source: "规范3.1：正文用小4号宋体；数字、英文字母用Times New Roman体；3.2 全文行距1.25倍；两端对齐与首行缩进为模板《浙江海洋大学学术型硕士研究生学位论文模版》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: auto, value: 1.25}
+  abstract_title_zh:
+    source: "规范3.5：摘要题头应居中，摘︼︼要（小2号黑体）"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  abstract_title_en:
+    source: "规范1.4：英文摘要与中文摘要的内容和格式必须一致（摘要题头居中，小2号）；3.1 英文字母 Times New Roman"
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+  abstract_body:
+    source: "规范3.5：隔行空两个字的空格书写摘要文字部分；3.1 数字、英文字母均采用Times New Roman体"
+    latin_font: Times New Roman
+    first_line_chars: 2
+  keywords_zh:
+    source: "规范3.5：摘要文字之后隔行顶格（齐版心左边线）书写关键词；关键词：关键词3～5个（小4号黑体）"
+    size: 小四
+    first_line_chars: 0
+  keywords_en:
+    source: "规范1.4：英文摘要与中文摘要的内容和格式必须一致（关键词小4号）；3.1 英文字母 Times New Roman"
+    latin_font: Times New Roman
+    size: 小四
+  toc_title:
+    source: "规范3.6：目录题头应居中，目︼︼录（小2号黑体）"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  toc_chapter:
+    source: "规范3.6：目录中各章题序及标题用小4号黑体"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+  toc_item:
+    source: "规范3.6：目录中各章题序及标题用小4号黑体，其余用小4号宋体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  references_title:
+    source: "规范3.1：各大标题黑体小2号；与模板《浙江海洋大学学术型硕士研究生学位论文模版》“参考文献”标题示例格式一致"
+    cn_font: 黑体
+    size: 小二
+  ack_title:
+    source: "规范3.1：各大标题黑体小2号；与模板《浙江海洋大学学术型硕士研究生学位论文模版》“致谢”标题示例格式一致"
+    cn_font: 黑体
+    size: 小二
+  fig_caption:
+    source: "规范3.1：表号表名、图名图号以及表格中的文字均采用5号字体；2.13 图题置于图下居中编排"
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: "规范3.1：表号表名……均采用5号字体；2.12 表序与表名之间空一格置于表上，居中排列"
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "规范1.4：关键词一般列3～5个；2.3 关键词中间用分号隔开，如：关键词：××；××；××"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "规范2.12：表序按章编排，如第一章第一个插表的序号为“表1-1”；2.13 图号按章编排，如“图1-1”"
+  table_caption:
+    source: "规范2.12：表必须有简短确切的表名，表序与表名之间空一格置于表上，居中排列"
+  figure_caption:
+    source: "规范2.13：每个图均应有图题（由图号和图名组成）……图题置于图下居中编排"
+  table_cell:
+    source: "规范3.1：表号表名、图名图号以及表格中的文字均采用5号字体；数字、英文字母均采用Times New Roman体"
+    latin_font: Times New Roman
+    size: 五号
+  equation_number:
+    source: "规范2.11：公式序号按章编排，如第1章第一个公式序号为“（1-1）”，附录A中的第一个公式为（A-1）；序号标注于该式所在行的最右边"
+  chapter_number:
+    source: "规范3.3：奇数页眉“第？章”（所在章题序及标题，？处用阿拉伯数字）"
+  citations:
+    source: "规范1.8、2.6：论文中引用的文献必须列出，未引用的文献不得出现；参考文献的排列次序按论文中引用的先后排列；文献编号用阿拉伯数字加方括号"
+
+layout:
+  toc:
+    source: "规范3.6：目录采用Word软件中自带的功能自动生成；2.4 目录应包括论文中全部章节的标题及页码"
+  new_page:
+    source: "规范2.5.1：论文正文分章节撰写，每章应另起一页"
+    roles: [chapter]
+
+manual:
+  - {text: "页眉：学位论文除内封外均加页眉，居中打印，宋体小5号字。奇数页眉为“第？章 章标题”（所在章题序及标题，？处用阿拉伯数字），偶数页眉为学位论文标题；页眉标题为两个字时中间空出两个字的空格。", source: "规范3.3"}
+  - {text: "页码格式如“－1－”；中英文“摘要”页、“目录”和“主要符号表”页用罗马字母编页码，正文从第一章开始用阿拉伯数字编页码。", source: "规范2.5.3"}
+  - {text: "章节段的标题段前段后各 0.5 行，连续标题间行距仍为 0.5 行；各层次题序及标题不得置于页面最后一行；字间距为标准字间距，每页一般 36 行、38 列。", source: "规范3.2"}
+  - {text: "正文中“摘要”“目录”“绪论”“结论”“致谢”等两个字标题，中间空出二个字的空格（如“摘︼︼要”）；目录中的两字标题中间不得留空格。", source: "规范3.1"}
+  - {text: "中英文摘要页均不需写出论文题目；关键词采用黑体；摘要正文约 500 字，不宜使用公式、图表，不标注文献编号。", source: "规范1.4、2.3"}
+  - {text: "目录一般至章节段三级标题，最多不超过四级标题；次级节标题比上级节标题缩进两个字符。", source: "规范3.6"}
+  - {text: "各章标题字数一般在 15 字以内，不得使用标点符号；结论单独作为一章排写但不加章号，一般在 1000 字左右；前言部分字数不得少于 4000 字；硕士学位论文正文一般在 3 万字以上。", source: "规范1.7.1、1.7.3、2.5.1、2.1"}
+  - {text: "第一章第一页应设置脚注，填写作者简介及项目来源、项目编号等信息。", source: "规范2.5.1"}
+  - {text: "参考文献不应少于 60 篇，其中 70% 以上为学术论文；外文文献不少于三分之一（文科不少于 10 篇），近五年发表的文献不少于 10 篇。", source: "规范2.14"}
+  - {text: "参考文献序号加方括号顶格书写，不加标点，换行时与作者名第一个字对齐；作者不超过 3 位全部列出，超过 3 位只列前 3 位加“等”；按 GB/T 7714 著录。", source: "规范2.14"}
+  - {text: "文中文献编号用阿拉伯数字加半角方括号，置于所引内容最末句的右上角（上标），如“二次铣削[1，3-5]”；不得将引用文献标示置于各级标题处。", source: "规范2.6"}
+  - {text: "表格不加左、右边线；表名中不允许使用标点符号，表名后不加标点；表格与正文之间留有单行间距；表内同一栏的数字必须上下对齐。", source: "规范2.12"}
+  - {text: "图中有分图时分图号用 a)、b) 等置于分图之下；插图与其图题不得拆开排写于两页；图中各部分说明采用中文或文字符号并置于图题上。", source: "规范2.13"}
+  - {text: "公式应另行居中横排；公式转行只能在 +、-、×、÷、＜、＞ 处；文中引用公式用“式（1-1）”；物理量符号用斜体，计量单位用正体。", source: "规范2.11、2.8、2.9"}
+  - {text: "全日制研究生论文封面采用全校统一格式；中文题目不超过 20 字，不设副标题；论文原创性声明、知识产权权属声明须亲笔签名。", source: "规范1.1、1.3"}

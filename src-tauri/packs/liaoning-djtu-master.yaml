@@ -1,0 +1,353 @@
+# 大连交通大学大连交通大学学术学位硕士学位论文：规范即学校《学术学位硕士学位论文模板》中的批注说明。
+meta:
+  id: liaoning-djtu-master
+  title: 大连交通大学学术学位硕士学位论文
+  version: '2026'
+  source: https://gs.djtu.edu.cn/54.html
+  org: 大连交通大学
+  kind: university
+  category: 硕士
+  verified: true
+page:
+  source: 模板批注（页面）“全文采用A4纸。上边距：2.5cm；下边距：2cm；左边距：2cm；右边距：2cm。页眉边距：1.6cm，页脚边距：1.5cm”
+  paper: A4
+  margins_cm:
+    top: 2.5
+    bottom: 2.0
+    left: 2.0
+    right: 2.0
+  header_distance_cm: 1.6
+  footer_distance_cm: 1.5
+page_numbers:
+  source: 模板批注（页眉页脚）“前置部分从摘要到目录按大写罗马数字连续编码；从正文部分绪论开始重新按阿拉伯数字从1开始连续编排直到文末。页码位于页面底端中部，采用Times New Roman，小五号”
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  restart_at: 1
+headers:
+  source: 模板批注（页眉）“中文字体为宋体，西文字体为Times New Roman，小五号，居中对齐”（页眉内容见 manual）
+  align: center
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 小五
+roles:
+  chapter:
+    source: 模板批注（章标题）“另起一页，中文字体为黑体，西文字体为Times New Roman，小三号，居中对齐，大纲级别1级，无缩进，段后11磅，1.5倍行距”
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    first_line_chars: 0
+    before: 0
+    after: 11
+  section_1:
+    source: 模板批注（二级标题）“黑体，四号，两端对齐，无缩进，段前0.5行，段后0行，1.5倍行距”
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: justify
+    line:
+      rule: auto
+      value: 1.5
+    before_lines: 0.5
+    after: 0
+    first_line_chars: 0
+  section_2:
+    source: 模板批注（三级标题）“黑体，小四号，两端对齐，无缩进，段前0.5行，段后0行，1.5倍行距”
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: auto
+      value: 1.5
+    before_lines: 0.5
+    after: 0
+    first_line_chars: 0
+  body:
+    source: 模板批注（正文）“宋体 / Times New Roman，小四号，两端对齐，首行缩进2字符，段前和段后0行，多倍行距1.25”
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: 模板批注（摘要标题）“黑体，小三号，居中对齐，无缩进，1.5倍行距，摘要两字间空2格”
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    first_line_chars: 0
+    before: 0
+    after: 11
+  abstract_title_en:
+    source: 模板批注（Abstract标题）“Times New Roman，小三号，居中对齐，无缩进，1.5倍行距”
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    first_line_chars: 0
+    before: 0
+    after: 11
+  abstract_body:
+    source: 模板批注（摘要内容）“宋体 / Times New Roman，小四号，两端对齐，首行缩进2字符，段前和段后0行，多倍行距1.25”；（英文摘要）“中文为宋体，西文为Times New Roman，小四号…首行缩进2字符，多倍行距1.25”
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    first_line_chars: 2
+  keywords_zh:
+    source: 模板批注（关键词）“‘关键词：’黑体，小四号。其后关键词…黑体，西文 Times New Roman，小四号，两端对齐，无缩进，段前和段后0行，多倍行距1.25”
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    first_line_chars: 0
+  keywords_en:
+    source: 模板批注（Key Words）“Times New Roman，小四号，加粗，两端对齐，无缩进，段前和段后0行，多倍行距1.25”
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    align: justify
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    first_line_chars: 0
+  toc_title:
+    source: 模板批注（目录标题）“黑体，小三号，居中对齐，无缩进，多倍行距1.25，目录两字间空2格”
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line:
+      rule: auto
+      value: 1.25
+    first_line_chars: 0
+    before: 0
+    after: 11
+  toc_chapter:
+    source: 模板批注（目录项）“宋体 / Times New Roman，小四号，两端对齐，无首行缩进，段前和段后0行，多倍行距1.25”（二、三级目录项左缩进2、4字符不检查）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    first_line_chars: 0
+  toc_item:
+    source: 模板批注（目录项）“宋体 / Times New Roman，小四号，两端对齐，无首行缩进，段前和段后0行，多倍行距1.25”（二、三级目录项左缩进2、4字符不检查）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    first_line_chars: 0
+  references_title:
+    source: 模板批注（参考文献标题）“另起一页，中文字体为黑体，西文字体为Times New Roman，小三号，居中对齐，大纲级别1级，无缩进，段后11磅，1.5倍行距”；“参考文献”四个字每字间隔1个空格
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    first_line_chars: 0
+    before: 0
+    after: 11
+  ref_item:
+    source: 模板批注（参考文献内容）“宋体 / Times New Roman，五号，两端对齐，段前段后0行，多倍行距1.25”；无缩进
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: justify
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    first_line_chars: 0
+  ack_title:
+    source: 模板批注（致谢标题）“另起一页，中文字体为黑体，西文字体为Times New Roman，小三号，居中对齐，大纲级别1级，无缩进，段后11磅，1.5倍行距”；致谢两字中间空2格
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    first_line_chars: 0
+    before: 0
+    after: 11
+  appendix_title:
+    source: 模板批注（附录标题）“另起一页，中文字体为黑体，西文字体为Times New Roman，小三号，居中对齐，大纲级别1级，无缩进，段后11磅，1.5倍行距”
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    first_line_chars: 0
+    before: 0
+    after: 11
+  end_title:
+    source: 模板批注（科研成果标题）“另起一页，中文字体为黑体，西文字体为Times New Roman，小三号，居中对齐，大纲级别1级，无缩进，段后11磅，1.5倍行距”
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    first_line_chars: 0
+    before: 0
+    after: 11
+  fig_caption:
+    source: 模板批注（图题）“宋体 / Times New Roman，五号，居中对齐，首行无缩进，左右缩进0字符，段前和段后0行，多倍行距1.25”；图名位于图片正下方
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    first_line_chars: 0
+  table_caption:
+    source: 模板批注（表题）“宋体 / Times New Roman，五号，居中对齐，首行无缩进，左右缩进0字符，段前和段后0行，多倍行距1.25”；表题位于表格正上方
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    first_line_chars: 0
+  table_source:
+    source: 模板批注（表注或数据来源说明）“宋体 / Times New Roman，五号，两端对齐，首行缩进2字符，段前和段后0行，单倍行距”
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: justify
+    line:
+      rule: auto
+      value: 1.0
+    before: 0
+    after: 0
+    first_line_chars: 2
+checks:
+  abstract_text:
+    source: 模板批注（摘要）“中文摘要字数500-800字左右”
+    zh_min_chars: 500
+    zh_max_chars: 800
+    chars_approx: true
+  keywords:
+    source: 模板批注（关键词）“每一关键词之间中文分号‘；’间隔”“关键词个数一般选取3～5个”；（Key Words）“每一关键词之间用英文分号‘;’间隔”
+    min_count: 3
+    max_count: 5
+    zh_separator: ；
+    en_separator: ;
+  caption_numbering:
+    source: 模板批注（图题、表题）“编号方式以章节编号，如第一章第一个图1.1 图名”
+  figure_caption:
+    source: 模板批注（图题）“图名位于图片正下方”
+  continued_caption:
+    source: 模板批注“如某个表需要转页接排，在随后各页上应重复表的编号，如‘续表2.1 XXXX’，且续表均应重复表头”
+  equation_number:
+    source: 模板批注（公式）“论文公式应分章编号，并将编号置于括号内，如（1.1），括号为中文全角括号，公式编号右端对齐”
+  footnotes:
+    source: 模板批注（脚注）“宋体 / Times New Roman，小五号，左对齐，首行无缩进，段前0行，段后0行，单倍行距。用①②③……样式的数字编排序号，每页重新编号”
+    format:
+      source: 模板批注（脚注）
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小五
+      align: left
+      line:
+        rule: auto
+        value: 1.0
+      before: 0
+      after: 0
+      first_line_chars: 0
+    circled: true
+    restart_each_page: true
+layout:
+  toc:
+    source: 模板批注（目录）“目录项显示到3级”
+  new_page:
+    source: 模板批注：摘要、Abstract、目录、各章、结论、参考文献、附录、科研成果、致谢标题均注明“另起一页”
+    roles:
+    - abstract_title_zh
+    - abstract_title_en
+    - toc_title
+    - chapter
+    - references_title
+    - appendix_title
+    - end_title
+    - ack_title
+  page_start:
+    source: 模板批注（页眉页脚）“从正文部分绪论开始重新按阿拉伯数字（1，2，3……）从1开始连续编排直到文末”
+    body_first: 1
+  table_span:
+    source: 模板批注“如某个表需要转页接排，在随后各页上应重复表的编号，如‘续表2.1 XXXX’，且续表均应重复表头”
+manual:
+- text: 页眉：前置部分（摘要至目录）为“本章标题”；正文起奇数页为“本章标题”，偶数页为“大连交通大学学术学位硕士学位论文”；页眉下方加一条页眉横线，为加粗、细双线（粗线在上，1.5磅）。
+  source: 模板批注（页眉页脚）
+- text: 中文摘要字数500-800字左右；关键词上方空一行；中文题目不超过25个汉字，不设副标题；硕士学位论文一般为3~5万字。
+  source: 模板批注（封面、摘要、正文）
+- text: 章节序号与标题间空一格；“摘要”“目录”“结论”“致谢”两字间空2格，“参考文献”四个字每字间隔1个空格。
+  source: 模板批注（各章标题）
+- text: 二级、三级标题段前0.5行；图与上文空一行、图名与下文空一行；表名与上文空一行、表格与下文空一行；间距以“行”为单位，引擎不能表达，需人工核对。
+  source: 模板批注（标题、图题、表题）
+- text: 图片以嵌入式插入、居中，图名位于图片正下方，图名中不使用标点符号，图名在图号之后空1个空格；表格采用三线表，表格居中，表格内文本一般居中；表序与表名之间空1个空格，表名中不使用标点符号。
+  source: 模板批注（图题、表题）
+- text: 分图以全角括号 a）、b）、c）…… 作图序放在图左上角（博士模板为“（a）”），分图名列在主图名后用冒号引出，分图之间用逗号间隔。
+  source: 模板批注（分图）
+- text: 包含公式的段落行间距可设置为段前和段后6磅，1.5倍行距，以保证公式完全显示。
+  source: 模板批注（公式）
+- text: 引用的参考文献用阿拉伯数字编号标注，前后加中括号，Times New Roman，小五号，上标；参考文献数量不少于30篇，并包含一定数量的外文期刊；编号与内容之间空1格；著录遵循 GB/T 7714。
+  source: 模板批注（参考文献）
+- text: 数值和单位符号之间一般需要空格（如 10 kg），度、分、秒除外；一般变量用斜体，常量与单位用正体。
+  source: 模板批注（结论）
+- text: 封面：分类号、学号、题目、学生姓名等按模板批注格式填写（封面不在检查范围）。
+  source: 模板批注（封面）
+- text: 表题位于表格正上方，中文表题之下另起一行为英文表题（Tab. 1.1 Table name）；因英文表题紧邻表格，引擎“表题在表上方”检查会误报，未启用，请人工确认。
+  source: 模板批注（表题）及模板示例格式
+- text: 《马克思主义理论专业研究生学位论文撰写指导和规范模板》为该专业另行规定，不在本规则包范围内。
+  source: 本目录另一份模板

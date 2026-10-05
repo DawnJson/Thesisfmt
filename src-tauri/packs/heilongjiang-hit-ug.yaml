@@ -1,0 +1,175 @@
+meta:
+  id: heilongjiang-hit-ug
+  title: 哈尔滨工业大学本科生毕业论文
+  version: 2018-04
+  source: https://civil.hit.edu.cn/2018/0417/c8473a204530/page.htm
+  valid_from: 2018-04
+  org: 哈尔滨工业大学
+  kind: university
+  category: 本科
+  verified: true
+page:
+  source: §3.8 论文在打印和印刷时，要求用 A4 标准纸（210mm×297mm）
+  paper: A4
+page_numbers:
+  source: §2.2 页码在版芯下边线之下隔行居中放置；摘要、目录、物理量名称及符号表等文前部分的页码用罗马数字单独编排，正文以后的页码用阿拉伯数字编排
+  body_format: decimal
+  footer_align: center
+headers:
+  source: §3.4 毕业设计（论文）除封面及内封外，各页均应加页眉，居中打印页眉，字号为小 5 号宋体；§3.4 页眉为“哈尔滨工业大学本科毕业设计（论文）”
+  text: 哈尔滨工业大学本科毕业设计（论文）
+  align: center
+  cn_font: 宋体
+  size: 小五
+roles:
+  chapter:
+    source: §3.2 章标题黑体小 2 号字，多倍行距值 1.25，段前 1 行，段后 0.8 行；§3.7 表 1 章序及章名居中排；§3.1 数字、英文为新罗马字体
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.25
+    before_lines: 1
+    after_lines: 0.8
+  section_1:
+    source: §3.2 节标题黑体小 3 号字，多倍行距值 1.25，段前 0.5 行，段后 0.5 行；§3.1 数字、英文为新罗马字体
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    line:
+      rule: auto
+      value: 1.25
+    before_lines: 0.5
+    after_lines: 0.5
+  section_2:
+    source: §3.2 条标题黑体 4 号字，多倍行距值 1.25，段前 0.5 行，段后 0.5 行；§3.1 数字、英文为新罗马字体
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    line:
+      rule: auto
+      value: 1.25
+    before_lines: 0.5
+    after_lines: 0.5
+  section_3:
+    source: §3.2 款、项标题黑体小 4 号字，多倍行距值 1.25，段前 0 行，段后 0 行；§3.1 数字、英文为新罗马字体
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: auto
+      value: 1.25
+    before_lines: 0
+    after_lines: 0
+  body:
+    source: §3.2 正文宋体小 4 号字，多倍行距值 1.25，段前 0 行，段后 0 行；§3.1 论文中所用中文字体（除各级标题外）为宋体，数字、英文为新罗马字体
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: §3.5.1 摘要题头应居中，字样：摘 要（小 2 号黑体，中间空 2 个半角字符）
+    cn_font: 黑体
+    size: 小二
+    align: center
+  keywords_zh:
+    source: §3.5.1 关键词 3～6 个（宋体、新罗马字体小 4 号），“关键词：”标签为黑体小 4 号，故不检查中文字体
+    size: 小四
+  toc_chapter:
+    source: §3.6 目录中各章题序及标题用黑体小 4 号字，数字及符号用新罗马字体
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+  toc_item:
+    source: §3.6 目录中其余用宋体小 4 号字，数字及符号用新罗马字体
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  fig_caption:
+    source: §2.13.1 图题置于图下，只用中文书写，要求用宋体 5 号字；§3.1 数字、英文为新罗马字体
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  table_caption:
+    source: §2.12 表题置于表上，只用中文书写，要求中文用宋体 5 号字；§3.1 数字、英文为新罗马字体
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  abstract_title_en:
+    source: §3.5.2 英文摘要书写格式与中文相同（居中，小 2 号）；§3.1 数字、英文为新罗马字体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+  toc_title:
+    source: §1.3 目录应独立成页（规范未规定目录标题的字体字号）
+checks:
+  keywords:
+    source: §1.2.2 应列取 3～6 个关键词；§3.5.1 各关键词之间用分号，最后一个关键词后不加标点；§3.5.2 英文摘要的关键词用小写，间隔用逗号相连（半角逗号取自同校研究生写作指南 §2.3“英文关键词之间用“,”隔开”）
+    min_count: 3
+    max_count: 6
+    zh_separator: ；
+    en_separator: ','
+  abstract_text:
+    source: §1.2.1 摘要中不宜使用公式、化学结构式、图表和非公知公用的符号和术语，不标注引用文献编号
+    no_figures: true
+  appendix_number:
+    source: §2.15 附录的序号采用“附录1”、“附录2”等
+    style: arabic
+  caption_numbering:
+    source: §2.12 表序一般按章编排，如第 1 章第一个插表的序号为“表 1-1”；§2.13.1 图序按章编排，如“图 1-1”
+  table_caption:
+    source: §2.12 表题置于表上
+  figure_caption:
+    source: §2.13.1 图题置于图下
+  table_cell:
+    source: §2.12 表中文字用宋体、Times New Roman 字体
+    cn_font: 宋体
+    latin_font: Times New Roman
+  equation_number:
+    source: §2.11 公式序号按章编排，如第 1 章第一个公式序号为“(1-1)”
+  chapter_number:
+    source: §3.7 表 1 章：第 1 章，章序及章名居中排，章序用阿拉伯数字
+  figure_citation:
+    source: §2.13.2 插图之前，文中必须有关于本插图的提示，如“见图 1-1”、“如图 1-1 所示”
+  citations:
+    source: §2.6 引文标注遵照 GB/T7714-2005，采用顺序编码制；§1.5 所有被引用文献均要列入参考文献中，必须按顺序标注
+layout:
+  new_page:
+    source: §2.3 中、英文摘要应各占一页；§1.3 目录应独立成页；§2.5.1 论文正文分章节撰写，每章应另起一页
+    roles:
+    - abstract_title_zh
+    - abstract_title_en
+    - toc_title
+    - chapter
+  page_limits:
+  - role: abstract_title_zh
+    max_pages: 1
+    source: §2.3 中、英文摘要应各占一页
+  - role: abstract_title_en
+    max_pages: 1
+    source: §2.3 中、英文摘要应各占一页
+manual:
+- text: 页眉为“哈尔滨工业大学本科毕业设计（论文）”，在版芯上边线加粗、细双线（粗线在上，宽 0.8mm），双线上居中打印，小 5 号宋体；封面及内封不加页眉。
+  source: §3.4 页眉
+- text: 中文摘要字数一般为 300 字左右；英文摘要与中文摘要内容应完全一致；摘要页不需写出论文题目。
+  source: §2.3 摘要
+- text: 目录应包括章、节、条三级标题及其页码（理工类要求编到第 3 级标题）。
+  source: §1.3、§2.4 目录
+- text: 论文主体各章后应有一节“本章小结”（实验方法或材料等章节可不写）；论文题目不应超过 25 字，不得使用标点符号，不设副标题；各章标题字数一般在 15 字以内。
+  source: §1.4.2、§1.1、§2.5.1
+- text: 表格不加左、右边线；转页接排的表以续表形式接排，表右上角注明编号，编号后加“（续表）”，并重复表头。
+  source: §2.12 插表
+- text: 公式原则上另行起并居中书写，公式末不加标点。
+  source: §2.11 公式
+- text: 附录序号采用“附录1”、“附录2”等，外文文献的中文译文作为附录1，外文复印件作为附录2。
+  source: §2.15 附录
+- text: 论文一律单面复印或胶印，封面使用教务处统一印制的封面；书脊标注作者姓名、题目及“本科毕业设计（论文）”字样，用小 4 号黑体。
+  source: §3.3、§3.8、§2.16
+- text: 参考文献理工类一般 10～15 篇（学术期刊类不少于 7 篇，外文文献不少于 3 篇），文科、管理类一般 15～20 篇；近五年文献一般不少于总数的 1/3。
+  source: §1.5 参考文献

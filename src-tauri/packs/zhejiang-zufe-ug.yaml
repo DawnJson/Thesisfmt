@@ -1,0 +1,161 @@
+meta:
+  id: zhejiang-zufe-ug
+  title: 浙江财经大学本科毕业论文（设计）
+  version: "2026"
+  source: https://zjacc.zufe.edu.cn/info/1023/17263.htm
+  org: 浙江财经大学
+  kind: university
+  category: 本科
+  verified: true
+
+# 依据学校统一的《本科毕业论文格式规范》（“学校统一规范-其它专业”，下称“规范”，同时是论文模板）。
+# 各学院另有的写作规范（公共管理、外国语、艺术学院）不在本规则包范围内。
+
+page:
+  source: "规范 1.1：纸型 A4 纸；页边距上 3.5cm，下 2.5cm，左 2.5cm、右 2.5cm；页眉 2.5cm，页脚 2cm，左侧装订"
+  paper: A4
+  margins_cm: {top: 3.5, bottom: 2.5, left: 2.5, right: 2.5}
+  header_distance_cm: 2.5
+  footer_distance_cm: 2.0
+
+page_numbers:
+  source: "规范 1.2：页码标注在每页页脚底部居中位置；中英文摘要、目录等前置部分用罗马数字单独编排页码；正文页码从引言首页开始，用从 1 开始的阿拉伯数字连续编写"
+  body_format: decimal
+  footer_align: center
+  restart_at: 1
+
+roles:
+  chapter:
+    source: "规范 1.4（1）：章标题居中，黑体，三号，段前、段后各 1 行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 1
+    after_lines: 1
+    line: {rule: auto, value: 1.0}
+  section_1:
+    source: "规范 1.4（2）：节标题左对齐，黑体，四号，段前、段后各 1 行，单倍行距"
+    cn_font: 黑体
+    size: 四号
+    align: left
+    before_lines: 1
+    after_lines: 1
+    line: {rule: auto, value: 1.0}
+  section_2:
+    source: "规范 1.4（3）：节中的一级标题左对齐，黑体，小四，段前、段后各 1 行，单倍行距"
+    cn_font: 黑体
+    size: 小四
+    align: left
+    before_lines: 1
+    after_lines: 1
+    line: {rule: auto, value: 1.0}
+  body:
+    source: "规范 1.1、1.5：正文全部宋体、小四；每段首行缩进 2 字符；段前、段后均为 0 行，固定行距 20 磅"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_body:
+    source: "规范“中、英文摘要写作要求及格式”：中文摘要正文（楷体_GB2312）、英文摘要正文（Times New Roman）均为小四，行距固定值 20 磅（“摘要：”“Abstract：”标签字体不同，故只限制字号与行距）"
+    size: 小四
+    line: {rule: exact, value: 20}
+  keywords_zh:
+    source: "规范“中、英文摘要写作要求及格式”：“关键词：”首行缩进 2 字符，黑体，小四；中文关键词楷体_GB2312，小四，行距固定值 20 磅"
+    size: 小四
+    line: {rule: exact, value: 20}
+    first_line_chars: 2
+  keywords_en:
+    source: "规范“中、英文摘要写作要求及格式”：“Key words：”首行缩进 2 字符，Times New Roman，小四，加粗；英文关键词 Times New Roman，小四，行距固定值 20 磅"
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    first_line_chars: 2
+  toc_title:
+    source: "规范“目录”说明：标题“目录”黑体，三号，加粗，居中"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+  toc_chapter:
+    source: "规范“目录”说明：章、节标题和页码宋体，小四；1.5 倍行距"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  toc_item:
+    source: "规范“目录”说明：章、节标题和页码宋体，小四；1.5 倍行距"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  references_title:
+    source: "规范“参考文献”说明：标题“参考文献”选用样式“标题1”（黑体，三号，居中，见 1.4（1）与 4.1）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  appendix_title:
+    source: "规范“附录”说明：标题“附录A 附录内容名称”选用样式“标题1”（黑体，三号，居中，见 1.4（1）与 4.1）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  ref_item:
+    source: "规范“参考文献”说明：参考文献内容首行缩进 2 字符，宋体，小四，段前、段后均为 0 行，行距固定值 20 磅"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  fig_caption:
+    source: "规范 2.1.2：图名位于图下方并居中；中文图名楷体_GB2312，五号，居中，单倍行距"
+    cn_font: 楷体
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.0}
+  table_caption:
+    source: "规范 2.2.2：表名置于表的上方并居中；中文表名楷体_GB2312，五号，居中，单倍行距"
+    cn_font: 楷体
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.0}
+
+checks:
+  keywords:
+    source: "规范“中文摘要”：列出 3－5 个关键词，关键词之间用分号间隔，最后一个关键词末尾不加标点（英文关键词同样用分号间隔）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "规范 1.7：正文中的图、表、附注、公式一律采用阿拉伯数字分章编号，如图 1.2、表 2.3"
+  table_caption:
+    source: "规范 2.2.2：表名置于表的上方并居中"
+  figure_caption:
+    source: "规范 2.1.2：图名位于图下方并居中"
+  table_cell:
+    source: "规范 2.2.2 4：表内文字及格式统一设置为宋体、五号，单倍行距"
+    cn_font: 宋体
+    size: 五号
+    line: {rule: auto, value: 1.0}
+  chapter_number:
+    source: "规范 1.4（1）：章序号为阿拉伯数字"
+  appendix_number:
+    source: "规范“附录”说明：标题“附录A 附录内容名称”；附录中的图、表、公式另行编号，如图 A1、表 B2"
+  citations:
+    source: "规范 3.1、3.3：正文中参考文献的标注一律采用顺序编码制；按正文中引用的文献出现的先后顺序连续编码；文后参考文献表按正文标注的序号依次列出"
+
+layout:
+  toc:
+    source: "规范 4.1：目录自动生成，章、节标题和页码按三级标题编排"
+  page_start:
+    source: "规范 1.2、1.3：从引言开始是正文的起始页，页码从 1 开始编排"
+    body_first: 1
+
+manual:
+  - {text: "页眉：宋体，五号，居中，内容为“浙江财经大学本科生毕业论文（或毕业设计）”。", source: "规范 1.2"}
+  - {text: "中、英文摘要：中文标题黑体三号居中（副标题楷体_GB2312 四号居中，主标题不超过 20 个汉字）；摘要字数 200 字左右；英文主标题 Times New Roman 四号加粗居中；中英文摘要打印在同一页，中文在前、英文在后，内容应严格一致。", source: "规范“中、英文摘要写作要求及格式”、5"}
+  - {text: "章、节序号的后面空一个字；各章之间留 1 行的间隔；目录标题不超过三级。", source: "规范 1.6、“目录”说明、章节标题说明"}
+  - {text: "图居中，与上文留一空行，图名与下文空一行，图及其名称放在同一页；图的版式为“上下型”，不得“浮于文字之上”；表格居中，表及其名称放在同一页，表头各栏文字居中，数字右对齐；表一旦超限要加续表。", source: "规范 2.1.2、2.2.2"}
+  - {text: "公式整行右对齐并使公式部分居中显示，公式序号按章编号并在行末列出，如（2.1）。", source: "规范 2.3.2"}
+  - {text: "参考文献数量不少于 12 篇，并且包含 2 篇外文期刊；著录格式采用 GB/T 7714-2005；附录中的图、表、附注、参考文献、公式另行编号，如图 A1、表 B2、文献 [A3]。", source: "规范“参考文献”说明、1.7、3"}
+  - {text: "装订顺序：封面、声明及论文使用的授权、中英文摘要、目录、正文（含引言）、参考文献、附录（可选）、指导教师与答辩小组评阅单；单面打印。", source: "规范 5、1.1"}

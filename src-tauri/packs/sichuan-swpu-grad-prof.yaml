@@ -1,0 +1,163 @@
+meta:
+  id: sichuan-swpu-grad-prof
+  title: 西南石油大学专业学位硕士学位论文
+  version: "2022"
+  source: http://www.swpu.edu.cn/gs/info/1087/1276.htm
+  org: 西南石油大学
+  kind: university
+  category: 研究生（专业学位硕士）
+  verified: true
+
+# 依据《西南石油大学专业学位硕士学位论文撰写规范（试行）》（以下简称“撰写规范”）及其附件三《论文模板》。
+# 该校学术型硕士、博士、在职工程硕士的“封面及要求”文件只有封面内容，没有正文格式规定，故只建专业学位硕士一个规则包。
+
+page:
+  source: "撰写规范二、2：用A4标准大小的白纸打印，上方、下方、左侧和右侧均空边25mm；页眉页脚距取自附件三模板示例格式（规范未作文字规定）"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 2.5, right: 2.5}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "撰写规范二、2：页码放在页下端居中；摘要、目录等正文前部分的页码用罗马数字单独编排，正文以后用阿拉伯数字（罗马数字取大写取自附件三模板示例格式，规范未规定大小写）"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+
+roles:
+  chapter:
+    source: "撰写规范三、2：各章题序及标题小2号黑体；三、6 层次表：章居中排，章编号用阿拉伯数字；二、2：行距1.25倍"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.25}
+  section_1:
+    source: "撰写规范三、2：各节的一级题序及标题小3号黑体；三、6 层次表：节顶格；二、2：行距1.25倍"
+    cn_font: 黑体
+    size: 小三
+    line: {rule: auto, value: 1.25}
+    first_line_chars: 0
+  section_2:
+    source: "撰写规范三、2：各节的二级题序及标题4号黑体；三、6 层次表：节顶格；二、2：行距1.25倍"
+    cn_font: 黑体
+    size: 四号
+    line: {rule: auto, value: 1.25}
+    first_line_chars: 0
+  section_3:
+    source: "撰写规范三、2：各节的三级题序及标题小4号黑体；三、6 层次表：条顶格；二、2：行距1.25倍"
+    cn_font: 黑体
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    first_line_chars: 0
+  body:
+    source: "撰写规范三、1、2：论文所用字体要求为宋体，正文用小4号宋体；二、2：行距1.25倍，段前、段后均为0行；首行缩进2字符、两端对齐取自附件三模板示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "撰写规范三、4：摘要题头应居中，“摘  要”小2号黑体；二、2：行距1.25倍"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.25}
+  abstract_title_en:
+    source: "附件三模板《Abstract》标题示例格式（规范未作文字规定）：Times New Roman 小二号居中"
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+  abstract_body:
+    source: "附件三模板示例格式（规范未作文字规定）：摘要正文宋体小四；二、2：行距1.25倍"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: auto, value: 1.25}
+  keywords_zh:
+    source: "撰写规范三、4：“关键词”小4号黑体，摘要文字之后隔一行顶格写出；关键词内容字体未规定，故只限制字号与缩进"
+    size: 小四
+    first_line_chars: 0
+  toc_title:
+    source: "附件三模板“目  录”标题示例格式（规范未作文字规定）：黑体小三居中"
+    cn_font: 黑体
+    size: 小三
+    align: center
+  toc_chapter:
+    source: "撰写规范三、5：目录中各章题序及标题用小4号黑体"
+    cn_font: 黑体
+    size: 小四
+  toc_item:
+    source: "撰写规范三、5：目录中其余用小4号宋体"
+    cn_font: 宋体
+    size: 小四
+  references_title:
+    source: "附件三模板“参考文献”标题示例格式（规范未作文字规定）：黑体小二居中，与章标题相同"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  ack_title:
+    source: "附件三模板“致  谢”标题示例格式（规范未作文字规定）：黑体小二居中，与章标题相同"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  fig_caption:
+    source: "撰写规范三、2：图的说明文字用5号宋体；二、13.2：图题置于图下，用中文居中书写"
+    cn_font: 宋体
+    size: 五号
+    align: center
+  table_caption:
+    source: "撰写规范三、2：表的说明文字用5号宋体；二、12：表序与表名置于表上，用中文居中排写"
+    cn_font: 宋体
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "撰写规范一、4.2：关键词一般3～5个"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  abstract_text:
+    source: "撰写规范一、4.1：摘要中不要出现公式、图、表等插图材料"
+    no_figures: true
+  caption_numbering:
+    source: "撰写规范二、12、13.2：表序、图号按章编排，如“表1-1”“图1-1”"
+  table_caption:
+    source: "撰写规范二、12：表序与表名置于表上"
+  figure_caption:
+    source: "撰写规范二、13.2：图题置于图下"
+  table_cell:
+    source: "撰写规范三、2：表内文字5号宋体"
+    cn_font: 宋体
+    size: 五号
+  equation_number:
+    source: "撰写规范二、11：公式序号按章编排，如（1-1），附录A中的第一个公式为（A-1）；三、7：公式序号的右侧符号与右边线顶边排写"
+  chapter_number:
+    source: "撰写规范三、6 层次表：章“第□章”，章编号用阿拉伯数字"
+  appendix_number:
+    source: "撰写规范二、16 附录：序号采用“附录1”“附录2”等（二、11 公式示例写“附录A”，与此处不一致，以专门条文为准）"
+    style: arabic
+  citations:
+    source: "撰写规范一、7：参考文献应按文中引用出现的顺序列出；二、6：所引文献编号用阿拉伯数字置于方括号中"
+
+layout:
+  toc:
+    source: "撰写规范二、4：目录应包括论文中全部章节的标题及页码"
+  new_page:
+    source: "撰写规范二、5.1：论文正文分章节撰写，每章应另起一页"
+    roles: [chapter]
+
+manual:
+  - {text: "页眉：正文各页均加页眉，不加页脚；奇数页为“西南石油大学□研究生学位论文”（□为“博士”“硕士”或“工程硕士”），偶数页为学位论文题目名称，五号宋体；除此以外不得采用任何其它形式内容；页码置于页下端居中。", source: "撰写规范三、3（奇偶页页眉不同，引擎无法检查）"}
+  - {text: "关键词格式：摘要文字之后隔一行顶格写出，“关键词”空一格，小4号黑体，3～5个；规范分隔符前后不一致（一、4.2 为“，”，三、4 示例为“；”），故未检查分隔符。", source: "撰写规范一、4.2、三、4"}
+  - {text: "目录编到第3级标题（□.□.□），含致谢、参考文献、附录（可选）、攻读学位期间发表论文（可选）、索引（可选）。", source: "撰写规范二、4"}
+  - {text: "各章标题字数一般在15字以内，不得使用标点符号；中文题目不超过25字；论文字数一般不少于3万字；中文摘要一般500字为宜；摘要页不需写出论文题目。", source: "撰写规范一、1、4.1，二、1、3、5.1"}
+  - {text: "取消网格对齐选项；各层次题序及标题不得置于页面的最后一行（孤行）。", source: "撰写规范二、2，三、6"}
+  - {text: "引用文献标示置于所引内容最末句的右上角，用小五号字体，不得置于各级标题处；文中直接说明时序号用4号字与正文排齐，如“由文献[8，10～14]可知”。", source: "撰写规范二、6"}
+  - {text: "表格不加左、右边线；表序与表名之间空一格，表名中不允许使用标点符号，表名后不加标点；全表同一单位时将单位符号移至表头右上角并加圆括号。", source: "撰写规范二、12"}
+  - {text: "插图与其图题为一个整体，不得拆开排写于两页；图号按章编排，图名在图号之后空一格；有图注或其他说明时应置于图题之上。", source: "撰写规范二、13.2、13.3"}
+  - {text: "公式原则上居中书写，公式末不加标点；公式较长时最好在“=”处转行，否则在 +、-、×、÷ 处转行。", source: "撰写规范二、11，三、7"}
+  - {text: "参考文献按 GB 7714 著录，硕士研究生查阅文献不低于50篇、工程硕士不低于30篇，外文参考文献不少于参考文献总数的三分之一。", source: "撰写规范二、14、16"}
+  - {text: "论文前置部分（授权书、原创性声明、摘要、目录等）单面印刷，其他部分双面印刷装订成册；致谢编排在参考文献之前。", source: "撰写规范一、6，三、8"}

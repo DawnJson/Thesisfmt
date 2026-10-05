@@ -1,0 +1,151 @@
+meta:
+  id: liaoning-dlou-grad
+  title: 大连海洋大学研究生学位论文（学术学位/专业学位）
+  version: "2023-05"
+  source: https://master.dlou.edu.cn/9075/list.htm
+  org: 大连海洋大学
+  kind: university
+  category: 研究生
+  verified: true
+
+# 依据：《大连海洋大学学术学位研究生学位论文撰写规范》《大连海洋大学专业学位研究生学位论文撰写规范》（下称「规范」）。
+# 两份规范第三章、第四章的格式条文逐字相同（仅封面颜色、封面栏目不同），故合为一个规则包；学校未提供独立的 Word 模板，所有规则均来自规范条文。
+page:
+  source: "规范第二十一条：硕士论文用A4纸排版；页边距的设置为：上边距2.5cm，下边距2 cm，左边距（内侧）2.5cm，右边距（外侧）2cm"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.0, left: 2.5, right: 2.0}
+
+page_numbers:
+  source: "规范第二十一条：在页脚居中放置论文页码；摘要、目录、物理量名称及符号表等正文前部分的页码用罗马数字单独编排，正文以后的页码用阿拉伯数字编排"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+
+# 奇数页页眉为本章标题，偶数页页眉为论文题目，不能写 content，见 manual。
+headers:
+  source: "规范第二十二条：页眉小5号宋体；第二十一条：在奇数页、偶数页页眉居中打印"
+  align: center
+  cn_font: 宋体
+  size: 小五
+
+roles:
+  chapter:
+    source: "规范第二十二条：一级标题小2号黑体；第六条（一）：一级标题居中对齐"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  section_1:
+    source: "规范第二十二条：二级标题小3号黑体；第六条（一）：其余编号应左起顶格书写"
+    cn_font: 黑体
+    size: 小三
+    align: left
+  section_2:
+    source: "规范第二十二条：三级标题4号黑体；第六条（一）：其余编号应左起顶格书写"
+    cn_font: 黑体
+    size: 四号
+    align: left
+  section_3:
+    source: "规范第二十二条：四级标题小4号黑体；第六条（一）：其余编号应左起顶格书写"
+    cn_font: 黑体
+    size: 小四
+    align: left
+  body:
+    source: "规范第二十二条：正文5号或小4号宋体（字号二选一，故不查字号）；第二十一条：学位论文行间距为多倍行距1.25"
+    cn_font: 宋体
+    line: {rule: auto, value: 1.25}
+  abstract_title_zh:
+    source: "规范第二十四条：摘   要（小2号黑体），中英文摘要题头应居中"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  abstract_title_en:
+    source: "规范第二十四条：Abstract（小2号Times New Roman字体），中英文摘要题头应居中"
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+  abstract_body:
+    source: "规范第二十四条：摘要的文字部分小4号宋体；Abstract Content小4号Times New Roman字体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  keywords_zh:
+    source: "规范第二十四条：关键词小4号（“关键词”三字小4号黑体，关键词内容宋体小4号字；两部分字体不同，仅检查字号）"
+    size: 小四
+  keywords_en:
+    source: "规范第二十四条：Key Words及其内容均为小4号Times New Roman字体（“Key Words”加粗）"
+    latin_font: Times New Roman
+    size: 小四
+  toc_chapter:
+    source: "规范第二十五条：目录中一级标题用小4号黑体"
+    cn_font: 黑体
+    size: 小四
+  toc_item:
+    source: "规范第二十五条：目录中其余用小4号宋体"
+    cn_font: 宋体
+    size: 小四
+  references_title:
+    source: "规范第二十二条：参考文献标题小4号黑体，居中"
+    cn_font: 黑体
+    size: 小四
+    align: center
+  ref_item:
+    source: "规范第二十二条：参考文献编写项目内容5号宋体，英语采用Times New Roman字体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  fig_caption:
+    source: "规范第二十二条：表格图片说明5号黑体；第十四条（二）：图题置于图下，居中书写，要求用5号字"
+    cn_font: 黑体
+    size: 五号
+    align: center
+  table_caption:
+    source: "规范第二十二条：表格图片说明5号黑体；第十三条：表题置于表上，居中排写，要求用5号字"
+    cn_font: 黑体
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "规范第四条：关键词3～5个；第二十四条：关键词：词；词；…；词，Key Words：Word；Word…；Word（示例均用“；”）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: "；"
+  abstract_text:
+    source: "规范第四条：摘要的字数（以汉字计），硕士学位论文一般为500～1000字；第二条（二）：摘要中不宜使用公式、图表"
+    zh_min_chars: 500
+    zh_max_chars: 1000
+    chars_approx: true
+    no_figures: true
+  appendix_number:
+    source: "规范第十八条：附录序号采用“附录1”“附录2”等"
+    style: arabic
+  caption_numbering:
+    source: "规范第十三条：表序一般按部分编排，如“表3-1”；第十四条（二）：图号按部分编排，如“图3-1”"
+  table_caption:
+    source: "规范第十三条：表题置于表上"
+  figure_caption:
+    source: "规范第十四条（二）：图题置于图下"
+  figure_citation:
+    source: "规范第十四条（三）：插图之前，文中必须有关于本插图的提示，如“见图1-1”、“如图1-1所示”"
+  chapter_number:
+    source: "规范第六条（一）：正文中标题层次一律采用阿拉伯数字分级连续编号，例如：一级标题1；二级标题1.1"
+  citations:
+    source: "规范第二条（六）：参考文献应按照论文中引用出现的顺序列出，并加以序号；第十五条：序号应按在正文中引用的先后顺序排列，序号用阿拉伯数字置于方括号中"
+
+layout:
+  toc:
+    source: "规范第二条（三）：目录应将论文的章节标题依次排列，标明其首页页码；第五条：目录应包括论文中全部三级标题及其页号"
+  new_page:
+    source: "规范第三条：扉页及摘要的英文部分另起一页"
+    roles: [abstract_title_en]
+
+manual:
+  - {text: "页眉：奇数页页眉居中打印本章标题，偶数页页眉居中打印论文题目；各页均加页眉和页脚。", source: "规范第三条、第二十一条、附件3"}
+  - {text: "表格不加左、右边线，表头为三线表、不用斜线；表序与表名之间空一格，表名中不允许使用标点符号，表名后不加标点；表题用中、英文两种文字居中排写，中文在上。", source: "规范第十三条"}
+  - {text: "图题用中、英文两种文字居中书写，中文在上；图号与图名之间空一格；图题上方为图注或其他说明；插图与其图题不得拆开排写于两页。", source: "规范第十四条（二）、（三）"}
+  - {text: "公式原则上居中书写，公式末不加标点；公式序号右侧与右边线顶边排写；公式较长时在等号“＝”处转行。", source: "规范第十二条、第二十七条"}
+  - {text: "标题字数一般在15字以内，不得使用标点符号；编号后空一个字的位置再写标题；各层次题序及标题不得置于页面的最后一行。", source: "规范第六条（一）、第二十六条"}
+  - {text: "文献引用标示置于所引用内容最末句的右上角，用小5号字体，编号用阿拉伯数字置于方括号中，如“……成果[1]”；参考文献序号顶格书写，其后空一格写作者名。", source: "规范第七条、第十五条"}
+  - {text: "英文摘要与中文摘要内容应完全一致，时态为一般过去时，第三人称。", source: "规范第四条"}
+  - {text: "中文题目应不超过25字，并且不设副标题。", source: "规范第二条（一）"}

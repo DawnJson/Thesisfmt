@@ -1,0 +1,118 @@
+# 金陵科技学院本科毕业论文（设计）：以教务处“系列样表（学生用）”中的《本科生毕业论文（设计）模板》为准，
+# 模板内的格式说明文字（如“一级标题用三号黑体居中”）即学校规定；说明未涉及处取模板示例格式。
+meta:
+  id: jiangsu-b-jit-ug-stu
+  title: 金陵科技学院本科生毕业论文（设计）
+  version: "2025"
+  source: https://jwc.jit.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1540048987&wbfileid=305B30CC1605B63E3FAC0A3E06F93297
+  org: 金陵科技学院
+  kind: university
+  category: 本科
+  verified: true
+
+page:
+  source: "模板《金陵科技学院本科生毕业论文（设计）模板》示例格式（模板说明未作文字规定）"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.0, left: 2.5, right: 2.0}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+roles:
+  chapter:
+    source: "模板说明“一级标题用三号黑体居中”"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  section_1:
+    source: "模板说明“二级标题用小三号黑体居左”"
+    cn_font: 黑体
+    size: 小三
+    align: left
+  section_2:
+    source: "模板说明“三级标题用四号黑体居左”"
+    cn_font: 黑体
+    size: 四号
+    align: left
+  body:
+    source: "模板说明“正文中的英文用Times New Roman 12号字，中文用小四号宋体；行距20磅；首行缩进”（首行缩进2字符取自模板示例格式）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "模板说明“‘摘要’之间空一格，居中三号黑体”"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  abstract_title_en:
+    source: "模板说明“Abstract 三号Times New Roman（加粗）居中”"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+  abstract_body:
+    source: "模板说明“摘要内容：小四号楷体，1.5倍行距”；“英文摘要内容：小四号Times New Roman，1.5倍行距”"
+    cn_font: 楷体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  toc_title:
+    source: "模板说明“‘目录’两字中间空一格，居中三号黑体”"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  toc_chapter:
+    source: "模板说明“目录内容用四号宋体，行距24磅，目录标注页码”"
+    cn_font: 宋体
+    size: 四号
+    line: {rule: exact, value: 24}
+  toc_item:
+    source: "模板说明“目录内容用四号宋体，行距24磅，目录标注页码”"
+    cn_font: 宋体
+    size: 四号
+    line: {rule: exact, value: 24}
+  references_title:
+    source: "模板《参考文献》标题示例格式（模板说明未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  ack_title:
+    source: "模板《致谢》标题示例格式（模板说明未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  appendix_title:
+    source: "模板《附录》标题示例格式（模板说明未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  fig_caption:
+    source: "模板说明“小五号黑体居中，位于图下”"
+    cn_font: 黑体
+    size: 小五
+    align: center
+  table_caption:
+    source: "模板说明“小五号黑体居中，位于图上”（表题）"
+    cn_font: 黑体
+    size: 小五
+    align: center
+
+checks:
+  keywords:
+    source: "模板示例：中文关键词用“；”分隔、英文关键词用“;”分隔（模板说明未作文字规定）"
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "模板示例：图 2.1、表 2.1 按章编号（模板说明未作文字规定）"
+  table_caption:
+    source: "模板说明“位于图上”（表题）"
+  figure_caption:
+    source: "模板说明“位于图下”（图题）"
+
+manual:
+  - {text: "页眉页脚均为小五号宋体，页眉需分章显示（各章页眉内容为该章标题）。", source: "模板页眉页脚说明“小五号宋体”“页眉需分章显示”"}
+  - {text: "论文题目用小二号黑体居中，与“摘要”空一行；英文题目用小二号 Times New Roman 加粗居中。", source: "模板说明（题目）"}
+  - {text: "关键词：“关键词”三字顶格、四号黑体，关键词内容小四号楷体；英文“Key words”四号 Times New Roman 顶格，内容小四号 Times New Roman。", source: "模板说明（关键词）"}
+  - {text: "学生可根据论文实际情况设置章节数，不必拘泥于五章。", source: "模板说明（结论）"}
+  - {text: "在引用别人的科研成果时，应在引用处加以说明，避免论文抄袭。", source: "模板参考文献注"}

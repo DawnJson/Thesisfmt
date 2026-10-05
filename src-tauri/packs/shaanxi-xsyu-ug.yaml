@@ -1,0 +1,251 @@
+meta:
+  id: shaanxi-xsyu-ug
+  title: 西安石油大学本科毕业设计（论文）
+  version: "2023"
+  source: http://jwch.xsyu.edu.cn/info/1048/3914.htm
+  valid_from: "2023"
+  org: 西安石油大学
+  kind: university
+  category: 本科
+  verified: true
+
+# 依据《西安石油大学本科毕业设计（论文）撰写规范（2023版）》及《毕业设计（论文）模板（2024版）》内的书写格式说明。
+page:
+  source: "撰写规范 三、1 页面规格：页边距为上2.5cm，下2.5cm，左3.0cm、右2.5cm；页眉1.5cm，页脚1.5cm；纸型 A4（二、统一用A4幅面）"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 3.0, right: 2.5}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.5
+
+headers:
+  source: "撰写规范 三、1 页眉：页眉文字为五号字，摘要页为“摘要”或“Abstract”字样、目录页为“目录”字样，正文及后续内容奇数页为“章节标题”、偶数页为“西安石油大学本科毕业设计（论文）”；模板 2.2：页眉宋体，五号，居中"
+  align: center
+  cn_font: 宋体
+  size: 五号
+  content: chapter_title
+
+roles:
+  chapter:
+    source: "撰写规范 三、2（5）一级标题：章标题，小三号粗体，居中，段前设置为1行，段后设置为2行；二、2 中文宋体、多倍行距 1.25"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 2
+    line: {rule: auto, value: 1.25}
+  section_1:
+    source: "撰写规范 三、2（5）二级标题：节标题，四号粗体，顶格左对齐，段前段后均设置为0.5行；多倍行距 1.25"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    align: left
+    before_lines: 0.5
+    after_lines: 0.5
+    line: {rule: auto, value: 1.25}
+  section_2:
+    source: "撰写规范 三、2（5）三级标题：小四号粗体，顶格左对齐，段前段后均设置为0.5行；多倍行距 1.25"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    align: left
+    before_lines: 0.5
+    after_lines: 0.5
+    line: {rule: auto, value: 1.25}
+  section_3:
+    source: "撰写规范 三、2（5）四级标题：小四号字，顶格左对齐，段前段后均设置为0.5行；多倍行距 1.25"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    before_lines: 0.5
+    after_lines: 0.5
+    line: {rule: auto, value: 1.25}
+  body:
+    source: "撰写规范 三、2（5）正文段落采用首行缩进两个中文字符对齐，小四号字；二、2 行距 1.25；模板 2.3 段前、段后均为 0 行；两端对齐为模板示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "撰写规范 三、2（2）“摘要”字样小三号粗体、居中，段前设置为1行，段后设置为2行；多倍行距 1.25"
+    cn_font: 宋体
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 2
+    line: {rule: auto, value: 1.25}
+  abstract_title_en:
+    source: "撰写规范 三、2（3）“ABSTRACT”字样小三号粗体、居中，段前设置为1行，段后设置为2行；模板：字体 Times New Roman"
+    latin_font: Times New Roman
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 2
+    line: {rule: auto, value: 1.25}
+  abstract_body:
+    source: "撰写规范 三、2（2）（3）摘要正文首行缩进两个字符，小四号字，段前段后均设置为 0 行；英文为 Times New Roman（模板 英文摘要说明）；行距 1.25"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  keywords_zh:
+    source: "撰写规范 三、2（2）关键词采用左顶格对齐，小四号字，段前段后均设置为 0 行；行距 1.25"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+  keywords_en:
+    source: "撰写规范 三、2（3）英文关键词采用左顶格对齐，小四号字，段前段后均设置为 0 行；模板：字体 Times New Roman"
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+  toc_title:
+    source: "撰写规范 三、2（4）“目录”字样为小三号字，加粗、居中，段前设置为1行，段后设置为2行；多倍行距 1.25"
+    cn_font: 宋体
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 2
+    line: {rule: auto, value: 1.25}
+  toc_chapter:
+    source: "撰写规范 三、2（4）目录内容为小四号字；多倍行距 1.25"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+  toc_item:
+    source: "撰写规范 三、2（4）目录内容为小四号字；多倍行距 1.25"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+  references_title:
+    source: "撰写规范 三、2（7）“参考文献”字样为小三号粗体，居中，段前设置为1行，段后设置为2行；多倍行距 1.25"
+    cn_font: 宋体
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 2
+    line: {rule: auto, value: 1.25}
+  ref_item:
+    source: "撰写规范 三、2（7）参考文献内容为五号字，左顶格悬挂对齐；模板 3.4.3 4）宋体，多倍行距 1.25，段前段后均为 0"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+  ack_title:
+    source: "撰写规范 三、2（6）“致谢”字样为小三号粗体，居中，段前设置为1行，段后设置为2行；多倍行距 1.25"
+    cn_font: 宋体
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 2
+    line: {rule: auto, value: 1.25}
+  appendix_title:
+    source: "撰写规范 三、2（8）“附录”字样为小三号粗体，居中，段前设置为1行，段后设置为2行；多倍行距 1.25"
+    cn_font: 宋体
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 2
+    line: {rule: auto, value: 1.25}
+  fig_caption:
+    source: "撰写规范 二、8 图序和图题放在图位下方居中处；模板 3.1.2 4）中文图名宋体（数字及西文 Times New Roman），五号加粗，居中"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    align: center
+  table_caption:
+    source: "撰写规范 二、9 表序和表题放在表格上方居中处；模板 3.2.2 4）中文表名宋体（数字和西文 Times New Roman）、粗体，五号，居中"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    align: center
+
+checks:
+  keywords:
+    source: "撰写规范 一、2 关键词一般为 3~5 个；三、2（2）关键词条之间用分号分隔"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "撰写规范 二、8 图序编号以章为单位，连续编号，如图2.1、图3.1；二、9 表序同，如表2.1"
+  table_caption:
+    source: "撰写规范 二、9 表序和表题应放在表格上方居中处"
+  figure_caption:
+    source: "撰写规范 二、8 图序和图题应放在图位下方居中处"
+  table_cell:
+    source: "撰写规范 三、2（5）表的文字内容为五号字，数据栏内容水平和垂直居中；二、2 表格中采用单倍行距；模板 3.2.2 4）段前、段后均为 0"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after: 0
+  chapter_number:
+    source: "撰写规范 二、5 章节层次应采用分级阿拉伯数字编号：“1”、“2.1”、“2.2.1”；模板 2.4 章序号为阿拉伯数字（不要使用汉字一、二等）"
+  citations:
+    source: "撰写规范 一、5 按毕业设计（论文）正文中出现的顺序列出参考文献，序号以第一次出现的位置为准；二、10 参考文献的序号用数字加方括号表示"
+  abstract_text:
+    source: "模板 摘要说明：文中不允许出现图表；撰写规范 一、2 中文摘要一般300~500字左右，英文摘要内容应与中文摘要相对应；关键词 3-5 个，Keywords 与中文“关键词”一致"
+    zh_min_chars: 300
+    zh_max_chars: 500
+    chars_approx: true
+    no_figures: true
+    keywords_match: true
+  footnotes:
+    source: "撰写规范 三、2（5）正文：图和注释文字内容为五号字；二、6 注释可用页末注"
+    format:
+      source: "撰写规范 三、2（5）注释文字内容为五号字"
+      size: 五号
+
+layout:
+  toc:
+    source: "撰写规范 一、3 目录中的标题要与正文中的标题一致；目录中应包括绪论、主体、结论、参考文献、致谢、附录等"
+  new_page:
+    source: "撰写规范 三、2（2）（3）（4）（5）（6）（7）（8）摘要、英文摘要、目录、正文、致谢、参考文献、附录均另起一页；模板 2.4 每章另起一页"
+    roles: [abstract_title_zh, abstract_title_en, toc_title, chapter, references_title, ack_title, appendix_title]
+  page_start:
+    source: "模板 2.2 页码应由绪论（或概述）首页开始，作为第 1 页"
+    body_first: 1
+
+manual:
+  - {text: "论文题目与英文题目段前 0.5 行、段后 1.5 行（以“行”为单位，程序无法检查）。", source: "撰写规范 三、2（2）（3）"}
+  - {text: "页眉：摘要页为“摘要”或“Abstract”字样；目录页为“目录”字样；正文及后续内容偶数页为“西安石油大学本科毕业设计（论文）”（摘要、目录页的偶数页另有规定，故只检查奇数页章标题，偶数页不作自动检查）。", source: "撰写规范 三、1 页眉"}
+  - {text: "页码置于页脚、居中（字体 Times New Roman、五号为模板示例格式）；封面、任务书、摘要不编页码，目录用罗马数字（I、II、……）单独编页码，正文及后续内容用阿拉伯数字。摘要不编页码与程序的前置部分页码检查不符，故不启用页码检查。（模板 2.2 则写明摘要、Abstract、目录用罗马数字编页码，两处不一致，以学院要求为准。）", source: "撰写规范 三、1 页码；模板 2.2"}
+  - {text: "摘要应概括内容、方法、结果和结论，不宜使用公式、图表，不标注引用文献编号；关键词按外延层次排列，外延大的排在前面。", source: "撰写规范 一、2"}
+  - {text: "表的编排建议采用三线表（模板：一般为三线或四线表，表格线为黑色单线型，线粗 0.5 磅）；表格允许下页接写，表题可省略，表头应重复写，并在右上方写“续表××”。", source: "撰写规范 二、9；模板 3.2.2 3）"}
+  - {text: "公式应另起一行居中书写，公式编号用圆括号括起放在公式右边行末，按章连续编号，如（3.1）。", source: "撰写规范 二、7；模板 3.3.2"}
+  - {text: "图应紧跟文字表述处，图序后空两格书写图题；表序后空两格书写表题；图与表及其名称不得拆开排写于两页。", source: "撰写规范 二、8、9"}
+  - {text: "参考文献序号用方括号加数字，正文中右上角标出；著录格式遵照 GB/T 7714-2015；参考文献左顶格悬挂对齐。", source: "撰写规范 二、10；三、2（7）；模板 3.4.2"}
+  - {text: "章节标题字数一般在 15 字以内，不得使用标点符号；编号后空两格书写标题名称；标题层次一般不应超过四级。", source: "撰写规范 二、5"}
+  - {text: "中文题目一般不超过 25 字；正文一般为 1.5 万字，具体由各院（系）确定。", source: "撰写规范 一、1；模板 2.1.2"}

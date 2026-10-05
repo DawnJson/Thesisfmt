@@ -1,0 +1,199 @@
+# 东南大学本科毕业设计（论文）：《撰写规范（2019年9月修订）》；附件为《参考模板》，其示例说明作为规范补充。
+meta:
+  id: jiangsu-a-seu-ug
+  title: 东南大学本科毕业设计（论文）
+  version: 2025-03
+  source: https://jwc.seu.edu.cn/_upload/article/files/0c/d0/6288e48c4d3d8d247575d9f83a19/ffd1ec8d-e2ea-44b3-8a1f-d6934f0d20f9.pdf
+  org: 东南大学
+  kind: university
+  category: 本科
+  verified: true
+page:
+  source: 《东南大学本科生毕业设计（论文）撰写规范（2019年9月修订）》三1：A4 纸张，四周页边距为 2cm；页眉页脚距见参考模板示例格式（规范未作文字规定）
+  paper: A4
+  margins_cm:
+    top: 2.0
+    bottom: 2.0
+    left: 2.0
+    right: 2.0
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+page_numbers:
+  source: 《撰写规范》二3：摘要、目录部分页码采用大写罗马数字连续编码，正文、参考文献、附录、致谢等部分一律用阿拉伯数字顺序编排页码；《撰写规范》二2(7)：页眉页脚小五号宋体，居中对齐
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_size: 小五
+headers:
+  source: 《撰写规范》二3：页眉从正文部分（第一章）开始，内容为“东南大学本科毕业设计（论文）”；二2(7)：页眉页脚小五号宋体，居中对齐
+  text: 东南大学本科毕业设计（论文）
+  front_none: true
+  align: center
+  cn_font: 宋体
+  size: 小五
+roles:
+  chapter:
+    source: 《撰写规范》二2(4)：各章标题（如，第一章 绪论）：三号黑体加粗居中
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+  section_1:
+    source: 《撰写规范》二2(4)：一级节标题（如，2.1 本文研究内容）：四号黑体居左
+    cn_font: 黑体
+    size: 四号
+    align: left
+  section_2:
+    source: 《撰写规范》二2(4)：二级节标题（如，2.1.1 实验方法）：小四号宋体加粗居左（参考模板正文说明未写“加粗”，以规范为准）
+    cn_font: 宋体
+    size: 小四
+    align: left
+    bold: true
+  body:
+    source: 《撰写规范》二2(1)：正文中文为小四号宋体，英文及数字为小四号 Times New Roman，首行缩进 2 个字符，行间距为 1.5 倍
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line:
+      rule: auto
+      value: 1.5
+  abstract_title_zh:
+    source: 《撰写规范》二2(2)：“摘要”用三号黑体加粗居中
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+  abstract_title_en:
+    source: 参考模板英文摘要说明：ABSTRACT 为三号 Times New Roman 加粗居中
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+  abstract_body:
+    source: 参考模板摘要说明：摘要正文内容用小四号宋体，固定 1.5 倍行距；英文摘要正文为小四号 Times New Roman，固定 1.5 倍行距
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: auto
+      value: 1.5
+  toc_title:
+    source: 《撰写规范》二2(3)：“目录”用三号黑体加粗居中
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+  toc_chapter:
+    source: 《撰写规范》二2(3)：目录中的章标题居左书写
+    align: left
+  references_title:
+    source: 参考模板《参考文献》标题示例格式（规范未作文字规定）：三号黑体加粗居中
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+  ref_item:
+    source: 《撰写规范》二2(8)：参考文献中文为五号宋体，英文及数字为五号 Times New Roman 字体，两端对齐
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: justify
+  ack_title:
+    source: 参考模板致谢说明：“致谢”用三号黑体加粗居中
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+  appendix_title:
+    source: 参考模板《附录A 附录名称》标题示例格式（规范未作文字规定）：三号黑体加粗居中
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+  fig_caption:
+    source: 《撰写规范》二2(5)：图表中文为五号宋体，英文及数字为五号 Times New Roman 字体，居中显示；参考模板：图序图名设置为五号宋体居中
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: 《撰写规范》二2(5)：图表中文为五号宋体，英文及数字为五号 Times New Roman 字体，居中显示
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+checks:
+  keywords:
+    source: 《撰写规范》一3：关键词一般为 3-5 个，之间用逗号分开，最后一个关键词后不加标点；二2(2)：英文关键词之间用半角逗号隔开；中文逗号按参考模板示例用全角“，”
+    min_count: 3
+    max_count: 5
+    zh_separator: ，
+    en_separator: ','
+  abstract_text:
+    source: 《撰写规范》一3：摘要不含图表，不加注释
+    no_figures: true
+  table_caption:
+    source: 《撰写规范》一6(2)：表序和表名位于表格上方
+  figure_caption:
+    source: 《撰写规范》一6(1)：图序与图名位于插图下方
+  table_lines:
+    source: 《撰写规范》一6(2)：表格一律采用三线表；参考模板：表格边框为黑色直线 1 磅
+    top_bottom_pt: 1.0
+    header_pt: 1.0
+  table_cell:
+    source: 参考模板表格说明：表格中文为五号宋体，英文及数字为五号 Times New Roman 字体
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  continued_caption:
+    source: 《撰写规范》一6(2)：续表需在表格右上角表序前加“续”字，如“续表 2.1”，并重复表头
+  appendix_number:
+    source: 《撰写规范》一8：如有多个附录需依顺序用大写字母 A，B，C，……编序号；只有一个附录时也要编序号，即附录 A
+  citations:
+    source: 《撰写规范》一7：参考文献采用顺序编码制，在引文右上角用方括号“[]”标明序号，并在参考文献中列出
+  footnotes:
+    source: 《撰写规范》一6(4)：注释采用页末注，序号①、②、……，以页为单位；二2(6)：注释小五号宋体，两端对齐
+    format:
+      source: 《撰写规范》二2(6)：注释小五号宋体，两端对齐；参考模板：英文及数字为小五号 Times New Roman
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小五
+      align: justify
+    circled: true
+    restart_each_page: true
+layout:
+  table_span:
+    source: 《撰写规范》一6(2)：表格无法在同一页排版时，可以用续表的形式另页书写，续表需在表格右上角表序前加“续”字，并重复表头
+  toc:
+    source: 《撰写规范》一5：目录中的标题要与正文中的标题一致
+  new_page:
+    source: 《撰写规范》一6：正文部分每一章应另起页书写；一7：参考文献要另起一页
+    roles:
+    - chapter
+    - references_title
+manual:
+- text: 论文题目应简明扼要，中文题目一般不超过 20 个汉字，副标题另起一行、用破折号与主标题隔开。
+  source: 《撰写规范》一1
+- text: “摘要”两字之间空 4 个半角空格；中文摘要一般为 400 字左右，内容包括研究目的、方法、过程、成果、结论及主要创新之处。
+  source: 《撰写规范》二2(2)、一3
+- text: 英文摘要应与中文摘要相对应，250 个实词左右，采用第三人称（被动语态），基本时态为一般现在时；英文关键词“KEY WORDS”大写，其后关键词第一个字母大写。
+  source: 《撰写规范》一4、二2(2)
+- text: 目录一般使用三级标题；“目录”两字之间空 4 个半角空格；目录中一级节标题行缩进 2 个字符，二级节标题行缩进 4 个字符。
+  source: 《撰写规范》一5、二2(3)
+- text: 正文一般不少于 15000 字。
+  source: 《撰写规范》一6
+- text: 插图每个均应有图序和图名；图序一般按章节编排（如图 1-1），插图较少时可全文连续编序；表格可逐章编序（表 2.1）或统一编序，采用哪种方式应和插图及公式的编序方式统一；分图用 (a)、(b)、(c) 标出并标出分图名。
+  source: 《撰写规范》一6(1)(2)
+- text: 公式应用公式编辑器编制，注序号并加圆括号，序号一律用阿拉伯数字连续编序（如（28））或逐章编序（如（3.6）），编号方式应与插图、表格方式一致；序号排在版面右侧；长公式原则上在等号（或 +、- 等数学符号）处换行，数学符号在换行的行首。
+  source: 《撰写规范》一6(3)
+- text: 注释只限于写在注释符号出现的同页，不得隔页。
+  source: 《撰写规范》一6(4)
+- text: 参考文献每条著录均以“.”结束；标点符号均为英文标点；参考文献要一律放在正文之后，不得放在各章节之后；著录符合 GB/T 7714-2015。
+  source: 《撰写规范》一7、二2(8)
+- text: 致谢字数一般不超过 1000 个汉字。
+  source: 《撰写规范》一9
+- text: A4 纸张单面打印（页数较多时可双面），装订线位置居左 0.5cm。
+  source: 《撰写规范》三1
+- text: 摘要标题、目录标题、致谢标题两字之间空 4 个半角空格；致谢内容小四号宋体、1.5 倍行距；公式及一般变量用斜体，常用函数、单位符号等用正体。
+  source: 《撰写规范》二2(2)(3)；参考模板致谢、公式说明

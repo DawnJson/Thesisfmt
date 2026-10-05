@@ -1,0 +1,257 @@
+meta:
+  id: beijing-a-pku-phd
+  title: 北京大学博士研究生学位论文
+  version: "2024-02"
+  source: https://grs.pku.edu.cn/docs/2019-05/20190524160158375113.pdf
+  valid_from: "2024-02"
+  org: 北京大学
+  kind: university
+  category: 博士
+  verified: true
+
+# 规范依据：北京大学学位办公室《研究生学位论文写作指南》（2014-05，博士、硕士通用），下称“指南”。
+# 格式模板：《博士研究生学位论文格式模板(2024).docx》（2024-02）。模板与指南不一致处以指南为准。
+
+page:
+  source: "《研究生学位论文写作指南》§1.11 页面设置：纸张大小：标准 A4；页边距：上、下、左、右分别为 3.0cm, 2.5cm, 2.6cm, 2.6cm；页眉距边界 2.0cm，页脚距边界 1.75cm"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.5, left: 2.6, right: 2.6}
+  header_distance_cm: 2.0
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "《研究生学位论文写作指南》§1.11 页脚内容：封面和原创声明不要页码，从“摘要”开始至“目录”结束用罗马数字；从“第一章 引言”开始用阿拉伯数字；页码置于页脚中部，Times New Roman 五号"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 五号
+  restart_at: 1
+  cover_no_number: true
+
+headers:
+  source: "《研究生学位论文写作指南》§1.11 页眉内容：从“摘要”到最后每一页均须有页眉，五号宋体，居中排列，奇偶页不同；奇数页页眉为相应内容的名称、正文中相应各章的名称，偶数页页眉为“北京大学博士学位论文”"
+  content: chapter_title
+  even: {text: "北京大学博士学位论文"}
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "《研究生学位论文写作指南》§1.7.1 标题：章标题采用黑体三号字，居中书写，单倍行距，段前空 24 磅，段后空 18 磅"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  section_1:
+    source: "《研究生学位论文写作指南》§1.7.1 标题：一级节标题采用黑体四号（14pt）字居左书写，行距为固定值 20 磅，段前空 24 磅，段后空 6 磅"
+    cn_font: 黑体
+    size: 14pt
+    align: left
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 6
+  section_2:
+    source: "《研究生学位论文写作指南》§1.7.1 标题：二级节标题采用黑体 13pt 字居左书写，行距为固定值 20 磅，段前空 12 磅，段后空 6 磅"
+    cn_font: 黑体
+    size: 13pt
+    align: left
+    line: {rule: exact, value: 20}
+    before: 12
+    after: 6
+  section_3:
+    source: "《研究生学位论文写作指南》§1.7.1 标题：三级节标题采用黑体小四号（12pt）字居左书写，行距为固定值 20 磅，段前空 12 磅，段后空 6 磅"
+    cn_font: 黑体
+    size: 12pt
+    align: left
+    line: {rule: exact, value: 20}
+    before: 12
+    after: 6
+  body:
+    source: "《研究生学位论文写作指南》§1.7.2 段落文字：小四号（12pt）字，汉字用宋体，英文和阿拉伯数字用 Times New Roman 体，两端对齐书写，段落首行左缩进 2 个汉字符。行距为固定值 20 磅，段前空 0 磅，段后空 0 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "《研究生学位论文写作指南》§1.3 中文摘要：标题为“摘要”，用黑体三号字，居中书写，单倍行距，段前空 24 磅，段后空 18 磅"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  abstract_title_en:
+    source: "《研究生学位论文写作指南》§1.4 英文摘要：“ABSTRACT”用 Arial 小四号字体居中书写，固定行距 20 磅，段前空 8 磅，段后空 6 磅"
+    latin_font: Arial
+    size: 小四
+    align: center
+    line: {rule: exact, value: 20}
+    before: 8
+    after: 6
+  abstract_body:
+    source: "《研究生学位论文写作指南》§1.3、§1.4 摘要：中文摘要内容用小四号宋体字两端对齐书写，行距为固定值 20 磅，段前段后 0 磅；英文摘要内容用小四号 Times New Roman 字体，两端对齐，固定行距 20 磅，段前段后 0 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  toc_chapter:
+    source: "《研究生学位论文写作指南》§1.5 目录：目录中的章标题行采用黑体小四号字，固定行距 20 磅，段前空 6 磅，段后 0 磅；章标题行居左书写"
+    cn_font: 黑体
+    size: 小四
+    align: left
+    line: {rule: exact, value: 20}
+    before: 6
+    after: 0
+  toc_item:
+    source: "《研究生学位论文写作指南》§1.5 目录：其他内容采用宋体小四号字，行距为固定值 20 磅，段前、段后均为 0 磅"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  references_title:
+    source: "《研究生学位论文写作指南》§1.8 参考文献：“参考文献”四个字与章标题格式相同"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  front_title:
+    source: "《研究生学位论文写作指南》§1.6 “主要符号对照表”放目录之后、正文之前，格式上同“章”标题"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  ack_title:
+    source: "《研究生学位论文写作指南》§1.10 致谢：致谢……目录中和章平级；§1.7.1 目录中和章平级的其它标题也用章标题格式"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  ref_item:
+    source: "《研究生学位论文写作指南》§1.8 参考文献：参考文献表的正文部分用五号字，汉字用宋体，英文用 Times New Roman 体，行距采用固定值 16 磅，段前空 3 磅，段后空 0 磅；附录 A.2 采用悬挂格式，悬挂缩进 2 个汉字符"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: exact, value: 16}
+    before: 3
+    after: 0
+    hanging_chars: 2
+  fig_caption:
+    source: "《研究生学位论文写作指南》§1.7.4 图：图序与图名置于图的下方，采用宋体 11pt 字居中书写，段前空 6 磅，段后空 12 磅，行距为单倍行距"
+    cn_font: 宋体
+    size: 11pt
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 12
+  table_caption:
+    source: "《研究生学位论文写作指南》§1.7.4 表：表序与表名置于表的上方，采用宋体 11pt 字居中书写，段前空 12 磅，段后空 6 磅，行距为单倍行距"
+    cn_font: 宋体
+    size: 11pt
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 12
+    after: 6
+  table_source:
+    source: "《研究生学位论文写作指南》§1.7.4 表：若在表下方注明资料来源，则此部分用宋体五号字，单倍行距，段前空 6 磅，段后空 12 磅"
+    cn_font: 宋体
+    size: 五号
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 12
+  equation:
+    source: "《研究生学位论文写作指南》§1.7.4 表达式：采用与正文相同的字号；表达式行的行距为单倍行距，段前段后各空 6 磅"
+    size: 小四
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 6
+
+checks:
+  keywords:
+    source: "《研究生学位论文写作指南》§1.3、§1.4 关键词：应有 3~5 个，每个关键词之间用逗号间隔；英文关键词之间用半角逗号间隔"
+    min_count: 3
+    max_count: 5
+    zh_separator: "，"
+    en_separator: ","
+  caption_numbering:
+    source: "《研究生学位论文写作指南》§1.7.4 有关图表和表达式：图、表和表达式按章编号，前一数字为章的序号，后一数字为本章内的顺序号，如“图 2.1”“表 5.6”"
+  table_caption:
+    source: "《研究生学位论文写作指南》§1.7.4 表：表序与表名置于表的上方"
+  figure_caption:
+    source: "《研究生学位论文写作指南》§1.7.4 图：图序与图名置于图的下方"
+  table_cell:
+    source: "《研究生学位论文写作指南》§1.7.4 表：表单元格中的文字采用 11pt 宋体字，单倍行距，段前空 3 磅，段后空 3 磅"
+    cn_font: 宋体
+    size: 11pt
+    line: {rule: auto, value: 1.0}
+    before: 3
+    after: 3
+  continued_caption:
+    source: "《研究生学位论文写作指南》§1.7.4 表：表格较大不能在一页内打印时，以“续表”的形式另页打印，只需在每页表序前加“续”字，例如“续表 4.1 植被功能类型及编号”"
+  abstract_text:
+    source: "《研究生学位论文写作指南》§1.3、§1.4 摘要：论文摘要不能出现图片、表格或其他插图材料；英文摘要标点符号用英文标点符号；博士中文摘要一般 800-1000 汉字（符）"
+    zh_min_chars: 800
+    zh_max_chars: 1000
+    no_figures: true
+    en_punctuation: true
+  appendix_number:
+    source: "《研究生学位论文写作指南》§1.9 附录：附录依顺序用大写字母 A，B，C，……编序号，如附录 A，附录 B；只有一个附录时也要编序号，即附录 A"
+  footnotes:
+    source: "《研究生学位论文写作指南》§1.7.3 脚注：脚注内容采用宋体小五号字，两端对齐，单倍行距，段前段后均空 0 磅；序号用①②③……，按页编排；脚注段落悬挂缩进 1.5 字符"
+    format:
+      source: "《研究生学位论文写作指南》§1.7.3 脚注：宋体小五号字，两端对齐，单倍行距，段前段后均空 0 磅，悬挂缩进 1.5 字符；外文和数字用 Times New Roman 字体"
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小五
+      align: justify
+      line: {rule: auto, value: 1.0}
+      before: 0
+      after: 0
+      hanging_chars: 1.5
+    circled: true
+    restart_each_page: true
+
+layout:
+  table_span:
+    source: "《研究生学位论文写作指南》§1.7.4 表：表格较大不能在一页内打印时，可以“续表”的形式另页打印，只需在每页表序前加“续”字"
+  new_page:
+    source: "《研究生学位论文写作指南》§1 内容及格式：以上各部分独立为一部分，每部分从新的一页开始（摘要、ABSTRACT、目录、参考文献、附录、致谢等）"
+    roles: [abstract_title_zh, abstract_title_en, toc_title, references_title, appendix_title, ack_title]
+  page_start:
+    source: "《研究生学位论文写作指南》§1.11 页脚内容：摘要起罗马数字“Ⅰ、Ⅱ、Ⅲ……”；从“第一章 引言”开始用阿拉伯数字“1、2、3……”"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "章序号采用中文数字（如“第一章 引言”），章序号与标题之间空一个汉字符；节编号用阿拉伯数字，数字间用半角小数点连接，序号与标题名之间空一个汉字符。", source: "《研究生学位论文写作指南》§1.7.1 标题：章序号采用中文数字"}
+  - {text: "页眉文字之下划一条横线，线粗 0.75 磅，线长与页面齐宽。", source: "《研究生学位论文写作指南》§1.11 页眉内容：格式为页眉的文字内容之下划一条横线，线粗 0.75 磅，线长与页面齐宽"}
+  - {text: "页边距为上 3.0、下 2.5、左右各 2.6 厘米，装订线 0，装订线位置在左，左右对称页边距。", source: "《研究生学位论文写作指南》§1.11 页面设置：装订线位置：左。左右对称页边距"}
+  - {text: "参考文献用“顺序编码制”或“著者-出版年制”二者之一，全文统一，正文标注与文献表著录方法一一对应；顺序编码制时序号放“[]”内并以上标标注，文献表按序号著录。", source: "《研究生学位论文写作指南》§1.8 参考文献、附录 A.4.2：作者可选择采用“顺序编码制”或“著者-出版年制”，但在同一篇论文中要统一"}
+  - {text: "图、表和表达式按章编号，两数字间用半角小数点“.”连接，如“图 2.1”“表 5.6”“式（1.2）”；附录中的图、表、表达式另行编号并冠以附录序号，如“图 A.1”“表 B.2”“式（C-3）”；表达式序号用括号括起置于表达式右边行末，序号与表达式之间不加任何连线。", source: "《研究生学位论文写作指南》§1.7.4、§1.9：表达式序号用括号括起置于表达式右边行末，序号与表达式之间不加任何连线"}
+  - {text: "表达式采用与正文相同的字号居中书写，或另起一段空两个汉字符书写，一旦采用其中一种，全文使用同一种格式；不独立成行时，该段行距为单倍行距，段前段后各空 3 磅。", source: "《研究生学位论文写作指南》§1.7.4 表达式：表达式采用与正文相同的字号居中书写，或另起一段空两个汉字符书写"}
+  - {text: "图应精选，具有自明性，切忌与表及文字表述重复；图中标注文字采用 9~10.5pt；分图以 (a)、(b)、(c)……作为图序并有分图名；图表附注用英文小写字母顺序编号，写在图或表的下方。", source: "《研究生学位论文写作指南》§1.7.4 图：图应精选，具有自明性，切忌与表及文字表述重复"}
+  - {text: "中文摘要内容段落首行空两个汉字符；关键词放摘要页最下方、从新的一行撰写；英文摘要关键词用“KEY WORDS”大写，其后关键词第一个字母大写。", source: "《研究生学位论文写作指南》§1.3、§1.4：关键词放摘要页最下方，从新的一行撰写；“KEY WORDS”大写，其后的关键词第一个字母大写"}
+  - {text: "英文摘要由上到下依次为英文题目（Arial 三号，居中，单倍行距，段前 24 磅，段后 18 磅）、作者姓名和括号内的专业名称及指导教师姓名（Times New Roman 小四，居中，固定行距 20 磅，段前段后 0 磅）、“ABSTRACT”、摘要内容和关键词；英文摘要内容应与中文摘要一致。", source: "《研究生学位论文写作指南》§1.4 英文摘要：英文题目用 Arial 三号字体，居中书写，单倍行距，段前空 24 磅，段后空 18 磅"}
+  - {text: "博士论文摘要应突出创新点。", source: "《研究生学位论文写作指南》§1.3 中文摘要：博士学位论文摘要应突出论文的创新点"}
+  - {text: "封面使用研究生院统一封面；题目采用一号黑体字居中，作者及导师信息用三号仿宋字，完成论文日期用三号宋体汉字（如“二〇一四年六月”）。", source: "《研究生学位论文写作指南》§1.1 封面：题目采用一号黑体字，居中填写；作者及导师信息部分使用三号仿宋字；完成论文日期用三号宋体汉字"}
+  - {text: "脚注序号“①”的字体是“正文”而非“上标”，序号与脚注内容之间空半个汉字符。", source: "《研究生学位论文写作指南》§1.7.3 脚注（页末注）：序号的字体是“正文”，不是“上标”，序号与脚注内容文字之间空半个汉字符"}
+  - {text: "致谢字数不超过 1000 个汉字；原创性声明和使用授权说明为固定格式，从系统下载打印放入，装订版要签字。", source: "《研究生学位论文写作指南》§1.10：字数不超过 1000 个汉字"}
+  - {text: "学位论文一般由封面、版权声明、中文摘要、英文摘要、目录、正文、参考文献、附录、致谢、原创性声明和授权使用说明依次组成；缩略词或符号表放目录之后、正文之前。", source: "《研究生学位论文写作指南》§1 内容及格式：学位论文一般应由 10 个主要部分组成"}

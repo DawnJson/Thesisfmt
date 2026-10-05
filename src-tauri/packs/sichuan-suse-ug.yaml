@@ -1,0 +1,156 @@
+meta:
+  id: sichuan-suse-ug
+  title: 四川轻化工大学经济学院本科毕业论文
+  version: "2023-12"
+  source: https://webadm.suse.edu.cn/_s54/2023/1219/c2633a109895/page.psp
+  org: 四川轻化工大学
+  kind: university
+  category: 本科
+  verified: true
+
+# 《经济学院毕业论文的撰写和装订要求》二：“毕业论文的撰写格式要求：请见论文格式模板”，
+# 故学院通知附件《10.毕业论文参考示例.docx》及其批注即为本院的格式规范。
+# 校级《毕业论文（设计说明书）撰写基本要求(参考)（2018）》为参考件，且写明“各学院可根据实际情况执行本学院的撰写要求”，
+# 其页边距（上3.3 下2.0 左3.0 右2.0）等与学院模板不一致，以学院模板为准。
+
+page:
+  source: "模板《10.毕业论文参考示例.docx》批注“页面设置 上2.54cm 下2.54cm 左3.17cm 右3.17cm”；页眉页脚距、纸张 A4 取自模板示例格式（规范未作文字规定）"
+  paper: A4
+  margins_cm: {top: 2.54, bottom: 2.54, left: 3.17, right: 3.17}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+headers:
+  source: "模板《10.毕业论文参考示例.docx》批注“页眉 宋体 小五号 居中”"
+  align: center
+  cn_font: 宋体
+  size: 小五
+
+roles:
+  chapter:
+    source: "模板批注“一级标题 居中 黑体 三号 加粗”（段前段后各空1行，模板以空行实现，未检查）；行距固定 22 磅取自模板示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: exact, value: 22}
+  section_1:
+    source: "模板批注“二级标题 黑体 四号 … 段前段后0.5行”；行距固定 22 磅取自模板示例格式（规范未作文字规定）"
+    before_lines: 0.5
+    after_lines: 0.5
+    cn_font: 黑体
+    size: 四号
+    line: {rule: exact, value: 22}
+  section_2:
+    source: "模板批注“三级标题 楷体_GB2312 四号 段前空0.5行，缩进2个字”；行距固定 22 磅取自模板示例格式（规范未作文字规定）"
+    before_lines: 0.5
+    cn_font: 楷体
+    size: 四号
+    line: {rule: exact, value: 22}
+    first_line_chars: 2
+  body:
+    source: "模板批注“宋体 小四 行距固定值22磅”；首行缩进 2 字符取自模板示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 22}
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "模板批注“黑体 三号 加粗 段前段后空一行 摘要中间空2个字符”"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+  abstract_title_en:
+    source: "模板批注“Times New Roman 三号 加粗 大写 上下各空一行”"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+  keywords_zh:
+    source: "模板批注“关键词”三字黑体小四加粗、关键词内容宋体小四（同一段落，故只限制字号）"
+    size: 小四
+  keywords_en:
+    source: "模板批注“Key words”Times New Roman 小四加粗，内容 Times New Roman 小四"
+    latin_font: Times New Roman
+    size: 小四
+  toc_title:
+    source: "模板批注“黑体 三号 加粗 上下各空1行 目录二字中间空2个字符”"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+  toc_chapter:
+    source: "模板批注“中文：宋体 小四 行间距22磅 数字：Times New Roman 小四”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 22}
+  toc_item:
+    source: "模板批注“中文：宋体 小四 行间距22磅 数字：Times New Roman 小四”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 22}
+  references_title:
+    source: "模板批注“参考文献：单独一部分，格式同一级标题”（黑体 三号 加粗 居中）"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: exact, value: 22}
+  ref_item:
+    source: "模板批注“宋体 小四 行间距固定22磅”；“标号和中文之间空1个字符，数字和标点符号采用Times New Roman”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 22}
+  ack_title:
+    source: "模板批注“致谢辞：单独一页，黑体 三号 居中 段前段后空1行”"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  fig_caption:
+    source: "模板批注“黑体 五号 … 图格式雷同，采用图3-1，图3-2，放置在图下面，居中”"
+    cn_font: 黑体
+    size: 五号
+    align: center
+  table_caption:
+    source: "模板批注“黑体 五号 … 表3-1，表3-2 放置在表的上面，居中”"
+    cn_font: 黑体
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "《经济学院毕业论文的撰写和装订要求》一（二）：关键词一般3—5个；分隔符取自模板示例“关键词：资产负债表，利润表”“Key words: corporate social responsibility, listed company, …”（规范未作文字规定）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "，"
+    en_separator: ","
+  abstract_text:
+    source: "《经济学院毕业论文的撰写和装订要求》一（二）1：摘要以200—300字为宜；英文摘要与中文摘要对应"
+    zh_min_chars: 200
+    zh_max_chars: 300
+  caption_numbering:
+    source: "模板批注“根据所处的一级标题来编号，依次采用表3-1，表3-2 …… 图3-1，图3-2”"
+  table_caption:
+    source: "模板批注“表3-1，表3-2 放置在表的上面，居中”"
+  figure_caption:
+    source: "模板批注“图3-1，图3-2，放置在图下面，居中”"
+  table_cell:
+    source: "模板批注“表里的文字全部采用 宋体 五号 数字采用Times New Roman 五号”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+
+layout:
+  new_page:
+    source: "模板批注：第2章“单独另起一页，格式同前”；致谢辞“单独一页”"
+    roles: [chapter, ack_title]
+  page_limits:
+    - {role: ack_title, max_pages: 1, source: "《经济学院毕业论文的撰写和装订要求》一（六）：致谢内容限一页"}
+
+manual:
+  - {text: "论文题目一般不宜超过24个字，外文题目一般不宜超过12个实词；中文摘要和中文关键词应在同一页；论文一般不少于8000字或相当信息量（包括图表）。", source: "《经济学院毕业论文的撰写和装订要求》一（一）（二）、二"}
+  - {text: "表格一般采用三线表。", source: "模板批注（表题处）"}
+  - {text: "封面：学校名称“四川轻化工大学毕业论文”黑体小二号不加粗；学生、学号、专业、班级、指导教师黑体三号不加粗；“四川轻化工大学经济学院”及日期黑体三号不加粗；LOGO 大小 2.22cm×2.22cm，水平绝对位置 0cm，垂直绝对位置 1.38cm。", source: "模板封面批注"}
+  - {text: "各级标题、章名中数字与中文间空 1 个字符，“引言”二字中间空 2 个字符；一级标题段前段后各空 1 行；“摘要”“目录”二字中间空 2 个字符，摘要、目录标题、参考文献、致谢辞标题段前段后（上下）各空 1 行（模板以空行实现，未检查）。", source: "模板批注"}
+  - {text: "英文摘要正文 Times New Roman 小四、行距固定值 20 磅；中文摘要正文宋体小四、行距固定 22 磅；英文摘要不宜超过 250 个实词。", source: "模板批注及摘要示例文字"}
+  - {text: "论文装订顺序：封面、中文摘要、英文摘要、目录、正文、参考文献、致谢、附录（附录不是必需项）；文献综述按模板单独装订附后。", source: "《经济学院毕业论文的撰写和装订要求》三"}

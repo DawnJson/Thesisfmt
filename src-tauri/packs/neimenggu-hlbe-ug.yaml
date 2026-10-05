@@ -1,0 +1,171 @@
+meta:
+  id: neimenggu-hlbe-ug
+  title: 呼伦贝尔学院本科生毕业论文（设计）
+  version: "2024-11"
+  source: http://info.hlbrc.cn/info/1109/6629.htm
+  valid_from: "2024-11"
+  org: 呼伦贝尔学院
+  kind: university
+  category: 本科
+  verified: true
+
+# 依据：《呼伦贝尔学院本科生毕业论文（设计）撰写格式规范》（附件 1，下称「规范」）。
+# 规范允许章节层次用“1.，1.1，1.1.1”或“一、（一）、1、（1）”（二级学院自定），故不启用 chapter_number。
+# 规范内部不一致之处（章标题“居左”与层次表“居中”、行距“单倍”与“最小值 22 磅”、版面“3mm”应为 3cm）一律不写入规则，见 manual。
+page:
+  source: "规范三 2：页边距上边距 3cm、下边距 3cm、左边距 2.8cm、右边距 2.8cm；三 9.1（2）：页眉、页脚距边界 2.5cm"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 3.0, left: 2.8, right: 2.8}
+  header_distance_cm: 2.5
+  footer_distance_cm: 2.5
+
+page_numbers:
+  source: "规范三 4：页码在版芯下边线之下居中；原创性声明、摘要、目录等文前部分用罗马数字单独编排，正文以后用阿拉伯数字，Times New Roman 5 号字"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 五号
+
+headers:
+  source: "规范三 5：页眉居中，字号为 5 号宋体；奇数页页眉为本章的题序及标题，偶数页页眉为“呼伦贝尔学院本科毕业论文（设计）”"
+  content: chapter_title
+  even: {text: "呼伦贝尔学院本科毕业论文（设计）"}
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "规范三 2：章标题黑体小二号字，加粗，段前 1 行、段后 0.8 行（对齐方式规范前后不一致，未检查）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    bold: true
+    before_lines: 1
+    after_lines: 0.8
+  section_2:
+    source: "规范三 2：条标题黑体四号字，居左对齐，段前后 0.5 行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    before_lines: 0.5
+    after_lines: 0.5
+  section_3:
+    source: "规范三 2：款标题黑体小四号字，居左对齐"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+  body:
+    source: "规范三 1（2）：中文宋体（各级标题除外）、英文 Times New Roman；三 2：正文宋体小四号字，段落首行缩进 2 字符（行距规范前后不一致，未检查）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "规范三 6.1：摘要题头居中，“摘  要”小 2 号黑体"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  abstract_title_en:
+    source: "规范三 6.2：英文摘要“Abstract”书写格式与中文相同（居中、小 2 号）"
+    size: 小二
+    align: center
+  keywords_zh:
+    source: "规范三 6.1：“关键词”三字黑体小 4 号、关键词内容宋体小 4 号（两部分字体不同，仅检查字号）"
+    size: 小四
+  toc_title:
+    source: "规范三 7：“目录”黑体，小二号字，居中，加粗"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+  toc_chapter:
+    source: "规范三 7：目录中各章题序及标题用黑体小 4 号字，数字及符号用 Times New Roman"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+  toc_item:
+    source: "规范三 7：目录其余用宋体小 4 号字，数字及符号用 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  references_title:
+    source: "规范二 15：参考文献换页，黑体小 2 号居中，段前距、段后距分别为 12 磅"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    before: 12
+    after: 12
+  ref_item:
+    source: "规范二 15：[序号] 著录内容（首行缩进 2 个字符，小 4 号字）；三 1（2）：中文宋体，英文 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+  fig_caption:
+    source: "规范二 14.1：图题置于图下，居中书写，中文用宋体小 4 号字、英文用 Times New Roman 字体小 4 号字"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: center
+  table_caption:
+    source: "规范二 13：表题置于表上，中文用宋体小 4 号字，英文用 Times New Roman 字体小 4 号字"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+
+checks:
+  keywords:
+    source: "规范一（三）2：列出 3-5 个关键词；二（四）：关键词之间用分号隔开，最后一个关键词后不加标点（英文分号取自学院《2026届毕业论文模板》示例）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  abstract_text:
+    source: "规范二（四）：摘要不出现图、表、化学结构式，摘要字数 300～500 字"
+    zh_min_chars: 300
+    zh_max_chars: 500
+    no_figures: true
+  caption_numbering:
+    source: "规范二 13：表序一般按章编排，如“表 1-1”；14.1：图序按章编排，如“图 1-1”"
+  table_caption:
+    source: "规范二 13：表题置于表上"
+  figure_caption:
+    source: "规范二 14.1：图题置于图下，居中书写"
+  figure_citation:
+    source: "规范二 14.2：插图之前，文中必须有关于本插图的提示，如“见图 1-1”、“如图 1-1 所示”"
+  table_cell:
+    source: "规范二 13：表中文字用宋体、Times New Roman 字体（字号小 4 号或 5 号，同一表内统一，故不查字号）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+  equation_number:
+    source: "规范二 12：公式序号按章编排，如第 1 章第 1 个公式的序号为“（1-1）”，序号置于括号内，右端对齐"
+  citations:
+    source: "规范一（七）、二（七）：参考文献按在文中出现的顺序用阿拉伯数字连续编号，引文标注采用顺序编码制"
+
+layout:
+  toc:
+    source: "规范二（五）：目录应包括论文中全部章、节、条三级标题及其页码；一（四）：目录中的标题应与正文中的标题一致"
+  new_page:
+    source: "规范二 6.1：论文正文分章节撰写，每章应另起一页；二 15：参考文献换页"
+    roles: [chapter, references_title]
+  page_limits:
+    - {role: abstract_title_zh, max_pages: 1, source: "规范二（四）：中、英文摘要应各占一页，摘要与关键词应在同一页"}
+    - {role: abstract_title_en, max_pages: 1, source: "规范二（四）：中、英文摘要应各占一页，摘要与关键词应在同一页"}
+
+manual:
+  - {text: "页眉：除封面及原创性声明外各页均加页眉，在版芯上边线加粗、细双线（粗线在上，宽度 1.5 磅），双线上居中打印页眉；参考文献等页的页眉内容以规范为准。", source: "规范三 5"}
+  - {text: "规范内部不一致，须向学院确认：章标题对齐（三 2 居左，三 8 层次表居中）；行距（三 1（3）单倍行距，三 9.1（2）最小值 22 磅）；版面边距（三 2 上下 3cm，三 9.1（2）写作 3mm）。", source: "规范三"}
+  - {text: "正文标题层次可采用 1.、1.1、1.1.1 或 一、（一）、1、（1），二级学院自定，原则上同一学院统一；各层次题序及标题不得置于页面的最后一行。", source: "规范一（五）、三 8"}
+  - {text: "表格不加左、右边线，表头尽量不用斜线；表序与表名之间空 1 个半角字符，表名中不允许使用标点符号，表名后不加标点；插表之前文中必须有“见表 1-1”之类的文字提示。", source: "规范二 13"}
+  - {text: "一般情况下插表不能拆开两页，必须转页时以续表形式接排，表右上角注明编号，编号后加“（续表）”，并重复表头（规范不带表题，与续表检查的写法不同，不检查）；插表的上下与文中文字间空一行。", source: "规范二 13"}
+  - {text: "图序与图名间空 1 个半角字符，图题不宜有标点符号；图注或其他说明置于图题之上；插图与图题为一个整体，不得拆开排写于两页；引用图应注明出处。", source: "规范二 14.1、14.2"}
+  - {text: "公式应另起行并居中书写，公式末不加标点；文中引用公式用“见式（1-1）”或“由公式（1-1）”。", source: "规范二 12"}
+  - {text: "中文摘要采用第三人称撰写，摘要不标注引用文献编号；英文摘要和关键词与中文内容一致，英文关键词用小写；“关键词”在正文之后隔一行顶格书写。", source: "规范一（三）、二（四）、三 6"}
+  - {text: "各章标题字数一般在 18 字以内，不加标点符号；毕业论文主体各章后原则上有一节“本章小结”（实验方法或材料等章节可不写）；结论单独排写，不加章标题序号，不标注引用文献。", source: "规范一（五）、二 6.1"}
+  - {text: "引用文献标示置于所引内容最后一个字的右上角，编号用阿拉伯数字置于方括号中，小 4 号字上角标；不得将引用文献标示置于各级标题处。", source: "规范二（七）"}
+  - {text: "封面题目黑体、Times New Roman 小 2 号字（不超过 25 个字），其他信息楷体、Times New Roman 4 号字，全部左对齐，使用学校统一封面。", source: "规范三 3"}
+  - {text: "论文自中文摘要起双面印刷，之前部分单面印刷；装订顺序：封面→原创性声明→摘要→关键词→目录→正文→注释→参考文献→致谢→附录。", source: "规范三 9"}

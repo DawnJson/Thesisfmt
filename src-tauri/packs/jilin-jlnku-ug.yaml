@@ -1,0 +1,227 @@
+# 吉林农业科技学院本科毕业论文（设计）：规范文字即模板《2025年制》正文中的格式说明。
+meta:
+  id: jilin-jlnku-ug
+  title: 吉林农业科技学院本科毕业论文（设计）
+  version: '2025'
+  source: https://jwc.jlnku.edu.cn/info/1188/1805.htm
+  org: 吉林农业科技学院
+  kind: university
+  category: 本科
+  verified: true
+page:
+  source: 《模板》1.2 论文格式基本要求：（1）纸型A4；（2）页边距上3.5cm，下2.5cm，左2.5cm、右2.5cm；（3）页眉2.5cm，页脚2cm
+  paper: A4
+  margins_cm:
+    top: 3.5
+    bottom: 2.5
+    left: 2.5
+    right: 2.5
+  header_distance_cm: 2.5
+  footer_distance_cm: 2.0
+page_numbers:
+  source: 《模板》1.3：页码应由正文首页开始，作为第1页，封面不编入页码，摘要、Abstract、目录等前置部分单独编排页码；用阿拉伯数字；页码标注在每页页脚底部居中位置，宋体，小五
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: 宋体
+  footer_size: 小五
+  restart_at: 1
+  cover_no_number: true
+headers:
+  source: 《模板》1.3：页眉，宋体，五号，居中；填写内容是“毕业论文（设计）中文题目”
+  cn_font: 宋体
+  size: 五号
+  align: center
+roles:
+  chapter:
+    source: 《模板》1.5（1）：章标题黑体，居左，三号，1.5倍行距，段后1行，段前为0行（居左不检查，见 manual）
+    cn_font: 黑体
+    size: 三号
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after_lines: 1
+  section_1:
+    source: 《模板》1.5（2）：节标题黑体，居左，四号，1.5倍行距，段后为0，段前0.5行（居左不检查，见 manual）
+    cn_font: 黑体
+    size: 四号
+    line:
+      rule: auto
+      value: 1.5
+    before_lines: 0.5
+    after: 0
+  section_2:
+    source: 《模板》1.5（3）：节中三级标题黑体，居左，小四，1.5倍行距，段后为0，段前0.5行（居左不检查，见 manual）
+    cn_font: 黑体
+    size: 小四
+    line:
+      rule: auto
+      value: 1.5
+    before_lines: 0.5
+    after: 0
+  body:
+    source: 《模板》1.4：每段落首行缩进2字，字体宋体，字号小四，行距多倍行距1.25，间距段前、段后均为0行
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: 《模板》摘要页说明：标题“摘要”黑体，居中，三号，1.5倍行距，段后10磅，段前为0
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after: 10
+  abstract_title_en:
+    source: 《模板》Abstract页说明：标题“Abstract”Times New Roman，居中，三号，1.5倍行距，段后10磅，段前为0
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after: 10
+  abstract_body:
+    source: 《模板》摘要页说明：每段落首行缩进2个汉字，宋体，小四，多倍行距1.25，段前、段后均为0行（中文摘要西文字体规范未规定，Abstract 的 Times New Roman 不检查）
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    first_line_chars: 2
+  references_title:
+    source: 《模板》2.4.2（3）：标题“参考文献”黑体，居中，三号，1.5倍行距，段后1行，段前为0行
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after_lines: 1
+  ref_item:
+    source: 《模板》2.4.2（4）：参考文献正文宋体，两端对齐，小四号，1.5倍行距，段后、段前均为0行
+    cn_font: 宋体
+    size: 小四
+    align: justify
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after: 0
+  ack_title:
+    source: 《模板》致谢页说明：标题黑体，居中，三号，1.5倍行距，段后1行，段前为0行
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after_lines: 1
+  fig_caption:
+    source: 《模板》2.1.2（4）⑤：图名设置为宋体，五号，居中，段后0.5行
+    cn_font: 宋体
+    size: 五号
+    align: center
+    after_lines: 0.5
+  table_caption:
+    source: 《模板》2.2.2（4）⑤：表名设置为宋体，五号，且居中，段前0.5行
+    cn_font: 宋体
+    size: 五号
+    align: center
+    before_lines: 0.5
+  toc_title:
+    source: 《模板》目录页说明：标题“目录”，字体：黑体，字号：三号，间隔两个字符
+    cn_font: 黑体
+    size: 三号
+  toc_chapter:
+    source: 《模板》目录页说明：章、节标题，字体：宋体，字号：小四；行间距：多倍行距1.25倍
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: auto
+      value: 1.25
+  toc_item:
+    source: 《模板》目录页说明：章、节标题，字体：宋体，字号：小四；行间距：多倍行距1.25倍
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: auto
+      value: 1.25
+checks:
+  keywords:
+    source: 《模板》摘要页说明：摘要正文后列出3-5个关键词；Key words与中文“关键词”一致，词间用分号间隔，3-5个；分号写法（全角“；”）取《模板》关键词示例格式（规范只写“分号”）
+    min_count: 3
+    max_count: 5
+    zh_separator: ；
+    en_separator: ；
+  continued_caption:
+    source: 《模板》2.2.2（4）③：表需转页接排时，随后各页重复表的编号，编号后跟表题（可省略）和“（续）”，如“表2-1  物流的概念和范围（续）”
+    style: suffix
+  caption_numbering:
+    source: 《模板》1.7：正文中的图、表、附注、公式一律采用阿拉伯数字分章编号，如图1-2，表2-1
+  table_caption:
+    source: 《模板》2.2.2（4）①：表名应当在表的上方并且居中
+  table_cell:
+    source: 《模板》2.2.2（4）④：表内文字全文统一，设置为宋体，五号
+    cn_font: 宋体
+    size: 五号
+  figure_caption:
+    source: 《模板》2.1.2（4）①：图名居中并位于图下
+  equation_number:
+    source: 《模板》1.7：公式一律采用阿拉伯数字分章编号，如式6-7；2.3：公式的编号右端对齐，示例“（2-1）”
+  abstract_text:
+    source: 《模板》摘要页说明：摘要篇幅以一页为限，字数为300以内；Key words与中文“关键词”一致，外文摘要内容应与中文摘要对应
+    zh_max_chars: 300
+    keywords_match: true
+  chapter_number:
+    source: 《模板》1.5（1）：章序号为阿拉伯数字
+  citations:
+    source: 《模板》2.4.2（1）：参考文献按照在正文中引用的顺序进行编码；1.7：文中参考文献采用阿拉伯数字根据全文统一编号
+layout:
+  table_span:
+    source: 《模板》2.2.2（4）①③：表尽量以一页为限，一旦超限要加续表，随后各页重复表的编号，编号后跟“（续）”
+  new_page:
+    source: 《模板》1.5（1）：每章另起一页；1.6：各章之间应重新分页
+    roles:
+    - chapter
+  page_limits:
+  - role: abstract_title_zh
+    max_pages: 1
+    source: 《模板》摘要页说明：摘要篇幅以一页为限
+manual:
+- text: 封面按首页格式制作，摘要、目录、主体部分均单面打印；纸张A4单面打印，左侧装订。
+  source: 《模板》1.2、3.1-3.4
+- text: 页眉填写内容是“毕业论文（设计）中文题目”，模板中已设置字体字号，只需替换内容。
+  source: 《模板》1.3
+- text: 章节编号各层次全部顶格排，其后空1个汉字的间隙接排标题，标题末尾不加标点；不同层次数字之间用下圆点相隔，末位数字后不加点号。
+  source: 《模板》1.5
+- text: “摘要”两字中间空四个汉字（中文状态下按四次空格键）；“参考文献”四个字之间空一个空格；“致谢”两字间隔两个字符；“结论”标题黑体、居中、三号、1.5倍行距、段后1行、段前0行。
+  source: 《模板》摘要页说明、2.4.2（4）、结论与致谢页说明
+- text: 表、图序号后面留两个字符（汉字状态敲两次空格键）；图与上文之间留一空行，图名与下文留一空行；表名与上文留一空行，表格与下文留一行空格；图、表居中排列。
+  source: 《模板》2.1.1、2.1.2、2.2.1、2.2.2
+- text: 图的版式为“上下型”或“嵌入型”，不得“浮于文字之上”；图及其名称要放在同一页中，不能跨接两页。
+  source: 《模板》2.1.2（3）（4）
+- text: 表要用WORD绘制，不要粘贴，一律采用三线格（规范未给出线宽）；表尽量以一页为限，超限要加续表，续表并重复表头和关于单位的陈述。
+  source: 《模板》2.2.2
+- text: 公式另起一行居中排；较长公式尽可能在等号处回行，或在“+”“－”等符号处回行；公式的编号右端对齐，公式与编号之间用“······”连接；公式下“式中：”空两个字起排，单独占一行。
+  source: 《模板》2.3
+- text: 引用的文献在正文中用方括号和阿拉伯数字按顺序以右上角标形式标注；参考文献按 GB 7714 著录，作者少于3人全部写出，3人以上只列前3人加“等”或“et al”；附录中的图、表、附注、参考文献、公式另行编号，如图A1、表B2、文献[A3]。
+  source: 《模板》1.7、2.4
+- text: 摘要应说明研究工作目的、实验方法、结果和最终结论；关键词最后不加标点符号；外文摘要使用第三人称，最好采用现在时态。
+  source: 《模板》摘要页、Abstract页说明
+- text: 章、节、三级标题要求居左；学校模板的标题样式为两端对齐（单行标题视觉上与居左相同），故对齐方式未检查，需人工核对。
+  source: 《模板》1.5
+- text: Abstract 正文用 Times New Roman，小四；英文关键词用 Times New Roman。
+  source: 《模板》Abstract页说明

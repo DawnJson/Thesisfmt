@@ -1,0 +1,253 @@
+# 电子科技大学研究生学位论文（硕士）：依据《电子科技大学研究生学位论文撰写规范》（2022 年 1 月修订，适用于中国学生）。
+# 规范本身即 Word 模板，括号内“规范”均指该文档的正文与其示例页。
+# 与博士规则包（sichuan-uestc-grad-phd）的差别只有摘要篇幅（第 1.2.4 节）与偶数页页眉文字。
+meta:
+  id: sichuan-uestc-grad-master
+  title: 电子科技大学研究生学位论文（硕士）
+  version: "2022-01"
+  source: https://gr.uestc.edu.cn/xiazai/114/3917
+  valid_from: "2022-01"
+  org: 电子科技大学
+  kind: university
+  category: 研究生（硕士）
+  verified: true
+
+page:
+  source: "规范第 3.3 节表 2-6：A4（210×297），左右、上下页边距 30 mm，页眉边距、页脚边距 20 mm"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 3.0, left: 3.0, right: 3.0}
+  header_distance_cm: 2.0
+  footer_distance_cm: 2.0
+
+page_numbers:
+  source: "规范第 2.12.2 节：页码位于页面底端居中书写，小五号字；中文摘要及之后的前置部分用罗马数字从“Ⅰ”开始连续编排；从第一章第 1 页起用阿拉伯数字从“1”开始连续编排；第 2.12 节：中文摘要之前的前置部分不编排页眉和页码"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  restart_at: 1
+  cover_no_number: true
+
+headers:
+  source: "规范第 2.12.1 节：页眉位于页面顶端居中书写，五号字；表 2-2 页眉 五号 居中；第 2.3 节：中文统一用宋体，数字和英文用 Times New Roman"
+  align: center
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 五号
+
+roles:
+  chapter:
+    source: "规范第 2.3 节表 2-2：一级标题 黑体 小三 居中 段前 24 磅 段后 18 磅；从中文摘要开始标题行间距取固定值 20 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  section_1:
+    source: "规范第 2.3 节表 2-2：二级标题 黑体 四号 顶格左对齐 段前 18 磅 段后 6 磅；标题行间距固定值 20 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    line: {rule: exact, value: 20}
+    before: 18
+    after: 6
+  section_2:
+    source: "规范第 2.3 节表 2-2：三级标题 黑体 四号 顶格左对齐 段前 12 磅 段后 6 磅；标题行间距固定值 20 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    line: {rule: exact, value: 20}
+    before: 12
+    after: 6
+  section_3:
+    source: "规范第 2.3 节表 2-2：四级标题 黑体 小四 顶格左对齐 段前 12 磅 段后 6 磅；标题行间距固定值 20 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: exact, value: 20}
+    before: 12
+    after: 6
+  body:
+    source: "规范第 2.3 节表 2-2：正文 小四 两端对齐（首行缩进） 段前后 0 磅；正文及表注：未注明字体的按“中文宋体，英文、数字 Times New Roman”；所有段落两端对齐、首行缩进 2 个全角字符，行距固定值 20 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "模板《电子科技大学研究生学位论文撰写规范》摘要页示例格式（规范第 1.2.4 节“摘要样式见本文档摘要”，未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  abstract_title_en:
+    source: "模板《电子科技大学研究生学位论文撰写规范》ABSTRACT 页示例格式（规范未作文字规定）"
+    latin_font: Times New Roman
+    size: 小三
+    bold: true
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  abstract_body:
+    source: "规范第 2.3 节：从中文摘要开始，所有文字段落行间距取固定值 20 磅，两端对齐、首行缩进 2 个全角字符；未注明字体的按“中文宋体，英文、数字 Times New Roman”；表 2-2 正文 小四"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+  toc_title:
+    source: "模板《电子科技大学研究生学位论文撰写规范》目录页示例格式（规范第 1.2.5 节“目录样式见本文档目录”，未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  ack_title:
+    source: "模板《电子科技大学研究生学位论文撰写规范》致谢页示例格式：与章标题同用“标题 1”样式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  references_title:
+    source: "模板《电子科技大学研究生学位论文撰写规范》参考文献页示例格式：与章标题同用“标题 1”样式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  appendix_title:
+    source: "模板《电子科技大学研究生学位论文撰写规范》附录页示例格式：与章标题同用“标题 1”样式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  fig_caption:
+    source: "规范第 2.3 节表 2-2：图题 五号 居中 段前 6 磅 段后 12 磅；未注明字体的按“中文宋体，英文、数字 Times New Roman”（超过一行的图题两端对齐，故不查对齐；行距规范说法不一，不查）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    before: 6
+    after: 12
+  table_caption:
+    source: "规范第 2.3 节表 2-2：表题 五号 居中 段前 12 磅 段后 6 磅；未注明字体的按“中文宋体，英文、数字 Times New Roman”（超过一行的表题两端对齐，故不查对齐；行距规范说法不一，不查）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    before: 12
+    after: 6
+  ref_item:
+    source: "规范第 2.3 节表 2-2：参考文献 五号 两端对齐（悬挂缩进）段前后 0 磅；第 2.10.2 节：参考文献悬挂缩进、两端对齐（规范未给缩进量，修复取 2 字符）；行间距固定值 20 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: justify
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    hanging_chars: 2
+  equation:
+    source: "规范第 2.5 节：公式及公式编号均使用小四号字，公式所在行采用单倍行距，段前、段后距均为 6 磅"
+    size: 小四
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 6
+
+checks:
+  keywords:
+    source: "规范第 1.2.4 节：关键词 3~5 个，用分号隔开；第 2.3 节：英文段落统一使用半角符号"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "规范第 2.4 节：图、表采用阿拉伯数字分章连续编号，例如“图 2-5”“表 3-2”"
+  table_caption:
+    source: "规范第 2.4.2 节：每个表应有简短确切的表题，五号字，居中置于表的正上方"
+  figure_caption:
+    source: "规范第 2.4.1 节：每个图应有简短确切的图题，五号字，居中置于图的正下方"
+  table_lines:
+    source: "规范第 2.4.2 节：表格采用三线表样式，上下边线线宽 1.5 磅，表内线条线宽 0.75 磅"
+    top_bottom_pt: 1.5
+    header_pt: 0.75
+  table_cell:
+    source: "规范第 2.4.2 节：表内文字五号字、单倍行距、上下居中；表 2-2 表格 五号 居中"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.0}
+  equation_number:
+    source: "规范第 2.5 节：公式采用阿拉伯数字分章连续编号，编号标注于公式所在行最右端，不加引导线，如“(2-1)”“式(5-1)”"
+  abstract_text:
+    source: "规范第 1.2.4 节：硕士论文中文摘要一般不超过 800 字，最多不超过 1 页；摘要中不宜使用图、表、公式；英文关键词应与中文关键词对应；第 2.3 节：英文段落统一使用半角符号"
+    zh_max_chars: 800
+    no_figures: true
+    en_punctuation: true
+    keywords_match: true
+  appendix_number:
+    source: "规范第 1.5 节表 1-1：附录（附录 A，附录 B……）"
+  continued_caption:
+    source: "规范第 2.4.2 节：续表应在表题结尾以“（续）”注明，如“表 3-2 加入激素后的实验结果比较（续）”"
+    style: suffix
+  figure_citation:
+    source: "规范第 2.4 节：在图、表紧邻的前文中，须有相应提示，例如“如图 2-5 所示”“见表 3-2”"
+  citations:
+    source: "规范第 2.10.1 节：采用顺序编码制，按正文中引用文献出现的先后顺序连续编码；第 2.10 节：引用过的文献必须著录，未引用的文献不得虚列"
+  footnotes:
+    source: "规范第 2.3 节表 2-2：脚注 小五 两端对齐 段前后 0 磅；未注明字体的按“中文宋体，英文、数字 Times New Roman”"
+    format:
+      source: "规范第 2.3 节表 2-2：脚注 小五 两端对齐 段前后 0 磅"
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小五
+      align: justify
+      before: 0
+      after: 0
+
+layout:
+  table_span:
+    source: "规范第 2.4.2 节：表格仅当一页内编排不下时才可转页，以续表形式接排，续表应重复表头和关于单位的陈述，并在表题结尾以“（续）”注明"
+  new_page:
+    source: "规范第 1.2.4 节：英文摘要另起一页书写；第 3.4 节：第一章的最后一页为第 17 页，则第二章的第一页在第 17 页的背面印刷，页码为“18”（章从新的一页开始）"
+    roles: [abstract_title_en, chapter]
+  page_limits:
+    - {role: abstract_title_zh, max_pages: 1, source: "规范第 1.2.4 节：硕士论文中文摘要一般不超过 800 字，最多不超过 1 页"}
+    - {role: ack_title, max_pages: 1, source: "规范第 1.4.1 节：致谢一般不超过 800 字，最多不超过 1 页"}
+  page_start:
+    source: "规范第 2.12.2 节：前置部分用罗马数字从“Ⅰ”开始，第一章第 1 页起用阿拉伯数字从“1”开始"
+    front_first: 1
+    body_first: 1
+  ref_entry_page:
+    source: "规范第 2.10.2 节说明（1）：参考文献不跨页编排，即一条文献所在段中不分页"
+
+manual:
+  - {text: "章序用中文数字（第一章、第二章……），次级标题的节序用阿拉伯数字，序号与名称之间空 1 个半角字符；标题不超过一行，标题中不加标点符号。", source: "规范第 2.2 节"}
+  - {text: "页眉线为单横线，线宽 0.75 磅。", source: "规范第 2.12.1 节"}
+  - {text: "中文摘要及之后的前置部分，页眉为各部分内容的标题（“摘要”“ABSTRACT”“目录”“图目录”“表目录”“主要符号表”“缩略词表”）；从第一章第 1 页起奇数页页眉用本章标题，偶数页页眉用“电子科技大学硕士学位论文”（前置部分偶数页页眉为部分标题，静态偶数页文字会误报，故不检查）。", source: "规范第 2.12.1 节"}
+  - {text: "超过一行的图题、表题两端对齐，左右缩进 4 字符；分图序号用 (a)、(b)、(c)，置于对应分图正下方；图和图题须编排在同页，图题不得跨页。", source: "规范第 2.4.1、2.4.2 节"}
+  - {text: "引用文献中的图、表时，除在正文中标注参考文献序号外，还须在图题、表题的右上角标注参考文献序号。", source: "规范第 2.4 节"}
+  - {text: "公式另起一行居中书写；公式下面的“式中”两字左起顶格编排，解释与解释之间用分号隔开。", source: "规范第 2.5 节"}
+  - {text: "各级标题不得置于页面最后一行，须与下段同页；两个标题之间无正文时，第二个标题的段前距设为 0 磅；只有一、两行文字的不得单独作为一页内容。", source: "规范第 2.3 节“其他要求”（1）（2）（4）"}
+  - {text: "关键词与摘要正文之间空一行顶格书写；关键词超过一行时换行后悬挂缩进对齐；英文关键词每个单词首字母大写。", source: "规范第 1.2.4 节"}
+  - {text: "目录内容从“第一章”开始至论文最后一页，不包含摘要、缩略词表等前置部分。", source: "规范第 1.2.5 节"}
+  - {text: "参考文献编号和内容之间空 1~3 个半角字符；作者最多写到第 3 位，余者用“, 等”或“, et al”代替；文献标注按 GB/T 7714-2015。", source: "规范第 2.10.2 节说明（2）（4）"}
+  - {text: "中文摘要之前的前置部分（封面，中、英文扉页，独创性声明及论文使用授权页）单面印刷；中文摘要及之后的前置部分双面印刷，某部分页数为奇数时其最后一页单面印刷；正文起所有页面双面印刷。", source: "规范第 3.4 节"}

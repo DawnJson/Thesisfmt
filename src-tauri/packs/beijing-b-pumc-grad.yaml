@@ -1,0 +1,178 @@
+meta:
+  id: beijing-b-pumc-grad
+  title: 北京协和医学院研究生学位论文写作参考模板
+  version: '2020'
+  source: https://graduate.pumc.edu.cn/pyb/info/1086/1395.htm
+  org: 北京协和医学院
+  kind: university
+  category: 研究生
+  verified: false
+page:
+  source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》正文各节的页面设置
+  paper: A4
+  margins_cm:
+    top: 2.5
+    bottom: 2.5
+    left: 3
+    right: 3
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.5
+page_numbers:
+  source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》各节的页码格式
+  front_format: upperRoman
+  body_format: decimal
+roles:
+  chapter:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的章标题（3 段）
+    cn_font: 黑体
+    size: 三号
+    bold: false
+    align: center
+    line:
+      rule: auto
+      value: 1
+    before: 24
+    after: 18
+    first_line_chars: 0
+  section_1:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的一级节标题（6 段）
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    bold: false
+    align: left
+    line:
+      rule: auto
+      value: 1
+    before: 24
+    after: 6
+    first_line_chars: 0
+  section_2:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的二级节标题（4 段）
+    cn_font: 黑体
+    size: 四号
+    bold: false
+    align: left
+    line:
+      rule: auto
+      value: 1
+    before: 12
+    after: 6
+  section_3:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的三级节标题（2 段）
+    cn_font: 宋体
+    size: 小四
+    bold: false
+    align: left
+    line:
+      rule: auto
+      value: 1
+    before: 12
+    after: 6
+  body:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的正文（19 段）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: false
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 2
+  toc_title:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的目录标题（1 段）
+    cn_font: 黑体
+    size: 三号
+    bold: false
+    align: center
+    line:
+      rule: auto
+      value: 1
+    before: 24
+    after: 18
+    first_line_chars: 0
+  toc_chapter:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的目录章标题行（6 段）
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    bold: false
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 0
+  toc_item:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的目录节标题行（7 段）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: false
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+  references_title:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的参考文献标题（1 段）
+    cn_font: 黑体
+    size: 三号
+    bold: false
+    align: center
+    line:
+      rule: auto
+      value: 1
+    before: 24
+    after: 18
+    first_line_chars: 0
+  ref_item:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的参考文献条目（3 段）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: false
+    align: justify
+    line:
+      rule: exact
+      value: 16
+    before: 0
+    after: 0
+    hanging_chars: 1.5
+  ack_title:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的致谢标题（1 段）
+    cn_font: 黑体
+    size: 三号
+    bold: false
+    align: center
+    line:
+      rule: auto
+      value: 1
+    before: 24
+    after: 18
+    first_line_chars: 0
+  appendix_title:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的附录标题（1 段）
+    cn_font: 黑体
+    size: 三号
+    bold: false
+    align: center
+    line:
+      rule: auto
+      value: 1
+    before: 24
+    after: 18
+    first_line_chars: 0
+checks:
+  keywords:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中关键词的分隔符
+    zh_separator: ；
+    en_separator: ;
+  caption_numbering:
+    source: 模板《北京协和医学院研究生学位论文写作参考模板.docx》中的图表题注按章编号
+manual:
+- text: 学校仅发布“写作参考模板”供参考使用，并引用 GB/T 7713.1-2006，未给出字体字号等文字规定；本规则包的格式取自模板示例，未经规范文字逐条核实。
+  source: 《北京协和医学院研究生学位论文写作规范》通知（graduate.pumc.edu.cn/pyb/info/1086/1395.htm）

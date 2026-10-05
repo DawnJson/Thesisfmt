@@ -1,0 +1,175 @@
+meta:
+  id: guizhou-yunnan-xizang-gzu-ug
+  title: 贵州大学本科毕业论文（设计）
+  version: '2016'
+  source: https://mc.gzu.edu.cn/2017/0930/c2404a11187/page.htm
+  org: 贵州大学
+  kind: university
+  category: 本科
+  verified: true
+page:
+  source: 《贵州大学毕业论文（设计）指南》4.4.5：版面上页边距 30mm，下页边距 25mm，左页边距 30mm，右页边距 20mm
+  paper: A4
+  margins_cm:
+    top: 3.0
+    bottom: 2.5
+    left: 3.0
+    right: 2.0
+page_numbers:
+  source: 《贵州大学毕业论文（设计）指南》4.4.5：摘要和目录的页码采用大写罗马数字编写；从正文开始至附录采用阿拉伯数字编写页码
+  front_format: upperRoman
+  body_format: decimal
+headers:
+  source: 《贵州大学毕业论文（设计）指南》4.4.5：每版页眉为“贵州大学毕业论文（设计） 第 页”；宋体五号
+  cn_font: 宋体
+  size: 五号
+roles:
+  chapter:
+    source: 《贵州大学毕业论文（设计）指南》4.4.4：一级标题黑体小三号；正文段落和标题一律取 1.5 倍行距，不设段前与段后间距
+    cn_font: 黑体
+    size: 小三
+    before: 0
+    after: 0
+    line:
+      rule: auto
+      value: 1.5
+  section_1:
+    source: 《贵州大学毕业论文（设计）指南》4.4.4：二级标题黑体四号；1.5 倍行距，不设段前与段后间距
+    cn_font: 黑体
+    size: 四号
+    before: 0
+    after: 0
+    line:
+      rule: auto
+      value: 1.5
+  section_2:
+    source: 《贵州大学毕业论文（设计）指南》4.4.4：三级标题黑体小四号；1.5 倍行距，不设段前与段后间距
+    cn_font: 黑体
+    size: 小四
+    before: 0
+    after: 0
+    line:
+      rule: auto
+      value: 1.5
+  body:
+    source: 《贵州大学毕业论文（设计）指南》4.4.4：正文宋体小四号；正文段落一律取 1.5 倍行距，不设段前与段后间距；4.4.9 英文字符均采用 Times New Roman
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    before: 0
+    after: 0
+    line:
+      rule: auto
+      value: 1.5
+  abstract_title_zh:
+    source: 《贵州大学毕业论文（设计）指南》4.4.3：“摘要”字样黑体小三号，居中
+    cn_font: 黑体
+    size: 小三
+    align: center
+  abstract_title_en:
+    source: 《贵州大学毕业论文（设计）指南》4.4.3：外文题目、摘要和关键词的字体为 Times New Roman，字号、行间距等与中文相一致
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+  abstract_body:
+    source: 《贵州大学毕业论文（设计）指南》4.4.3：摘要正文宋体小四号，1.5 倍行距；外文字体 Times New Roman，字号、行间距与中文一致
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: auto
+      value: 1.5
+  keywords_zh:
+    source: 《贵州大学毕业论文（设计）指南》4.4.3：关键词的具体内容为宋体小四号，1.5 倍行距
+    line:
+      rule: auto
+      value: 1.5
+  keywords_en:
+    source: 《贵州大学毕业论文（设计）指南》4.4.3：外文关键词的字体为 Times New Roman，行间距等与中文相一致
+    latin_font: Times New Roman
+    line:
+      rule: auto
+      value: 1.5
+  toc_chapter:
+    source: 《贵州大学毕业论文（设计）指南》4.4.2：目录中的内容字体、字号与正文保持一致格式（宋体小四号）
+    cn_font: 宋体
+    size: 小四
+  toc_item:
+    source: 《贵州大学毕业论文（设计）指南》4.4.2：目录中的内容字体、字号与正文保持一致格式（宋体小四号）
+    cn_font: 宋体
+    size: 小四
+  references_title:
+    source: 《贵州大学毕业论文（设计）指南》4.4.4：参考文献标题黑体小三号
+    cn_font: 黑体
+    size: 小三
+  ref_item:
+    source: 《贵州大学毕业论文（设计）指南》4.4.4：参考文献正文宋体五号、单倍行距
+    cn_font: 宋体
+    size: 五号
+    line:
+      rule: auto
+      value: 1.0
+  ack_title:
+    source: 《贵州大学毕业论文（设计）指南》4.4.4：致谢标题黑体小三号
+    cn_font: 黑体
+    size: 小三
+  appendix_title:
+    source: 《贵州大学毕业论文（设计）指南》4.4.4：附录标题黑体小三号
+    cn_font: 黑体
+    size: 小三
+  fig_caption:
+    source: 《贵州大学毕业论文（设计）指南》4.4.4、4.4.6：图题黑体五号；图序和图题放在图位下方居中处
+    cn_font: 黑体
+    size: 五号
+    align: center
+  table_caption:
+    source: 《贵州大学毕业论文（设计）指南》4.4.4、4.4.6：表题黑体五号；表的编号和表题置于表上方的居中位置
+    cn_font: 黑体
+    size: 五号
+    align: center
+checks:
+  abstract_text:
+    source: 《贵州大学毕业论文（设计）指南》4.2、4.4.3：中文摘要约 300～500 汉字（毕业设计说明书约 300 汉字，按论文取范围）
+    zh_min_chars: 300
+    zh_max_chars: 500
+    chars_approx: true
+  keywords:
+    source: 《贵州大学毕业论文（设计）指南》4.2.1、4.4.3：关键词 3～5 个，每个关键词之间用逗号分开；外文关键词用逗号隔开
+    min_count: 3
+    max_count: 5
+    zh_separator: ，
+    en_separator: ','
+  punctuation:
+    source: 《贵州大学毕业论文（设计）指南》4.4.8：标点符号应按新闻出版署公布的“标点符号用法”使用
+  caption_numbering:
+    source: 《贵州大学毕业论文（设计）指南》4.4.6：图、表编号由章序号和章内序号组成，中间用“.”号分开，如“图2.3”“表1.6”
+  table_caption:
+    source: 《贵州大学毕业论文（设计）指南》4.4.6：表的编号和表题要置于表上方的居中位置
+  figure_caption:
+    source: 《贵州大学毕业论文（设计）指南》4.4.6：图的编号和图题要置于图下方的居中位置
+  citations:
+    source: 《贵州大学毕业论文（设计）指南》4.4.13：参考文献应在正文中顺次引述，按在正文中被提及的先后来排列序号，所有参考文献均应在正文中提及
+layout:
+  new_page:
+    source: 《贵州大学毕业论文（设计）指南》4.4.5：每一章均重新开始一页
+    roles:
+    - chapter
+manual:
+- text: 页眉文字为“贵州大学毕业论文（设计）　第　页”。封面和任务书不编页码。
+  source: 《贵州大学毕业论文（设计）指南》4.4.5
+- text: 摘要：毕业设计说明书中文摘要约 300 汉字；英文摘要与之对应；摘要中不宜使用公式、图表，不标注引用文献编号；摘要上方写论文题目（黑体小二号，居中，上空一行）；“关键词”居行首，黑体小三号。（论文摘要字数范围已由 abstract_text 检查）
+  source: 《贵州大学毕业论文（设计）指南》4.2、4.4.3
+- text: 章标题前空一行；分级阿拉伯数字编号一般不超过三级，两级之间用下角圆点隔开，每一级编号的末尾不加标点；目录标题一般写到三级，不出现四级。
+  source: 《贵州大学毕业论文（设计）指南》4.4.2、4.4.4、4.4.5
+- text: 表一律要求采用三线表，表的宽度不得超过版面文字宽度；表需转页接排时在随后各页重复表的编号，编号后跟表题（可省略）或“(续)”，如表1.2(续)。
+  source: 《贵州大学毕业论文（设计）指南》4.4.6
+- text: 公式应居中书写，公式编号用圆括号括起放在公式右边行末，公式与编号之间不加虚线。
+  source: 《贵州大学毕业论文（设计）指南》4.4.12
+- text: 注释用页末注，不用行中插注，且只限于写在注释符号出现的同页；引用文献标注在引用处正文右上角用[ ]和参考文献编号表明，字体用五号字。
+  source: 《贵州大学毕业论文（设计）指南》4.4.11
+- text: 参考文献按 GB 3469 标识文献类型；只著录前 3 位作者，第 4 位起用“，等”或“et al.”；理工农类不少于 10 篇，其他专业不少于 15 篇。
+  source: 《贵州大学毕业论文（设计）指南》4.2.1、4.4.13
+- text: 论文装订顺序：封面、诚信责任书、目录、中文摘要（含关键词）、英文摘要（含关键词）、正文、参考文献、致谢、附录、封底。
+  source: 《贵州大学毕业论文（设计）指南》4.5
+- text: 全文中的英文字符均采用 Times New Roman 字体；致谢正文、附录正文为宋体小四号。
+  source: 《贵州大学毕业论文（设计）指南》4.4.4、4.4.9

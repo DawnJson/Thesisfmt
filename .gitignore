@@ -1,0 +1,22 @@
+# 依赖与构建产物
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+
+# 本地模板库：模板版权归各单位，含本机路径，不发布
+library/
+
+# 开发文档：只在本地维护（README 用到的截图除外）
+CONTRIBUTING.md
+docs/*
+!docs/screenshot.png
+
+# 编辑器、系统与临时文件
+.vscode/
+.idea/
+*.log
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store

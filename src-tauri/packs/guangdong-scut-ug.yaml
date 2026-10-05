@@ -1,0 +1,176 @@
+# 依据：《本科毕业设计（论文）撰写规范（工科、理科类专业）》（2025年11月更新）及同批发布的《格式范例》。
+meta:
+  id: guangdong-scut-ug
+  title: 华南理工大学本科毕业设计（论文）（工科、理科类专业）
+  version: "2025-11"
+  source: https://www2.scut.edu.cn/design/2025/1125/c38633a611298/page.htm
+  valid_from: "2025-11"
+  org: 华南理工大学
+  kind: university
+  category: 本科
+  verified: true
+
+page:
+  source: "《撰写规范》“毕业设计（论文）完成后的打印”：打印在标准 A4 纸上；所有页面的上下左右页面边距为 25mm；“页眉页脚”：页眉的上边距为 15mm，页脚的下边距为 15mm"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 2.5, right: 2.5}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.5
+
+page_numbers:
+  source: "《撰写规范》“页码”：主体部分用五号阿拉伯数字编连续码，摘要、目录等用五号罗马数字编连续码，页码均位于页脚居中；封面、学位论文原创性声明不编入页码；罗马数字大写见《格式范例》"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_size: 五号
+  cover_no_number: true
+
+headers:
+  source: "《撰写规范》“页眉页脚”：页眉从论文主体部分开始，分奇、偶页：偶数页页眉为“华南理工大学学士学位论文”，奇数页页眉为章序及章标题；页眉上居中打印（奇数页含章序，与 chapter_title 不同，见 manual）"
+  front_none: true
+  align: center
+  even: {text: "华南理工大学学士学位论文"}
+
+roles:
+  chapter:
+    source: "《撰写规范》“各级标题及正文”：第一级“第一章”小二号黑体，居中，单倍行距；各章题序的阿拉伯数字用 Times New Roman 体"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  section_1:
+    source: "《撰写规范》“各级标题及正文”：第二级“1.1”小三号，黑体，居左，单倍行距"
+    cn_font: 黑体
+    size: 小三
+    align: left
+    line: {rule: auto, value: 1.0}
+  section_2:
+    source: "《撰写规范》“各级标题及正文”：第三级“1.1.1”四号，黑体，居左，单倍行距"
+    cn_font: 黑体
+    size: 四号
+    align: left
+    line: {rule: auto, value: 1.0}
+  body:
+    source: "《撰写规范》“各级标题及正文”：正文小四号，宋体，1.5 倍行距，段首行缩进 2 个汉字；英文单词字体为 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  abstract_title_zh:
+    source: "《撰写规范》“摘要和关键词”：中文摘要标题小二号黑体，居中，单倍行距"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  abstract_title_en:
+    source: "《撰写规范》“摘要和关键词”：英文摘要、关键词标题及内容字号与中文摘要相同，字体为 Times New Roman"
+    latin_font: Times New Roman
+    size: 小二
+  abstract_body:
+    source: "《撰写规范》“摘要和关键词”：中文摘要内容小四号，宋体，1.5 倍行距，段首行空两个汉字；英文内容字体为 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  keywords_zh:
+    source: "《撰写规范》“摘要和关键词”：中文关键词标题小四号黑体居左，内容小四号宋体"
+    size: 小四
+  keywords_en:
+    source: "《撰写规范》“摘要和关键词”：英文关键词标题及内容字号与中文相同（小四号），字体为 Times New Roman"
+    latin_font: Times New Roman
+    size: 小四
+  toc_title:
+    source: "《撰写规范》“目录”：目录标题小二号黑体，居中，单倍行距"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  toc_chapter:
+    source: "《撰写规范》“目录”：目录中各章题序及标题四号黑体，居左，1.5 倍行距"
+    cn_font: 黑体
+    size: 四号
+    align: left
+    line: {rule: auto, value: 1.5}
+  toc_item:
+    source: "《撰写规范》“目录”：各次级标题及题序小四号，宋体，居左，1.5 倍行距"
+    cn_font: 宋体
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.5}
+  references_title:
+    source: "《撰写规范》“参考文献”：参考文献标题用小二号黑体，居中，单倍行距"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  ref_item:
+    source: "《撰写规范》“参考文献”：参考文献和注释正文为小四号，宋体，1.5 倍行距"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  appendix_title:
+    source: "《撰写规范》“附录”：附录标题用小二号黑体，居中，单倍行距"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  ack_title:
+    source: "模板《附件2：本科毕业设计（论文）格式范例》示例格式（规范未作文字规定：小二号黑体居中，与参考文献、附录标题一致）"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  fig_caption:
+    source: "《撰写规范》“插图和插表”：插图（表）的标题和文字：五号，宋体"
+    cn_font: 宋体
+    size: 五号
+  table_caption:
+    source: "《撰写规范》“插图和插表”：插图（表）的标题和文字：五号，宋体"
+    cn_font: 宋体
+    size: 五号
+
+checks:
+  keywords:
+    source: "《撰写规范》“关键词”：关键词要求 3-5 个；“摘要和关键词”：关键词之间用分号隔开，最后一个关键词不打标点符号；英文关键词格式与中文相同，《格式范例》英文关键词亦用“；”"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: "；"
+  abstract_text:
+    source: "《撰写规范》“摘要”：论文摘要要求 400-600 字；英文关键词与中文关键词的内容应完全一致"
+    zh_min_chars: 400
+    zh_max_chars: 600
+    keywords_match: true
+  caption_numbering:
+    source: "《撰写规范》“插图和插表”：图（表）号按章编序，如第一章第一图的号为“图 1-1”"
+  table_caption:
+    source: "《撰写规范》“插图和插表”：表题置于表上方"
+  figure_caption:
+    source: "《撰写规范》“插图和插表”：图题置于图下方"
+  continued_caption:
+    source: "《撰写规范》“插图和插表”：表格换页接排时，编号后跟标题和（续），如“表 2-1 加入激素后的实验结果比较（续）”"
+    style: suffix
+  citations:
+    source: "《撰写规范》“参考文献”：按文中出现的顺序列出直接引用的主要参考文献；正文中应按顺序在引用处右上角用[]标明，[]中序号应与参考文献中序号一致"
+
+layout:
+  figure_span:
+    source: "《撰写规范》“插图和插表”：插图与其图题不得拆开排写于两页"
+  table_span:
+    source: "《撰写规范》“插图和插表”：表格需换页接排时，在随后的各页上重复表的编排，编号后跟标题和（续）"
+  toc:
+    source: "《撰写规范》“目录”：目录中的标题应与正文中的标题一致，标明的页码应与论文文本的页码相对应"
+
+manual:
+  - {text: "奇数页页眉为章序及章标题（如“第三章 城市道路的景观设计研究”）；页眉上版心上边线加一行 1.0 磅粗的实线。（前置部分无页眉、偶数页页眉内容、居中已由 headers 检查）", source: "《撰写规范》“页眉页脚”"}
+  - {text: "各级标题不得使用标点符号，均单独占一行书写，各层次题序及标题不得置于页面的最后一行（孤行）。", source: "《撰写规范》“各级标题及正文”"}
+  - {text: "封面论文标题：二号，黑体，加粗，居中；论文封面均使用中文撰写；摘要页不需写出论文题目。", source: "《撰写规范》“封面论文标题”“摘要”"}
+  - {text: "表格不加左、右列线；表内数字空缺的格内加“—”字线；图中若有分图，分图号用“a)”、“b)”等置于分图之下；有数字标注的坐标图必须注明坐标单位。", source: "《撰写规范》“插图和插表”"}
+  - {text: "主要参考文献要求 10 篇以上，其中外文文献 2 篇以上；作者三名以内的全部列出，四名以上的列前三名，中文后加“等”，英文后加“et al”。", source: "《撰写规范》“参考文献”"}
+  - {text: "注释可用页末注或篇末注，不可用行中注（注文夹在正文中）。", source: "《撰写规范》“注释”"}
+  - {text: "文中代表变量的英文字母必须用斜体，其它用正体；微分号 d、圆周率 π、自然底数 e、矩阵转置 T 均应为正体；英语缩写词（本行业广泛应用的除外）第一次出现应用括号注明英文全文。", source: "《撰写规范》“名词术语和字母”"}
+  - {text: "除习惯上用中文数字表示的以外，一般均采用阿拉伯数字；年份一概写全数，如“2015年”不可以写成“15年”。", source: "《撰写规范》“数字”"}
+  - {text: "封面、原创性声明、摘要和目录单面打印；论文主体部分（引言、正文、结论、参考文献、附录、致谢）双面打印。", source: "《撰写规范》“毕业设计（论文）完成后的打印”"}

@@ -1,0 +1,248 @@
+meta:
+  id: shandong-sdjzu-grad-sci
+  title: 山东建筑大学研究生学位论文（自然科学类）
+  version: "2026"
+  source: https://www.sdjzu.edu.cn/yjsc/info/1048/3141.htm
+  valid_from: "2026"
+  org: 山东建筑大学
+  kind: university
+  category: 研究生（自然科学类）
+  verified: true
+
+page:
+  source: "《山东建筑大学研究生学位论文撰写指南（2026版）》五、学位论文的打印与装订：上、下 2.5cm，左、右 2.2cm；页眉边距 1.5cm，页脚边距 1.5cm"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 2.2, right: 2.2}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.5
+
+page_numbers:
+  source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（十一）：页码从摘要开始，前置部分用大写罗马数字，正文用阿拉伯数字重新开始编号；页码位于页面底端，小五号 Times New Roman 居中"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  restart_at: 1
+  cover_no_number: true
+
+headers:
+  source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（十一）：从摘要开始每页有页眉，居中，黑体五号字"
+  align: center
+  cn_font: 黑体
+  size: 五号
+  same_odd_even: true
+
+roles:
+  chapter:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（七）章标题：黑体小三号，居中无缩进，段前和段后 0 行，1.5 倍行距"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 0
+  section_1:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（七）二级标题：黑体小四号，两端对齐，无缩进，段前 0.5 行，段后 0 行，1.5 倍行距"
+    cn_font: 黑体
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.5}
+    before_lines: 0.5
+    after: 0
+    first_line_chars: 0
+  section_2:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（七）三级标题：黑体小四号，两端对齐，无缩进，段前 0.5 行，段后 0 行，1.5 倍行距"
+    cn_font: 黑体
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.5}
+    before_lines: 0.5
+    after: 0
+    first_line_chars: 0
+  section_3:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（七）四级标题：黑体小四号，两端对齐，无缩进，段前 0.5 行，段后 0 行，1.5 倍行距"
+    cn_font: 黑体
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.5}
+    before_lines: 0.5
+    after: 0
+    first_line_chars: 0
+  body:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（六）论文正文：宋体小四号，两端对齐，首行缩进 2 字符，段前和段后 0 行，1.5 倍行距；三（一）英文字母、数字默认 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（三）中文摘要：“摘要”标题字小三号黑体，居中无缩进，段前和段后 0 行，单倍行距"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 0
+    after: 0
+    first_line_chars: 0
+  abstract_title_en:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（四）外文摘要：“ABSTRACT”标题字加粗小三号，居中无缩进，段前和段后 0 行，1.5 倍行距"
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 0
+  abstract_body:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（三）摘要内容用小四号宋体，两端对齐，首行缩进 2 字符，段后 0 行，1.5 倍行距（第一自然段段前 0.5 行，未设）；三（四）外文摘要内容小四号"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.5}
+    after: 0
+    first_line_chars: 2
+  keywords_zh:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（三）中文摘要：关键词行段前 0.5 行，段后 0 行"
+    before_lines: 0.5
+    after: 0
+  keywords_en:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（四）外文摘要：“Key Words:”关键词行段前 0.5 行，段后 0 行"
+    before_lines: 0.5
+    after: 0
+  toc_title:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（五）论文目录：“目录”标题字三号黑体，居中无缩进，段前 0.5 行，段后 0 行，1.5 倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.5}
+    before_lines: 0.5
+    after: 0
+    first_line_chars: 0
+  toc_chapter:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（五）一级目录项内容用四号黑体字，两端对齐，段前和段后 0 行，1.5 倍行距"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: justify
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  toc_item:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（五）二级目录项内容用小四号宋体，两端对齐，段前和段后 0 行，1.5 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+  references_title:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（十二）参考文献：标题黑体小三号，居中无缩进，段前和段后 0 行，1.5 倍行距"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 0
+  ref_item:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（十二）参考文献文本宋体五号，两端对齐，无缩进，段前和段后 0 行，1.5 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: justify
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 0
+  appendix_title:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（十三）附录：标题黑体小三号，居中无缩进，段前和段后 0 行，1.5 倍行距"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 0
+  ack_title:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（十四）后记（包括致谢）：标题黑体小三号，居中无缩进，段前和段后 0 行，1.5 倍行距"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 0
+  fig_caption:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（八）图题用楷体五号，居中无缩进，段前和段后 0 行，1.5 倍行距"
+    cn_font: 楷体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 0
+  table_caption:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（九）表题用楷体五号，居中无缩进，段前和段后 0 行，1.5 倍行距"
+    cn_font: 楷体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 0
+
+checks:
+  keywords:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》二（四）中文摘要：列出 3～8 个关键词，关键词之间用分号相隔；三（三）中文关键词用全角分号分隔，三（四）外文关键词用半角分号分隔"
+    min_count: 3
+    max_count: 8
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（八）图应分章编号，如图 1.1；三（九）表应分章编号，如表 1.1"
+  table_caption:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（九）表的编号和表题应置于表上方"
+  figure_caption:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（八）图的编号和图题应置于图下方"
+  continued_caption:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（九）如某个表需要转页接排，在随后各页上应重复表的编号，如“续表 2.1 ××××”，且续表均应重复表头"
+  equation_number:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（十）论文公式应分章编号，并将编号置于括号内，如(1.1)，公式编号右端对齐"
+  abstract_text:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》二（五）外文摘要：并在其后列出与中文相对应的外文关键词"
+    keywords_match: true
+  chapter_number:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（七）理学、工学、医学类学位论文的章节编排建议以阿拉伯数字编号，如 1，1.2，1.2.1 逐级递推"
+  citations:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》二（十）参考文献按文中使用的顺序列出；四、理工科参考文献著录应遵照 GB/T 7714—2025"
+
+layout:
+  new_page:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（七）章标题：每一章另起一页"
+    roles: [chapter]
+  page_start:
+    source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（十一）页码从摘要开始，前置部分用大写罗马数字编排，正文部分按阿拉伯数字重新开始编号"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "表中若有附注，附注写在表的下方。", source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（九）"}
+  - {text: "图宜有图题；如有英文标题，以 Fig. 1.1 编号；表如有英文标题，以 Tab. 1.1 编号；全文编号方式应统一。", source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（八）、三（九）"}
+  - {text: "摘要标题后“关键词：”用黑体加粗小四号，英文“Key Words:”加粗四号；中文摘要第一自然段段前 0.5 行（本规则包不检查）。", source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（三）、三（四）"}
+  - {text: "页眉文字为“山东建筑大学博（硕）士学位论文”，须按所攻读学位人工核对。", source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（十一）"}
+  - {text: "页面设置：装订线位置左侧，装订线 0.5cm；论文用 A4 纸双面打印。", source: "《山东建筑大学研究生学位论文撰写指南（2026版）》五"}
+  - {text: "论文封面采用研究生院统一印制的封面；封面中文论文题目小二号加粗宋体，外文题目小二号加粗，学生姓名等信息小四号加粗宋体。", source: "《山东建筑大学研究生学位论文撰写指南（2026版）》二（一）、三（二）"}
+  - {text: "摘要字数：硕士学位论文中文摘要一般为 600～800 字，博士学位论文一般为 1200～1500 字。", source: "《山东建筑大学研究生学位论文撰写指南（2026版）》一"}
+  - {text: "参考文献原则上不少于 50 篇，其中近 5 年不少于 60%，近 3 年不少于 30%，外文不少于五分之一。", source: "《山东建筑大学研究生学位论文撰写指南（2026版）》二（十）"}
+  - {text: "附录内容宋体小四号，1.5 倍行距。", source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（十三）"}
+  - {text: "图题与图序之间空一格，图名后不加标点；表序与表名之间空一格，表名后不加标点。", source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（八）、三（九）"}
+  - {text: "引文内容可用楷体；拉丁文采用斜体，希腊文用 Symbol。", source: "《山东建筑大学研究生学位论文撰写指南（2026版）》三（六）"}

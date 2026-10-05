@@ -1,0 +1,90 @@
+meta:
+  id: neimenggu-imau-ug
+  title: 内蒙古农业大学本科生毕业设计（论文）
+  version: "2025-12"
+  source: https://jwc.imau.edu.cn/info/1052/6143.htm
+  valid_from: "2025-12"
+  org: 内蒙古农业大学
+  kind: university
+  category: 本科
+  verified: true
+
+# 依据：《内蒙古农业大学本科生毕业设计（论文）撰写规范（2025年12月修订）》（附件1-1，下称「规范」）。
+# 规范二（六）指定“编写样本及详细要求见附件1-3.本科生毕业设计（论文）原文样式”，样本内没有文字说明，
+# 故样本示例格式视为学校规定；下面标注“样本”的规则取自附件1-3，只保留样本中多段一致的项目。
+page:
+  source: "规范二（三）：A4 纸；其他页边距左 3 厘米、右 2.5 厘米、上 3 厘米、下 2.5 厘米，页眉边距 2.4 厘米，页脚边距 1.75 厘米"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.5, left: 3.0, right: 2.5}
+  cover_margins_cm:
+    - {name: 封面, source: "规范二（三）：封面页边距左 0 厘米、右 0.05 厘米、上 2.54 厘米、下 0.4 厘米", top: 2.54, bottom: 0.4, left: 0.0, right: 0.05}
+  header_distance_cm: 2.4
+  footer_distance_cm: 1.75
+
+roles:
+  chapter:
+    source: "样本《附件1-3 原文样式》章标题示例格式（4 段一致；规范二（六）指定为编写样本）"
+    cn_font: 黑体
+    size: 小四
+  section_1:
+    source: "样本《附件1-3 原文样式》一级节标题示例格式（7 段一致；规范二（六）指定为编写样本）"
+    cn_font: 黑体
+    size: 小四
+  section_2:
+    source: "样本《附件1-3 原文样式》二级节标题示例格式（6 段一致；规范二（六）指定为编写样本）"
+    cn_font: 黑体
+    size: 小四
+  body:
+    source: "样本《附件1-3 原文样式》正文示例格式（31 段多数一致，字号在样本中不统一，未列入；规范二（六）指定为编写样本）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    first_line_chars: 2
+  abstract_body:
+    source: "样本《附件1-3 原文样式》摘要正文示例格式（6 段一致；规范二（六）指定为编写样本）"
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+  toc_chapter:
+    source: "样本《附件1-3 原文样式》目录章标题行示例格式（9 段一致；规范二（六）指定为编写样本）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  toc_item:
+    source: "样本《附件1-3 原文样式》目录节标题行示例格式（53 段一致；规范二（六）指定为编写样本）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  ref_item:
+    source: "样本《附件1-3 原文样式》参考文献条目示例格式（12 段一致；规范二（六）指定为编写样本）"
+    cn_font: 楷体
+    latin_font: Times New Roman
+    size: 五号
+    hanging_chars: 1.5
+  fig_caption:
+    source: "样本《附件1-3 原文样式》图题示例格式（2 段一致；规范二（六）指定为编写样本）"
+    cn_font: 黑体
+    size: 小五
+    align: center
+  table_caption:
+    source: "样本《附件1-3 原文样式》表题示例格式（4 段一致；规范二（六）指定为编写样本）"
+    cn_font: 黑体
+    size: 小五
+    align: center
+  table_source:
+    source: "样本《附件1-3 原文样式》表注示例格式（2 段一致；规范二（六）指定为编写样本）"
+    latin_font: Times New Roman
+    size: 小五
+    align: left
+
+checks:
+  table_caption:
+    source: "样本《附件1-3 原文样式》：表题（表1）位于表的上方"
+  figure_caption:
+    source: "样本《附件1-3 原文样式》：图题（图1）位于图的下方"
+
+manual:
+  - {text: "每页 35 行，每行 36 字，每页 1260 字；A4 纸双面印刷，整篇论文左侧装订，单页左侧为订边，双页右侧为订边。", source: "规范二（三）、（四）"}
+  - {text: "毕业设计（论文）正文字数：外语类专业不低于 5000 词，其他专业不低于 8000 字。", source: "规范二（五）"}
+  - {text: "原文材料顺序：封面、诚信承诺书、中文摘要与关键词、英文摘要与关键词、目录、正文、致谢、参考文献、附录、支撑材料；毕业设计须明确计算说明书、工程图纸。", source: "规范一（一）2、二（二）"}
+  - {text: "各学院可根据专业特点制定相应毕业设计（论文）撰写规范，学院有规定的以学院规定为准；诚信承诺书需手签或电子手写签名。", source: "规范前言、一（二）3"}
+  - {text: "图表编号：样本图、表采用全文连续编号（图1、表1），不按章编号。", source: "样本《附件1-3 原文样式》"}

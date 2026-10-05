@@ -1,0 +1,169 @@
+meta:
+  id: shandong-sdut-grad-master
+  title: 山东理工大学硕士学位论文（学术型 / 专业型）
+  version: "2024"
+  source: https://yjsh.sdut.edu.cn/2025/0314/c5145a537151/page.htm
+  valid_from: "2024"
+  org: 山东理工大学
+  kind: university
+  category: 研究生（硕士）
+  verified: true
+
+# 规范依据：学校发布的《学术型硕士学位论文模版-2024》《专业型硕士学位论文模版-2024》
+# （两份模板的格式说明文字完全相同，仅封面栏目不同，故共用本规则包）。
+# 下文 source 中「模板」即这两份模板内的格式说明正文及其中的批注文本框。
+
+page:
+  source: "模板 1.1：纸型A4；页边距左边距30mm、右边距25mm、上边距30mm、下边距25mm；页眉23mm、页脚18mm，左侧装订"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.5, left: 3.0, right: 2.5}
+  header_distance_cm: 2.3
+  footer_distance_cm: 1.8
+
+page_numbers:
+  source: "模板 1.2：页码必须标注在每页页脚底部居中位置，宋体，小五；封一、封二和封底不编入页码；批注：页码由摘要起到目录用罗马数字连续编排（模板示例为大写Ⅰ、Ⅱ、Ⅲ）"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_size: 小五
+  cover_no_number: true
+
+headers:
+  source: "模板批注：页眉摘要文起设置，左侧为山东理工大学硕士学位论文，右侧为一级标题，小5号宋体字"
+  cn_font: 宋体
+  size: 小五
+
+roles:
+  chapter:
+    source: "模板 1.4（1）：章标题黑体，居中，字号三号，段前、段后间距为1行"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 1
+    after_lines: 1
+  section_1:
+    source: "模板 1.4（2）：节标题黑体，居左，字号四号，段前、段后间距为1行"
+    cn_font: 黑体
+    size: 四号
+    align: left
+    before_lines: 1
+    after_lines: 1
+  section_2:
+    source: "模板 1.4（3）：节中的一级标题黑体，居左，字号小四，段前、段后间距为1行"
+    cn_font: 黑体
+    size: 小四
+    align: left
+    before_lines: 1
+    after_lines: 1
+  body:
+    source: "模板 1.3：正文每段落首行缩进2字，字体：宋体，字号：小四；1.1（4）字体：正文全部宋体、小四"
+    cn_font: 宋体
+    size: 小四
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "模板批注：题目用三号黑体字（居中排）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  abstract_title_en:
+    source: "模板批注：题目用三号Times New Roman字体（居中排）"
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+  abstract_body:
+    source: "模板批注：摘要内容用宋体，字号小四号，段落设置段前段后间距为1行；英文摘要内容Times New Roman字体，字号小四号，段前段后间距为1行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    before_lines: 1
+    after_lines: 1
+  keywords_zh:
+    source: "模板批注：关键词另起一行黑体小四号（顶格排），每个关键词中间用分号分开"
+    cn_font: 黑体
+    size: 小四
+    first_line_chars: 0
+  keywords_en:
+    source: "模板批注：用小四号加粗Times New Roman体（顶格排），每个关键词中间用分号分开"
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    first_line_chars: 0
+  toc_title:
+    source: "模板目录批注：标题“目录”，字体：黑体，字号：小三"
+    cn_font: 黑体
+    size: 小三
+  toc_chapter:
+    source: "模板目录批注：章、节标题和页码，字体：宋体，字号：小四"
+    cn_font: 宋体
+    size: 小四
+  toc_item:
+    source: "模板目录批注：章、节标题和页码，字体：宋体，字号：小四"
+    cn_font: 宋体
+    size: 小四
+  references_title:
+    source: "模板《参考文献》标题示例格式：黑体三号居中（规范未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  ref_item:
+    source: "模板 2.4.2：参考文献……用五号宋体字"
+    cn_font: 宋体
+    size: 五号
+  appendix_title:
+    source: "模板《附录》标题示例格式：黑体三号居中（规范未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  ack_title:
+    source: "模板《致谢》标题示例格式：黑体三号居中（规范未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  fig_caption:
+    source: "模板 2.1.2 4：中文图名设置为宋体，五号，居中；英文名称设置为Times New Roman，五号，居中"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: "模板 2.2.2（4）⑤：中文表名设置为宋体，五号，且居中；英文名称设置为Times New Roman，五号，且居中"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "模板批注：每个关键词中间用分号分开（中、英文关键词均用分号）"
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "模板 1.6：正文中的图、表、附注、公式一律采用阿拉伯数字分章编号，如图1.2，表2.3"
+  figure_caption:
+    source: "模板 2.1.2 4：图名居中并位于图下"
+  table_cell:
+    source: "模板 2.2.2（4）④：表内文字全文统一，设置为宋体，五号"
+    cn_font: 宋体
+    size: 五号
+  citations:
+    source: "模板 2.4.2：凡有引用他人成果之处，均应按文中所引用的顺序列于文末；1.6：文中参考文献采用阿拉伯数字根据全文统一编号，在正文中引用时用右上角标标出"
+
+layout:
+  new_page:
+    source: "模板 1.4（1）：每章另起一页；1.5：各章之间应使用“分页符”进行分隔；摘要批注：论文第一页为中文摘要，第二页为英文摘要"
+    roles: [chapter, abstract_title_zh, abstract_title_en]
+  page_start:
+    source: "模板 1.2：页码应由正文首页开始，作为第1页；将摘要、Abstract、目录等前置部分单独编排页码"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "页眉左侧为“山东理工大学硕士学位论文”，右侧为一级标题名称；页眉下横线为上粗下细“文武线”。", source: "模板 1.2"}
+  - {text: "每页35行、每行38个字，双面打印，左侧装订。", source: "模板 1.1"}
+  - {text: "中文摘要在论文第一页，字数在1000字左右；英文摘要在第二页，内容与中文摘要一致；摘要一般不要使用图、表、化学结构式、特殊符号和术语，不标注引用文献号。", source: "模板 摘要说明与批注"}
+  - {text: "图居中排列，与上文之间留一空行；图的版式为“上下型”或“嵌入型”，不得“浮于文字之上”；图的大小尽量以一页为限，超限要加续图；图及其名称放在同一页，不能跨页。", source: "模板 2.1.2"}
+  - {text: "表名（中文名下附英文名）应在表的上方并且居中；表居中排列，用WORD绘制，不要粘贴；表与下文应留一行空格；表及其名称放在同一页，超限要加续表。", source: "模板 2.2.2"}
+  - {text: "公式整行右对齐并使公式部分居中显示；公式序号按章编号，在行末列出，如（2.1）、（2.2）；公式之间及上下文间设置半行间距或6磅。", source: "模板 2.3.2"}
+  - {text: "参考文献著录应符合GB 7714，按[编号]作者……的格式书写；封面中文论文题目二号宋体加粗、英文题目三号Times New Roman加粗。", source: "模板 2.4.2、2.4.3；封面批注"}
+  - {text: "附录并非必需；在读期间公开发表的论文书写格式参照参考文献；致谢中不得书写与论文工作无关的人和事，对导师的致谢要实事求是。", source: "模板 附录、在读期间公开发表的论文、致谢"}
+  - {text: "量和单位须使用中华人民共和国法定计量单位；数字、标点符号、量和单位分别符合GB/T 15835、GB/T 15834、GB 3100~3102。", source: "模板 2.5、2.6"}

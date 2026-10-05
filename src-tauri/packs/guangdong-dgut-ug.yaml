@@ -1,0 +1,148 @@
+# 东莞理工学院本科毕业设计（论文）——计算机科学与技术学院（软件学院、网络空间安全学院）版。
+# 规范：教务处《本科毕业设计（论文）撰写规范》（附件2，下称「校规范」）+ 学院《毕业论文参考模板》文字说明（下称「学院模板」）。
+# 校规范附则 2 允许专业细化；两者不一致处以学院模板为准（见各条 source）。
+meta:
+  id: guangdong-dgut-ug
+  title: 东莞理工学院本科毕业设计（论文）（计算机学院）
+  version: "2025"
+  source: https://cs.dgut.edu.cn/info/1075/14178.htm
+  org: 东莞理工学院
+  kind: university
+  category: 本科
+  verified: true
+
+page:
+  source: "校规范「二、页面的一般设置」：采用word文档默认的页边距……使用A4规格打印"
+  paper: A4
+  margins_cm: {top: 2.54, bottom: 2.54, left: 3.18, right: 3.18}
+
+page_numbers:
+  source: "校规范「二、页面的一般设置」：页码从正文开始编写，用5号字居中标明"
+  front_no_number: true
+  footer_align: center
+  footer_size: 五号
+
+roles:
+  chapter:
+    source: "学院模板「章节标题格式」2)：一级标题 宋体，小二号，加粗；行距20磅；居中显示；段前0.5行、段后1.5行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: exact, value: 20}
+    before_lines: 0.5
+    after_lines: 1.5
+  section_1:
+    source: "学院模板「章节标题格式」3)：二级标题 宋体 加粗 小四；行距20磅；段前后0.5行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    line: {rule: exact, value: 20}
+    before_lines: 0.5
+    after_lines: 0.5
+  section_2:
+    source: "学院模板「章节标题格式」4)：三级标题 格式及字体同二级标题（段前后0.5行）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    line: {rule: exact, value: 20}
+    before_lines: 0.5
+    after_lines: 0.5
+  body:
+    source: "学院模板：正文格式 宋体小四，数字和英文均为Times New Roman；首行缩进2个字符；行距20磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+  abstract_title_zh:
+    source: "学院模板：“摘要”两个字四号宋体加粗；模板示例居中（规范未对对齐作文字规定）"
+    cn_font: 宋体
+    size: 四号
+    bold: true
+    align: center
+  abstract_title_en:
+    source: "校规范「三、字体与标题的一般设置」：英文摘要用四号新罗马体，Abstract 加粗；模板示例居中（规范未对对齐作文字规定）"
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    align: center
+  keywords_en:
+    source: "校规范「三、字体与标题的一般设置」：英文摘要用四号新罗马体；学院模板：英文摘要 Times New Roman，行距固定值24磅"
+    latin_font: Times New Roman
+    size: 四号
+    line: {rule: exact, value: 24}
+  references_title:
+    source: "模板《毕业论文参考模板》示例格式（规范未作文字规定）：与章标题同为宋体小二加粗居中"
+    cn_font: 宋体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: exact, value: 20}
+  ref_item:
+    source: "学院模板「参考文献」基本要求（4）：参考文献条目 固定行距18磅；宋体，五号，数字英文Times New Roman字体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: exact, value: 18}
+  ack_title:
+    source: "模板《毕业论文参考模板》示例格式（规范未作文字规定）：与章标题同为宋体小二加粗居中"
+    cn_font: 宋体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: exact, value: 20}
+  fig_caption:
+    source: "校规范「三、字体与标题的一般设置」：表格的表题、插图的图注用5号字黑体；学院模板：图题居中，位于图下方"
+    cn_font: 黑体
+    size: 五号
+    align: center
+  table_caption:
+    source: "学院模板：表题5号字体黑体居中，必须位于表上方"
+    cn_font: 黑体
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "学院模板：中文关键词3-5个，用顿号隔开；英文关键字间用英文逗号隔开（校规范写“不超过6个、分号隔开”，以学院模板为准）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "、"
+    en_separator: ","
+  caption_numbering:
+    source: "学院模板：图号、表号按章节编号，如图1-1、表2-4，第一个数字代表第几章"
+  table_caption:
+    source: "学院模板：表题必须位于表上方"
+  figure_caption:
+    source: "学院模板：图题位于图下方"
+  table_cell:
+    source: "学院模板：表中文本 小五宋体，数字和英文Times New Roman，单倍行距（校规范写表格内容宋体5号，以学院模板为准）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小五
+    line: {rule: auto, value: 1.0}
+  chapter_number:
+    source: "学院模板：一级标题编号为第1章、第2章、…"
+  citations:
+    source: "校规范「参考文献」：按正文中引用出现的先后顺序……按自然编号列出；学院模板：参考文献在正文中一定要有引用"
+
+layout:
+  new_page:
+    source: "学院模板「章节标题格式」1)：每一章新起一页（分节符下一页）；校规范「摘要」：英文摘要另起一页"
+    roles: [chapter, abstract_title_en]
+
+manual:
+  - {text: "标点符号全文统一使用中文标点；参考文献标点要么全中文要么全英文，保持统一。", source: "学院模板「行文风格」(1)(4)；「注意标点使用要统一」"}
+  - {text: "摘要约600-700字、大约控制在1页内（校规范写中文摘要一般不超过500字，两者不一致，需按学院要求确认）。", source: "学院模板「摘要」提示；校规范「2．摘要」"}
+  - {text: "摘要后空一行，顶格写关键词；“关键词”三字用宋体四号加粗。", source: "学院模板「摘要」；校规范「三、字体与标题的一般设置」"}
+  - {text: "页眉要更改为你的名字跟论文标题。", source: "学院模板「章节标题格式」注意"}
+  - {text: "图、表都要有编号与题目，且必须在正文中被引用；表应在软件内绘制，不得使用截图；图应清晰，图中文字接近5号字。", source: "学院模板「相关技术和开发环境」"}
+  - {text: "公式使用公式编辑器输入，右侧有编号，文中有引用。", source: "学院模板「公式」"}
+  - {text: "目录应在最后生成，目录中必须标明页码；一、二、三级标题构成正确的目录导航。", source: "学院模板「章节标题格式」5)；校规范「四、其他设置」2"}
+  - {text: "粘贴代码须为文本而非截图，用五号字体、固定行距17磅，展示代码40-50行左右。", source: "学院模板「系统实现」"}
+  - {text: "参考文献建议10-15条，序号左顶格[1]、[2]，著录按GB/T 7714格式。", source: "学院模板「参考文献」"}
+  - {text: "毕业设计总字数可控制在15000字以内（含图表）。", source: "校规范「三、其他要求」1；学院模板「详细设计」"}

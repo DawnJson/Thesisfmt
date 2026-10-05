@@ -1,0 +1,202 @@
+# 电子科技大学高等学历继续教育本科毕业论文（设计）。
+# 规范：《学士学位论文撰写格式规范》（继教院字〔2025〕32 号附件一，下称“规范”），只规定了结构、标注、图表与脚注，没有给出标题和正文的字体字号；
+# 这些由官方撰写模板（附件二，下称“模板”）的示例格式给出，source 里逐条标明。
+meta:
+  id: sichuan-uestc-adult
+  title: 电子科技大学高等学历继续教育本科毕业论文（设计）
+  version: "2025-12"
+  source: https://jxjy.uestc.edu.cn/info/1018/4093.htm
+  valid_from: "2025-12"
+  org: 电子科技大学（继续教育）
+  kind: university
+  category: 本科（继续教育）
+  verified: true
+
+page:
+  source: "模板《附件二：电子科技大学高等学历继续教育本科生毕业论文（设计）撰写模板》示例格式（规范未作文字规定）：A4，上下左右 3 cm，页眉页脚距 2 cm"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 3.0, left: 3.0, right: 3.0}
+  header_distance_cm: 2.0
+  footer_distance_cm: 2.0
+
+page_numbers:
+  source: "模板《附件二》示例格式（规范未作文字规定）：摘要、目录等前置部分用罗马数字，正文用阿拉伯数字，各自从 1 开始"
+  front_format: upperRoman
+  body_format: decimal
+  restart_at: 1
+
+roles:
+  chapter:
+    source: "规范二.3：章序及章名居中书写，章序与章名之间空 1 个半角字符；字体字号与段落间距取自模板《附件二》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  section_1:
+    source: "模板《附件二》示例格式（规范未作文字规定；规范二.3：节序顶格书写）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    line: {rule: exact, value: 20}
+    after: 6
+  section_2:
+    source: "模板《附件二》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    line: {rule: exact, value: 20}
+    before: 12
+    after: 6
+  section_3:
+    source: "模板《附件二》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 12
+    after: 6
+  body:
+    source: "模板《附件二》示例格式（规范未作文字规定）：小四号宋体，英文数字 Times New Roman，两端对齐，首行缩进 2 字符，固定值 20 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "模板《附件二》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  abstract_title_en:
+    source: "模板《附件二》示例格式（规范未作文字规定）"
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  abstract_body:
+    source: "模板《附件二》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  toc_title:
+    source: "模板《附件二》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  references_title:
+    source: "模板《附件二》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  ack_title:
+    source: "模板《附件二》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  appendix_title:
+    source: "模板《附件二》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 18
+  fig_caption:
+    source: "规范二.6 图（4）：图题居中置于图的下方；字号、段落间距取自模板《附件二》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: exact, value: 20}
+    before: 6
+    after: 12
+  table_caption:
+    source: "规范二.6 表（3）：表题居中置于表的上方，表题超过一行时仍然居中；字号、段落间距取自模板《附件二》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: exact, value: 20}
+    before: 12
+    after: 6
+
+checks:
+  keywords:
+    source: "规范一.10：从正文或标题中挑选出 3～5 个能表达论文主要内容的词语作为关键词；分隔符取自模板《附件二》示例格式（中文“，”、英文“,”，规范未作文字规定）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "，"
+    en_separator: ","
+  caption_numbering:
+    source: "规范二.6：文中的图、表、公式一律采用阿拉伯数字分章连续编号，如图 2-5，表 3-2，公式（5-1）"
+  table_caption:
+    source: "规范二.6 表（3）：表题居中置于表的上方"
+  figure_caption:
+    source: "规范二.6 图（4）：图居中放置，图题居中置于图的下方"
+  table_cell:
+    source: "规范二.6 表（2）：表中文字为中文时用宋体五号，数字和英文用 Times New Roman 10.5 磅（即五号）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  equation_number:
+    source: "规范二.6：公式一律采用阿拉伯数字分章连续编号，如公式（5-1）；公式序号右端对齐"
+  abstract_text:
+    source: "规范一.10 中文摘要：字数在 300-500 字为宜"
+    zh_min_chars: 300
+    zh_max_chars: 500
+  citations:
+    source: "规范二.4：引文标注采用顺序编码制；规范二.7：参考文献须在文中标注，并按引用顺序附于文末，标注采用顺序编码制"
+  footnotes:
+    source: "规范二.5：脚注采用小五号字，按两端对齐格式书写，单倍行距，段前段后均空 0 磅；脚注的序号按页编排，序号采用“①,……,⑩”样式；图（1）注：悬挂缩进 1.5 字符，中文用宋体，英文和数字用 Times New Roman"
+    format:
+      source: "规范二.5 及图（1）脚注说明：小五号字，宋体 / Times New Roman，两端对齐，单倍行距，段前段后 0 磅，悬挂缩进 1.5 字符"
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小五
+      align: justify
+      line: {rule: auto, value: 1.0}
+      before: 0
+      after: 0
+      hanging_chars: 1.5
+    circled: true
+    restart_each_page: true
+
+layout:
+  new_page:
+    source: "规范二.3（1）：论文正文分章节撰写，每章应另起一页；规范一.11：英文摘要另起一页开始书写"
+    roles: [abstract_title_en, chapter]
+
+manual:
+  - {text: "章序与章名之间、节序与标题名之间空 1 个半角字符；各章节标题不要超过一行，标题中不加标点符号；各层次的节序及标题不得置于页面的最后一行，只有一行或两行的文字不得作为一页的内容。", source: "规范二.3"}
+  - {text: "正文中引用文献的标示置于所引内容最后一个字的右上角，编号用阿拉伯数字置于方括号“[]”中；同一处引用多篇文献时序号间用英文逗号，连续序号可标注起止序号；不得将引用文献标示置于各级标题处。", source: "规范二.4"}
+  - {text: "表格线统一用单线条，磅值为 0.5 磅；表题中不允许出现标点符号；表之前，在正文中必须有相关文字提示，如“见表 1-1”“如表 1-1 所示”；一般情况下表不能拆开两页编排。", source: "规范二.6 表（1）（2）"}
+  - {text: "图题不能跨页编排，图与图题不得拆开编排于两页；图中若有分图，分图号用 (a)、(b) 表示，各分图题置于主图题后方，用分号“；”隔开；图题超过一行时左右缩进 2 个字。", source: "规范二.6 图（4）（5）"}
+  - {text: "公式应另起行并居中书写，序号右端对齐；文中引用公式时一般用“见式（1-1）”或“由公式（1-1）”。", source: "规范二.6 公式"}
+  - {text: "参考文献编号采用自动编号，样式为阿拉伯数字置于方括号“[]”中；作者姓名写到第三位，余者写“，等”或“，et al.”；参考文献应列在致谢后。", source: "规范一.18、二.7"}
+  - {text: "论文正文字数一般不少于 1.2 万字；致谢字数一般在 200 字以内。", source: "规范一.15、一.17"}
+  - {text: "目录从第一章开始，中英文摘要、主要符号表等前置部分不要放在目录里。", source: "规范一.12"}

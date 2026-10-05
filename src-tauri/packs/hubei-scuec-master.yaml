@@ -1,0 +1,316 @@
+meta:
+  id: hubei-scuec-master
+  title: 中南民族大学硕士学位论文（学术/专业学位，理工类/人文类）
+  version: 2025-06
+  source: https://www.scuec.edu.cn/yjsy/info/1040/3646.htm
+  org: 中南民族大学
+  kind: university
+  category: 硕士（学术/专业学位）
+  verified: true
+page:
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）“全文页面设置为上边距 2.2cm；下边距 2.2cm；左边距 2.5cm；右边距 2.5cm。页眉边距 1.1cm，页脚边距 1.1cm”，A4
+  paper: A4
+  margins_cm:
+    top: 2.2
+    bottom: 2.2
+    left: 2.5
+    right: 2.5
+  header_distance_cm: 1.1
+  footer_distance_cm: 1.1
+page_numbers:
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）“前置部分从摘要到目录按大写罗马数字连续编码；从正文第一章绪论开始重新按阿拉伯数字从 1 开始连续编排；页码位于页面底端中部，采用 Times New Roman，五号”
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 五号
+  restart_at: 1
+headers:
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）“页眉：从摘要开始……中文字体为宋体，西文字体为 Times New Roman，五号，居中对齐”（奇偶页内容不同）
+  align: center
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 五号
+roles:
+  chapter:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）一级标题：黑体、Times New Roman、小二号，居中对齐，单倍行距，段前段后 1 行
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.0
+    before_lines: 1
+    after_lines: 1
+  section_1:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）二级标题：黑体、Times New Roman、小三号，两端对齐，无缩进，段前 12 磅，段后 12 磅，单倍行距
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: justify
+    before: 12
+    after: 12
+    first_line_chars: 0
+    line:
+      rule: auto
+      value: 1.0
+  section_2:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）三级标题：黑体、Times New Roman、四号，两端对齐，首行缩进 2 字符，段前 6 磅，段后 6 磅，单倍行距
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: justify
+    before: 6
+    after: 6
+    first_line_chars: 2
+    line:
+      rule: auto
+      value: 1.0
+  section_3:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）四级标题：黑体、Times New Roman、小四号，两端对齐，首行缩进 2 字符，段前 6 磅，段后 6 磅，单倍行距
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    before: 6
+    after: 6
+    first_line_chars: 2
+    line:
+      rule: auto
+      value: 1.0
+  body:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）正文：宋体、Times New Roman、小四号，两端对齐，首行缩进 2 字符，段前和段后 0 行，单倍行距
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    before: 0
+    after: 0
+    first_line_chars: 2
+    line:
+      rule: auto
+      value: 1.0
+  abstract_title_zh:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）摘要标题：黑体、Times New Roman、小二号，居中对齐，单倍行距，段前段后 1 行
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.0
+    before_lines: 1
+    after_lines: 1
+  abstract_title_en:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）英文摘要标题：黑体、Times New Roman、小二号，居中对齐，单倍行距，段前段后 1 行
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.0
+    before_lines: 1
+    after_lines: 1
+  abstract_body:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）中、英文摘要内容：宋体、Times New Roman、小四号，两端对齐，首行缩进 2 字符，段前和段后 0 行，单倍行距
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    before: 0
+    after: 0
+    first_line_chars: 2
+    line:
+      rule: auto
+      value: 1.0
+  keywords_zh:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）关键词内容：宋体、Times New Roman、小四号，两端对齐，无缩进，段前和段后 0 行（“关键词：”为黑体，故不检查中文字体）
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    before: 0
+    after: 0
+    first_line_chars: 0
+  keywords_en:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）“Key Words:”Times New Roman，小四号，加粗；其后关键词 Times New Roman，小四号，两端对齐，无缩进，段前和段后 0 行
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    before: 0
+    after: 0
+    first_line_chars: 0
+  toc_title:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）目录标题：黑体、Times New Roman、三号，居中对齐，段前 12 磅，段后 0 磅
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    before: 12
+    after: 0
+  toc_chapter:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）一级目录项：黑体、Times New Roman、小四号，左对齐，首行无缩进，段前和段后 0 行，单倍行距
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    before: 0
+    after: 0
+    first_line_chars: 0
+    line:
+      rule: auto
+      value: 1.0
+  toc_item:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）二、三级目录项：宋体、Times New Roman、小四号，左对齐，无首行缩进，段前和段后 0 行，单倍行距
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    before: 0
+    after: 0
+    first_line_chars: 0
+    line:
+      rule: auto
+      value: 1.0
+  references_title:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）参考文献标题：黑体、Times New Roman、小二号，居中对齐，单倍行距
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.0
+    before_lines: 1
+    after_lines: 1
+  ref_item:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）参考文献内容：宋体、Times New Roman、五号，两端对齐，悬挂缩进 0.74 厘米，段前段后 0 行，单倍行距
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: justify
+    hanging_cm: 0.74
+    before: 0
+    after: 0
+    line:
+      rule: auto
+      value: 1.0
+  ack_title:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）致谢标题：黑体、Times New Roman、小二号，居中对齐，单倍行距
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.0
+    before_lines: 1
+    after_lines: 1
+  appendix_title:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）附录标题：黑体、Times New Roman、小二号，居中对齐，单倍行距
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.0
+    before_lines: 1
+    after_lines: 1
+  fig_caption:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）图题：黑体、Times New Roman、小四号，居中对齐，首行无缩进，段前 0 磅，段后 6 磅，单倍行距；图题位于图片正下方
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: center
+    before: 0
+    after: 6
+    first_line_chars: 0
+    line:
+      rule: auto
+      value: 1.0
+  table_caption:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）表题：黑体、Times New Roman、小四号，居中对齐，无缩进，段前 0.5 行，段后 0 行，单倍行距；表题位于表格正上方
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: center
+    before_lines: 0.5
+    after: 0
+    first_line_chars: 0
+    line:
+      rule: auto
+      value: 1.0
+checks:
+  keywords:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）中文关键词之间用“；”间隔，英文关键词之间用“;”间隔，最后一个关键词后不打标点；关键词个数一般选取 3～5 个
+    min_count: 3
+    max_count: 5
+    zh_separator: ；
+    en_separator: ;
+  caption_numbering:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）图题、表题：编号方式以分章编号，如图1.1 图名、表1.1 表名
+  table_caption:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）表题：表格居中对齐，表题位于表格正上方
+  figure_caption:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）图题：图题位于图片正下方
+  continued_caption:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）“如某个表需要转页接排，在随后各页上应重复表的编号，如‘续表3.1 表名’，且续表均应重复表头”
+  equation_number:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）“论文公式应分章编号，并将编号置于括号内，如（1.1），公式编号右端对齐”
+  figure_citation:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）“插图之前，文中必须有关于本插图的提示，如‘见图1.1’‘如图1.1所示’等”
+  citations:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）参考文献：采用顺序编码制；引用的参考文献用阿拉伯数字编号标注，前后加中括号
+  footnotes:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）脚注：宋体、Times New Roman、小五号，左对齐，首行无缩进，段前段后 0 行，单倍行距；用①②③……样式的数字编排序号，每页重新编号
+    format:
+      source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）脚注格式
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小五
+      align: left
+      before: 0
+      after: 0
+      first_line_chars: 0
+      line:
+        rule: auto
+        value: 1.0
+    circled: true
+    restart_each_page: true
+layout:
+  table_span:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）“续表3.1 表名”，续表均应重复表头
+  new_page:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）中文摘要、英文摘要、目录、各章、参考文献、附录、致谢标题均“另起一页”
+    roles:
+    - abstract_title_zh
+    - abstract_title_en
+    - toc_title
+    - chapter
+    - references_title
+    - appendix_title
+    - ack_title
+  page_start:
+    source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）“从正文部分第一章绪论开始重新按阿拉伯数字从 1 开始连续编排”
+    body_first: 1
+manual:
+- text: 页眉从摘要开始：奇数页为“中南民族大学硕士学位论文”（标明培养类别和学位论文级别，如同等学力硕士学位论文），偶数页为学位论文题目；页眉下方添加上边线加粗、细双线的横线；页码数字两侧不加“－”等修饰线。
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）页面批注
+- text: 全文每页 35 行，每行 35 字，页码在版心下边线之下隔行居中放置；全文采用 A4 纸。
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）页面批注
+- text: 摘要字数（以汉字计）500 字左右，关键词上方空一行；英文摘要段落中的英文标点符号后面应有一个半角空格；英文摘要与英文题名页另起一页（英文题名页从奇数页起排）。
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）摘要批注
+- text: 目录两字间空 2 格，目录项显示到 3 级，页码右对齐、有前导符，二级目录项左缩进 1 字符、三级左缩进 2 字符；正文修改后应刷新目录。
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）目录批注
+- text: 标题字数一般在 15 字以内，不得使用标点符号；绪论作为第一章，序号和标题间空一格；硕士学位论文字数 2～5 万字，结论内容一般在 2000 字左右，参考文献不少于 20 篇。
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）正文批注
+- text: 表格采用三线表形式；表序与表名之间空 1 个空格，表名及图名中不使用标点符号，名后不加标点；图片以嵌入式插入、居中，图题与图片必须在同一页；图注或图片来源说明、表注或数据来源说明为宋体、Times New Roman、五号，两端对齐（图注首行缩进 2 字符，表注首行缩进 1 字符）。
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）图表批注
+- text: 公式内容居中书写，包含公式的段落可设置段前段后 6 磅、多倍行距 1.25；文中引用公式时一般用“见式（1.1）”或“由公式（1.1）”。
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）公式批注
+- text: 引用参考文献的编号为 Times New Roman 小四号上标，不得置于各级标题处；文中直接说明时序号用小四号字与正文排齐。
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）引用批注
+- text: 人文类模板：长段引文可用“块引文”格式（楷体五号，单倍行距，左右缩进 2 字符，段前段后 0 行，首行缩进 2 字符）。
+  source: 中南民族大学研究生院《硕士学位论文模板》（2025-06，批注中的格式说明）人文类模板批注

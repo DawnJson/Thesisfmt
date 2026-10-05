@@ -1,0 +1,214 @@
+# 中国矿业大学（北京）本科生毕业设计（论文）。依据：教务处《本科生毕业设计（论文）撰写规范（2019版）》
+# （下称“规范”），条款号为规范中的编号。规范未作规定的项目不设规则。
+meta:
+  id: beijing-a-cumtb-ug
+  title: 中国矿业大学（北京）本科生毕业设计（论文）
+  version: "2019"
+  source: https://jwc.cumtb.edu.cn/info/1071/2204.htm
+  org: 中国矿业大学（北京）
+  kind: university
+  category: 本科
+  verified: true
+
+page:
+  source: "规范 3.2.1：A4纸纵向打印，上边距2.5cm，下边距2.5cm，左边距2cm，右边距2cm；3.2.2：页眉距边界1.5cm，页脚距边界1.75cm"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 2.0, right: 2.0}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "规范 3.2.2：页眉、页脚从正文部分开始至附录，其他部分不设置页眉、页脚；页脚内容为页码，用阿拉伯数字连续编排，五号宋体，居中排列"
+  front_no_number: true
+  body_format: decimal
+  footer_align: center
+  footer_size: 五号
+
+headers:
+  source: "规范 3.2.2：页眉、页脚从正文部分开始至附录，其他部分不设置页眉、页脚；页眉内容为“中国矿业大学（北京）20XX届本科毕业设计（论文）”，五号宋体，居中排列"
+  front_none: true
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "规范 3.5.1 正文一级标题：小三号黑体，加粗，居中，段前、段后间距各一行"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 1
+  section_1:
+    source: "规范 3.5.1 正文二级标题：四号黑体，顶格无缩进，段前、段后间距各0.5行"
+    cn_font: 黑体
+    size: 四号
+    first_line_chars: 0
+    before_lines: 0.5
+    after_lines: 0.5
+  section_2:
+    source: "规范 3.5.1 正文三级标题：小四号宋体，加粗，顶格无缩进，段前、段后间距各0.5行"
+    cn_font: 宋体
+    size: 小四
+    bold: true
+    first_line_chars: 0
+    before_lines: 0.5
+    after_lines: 0.5
+  body:
+    source: "规范 3.5.1 正文：小四号宋体，首行缩进2字符，行间距25磅"
+    cn_font: 宋体
+    size: 小四
+    first_line_chars: 2
+    line: {rule: exact, value: 25}
+  abstract_title_zh:
+    source: "规范 3.3.1 标题“摘要”字样，小三号黑体，加粗，居中排列，段前、段后间距各一行"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 1
+  abstract_title_en:
+    source: "规范 3.3.2 “ABSTRACT”字样，小三号宋体，加粗，居中排列，段前、段后间距各一行"
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 1
+  abstract_body:
+    source: "规范 3.3.1 中文摘要正文：小四号宋体，行间距25磅，首行缩进2汉字字符，两端对齐；3.3.2 英文摘要正文：小四号 Times New Roman 体，其余同"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 25}
+  keywords_zh:
+    source: "规范 3.3.1 中文关键词：小四号宋体；“关键词：”顶格无缩进"
+    size: 小四
+    first_line_chars: 0
+  keywords_en:
+    source: "规范 3.3.2 英文关键词：小四号 Times New Roman 体；“Keywords：”顶格无缩进（“Keywords：”本身为黑体，故不限定西文字体）"
+    size: 小四
+    first_line_chars: 0
+  toc_title:
+    source: "规范 3.4 标题“目录”字样，小三号黑体，加粗，居中排列，段前、段后间距各一行"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 1
+  toc_chapter:
+    source: "规范 3.4 行间距为20磅；第一级标题（包括章、参考文献、致谢和附录等），五号宋体，加粗"
+    cn_font: 宋体
+    size: 五号
+    bold: true
+    line: {rule: exact, value: 20}
+  toc_item:
+    source: "规范 3.4 行间距为20磅；其余标题用五号宋体"
+    cn_font: 宋体
+    size: 五号
+    line: {rule: exact, value: 20}
+  references_title:
+    source: "规范 3.8.1 标题“参考文献”，小三号黑体，加粗，顶格无缩进，段前、段后间距各一行"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    first_line_chars: 0
+    before_lines: 1
+    after_lines: 1
+  ref_item:
+    source: "规范 3.8.1 参考文献正文为五号宋体，行间距20磅"
+    cn_font: 宋体
+    size: 五号
+    line: {rule: exact, value: 20}
+  ack_title:
+    source: "规范 3.9 标题“致谢”字样，小三号黑体，加粗，居中，段前、段后间距各一行"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 1
+    after_lines: 1
+  appendix_title:
+    source: "规范 3.10 “附录”标题采用小三号黑体，加粗，顶格无缩进，段前、段后间距各一行"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    first_line_chars: 0
+    before_lines: 1
+    after_lines: 1
+  fig_caption:
+    source: "规范 3.5.3(1) 图序和图题，五号宋体，加粗，居中置于图的下方"
+    cn_font: 宋体
+    size: 五号
+    bold: true
+    align: center
+  table_caption:
+    source: "规范 3.5.2(1) 表序和表题，五号宋体，加粗，居中置于表格的上方"
+    cn_font: 宋体
+    size: 五号
+    bold: true
+    align: center
+  table_source:
+    source: "规范 3.5.2(3) 表中有附注时，用小五号宋体，附注以“注：”开始，写在表的下方"
+    cn_font: 宋体
+    size: 小五
+
+checks:
+  keywords:
+    source: "规范 2.7 关键词一般为3-5个；3.3 每个关键词之间用分号分开，最后一个关键词后无标点符号"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  abstract_text:
+    source: "规范 2.7 摘要不含公式、图表，不加注释"
+    no_figures: true
+  caption_numbering:
+    source: "规范 3.5.2(1) 表序应逐章单独编序，如“表2.1”表示第2章第1张表；3.5.3(1) 图序应逐章单独编序，如“图2.1”；序号必须连续，不得重复或跳跃"
+  table_caption:
+    source: "规范 3.5.2(1) 表序和表题居中置于表格的上方"
+  figure_caption:
+    source: "规范 3.5.3(1) 图序和图题居中置于图的下方"
+  table_cell:
+    source: "规范 3.5.2(3) 凡在表线以内的文字都是表文，表文一律使用五号宋体"
+    cn_font: 宋体
+    size: 五号
+  continued_caption:
+    source: "规范 3.5.2(1) 表格允许下页接写，接写时表题省略，表头应重复书写，并在表格右上方写“续表×.×”"
+  equation_number:
+    source: "规范 3.5.4 重要的公式应注序号并加圆括号，序号应逐章单独编序（如（2.1）），公式的编号放在公式行末右侧"
+  appendix_number:
+    source: "规范 3.10 “附录”标题依序用阿拉伯数字1、2、3编号，如：附录1 ×××"
+    style: arabic
+  citations:
+    source: "规范 2.10 引用他人成果均应按论文中所出现的先后顺序列于参考文献中；参考文献只列出正文中引用的文献，多处引用只出现一次，序号以第一次出现的位置为准"
+
+layout:
+  table_span:
+    source: "规范 3.5.2(1) 表格允许下页接写，表头应重复书写，并在表格右上方写“续表×.×”"
+  toc:
+    source: "规范 3.4 目录按三级标题编写，与正文标题一致；2.8 目录中应包括正文、参考文献、致谢、附录等"
+  new_page:
+    source: "规范 3.5.1 每章应另起一页；3.3.2 英文摘要与关键词另起一页；3.10 每个附录应另起一页"
+    roles: [abstract_title_en, chapter, appendix_title]
+  page_limits:
+    - {role: ack_title, max_pages: 1, source: "规范 3.9 致谢正文内容限1页"}
+
+manual:
+  - {text: "页眉内容为“中国矿业大学（北京）20XX届本科毕业设计（论文）”（含届别占位，程序只检查页眉字体字号与前置部分无页眉）。", source: "规范 3.2.2"}
+  - {text: "装订线位置为左，0.5cm；文档网格只指定行网格，每页44行。", source: "规范 3.2.1"}
+  - {text: "中文摘要一般为400字左右，英文摘要内容应与中文摘要内容相对应；中英文摘要均要有关键词；中英文摘要正文后空两行书写“关键词：”“Keywords：”，加粗黑体小四。", source: "规范 2.7、3.3"}
+  - {text: "“摘要”“目录”“致谢”标题中，“摘”与“要”、“目”与“录”、“致”与“谢”之间空2个汉字字符；章标题序号与标题之间空1个汉字字符，章标题末尾不加标点。", source: "规范 3.3.1、3.4、3.5.1、3.9"}
+  - {text: "目录中低级标题比相邻高级标题向右缩进2个汉字位置；目录中所有阿拉伯数字用 Times New Roman 体。", source: "规范 3.4"}
+  - {text: "正文中对总项包括的分项采用（1）、（2）、（3）…的序号，小项采用①、②、③…的序号，加括号后不再加其它标点；文管类专业标题样式由所在学院确定。", source: "规范 3.5.1"}
+  - {text: "表格与其表题、插图与其图题不得拆开排写于两页；表序（图序）与表题（图题）之间空1汉字字符。", source: "规范 3.5.2(1)、3.5.3(1)"}
+  - {text: "表一般不排左右边线，建议采用三线表；表中各栏标注量和单位；数字空缺的单元格内加“－－”字线。", source: "规范 3.5.2(2)(3)"}
+  - {text: "图注或其它说明置于图题之上，图中说明文字一律采用小五号宋体；分图号用（a）、（b）等标示，置于分图之下。", source: "规范 3.5.3(2)"}
+  - {text: "正文中参考文献标注列在同一个方括号内，以上标形式置于所引内容最末句的右上角；连续引用多篇列出首末序号并以“–”连接；不得将引用标示置于各级标题处。", source: "规范 3.5.5"}
+  - {text: "参考文献序号左顶格，用数字加方括号如［1］；条目最后以“．”结束；折行左缩进与第一行首字对齐；作者多于3人只列前3人加“等”；引文格式依照 GB/T 7714-2005。", source: "规范 3.8.1、3.8.2"}
+  - {text: "“附录”标题依序用阿拉伯数字编号，如“附录1 ×××”；附录正文小四号宋体，行间距20磅；附录中的图、表、公式冠以“附”字，如附图1.1、附表2.1、式（附3.1）。", source: "规范 3.10"}
+  - {text: "致谢正文：小四号宋体，行间距25磅，首行缩进2汉字字符，两端对齐。", source: "规范 3.9"}

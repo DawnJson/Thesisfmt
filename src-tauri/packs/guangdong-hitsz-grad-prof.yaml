@@ -1,0 +1,214 @@
+meta:
+  id: guangdong-hitsz-grad-prof
+  title: 哈尔滨工业大学（深圳）硕士学位论文（专业学位）
+  version: 2025-03
+  source: https://due.hitsz.edu.cn/info/1211/8375.htm
+  valid_from: 2026-05
+  org: 哈尔滨工业大学（深圳）
+  kind: university
+  category: 硕士（专业学位）
+  verified: true
+page:
+  source: 《指南》(理工类，2025年3月)§3.8：A4 纸，版心 150 mm×240 mm±2 mm（包括页眉、页码），即左右边距 3.0 cm、上下边距 2.85 cm；与模板《深圳校区硕士学位论文书写范例》正文节页面设置一致
+  paper: A4
+  margins_cm:
+    top: 2.85
+    bottom: 2.85
+    left: 3.0
+    right: 3.0
+page_numbers:
+  source: 《指南》§2.2：摘要、目录等文前部分的页码用罗马数字单独编排，正文以后用阿拉伯数字编排；罗马数字大写取自模板示例（指南未区分大小写）
+  front_format: upperRoman
+  body_format: decimal
+headers:
+  source: 《指南》§3.4：学位论文除封面及内封外，各页均应加页眉，居中打印，字号为小 5 号宋体；硕士学位论文单面印刷，页眉为“哈尔滨工业大学□学硕士学位论文”（奇偶页相同）
+  align: center
+  cn_font: 宋体
+  size: 小五
+  same_odd_even: true
+roles:
+  chapter:
+    source: 《指南》§3.2 章标题小2号字，建议行间距1.25倍，段前1行、段后0.8行；§3.1 各级标题用黑体，数字英文 Times New Roman；§3.7 章序及章名居中排
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.25
+    before_lines: 1
+    after_lines: 0.8
+  section_1:
+    source: 《指南》§3.2 节标题小3号字，建议行间距1.25倍，段前、段后各0.5行；§3.1 各级标题用黑体，数字英文 Times New Roman
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    line:
+      rule: auto
+      value: 1.25
+    before_lines: 0.5
+    after_lines: 0.5
+  section_2:
+    source: 《指南》§3.2 条标题4号字，建议行间距1.25倍，段前、段后各0.5行；§3.1 各级标题用黑体，数字英文 Times New Roman
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    line:
+      rule: auto
+      value: 1.25
+    before_lines: 0.5
+    after_lines: 0.5
+  section_3:
+    source: 《指南》§3.2 款、项标题小4号字，建议行间距1.25倍，段前、段后0行；§3.1 各级标题用黑体，数字英文 Times New Roman
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: auto
+      value: 1.25
+    before_lines: 0
+    after_lines: 0
+  body:
+    source: 《指南》§3.2 正文小4号字，建议行间距1.25倍；§3.1 中文宋体、数字英文 Times New Roman；首行缩进 2 字符、两端对齐取自模板示例（指南未作文字规定）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line:
+      rule: auto
+      value: 1.25
+  abstract_title_zh:
+    source: 《指南》§3.5.1 “摘要”题头居中，黑体小二号，行距1.2倍，段前1行、段后0.8行
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.2
+    before_lines: 1
+    after_lines: 0.8
+  abstract_title_en:
+    source: 《指南》§3.5.2 英文摘要书写格式与中文相同（小二号、居中、行距1.2倍、段前1行、段后0.8行）；§3.1 英文用 Times New Roman
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.2
+    before_lines: 1
+    after_lines: 0.8
+  abstract_body:
+    source: 《指南》§3.1 中文宋体、英文 Times New Roman；小四号、首行缩进 2 字符、两端对齐取自模板示例（指南未作文字规定）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+  keywords_zh:
+    source: 《指南》§3.5.1 关键词标题黑体小 4 号，关键词内容宋体、Times New Roman 小 4 号
+    size: 小四
+  keywords_en:
+    source: 《指南》§3.5.2 英文摘要书写格式与中文相同；§3.5.1 关键词小 4 号、Times New Roman
+    latin_font: Times New Roman
+    size: 小四
+  toc_chapter:
+    source: 《指南》§3.6 目录中各章题序及标题用黑体小 4 号字，数字及符号用 Times New Roman 字体
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+  toc_item:
+    source: 《指南》§3.6 目录其余用宋体小 4 号字，数字及符号用 Times New Roman 字体
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  references_title:
+    source: 模板《深圳校区硕士学位论文书写范例》示例格式（指南未作文字规定；与章标题一致：小二号黑体居中）
+    cn_font: 黑体
+    size: 小二
+    align: center
+  ack_title:
+    source: 模板《深圳校区硕士学位论文书写范例》示例格式（指南未作文字规定；与章标题一致：小二号黑体居中）
+    cn_font: 黑体
+    size: 小二
+    align: center
+  fig_caption:
+    source: 《指南》§2.13.1 图题居中书写，中文用宋体 5 号字，英文用 Times New Roman 字体 5 号字
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: 《指南》§2.12 表题居中排写，用宋体 5 号字，英文用 Times New Roman 字体 5 号字
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+checks:
+  keywords:
+    source: 《指南》§1.2.2 列取 3~6 个关键词；§2.3 中文关键词之间用“；”隔开，英文关键词之间用“,”隔开
+    min_count: 3
+    max_count: 6
+    zh_separator: ；
+    en_separator: ','
+  abstract_text:
+    source: 《指南》§2.3 摘要的字数（以汉字计），硕士学位论文一般为 500~1 000 字；中英文关键词应一一对应
+    zh_min_chars: 500
+    zh_max_chars: 1000
+    keywords_match: true
+  caption_numbering:
+    source: 《指南》§2.12 表序一般按章编排，如“表 1-1”；§2.13.1 图序按章编排，如“图 1-1”
+  table_caption:
+    source: 《指南》§2.12 表题置于表上
+  figure_caption:
+    source: 《指南》§2.13.1 图题置于图下
+  table_lines:
+    source: 模板《深圳校区硕士学位论文书写范例》表题后说明：表格样式选择“三线表”，上下 1.5 磅，中间 1 磅（《指南》§2.12 建议采用三线表）
+    top_bottom_pt: 1.5
+    header_pt: 1.0
+  table_cell:
+    source: 《指南》§2.12 表中文字用宋体、Times New Roman 字体，字号尽量采用 5 号字；模板说明：表格对齐方式选择垂直居中和水平居中
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  equation_number:
+    source: 《指南》§2.11 公式应标注序号，并将序号置于括号内，序号按章编排，如“（1-1）”，序号右端对齐
+  chapter_number:
+    source: 《指南》§3.7 表 1 章序及章名居中排，章序用阿拉伯数字（第1章）
+  citations:
+    source: 《指南》§2.6、§2.14 引用文献标注遵照 GB/T 7714—2015，采用顺序编码制；§1.5 所有被引用文献均要列入参考文献中，必须按顺序标注
+layout:
+  new_page:
+    source: 《指南》§2.5.1 论文正文分章节撰写，每章应另起一页
+    roles:
+    - chapter
+  figure_span:
+    source: 《指南》§2.13.2 插图与其图题为一个整体，不得拆开排写于两页
+  toc:
+    source: 《指南》§1.3 目录是论文中各章节的顺序排列表，包括全部章、节、条三级标题及其页码
+manual:
+- text: 页码在版心下边线之下居中排放（模板用居中的浮动文本框放页码，程序读不到对齐方式，需人工确认）。
+  source: 《指南》§2.2
+- text: 正文建议段前、段后 0 行（模板中图题、续表题注等非正文段落段前后为 0.5 行，会被当作正文，故不检查）。
+  source: 《指南》§3.2
+- text: 各章节标题字数一般在 15 字以内，标题中不加标点符号，尽量不采用英文缩写词。
+  source: 《指南》§2.5.1
+- text: 摘要中不宜使用公式、化学结构式、图表、非常用的缩写词和非公知公用的符号与术语，不标注引用文献编号；摘要页不需写出论文题目。
+  source: 《指南》§1.2.1、§2.3
+- text: 表格不加左、右边线；表序与表名之间空 2 个半角字符，表名中不使用标点符号，表名后不加标点；数字空缺的格内加横线“—”。
+  source: 《指南》§2.12
+- text: 表需转页接排时以续表形式接排：表右上角注明编号，编号后加“（续表）”，并重复表头；一般情况下插表不能拆开两页编排。
+  source: 《指南》§2.12；模板“表3-2（续表）”示例
+- text: 图题与图序之间空 2 个半角字符，图题不宜有标点符号；分图号用（a）、（b）表示；分图过多需转页时，下页标“图序（续图）”字样。
+  source: 《指南》§2.13.1、§2.13.2
+- text: 公式另起行并居中书写，公式末不加标点；引用公式时一般用“见式（1-1）”或“由公式（1-1）”。
+  source: 《指南》§2.11
+- text: 正文中引用文献的标示置于所引内容最后一个字的右上角，编号为方括号内的阿拉伯数字，小 4 号字上角标；不得将引用文献标示置于各级标题处。
+  source: 《指南》§2.6
+- text: 硕士学位论文的参考文献一般不少于 40 篇，其中外文文献一般不少于总数的 1/2，近五年的文献数一般不少于总数的 1/3，并应有近两年的参考文献；本人在攻读学位期间发表的学术论文不应列入参考文献中。
+  source: 《指南》§1.5
+- text: 物理量符号、变量符号用斜体，计量单位符号用正体；外文字母与数字用 Times New Roman；采用英语缩写词时，除通用缩写词外，第一次出现应用括号注明英文原词。
+  source: 《指南》§2.7、§2.9、§2.10
+- text: 目录应包括摘要、Abstract、正文章节题目（编到第 3 级标题）、结论、参考文献、附录、攻读学位期间取得创新性成果、原创性声明、致谢等。
+  source: 《指南》§2.4

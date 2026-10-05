@@ -1,0 +1,177 @@
+meta:
+  id: chongqing-cqust-ug
+  title: 重庆科技大学本科毕业设计（论文）
+  version: "2026"
+  source: https://jw.cqust.edu.cn/xzzx/bysj_lw_.htm
+  org: 重庆科技大学
+  kind: university
+  category: 本科
+  verified: true
+
+# 规范依据：教务处发布的《本科毕业设计（论文）模版》（规范要求.docx 第八条指明“模板与撰写要求见附件9”，
+# 即该模版），其正文即学校的格式规定；《规范要求》本身不含版式条款。以下 §x.x 为模版章节号。
+page:
+  source: "模版 §1.1（1）（2）：“用A4标准白纸……上边距2.5cm，下边距2.5cm，左、右页边距均为2.5cm。页眉：1.6cm”；§1.2：“页脚：2.1cm”"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 2.5, right: 2.5}
+  header_distance_cm: 1.6
+  footer_distance_cm: 2.1
+
+page_numbers:
+  source: "模版 §1.2：“页码位于每页页脚中部”“用阿拉伯数字连续编页”“前置部分（中文摘要、英文摘要、目录）用罗马字母单独编页”；前置部分大写罗马数字取自模版目录示例页码 I、II（规范未指明大小写）"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+
+headers:
+  source: "模版 §1.2：“页眉字号为5号宋体”；左右对齐内容见 manual"
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "模版 §1.3 表1.1、一级标题：“黑体三号居中”，段前段后“各空一行”"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 1
+    after_lines: 1
+  section_1:
+    source: "模版 §1.3 二级标题：“小三号黑体，居左，段前段后均为13磅”"
+    cn_font: 黑体
+    size: 小三
+    align: left
+    before: 13
+    after: 13
+  section_2:
+    source: "模版 §1.3 三级标题：“四号黑体，居左，段前段后0行”"
+    cn_font: 黑体
+    size: 四号
+    align: left
+    before: 0
+    after: 0
+  body:
+    source: "模版 §1.1（3）（4）：“中文为小四号宋体，英文、符号和数字为小四号Time New Roman……行距设置为固定值20磅”“每段落首行缩进2字……段前、段后均为0行”；两端对齐取自模版正文示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_body:
+    source: "模版“摘要”页：“中文字体为宋体小四，英文字体为Time New Roman”“首行缩进2个汉字……段前、段后均为0行，固定值20磅”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  keywords_zh:
+    source: "模版“摘要”页：“关键词……另起一行，左对齐”“中文字体为宋体小四，英文字体为Time New Roman”“关键词段落设置同摘要正文”（首行缩进2字、固定值20磅、段前段后0行）；“关键词”三字为黑体、其余为宋体，角色检查不能区分，故不设中文字体"
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  keywords_en:
+    source: "模版“摘要”页：“关键词……另起一行，左对齐”“英文字体为Time New Roman”“关键词段落设置同摘要正文”"
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  references_title:
+    source: "模版“参考文献”：“‘参考文献’四个字按照一级标题要求：三号黑体，居中，段前段后一行”"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 1
+    after_lines: 1
+  ref_item:
+    source: "模版“参考文献”：“字体为宋体（中文）或Time New Roman（外文、数字或符号），五号。段落为固定行距20磅，首行缩进2个字，段前段后0行”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  appendix_title:
+    source: "模版“附录A”：“标题‘附录A 附录内容名称’格式同一级标题”（黑体三号居中，段前段后一行）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 1
+    after_lines: 1
+  fig_caption:
+    source: "模版 §2.1.2（5）：“图名居中并位于图下”“图名和图内文字设置为宋体或Time New Roman，五号”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: "模版 §2.2.2（3）：“表名应当在表的上方并且居中”“表名设置为宋体或Time New Roman，五号，且居中”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  equation:
+    source: "模版 §2.3.2（6）：“公式行应单独设置为单倍行间距”"
+    line: {rule: auto, value: 1.0}
+
+checks:
+  keywords:
+    source: "模版“摘要”页：“每篇论文应选取3个～8个关键词”“中文摘要的关键词间用一个全角分号分隔，英文摘要的关键词间用一个半角分号分隔”"
+    min_count: 3
+    max_count: 8
+    zh_separator: "；"
+    en_separator: ";"
+  abstract_text:
+    source: "模版“摘要”页：“以中文撰写的学位论文，中文摘要一般字数为300字～500字”"
+    zh_min_chars: 300
+    zh_max_chars: 500
+  caption_numbering:
+    source: "模版 §1.5：“正文中的图、表、附注、公式一律采用阿拉伯数字分章编号。如图1.2，表2.3”"
+  table_caption:
+    source: "模版 §2.2.2（3）：“表名应当在表的上方并且居中。编号应分章编号”"
+  figure_caption:
+    source: "模版 §2.1：“图序和图题置于图下方中间位置”"
+  table_cell:
+    source: "模版 §2.2.2（3）：“表内文字全文统一，设置为宋体或Time New Roman，五号”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  equation_number:
+    source: "模版 §2.3.2（2）（4）：“序号一律用阿拉伯数字逐章编序（如（2.1））”“公式序号应按章编号，公式编号在行末列出，如（2.1）、（2.2）”"
+  chapter_number:
+    source: "模版 §1.3：“毕业设计（论文）各章应有序号，序号用阿拉伯数字编码”"
+  citations:
+    source: "模版“参考文献”：“以文献在整个论文中出现的次序用[1]、[2]、[3]……形式统一排序、依次列出，并在文中统一以上标形式标注”"
+
+layout:
+  new_page:
+    source: "模版 §1.3 一级标题：“每章另起一页”；§1.4：“各章之间应重新分页”"
+    roles: [chapter]
+  first_chapter_odd_page:
+    source: "模版 §1.1（5）：“主体部分必须由另页右页开始”"
+  table_span:
+    source: "模版 §2.2：“表格跨页时，两页表中均需有表头”；§2.2.2（2）：“一旦超限要加续表”"
+
+manual:
+  - {text: "页眉：同一页的页眉中左对齐为“重庆科技大学本科毕业设计（论文）”，右对齐为各章章名，页眉之下有一条下划线；页眉从摘要页开始到论文最后一页均需设置。", source: "模版 §1.1（2）、§1.2"}
+  - {text: "主体部分由引言（绪论）开始，以结论结束；页码从主体部分（引言或绪论）开始用阿拉伯数字连续编页。", source: "模版 §1.1（5）、§1.2"}
+  - {text: "图、表、公式应逐章单独编序，序号连续不得重复或跳跃；图序、图题置于图下方，表序、表题置于表上方；图及其名称、表及其名称须在同一页中。", source: "模版 §2.1、§2.2.2"}
+  - {text: "表格应为三线表（两条直线分割表头与正表，最后一条直线置于表格末尾），居中，宽度16厘米，须用 Word/WPS 绘制不得为图片；表格与下文、图与上文留一空行。", source: "模版 §2.2.2（2）"}
+  - {text: "图居中排列，图的段落设为单倍行距，图中文字为宋体或 Times New Roman 五号；图应以计算机制作后插入，不得手绘。", source: "模版 §2.1、§2.1.2"}
+  - {text: "公式应用公式编辑器编辑，严禁截图；公式整行右对齐，调整序号与公式间距使公式居中；“式中”二字顶格，变量用斜体、常量和单位用正体。", source: "模版 §2.3.2"}
+  - {text: "参考文献：理工类不少于10篇，非理工类不少于12篇，至少2篇英文文献；所有标点符号用半角；著录格式执行 GB/T 7714-2015；作者三位以内全部列出，多于三位列前三位加“等”或“et al”。", source: "模版“参考文献”"}
+  - {text: "附录标题格式同一级标题，附录中的图、表、公式、参考文献另行编号（如图A1，表B2）。", source: "模版 §1.5、“附录A”"}
+  - {text: "关键词段落：“关键词”三个字为小四号黑体，关键词内容中文字体为宋体小四。", source: "模版“摘要”页"}
+  - {text: "四级及以下标题同正文大小的宋体，首行缩进2个字符；四级为（1）××，五级为①××。", source: "模版 §1.3 表1.1"}

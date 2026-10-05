@@ -1,0 +1,84 @@
+meta:
+  id: journal-cs-aas
+  title: 《自动化学报》论文
+  version: "1204"
+  source: https://www.aas.net.cn/news/lunwenmoban.htm
+  org: 《自动化学报》
+  kind: journal
+  category: 期刊
+  verified: true
+
+# 规范依据：编辑部提供的《自动化学报》稿件加工样本（for paper in Chinese1204.docx）。
+# 样本正文即“录用稿的格式及要求”，但只有文字规定（摘要字数、关键词个数、编号方式等）；
+# 字体、字号、页边距只有样本自身的示例格式，没有文字规定，来源均标为“样本示例格式”。
+page:
+  source: "样本《for paper in Chinese1204.docx》示例格式（规范未作文字规定）：A4，上 3.8、下 4.3、左右 3.15 cm，页眉距 1.5、页脚距 1.75 cm"
+  paper: A4
+  margins_cm: {top: 3.8, bottom: 4.3, left: 3.15, right: 3.15}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+roles:
+  chapter:
+    source: "样本《for paper in Chinese1204.docx》示例格式（规范未作文字规定）：章标题黑体，段前 12 磅（字号、段后只在中文章标题成立，英文“References”标题格式不同，故不检查）"
+    cn_font: 黑体
+    before: 12
+  section_1:
+    source: "样本《for paper in Chinese1204.docx》示例格式（规范未作文字规定）：节标题黑体五号，不加粗，段前 8 磅、段后 3 磅"
+    cn_font: 黑体
+    size: 五号
+    bold: false
+    before: 8
+    after: 3
+  abstract_body:
+    source: "样本《for paper in Chinese1204.docx》示例格式（规范未作文字规定）：中英文摘要均为小五号，中文宋体"
+    cn_font: 宋体
+    size: 小五
+  keywords_zh:
+    source: "样本《for paper in Chinese1204.docx》示例格式（规范未作文字规定）：中文关键词宋体小五，固定行距 13 磅，段前段后 0"
+    cn_font: 宋体
+    size: 小五
+    line: {rule: exact, value: 13}
+    before: 0
+    after: 0
+  keywords_en:
+    source: "样本《for paper in Chinese1204.docx》示例格式（规范未作文字规定）：Key words 行 Times New Roman 小五，固定行距 13 磅，段前段后 0"
+    latin_font: Times New Roman
+    size: 小五
+    line: {rule: exact, value: 13}
+    before: 0
+    after: 0
+  fig_caption:
+    source: "样本《for paper in Chinese1204.docx》示例格式（规范未作文字规定）：图题宋体小五、居中，中英文双语"
+    cn_font: 宋体
+    size: 小五
+    align: center
+  table_caption:
+    source: "样本《for paper in Chinese1204.docx》示例格式（规范未作文字规定）：表题宋体小五、居中，中英文双语"
+    cn_font: 宋体
+    size: 小五
+    align: center
+
+checks:
+  keywords:
+    source: "样本首页：“关键词(3~5个)”；关键词间分隔符取样本示例“关键词1, 关键词2, 关键词3”“Keyword 1, keyword 2, keyword 3”（规范未作文字规定）"
+    min_count: 3
+    max_count: 5
+    zh_separator: ","
+    en_separator: ","
+  abstract_text:
+    source: "样本摘要：“中文摘要应在文章总字数的5％左右, 一般不超过200字”"
+    zh_max_chars: 200
+  citations:
+    source: "样本“参考文献”：“参考文献要按在文中出现的先后依次编号1, 2… 所引文献在正文中务请标注”"
+manual:
+  - {text: "章标题为黑体小四、不加粗，段前段后 12 磅；节标题黑体五号；正文宋体五号、两端对齐（样本示例，样本内字号和行距不统一，不作检查）。", source: "样本示例格式（规范未作文字规定）"}
+  - {text: "表题位于表上方、图题位于图下方，均为中英文双语两行、居中。双语题注两行，检查难以对应，故不检查题注位置。", source: "样本“图表”示例格式"}
+  - {text: "稿件首页应包括中英文标题、作者姓名、详细工作单位或通信地址、邮政编码、E-mail、摘要、关键词；非原始性稿件、获基金资助的课题须在首页脚注说明。", source: "样本“稿件首页应包括下列内容”"}
+  - {text: "中文摘要应在文章总字数的 5％ 左右，涵盖全文，不是标题的罗列，能独立成文，不能出现公式号和文献号；英文摘要按英语习惯书写、无文法及拼写错误。", source: "样本摘要、Abstract"}
+  - {text: "定稿论文不超过七页，短文不超过四页，综述与评论以及长论文字数可稍放宽。", source: "样本“录用稿的格式及要求”"}
+  - {text: "公式用阿拉伯数字全文统一编号（样本示例为（1））；请用公式编辑器排公式；变量排斜体，专有名词及数学符号非斜体，向量用小写黑体字，矩阵用大写非黑体字。", source: "样本“公式”"}
+  - {text: "参考文献只列公开出版的文献，内部资料、未公开发行的论文集（学位论文除外）不得引用；参考文献不使用缩略语，格式按样本文末示例。", source: "样本“参考文献”"}
+  - {text: "图、表分别用阿拉伯数字全文连续编号（不按章编号）；文中图表只附最必要的并用中英文双语表示；曲线标明坐标；附表直接列在正文出现处，不要附在文末。", source: "样本“图表”"}
+  - {text: "计量单位采用国际单位制（SI）并用规范符号表示；缩写词首次出现时注明全称；同一名词术语、人名、地名及符号含义前后一致。", source: "样本“符号、计量单位和缩略词”"}
+  - {text: "文章末页需附作者中英文简介，简介不超过 100 字。", source: "样本末段“作者一”"}

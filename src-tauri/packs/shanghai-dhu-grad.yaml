@@ -1,0 +1,202 @@
+# 东华大学研究生学位论文（学术学位、专业学位，博士、硕士共用一套格式）
+# 依据《东华大学关于研究生学位论文格式的统一要求》（修订，2022年9月1日起执行），以及学校配套的
+# 《学术学位研究生学位论文模板》《专业学位研究生学位论文模板》内的格式说明文字（两份模板的格式说明相同）。
+# 规范写“页面设置按 Word 默认值”，模板里写的页边距与之不同且两份模板实际边距不一致，故不设页边距检查。
+meta:
+  id: shanghai-dhu-grad
+  title: 东华大学研究生学位论文
+  version: "2023-04"
+  source: https://gs.dhu.edu.cn/2015/0413/c9678a141061/page.htm
+  valid_from: "2022-09"
+  org: 东华大学
+  kind: university
+  category: 研究生
+  verified: true
+
+page:
+  source: "《东华大学关于研究生学位论文格式的统一要求》第四条（一）：论文一般用A4纸进行打印"
+  paper: A4
+
+page_numbers:
+  source: "统一要求第四条（二）：页码使用 Times New Roman 小五号页脚居中；从“中文摘要”到“目录”使用罗马数字Ⅰ、Ⅱ、Ⅲ…连续编制，“绪论”以后使用阿拉伯数字连续编制，直至结束"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+
+headers:
+  source: "模板 3.2 页眉：页眉须设置为“奇偶页不同”，字体采用小五号；偶数页页眉为本章题目（奇数页为“东华大学博士/硕士学位论文”，两学位共用一包，见 manual）"
+  size: 小五
+  even: {content: chapter_title}
+
+roles:
+  chapter:
+    source: "统一要求第四条（五）：每章标题以三号黑体居中打印；模板 3.5.3：章标题（第x章）——黑体三号，居中，单倍行距（段前段后0.7cm 未设）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+  section_1:
+    source: "统一要求第四条（五）：节以四号黑体顶格打印；模板 3.5.3：节标题（x.x）——黑体四号，左对齐，单倍行距（段前段后0.7cm 未设）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    line: {rule: auto, value: 1.0}
+  section_2:
+    source: "统一要求第四条（五）：小节以小四号黑体顶格打印；模板 3.5.3：条标题（x.x.x）——黑体小四号，左对齐，单倍行距（段前段后0.3cm 未设）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.0}
+  body:
+    source: "统一要求第四条（二）：正文采用小四号宋体字、标准字符间距1.5倍行距，英文字母及阿拉伯数字一律使用 Times New Roman；模板 3.5.3：正文——宋体小四号，首行缩进2字符，1.5倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  abstract_title_zh:
+    source: "统一要求第四条（四）1：“摘要”二字（三号黑体、居中），字间空一格"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  abstract_title_en:
+    source: "统一要求第四条（四）2：“ABSTRACT”用16号 Times New Roman 加粗字体（16磅即三号），居中打印"
+    latin_font: Times New Roman
+    size: 16pt
+    bold: true
+    align: center
+  abstract_body:
+    source: "统一要求第四条（四）1、2：中文摘要内容小四号宋体、1.25倍行距；英文摘要内容 Times New Roman、1.25倍行距（中文小四号与英文11号字号不同、首行缩进2格与4字符不同，故不设字号与缩进）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    line: {rule: auto, value: 1.25}
+  keywords_zh:
+    source: "统一要求第四条（四）1：“关键词”三字（四号黑体、顶格），其后为关键词（四号宋体）（同一段内中文字体不同，不设中文字体）"
+    latin_font: Times New Roman
+    size: 四号
+    first_line_chars: 0
+  keywords_en:
+    source: "统一要求第四条（四）2：“KEY WORDS”（12号 Times New Roman 字体、顶格），其后关键词小写，用12号 Times New Roman 字体"
+    latin_font: Times New Roman
+    size: 12pt
+    first_line_chars: 0
+  toc_title:
+    source: "统一要求第四条（四）：“目录”两字（三号黑体居中）；模板 3.5.3：目录题目——黑体三号，居中，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+  toc_chapter:
+    source: "模板 3.3 目录：目录中各章题序及标题用黑体小四号字，段前段后均为0，所有标题1.25倍行距"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+  toc_item:
+    source: "模板 3.3 目录：其余用宋体小四号字，段前段后均为0，所有标题1.25倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+  references_title:
+    source: "模板 3.5.3：正文后的题目（参考文献、致谢、攻读xx期间发表的论文）——黑体三号，居中，单倍行距（段前0.7cm 未设）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+  ref_item:
+    source: "模板 参考文献说明：参考文献内容中文小四号宋体，英文 Times New Roman，1.5倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  appendix_title:
+    source: "模板 附录说明：附录标题黑体3号字居中，单倍行距（段前0.7厘米、段后0 未设）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+  ack_title:
+    source: "模板 3.5.3：正文后的题目（参考文献、致谢…）——黑体三号，居中，单倍行距"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+  end_title:
+    source: "模板 作者简历及在学期间所获得的学术成果：标题黑体3号字居中，单倍行距；3.5.3：攻读xx期间发表的论文——黑体三号，居中，单倍行距"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+  fig_caption:
+    source: "统一要求第四条（六）：图序及图名置于图的下方，图名用五号宋体加粗（居中）；模板 2.1：五号，单倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+  table_caption:
+    source: "统一要求第四条（六）：表序及表名置于表的上方，表名用五号宋体加粗（居中）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    align: center
+
+checks:
+  keywords:
+    source: "统一要求第三条（四）：关键词3－5个；第四条（四）：中文关键词之间用分号，英文关键词分隔符采用英文逗号"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ","
+  abstract_text:
+    source: "统一要求第三条（四）：中文摘要一般字数为300~600字，摘要不能出现图片、图表、表格或其他插图材料"
+    zh_min_chars: 300
+    zh_max_chars: 600
+    no_figures: true
+  table_caption:
+    source: "统一要求第四条（六）：表序及表名置于表的上方"
+  figure_caption:
+    source: "统一要求第四条（六）：图序及图名置于图的下方"
+  table_cell:
+    source: "模板 2.1 表格：表中文字用宋体5号字；统一要求第四条（二）：英文字母及阿拉伯数字一律使用 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  appendix_number:
+    source: "统一要求第三条（十）：附录的序号用 A，B，C…排序，如附录 A，附录 B…"
+
+layout:
+  new_page:
+    source: "统一要求第二条：封面、声明、答辩委员会名单、中英文摘要、目录、符号说明、论文主体、参考文献、附录、个人简历及学术成果、后记各自独立，每部分从新的一页开始"
+    roles: [abstract_title_zh, abstract_title_en, toc_title, appendix_title, ack_title, end_title]
+  toc:
+    source: "统一要求第三条（六）：目录既是论文的提纲，也是论文组成部分的小标题；第四条（四）：建议使用Word自动编排功能自动生成目录"
+
+manual:
+  - {text: "页眉奇偶页不同：奇数页居中为“东华大学博士学位论文”或“东华大学硕士学位论文”，偶数页为本章题目；页眉边框采用单横线，粗细1.5磅；中英文封面没有页眉。", source: "模板 3.2 页眉"}
+  - {text: "页码在版芯下边线之下隔行居中放置；摘要、目录、符号表等文前部分用罗马数字单独编排。", source: "模板 3.1 页码"}
+  - {text: "页面设置规范写按 Word 默认值，模板写页边距上3.5cm、下4cm、左右均2.8cm、装订线靠左0.5cm、页眉2.5cm、页脚3cm，无网格；两者不一致，程序不检查页边距。", source: "统一要求第四条（二）；模板 3.5.1"}
+  - {text: "论文自“中文摘要”起双面打印，之前部分单面打印，全文50页以下全部单面打印；封面、书脊内容必须打印。", source: "统一要求第四条（一）"}
+  - {text: "中文摘要：论文题目黑体三号、居中，题目下空一行为“摘要”二字，摘要内容后空一行为关键词；摘要内容每段开头空二格（英文摘要空四个字符，字号11号）；英文题目全部采用大写字母；英文摘要末右下方写研究生姓名与“Supervised by”导师姓名。", source: "统一要求第四条（四）、第三条（五）"}
+  - {text: "目录一级标题顶格、二级标题缩进一格、三级标题缩进两格，章、节、小节与页码之间用“……”连接，页码不用括号；“目录”与条目之间空两行。", source: "统一要求第四条（四）；模板 3.3"}
+  - {text: "图题应中英文对照，英文图序与图名另起一行放中文下方；表名不允许用标点，表题中英文对照；图、表编号用阿拉伯数字连续或分章编号；图表有附注时用英文小写字母顺序编号，附注写在图、表下方；表格不加左、右边线，建议采用三线表（线宽未规定）。", source: "统一要求第四条（六）；模板 2.1"}
+  - {text: "文中公式的编号用括号括起写在右边行末，其间不加虚线，公式基本字符为5号字体；附录中的图、表、公式分别编号，如图A-1、表B-2、式（C-3）。", source: "统一要求第四条（六）、第三条（十）；模板 2.2"}
+  - {text: "参考文献按文中引用出现的顺序列出，硕士论文列在正文末尾，博士论文可附于各章末尾或集中列在正文末尾；格式符合 GB/T 7714-2015；[标号]与作者姓名之间空一格。", source: "统一要求第三条（九）；模板 参考文献说明"}
+  - {text: "各层次题序及标题不得置于页面的最后一行；论文中一般不出现四级标题；硕士论文3～4万字，博士论文不少于6万字。", source: "模板 3.4；统一要求第一条"}
+  - {text: "封面和扉页上的论文题目用三号宋体加粗；扉页右上角注明学校代码10255、学号及中图分类法编号。", source: "统一要求第三条（一）、第四条（五）"}

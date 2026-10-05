@@ -1,0 +1,158 @@
+meta:
+  id: zhejiang-zjnu-grad
+  title: 浙江师范大学研究生学位论文（硕士 / 博士）
+  version: "2025"
+  source: https://jky.zjnu.edu.cn/2024/0527/c4806a469291/page.htm
+  org: 浙江师范大学
+  kind: university
+  category: 研究生
+  verified: false
+
+# verified 为 false：模板引用的《浙江师范大学研究生学位论文格式规范（修订）》未取得，模板示例格式值无法与其逐条核对。
+# 依据：学校统一模板《3-1-硕士学位论文模板》内的格式说明文字，及《6-学位论文打印及装订说明》。
+# 《3-2-博士学位论文模板》除封面说明外无其他格式规定，硕士、博士共用一个规则包。
+# 模板正文提到的《浙江师范大学研究生学位论文格式规范（修订）》未能取得，模板说明未写明的项只在
+# source 标明“模板示例格式”时才保留。
+
+page:
+  source: "模板《3-1-硕士学位论文模板.docx》示例页面设置（规范未作文字规定）；《打印及装订说明》用A4规格白纸输出"
+  paper: A4
+  margins_cm: {top: 3.5, bottom: 2.5, left: 3.0, right: 2.5}
+
+page_numbers:
+  source: "模板“其它规范说明”3：学位论文的页码从“绪论”数起，用阿拉伯数字连续编码；前置部分罗马数字取自模板目录示例（规范未作文字规定）"
+  front_format: upperRoman
+  body_format: decimal
+
+headers:
+  source: "模板“其它规范说明”4：从正文到末页，每一页须有页眉，页眉用五号宋体字居中排版（以各章标题标示；与“一级标题所在页不显示页眉”并存，故内容未检查）"
+  front_none: true
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "模板“各级标题的样式选择”一级标题用样式“标题1”；字体字号为模板示例格式（规范未作文字规定）；“论文中的英文一律采用 Times New Roman 字体”"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+  section_1:
+    source: "模板“各级标题的样式选择”二级标题用样式“标题2”；字体字号为模板示例格式（规范未作文字规定）；英文 Times New Roman"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: left
+  section_2:
+    source: "模板“各级标题的样式选择”三级标题用样式“标题3”；字体字号为模板示例格式（规范未作文字规定）；英文 Times New Roman"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+  section_3:
+    source: "模板“各级标题的样式选择”四级标题用样式“标题4”；字体字号为模板示例格式（规范未作文字规定）；英文 Times New Roman"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+  body:
+    source: "模板“正文的格式设置”：采用小四号宋体字；“论文中的英文一律采用 Times New Roman 字体”；对齐与首行缩进为模板示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "模板摘要格式说明：“摘要”二字选择样式“摘要”，或手动设置为：黑体、小三、居中对齐"
+    cn_font: 黑体
+    size: 小三
+    align: center
+  abstract_title_en:
+    source: "模板摘要格式说明：英文摘要的格式编排、字体大小与中文摘要相一致；论文中的英文一律采用 Times New Roman 字体"
+    latin_font: Times New Roman
+    size: 小三
+    align: center
+  abstract_body:
+    source: "模板摘要格式说明：摘要内容宋体、小四、1.5倍行距；英文一律采用 Times New Roman 字体，英文摘要字体大小与中文摘要一致"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  keywords_zh:
+    source: "模板摘要格式说明：关键词宋体，小四"
+    cn_font: 宋体
+    size: 小四
+  keywords_en:
+    source: "模板摘要格式说明：英文摘要字体大小与中文摘要一致，英文一律采用 Times New Roman 字体"
+    latin_font: Times New Roman
+    size: 小四
+  references_title:
+    source: "模板示例“参考文献”标题格式，与“标题1”一级标题一致（规范未对该标题格式作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  appendix_title:
+    source: "模板附录说明：标题“附录A 附录内容名称”选用模板中的样式所定义的“标题1”"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  ack_title:
+    source: "模板致谢说明：标题“致谢”使用模板中的样式“标题1”"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  end_title:
+    source: "模板“攻读学位期间取得的研究成果”等字使用样式“标题1”；诚信承诺书、独创性声明、使用授权声明标题在模板中同为“标题1”（示例格式）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  fig_caption:
+    source: "模板插图的格式：图的编号和图题应置于图下方的居中位置，图题字体手动设置为楷体、五号"
+    cn_font: 楷体
+    size: 五号
+    align: center
+  table_caption:
+    source: "模板表格的格式设置：表的编号和表题应置于表上方的居中位置，表格标题字体手动设置为楷体、五号"
+    cn_font: 楷体
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "模板摘要格式说明：3-6个关键词，关键词间用分号间隔，末词不加标点；英文“每一关键词之间用分号分开”；分号写法取自模板示例“关键词：写作规范；排版格式；硕士学位论文”"
+    min_count: 3
+    max_count: 6
+    zh_separator: "；"
+    en_separator: "；"
+  caption_numbering:
+    source: "模板：图号按章顺序编号，如图2.1为第二章第一图；表格按章顺序编号，如表2.1为第二章第一表"
+  table_caption:
+    source: "模板表格的格式设置：表的编号和表题应置于表上方的居中位置"
+  figure_caption:
+    source: "模板插图的格式：图的编号和图题应置于图下方的居中位置"
+  equation_number:
+    source: "模板公式的编号：式号与公式同行居右排版。公式序号应按章编号，如公式(2.1)表示第二章第一个公式"
+  appendix_number:
+    source: "模板附录说明：标题“附录A 附录内容名称”；附录中的图、表、公式等在数码前冠以附录序码"
+  citations:
+    source: "模板参考文献的书写格式：一般按论文中参考文献被引用的先后次序用阿拉伯数字连续编号，将序号置于方括号内，作为上角标"
+
+layout:
+  new_page:
+    source: "《打印及装订说明》1 打印：中文摘要单独打印；英文摘要单独打印；目录单独打印"
+    roles: [abstract_title_zh, abstract_title_en, toc_title]
+  page_start:
+    source: "模板“其它规范说明”3：学位论文的页码从“绪论”数起……用阿拉伯数字连续编码"
+    body_first: 1
+
+manual:
+  - {text: "页眉：从正文到末页，每一页须有页眉，以各章标题标示，页眉用五号宋体字居中排版。", source: "模板“其它规范说明”4"}
+  - {text: "摘要页论文标题用黑体、三号、居中，下空一行；“摘要”二字下空一行；摘要内容每段首行缩进 2 字符、两端分散对齐；关键词与摘要之间空一行，“关键词”三字为四号黑体。", source: "模板摘要格式说明"}
+  - {text: "英文摘要：论文英文题目全部大写，可分 1-3 行居中打印；“ABSTRACT”内容每段开头留四个字符空格；“KEY WORDS”其后关键词小写，最后一个关键词后不打标点。", source: "模板英文摘要格式说明"}
+  - {text: "标题标号：文科一般用“一、（一）1.（1）”，理工科用“1、1.1、1.1.1、1.1.1.1”，请按所在学科选择并全文统一。", source: "模板“文理科各级标题的编排方式”"}
+  - {text: "分图的分图号标注在分图的左上角并在图题下列出各部分内容；引用图应在图题右上角标出文献来源；位图使用 300dpi 以上分辨率。", source: "模板分图的设置"}
+  - {text: "表应有标题，表内必须按规定的符号标注单位；公式一般单行居中排版与上下文分开。", source: "模板表格的格式设置、公式的编号"}
+  - {text: "参考文献必须标出文献起止页码；附录中的图、表、公式、参考文献另行编排序号，如图A1、表B2、文献[A3]。", source: "模板参考文献的书写格式、附录说明"}
+  - {text: "采用国家正式公布实施的简化汉字和法定的计量单位；术语、符号、代号全文统一；新专业术语、缩略语应加注释，国外术语在译文后用圆括号注明原文。", source: "模板“其它规范说明”1、2"}
+  - {text: "封面、扉页单独打印，均采用单面打印；中文摘要、英文摘要、目录多页时双面打印；正文开始到致谢（声明）结束采用双面打印；用研究生学院规定的统一封面线装成册，页面四周留足空白边缘。", source: "《打印及装订说明》1、2；模板三、打印及装订说明"}

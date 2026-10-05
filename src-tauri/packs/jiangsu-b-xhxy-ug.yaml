@@ -1,0 +1,192 @@
+# 中国矿业大学徐海学院本科生毕业设计（论文）撰写规范（试行，附件5，非英语专业）。
+meta:
+  id: jiangsu-b-xhxy-ug
+  title: 中国矿业大学徐海学院本科生毕业设计（论文）
+  version: '2024'
+  source: https://xhxy.cumt.edu.cn/_upload/article/files/09/c0/3cd7634b4c7dafd40fa6c563cf9a/044bc04d-33c6-43a9-9e44-137901b60936.pdf
+  org: 中国矿业大学徐海学院
+  kind: university
+  category: 本科
+  verified: true
+page:
+  source: 规范 一「A4纸单面打印…版面页边距上、下、左、右各2cm；装订线位置为左，0.5cm…页眉距边界1.5cm，页脚距边界1.75cm」（装订线无对应字段，见 manual）
+  paper: A4
+  margins_cm:
+    top: 2.0
+    bottom: 2.0
+    left: 2.0
+    right: 2.0
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+page_numbers:
+  source: 规范 一「页码用Times New Roman小五号字放在页脚中，居中，“摘要”至“英文目录”部分为罗马数字，正文部分为阿拉伯数字」；罗马数字大小写规范未写，取模板《徐海学院本科生毕业设计（论文）模版（2024）》示例格式（upperRoman）
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+headers:
+  source: 规范 一「页眉从正文部分开始添加…中文用宋体小五号，数字及英文用Times New Roman，小五号字，居中」（页眉内容“大章节序号和名称”见 manual）
+  front_none: true
+  align: center
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 小五
+roles:
+  chapter:
+    source: 规范 二⒎「一级标题：黑体小2加粗，单倍行距，靠左顶格；英文标题：Times New Roman 小2加粗」（中文标题段前0.5行、段后0行，英文标题段前0行、段后0.5行，同一角色无法区分，段前后未设）
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    bold: true
+    align: left
+    line:
+      rule: auto
+      value: 1.0
+  section_1:
+    source: 规范 二⒎「二级标题：黑体小3，行距固定值20磅，段前0.5行，段后0.5行，靠左顶格；英文标题：Times New Roman小3」
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: left
+    before_lines: 0.5
+    after_lines: 0.5
+    line:
+      rule: exact
+      value: 20
+  section_2:
+    source: 规范 二⒎「三级标题：黑体4号，行距固定值20磅，段前0.5行，段后0.5行，靠左顶格」
+    cn_font: 黑体
+    size: 四号
+    align: left
+    before_lines: 0.5
+    after_lines: 0.5
+    line:
+      rule: exact
+      value: 20
+  body:
+    source: 规范 一「正文用宋体小四号字，行间距固定值20磅」；二⒎「正文（宋体小4号，行距固定值20磅；英文用Times New Roman，小4号）」；首行缩进 2 字符规范未写，取模板示例格式
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 2
+  abstract_title_zh:
+    source: 规范 二⒌「“摘要”字样位置居中」（字体字号规范未写）
+    align: center
+  abstract_title_en:
+    source: 规范 二⒌「英文“ABSTRACT”居中」（字体字号规范未写）
+    align: center
+  abstract_body:
+    source: 规范 二⒌「中文摘要及关键词采用小四号宋体，英文摘要和关键词采用小四号Times New Roman」
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  keywords_zh:
+    source: 规范 二⒌「中文摘要及关键词采用小四号宋体」
+    cn_font: 宋体
+    size: 小四
+  keywords_en:
+    source: 规范 二⒌「英文摘要和关键词采用小四号Times New Roman」
+    latin_font: Times New Roman
+    size: 小四
+  toc_title:
+    source: 规范 二⒍「“目录”二字用小二号字、黑体、居中书写，“目”与“录”之间空两格」
+    cn_font: 黑体
+    size: 小二
+    align: center
+  references_title:
+    source: 规范 二⒏「参考文献（标题：黑体小2加粗居中，单倍行距，段前0.5行，段后0行）」
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    before_lines: 0.5
+    line:
+      rule: auto
+      value: 1.0
+    after: 0
+  ref_item:
+    source: 规范 二⒏「内容：宋体5号，行距固定值20磅，英文用Times New Roman，5号」
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line:
+      rule: exact
+      value: 20
+  ack_title:
+    source: 规范 二⒉「“致谢”二字中间不空格、小二号字、黑体、居中」
+    cn_font: 黑体
+    size: 小二
+    align: center
+  fig_caption:
+    source: 规范 三⒊「图字体宋体，五号」「图序和图题置于图下方中间位置」
+    cn_font: 宋体
+    size: 五号
+    align: center
+  table_caption:
+    source: 规范 三⒉「表格字体宋体，五号」「表序和表题置于表格上方中间位置」
+    cn_font: 宋体
+    size: 五号
+    align: center
+checks:
+  keywords:
+    source: '规范 二⒌「关键词一般为3-5个，各关键词用分号隔开」；分号全角半角规范未写，取模板示例“关键词：浮选；旋流…”“Keywords: flotation; cyclonic separation…”'
+    min_count: 3
+    max_count: 5
+    zh_separator: ；
+    en_separator: ;
+  caption_numbering:
+    source: 规范 三⒉⒊「逐章单独编序（例：表2.1；表2.2；表5.4）」「图序逐章单独编序（例：图2.1…）」
+  figure_caption:
+    source: 规范 三⒊「图序和图题置于图下方中间位置」
+  table_cell:
+    source: 规范 三⒉「表格字体宋体，五号」
+    cn_font: 宋体
+    size: 五号
+  abstract_text:
+    source: 规范 二⒌「不含图表，不加注释…中文摘要为300-400字」
+    zh_min_chars: 300
+    zh_max_chars: 400
+    no_figures: true
+  citations:
+    source: 规范 二⒏「根据《中国高校自然科学学报编排规范》的要求书写参考文献，并按顺序编码制」；「引用他人成果…并标明序号，在参考文献中列出」
+layout:
+  toc:
+    source: 规范 二⒍「目录按二级标题编写，要求层次清晰，且要与正文标题一致」
+  new_page:
+    source: 规范 二⒎「每章另起一页」；二⒏「参考文献要另起一页」
+    roles:
+    - chapter
+    - references_title
+  page_limits:
+  - role: ack_title
+    max_pages: 1
+    source: 规范 二⒉「内容限1页」
+manual:
+- text: 装订线位置为左，0.5 cm（页面设置中的装订线，规则包页面设置无此字段）。
+  source: 规范 一
+- text: 页眉内容：正文部分加“大章节序号和名称”，“参考文献、翻译部分、附录”不加序号。
+  source: 规范 一
+- text: 毕业设计（论文）用 A4 纸单面打印；论文题目要醒目、简短，字数不得超过 25 个。
+  source: 规范 一；二⒊
+- text: 致谢内容限 1 页，采用小四号楷体。
+  source: 规范 二⒉
+- text: 英文摘要“ABSTRACT”应与中文摘要相对应，中文在前、英文在后；目录分中文目录、英文目录。
+  source: 规范 二⒌、二⒍
+- text: 正文每章前加序号（序号后空一格），英文标题与中文标题对应；三级标题不需要翻译成英文。工科专业毕业设计说明书（程序设计说明书）正文 15000–20000 字。
+  source: 规范 二⒎
+- text: 参考文献不少于 20 篇，其中外文不少于 5 篇；作者只写到第三位，余者写“等”；先列直接引用的资料，再列直接阅读且被参考的资料；一律放在正文之后，不得放在各章节之后；序号用中括号，与文字之间空一格，第二行文字与第一行文字对齐。
+  source: 规范 二⒏
+- text: 表序必须连续，不得重复或跳跃；表中各栏标注量和单位，数字上下对齐，相邻栏数值相同不得用“同上”“同左”。
+  source: 规范 三⒉
+- text: 插图要精选；分图用 a、b、c……标出；图序必须连续，不得重复或跳跃。
+  source: 规范 三⒊
+- text: 公式用公式编辑器编排，重要公式或后文重提的公式注序号并加圆括号，序号用阿拉伯数字逐章编序（如（3.6.1）），排在版面右侧且距右边距离相等，公式与序号之间不加虚线。
+  source: 规范 三⒋
+- text: 翻译部分：标题黑体小2加粗居中；“英文原文”“中文译文”为黑体3号居左顶格；内容宋体小4号、固定值20磅，英文 Times New Roman 5号；中文译文不少于 3000 汉字。
+  source: 规范 二⒐
+- text: 表序和表题置于表格上方中间位置（模板中表题为中英文双行，程序的“表题在表上方”检查会把紧邻表的英文题注判为无表题，故不启用该项检查，请人工确认）。
+  source: 规范 三⒉

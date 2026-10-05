@@ -1,0 +1,187 @@
+meta:
+  id: liaoning-lnpu-mgmt
+  title: 辽宁石油化工大学研究生学位论文（经管类）
+  version: "2020-04"
+  source: https://jjglxy.lnpu.edu.cn/info/12737/185143.htm
+  valid_from: "2020-04"
+  org: 辽宁石油化工大学
+  kind: university
+  category: 研究生（经管类）
+  verified: true
+
+# 依据：《辽宁石油化工大学研究生学位论文格式（2020版）-经管（4.11试行稿）》（下称「格式」）。文件内的“论文排版及装订要求”“论文撰写规范”两章及模板批注框均为学校规定。
+page:
+  source: "格式2.2页面设置：A4纸；页边距左右为30mm，上为25mm，下为25mm；页眉顶端距离15mm，页脚顶端距离20mm"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 3.0, right: 3.0}
+  header_distance_cm: 1.5
+  footer_distance_cm: 2.0
+
+page_numbers:
+  source: "格式2.3页码：从第1章（引言）开始按阿拉伯数字连续编排，之前的部分（中文摘要、Abstract、目录等）用大写罗马数字单独编排，封面不设页眉页脚；5号，居中"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_size: 五号
+  restart_at: 1
+  cover_no_number: true
+
+headers:
+  source: "格式2.3页眉：自摘要页起加页眉，“辽宁石油化工大学硕士学位论文”，宋体，5号，居中，至论文结束为止"
+  text: 辽宁石油化工大学硕士学位论文
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "格式2.3字体和字号：一级标题宋体小三号字加粗；标题与正文间行间距22磅；汉字宋体，数字及英文字母Time New Roman；模板说明框：一级标题段后1行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小三
+    bold: true
+    line: {rule: exact, value: 22}
+    after_lines: 1
+  section_1:
+    source: "格式2.3字体和字号：二级标题宋体四号字；标题与标题间行间距22磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    line: {rule: exact, value: 22}
+  section_2:
+    source: "格式2.3字体和字号：三级标题宋体小四号字；标题与标题间行间距22磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 22}
+  body:
+    source: "格式2.2行间距：固定值22磅，两端对齐；2.3正文部分：宋体小四号字，数字及英文字母Time New Roman。首行缩进2字符取自模板正文示例格式（格式未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: exact, value: 22}
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "格式3.3：论文题目下空一行居中打印“摘要”二字（宋体三号加粗）"
+    cn_font: 宋体
+    size: 三号
+    bold: true
+    align: center
+  abstract_title_en:
+    source: "格式3.4：论文题目下空一行居中打印“ABSTRACT”（Times New Roman 字体三号加粗）"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+  abstract_body:
+    source: "格式3.3：摘要内容宋体四号、行间距22磅（模板说明框：固定值22磅）；3.4：英文摘要内容Times New Roman字体四号"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    line: {rule: exact, value: 22}
+  keywords_zh:
+    source: "格式3.3：“关键词”三字（宋体四号加粗），其后为关键词（宋体四号）；模板说明框：首行缩进2字符"
+    cn_font: 宋体
+    size: 四号
+    first_line_chars: 2
+  keywords_en:
+    source: "格式3.4：“KEYWORDS：”首行缩进2字符，用Times New Roman字体四号加粗，其后关键词Times New Roman字体四号"
+    latin_font: Times New Roman
+    size: 四号
+    first_line_chars: 2
+  toc_title:
+    source: "格式3.5目录：“目录”二字居中（三号宋体加粗）"
+    cn_font: 宋体
+    size: 三号
+    bold: true
+    align: center
+  toc_chapter:
+    source: "格式3.5目录：章标题采用四号加粗；目录汉字采用宋体，数字及字母采用Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+  toc_item:
+    source: "格式3.5目录：节标题采用四号；目录汉字采用宋体，数字及字母采用Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+  ref_item:
+    source: "格式2.3：在没有特殊说明的情况下，正文中汉字字体均采用宋体，数字及英文字母字体均采用Time New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+  fig_caption:
+    source: "格式3.6：图题采用中英文对照，皆为五号加粗；图序和图题间空1个字距，居中排于图的下方"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    align: center
+  table_caption:
+    source: "格式3.6：表中标题采用中英文对照，皆为五号加粗；表序和表题间空1个字距，居中排于表的上方"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    align: center
+  equation:
+    source: "格式3.6：公式行距采用1.5倍行距"
+    line: {rule: auto, value: 1.5}
+
+checks:
+  keywords:
+    source: "格式3.3：关键词数量为4～6个，每一关键词之间用逗号分开，最后一个关键词后不打标点符号；3.4：英文关键词每一关键词之间用逗号分开"
+    min_count: 4
+    max_count: 6
+    zh_separator: "，"
+    en_separator: ","
+  abstract_text:
+    source: "格式3.3：字数以500-800字为宜，且在摘要中不引用参考文献"
+    zh_min_chars: 500
+    zh_max_chars: 800
+    chars_approx: true
+  appendix_number:
+    source: "格式3.8附录：论文的附录依次为附录1，附录2……编号"
+    style: arabic
+  caption_numbering:
+    source: "格式3.6：图号按章顺序编号，如“图3.2”为第三章第二图；表格按章顺序编号，如“表5.4”为第五章第四表"
+  table_caption:
+    source: "格式3.6：表序和表题间空1个字距，居中排于表的上方"
+  figure_caption:
+    source: "格式3.6：图序和图题间空1个字距，居中排于图的下方"
+  table_lines:
+    source: "格式3.6：表格应为三线表，表线的磅值1磅"
+    top_bottom_pt: 1.0
+    header_pt: 1.0
+  table_cell:
+    source: "格式3.6：表中的字号为五号；2.3：汉字宋体，数字及英文字母Time New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  chapter_number:
+    source: "格式3.5目录：章、节分别以“1”、“1.1”符号依次标出（章序号用阿拉伯数字）"
+
+layout:
+  table_span:
+    source: "格式3.6：表格较大，不能在一页打印、需要转页排时，需在续表上方居中注明“续表”，续表的表头应重复排出"
+  toc:
+    source: "格式3.5目录：目录由论文的章、节的序号、名称和页码组成。目录必须与正文标题一致（到几级标题两处文字不一致，见 manual）"
+  new_page:
+    source: "模板说明框：新一章应该另起一页"
+    roles: [chapter]
+  page_start:
+    source: "格式2.3页码：之前的部分用大写罗马数字（Ⅰ，Ⅱ，Ⅲ……）单独编排，从第1章（引言）开始按阿拉伯数字（1，2，3……）连续编排；模板说明框：正文起始页页码为1"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "中文摘要内容次序为论文题目、“摘要”二字、摘要内容、关键词；摘要中不引用参考文献。英文摘要应与中文摘要内容一致，英文关键词小写（第一个字母大写）。", source: "格式3.3、3.4"}
+  - {text: "目录行间距为固定值22磅；目录到几级标题，格式3.5写“到二级标题为止”，模板目录页说明框写“到三级标题为止”，二者不一致，以学校最终要求为准。", source: "格式3.5目录；模板目录页说明框"}
+  - {text: "控制篇幅，使每一章内容的首页为奇数页。", source: "格式3.6论文正文"}
+  - {text: "公式书写应在文中另起一行；公式中符号采用斜体（上下标及公式序号除外）；公式序号按章顺序编排，写作“(式1.2)”，序号右顶格，公式在所在行的中间位置；公式与下面正文之间不空行。", source: "格式3.6论文正文"}
+  - {text: "图片布局采用嵌入式；图中的文字字号为五号；引用图应在图题右上角标出文献来源；图题与下面正文之间不空行，图和图题在一页。", source: "格式3.6论文正文"}
+  - {text: "表内必须按规定的符号标注单位；表题与下面正文之间不空行。", source: "格式3.6论文正文"}
+  - {text: "符号说明：“符号说明”小三号加粗，下空一行打印具体内容；符号本身采用小四号斜体，后用“：”隔开，其后说明采用小四号宋体，结尾无符号。", source: "格式3.7符号说明"}
+  - {text: "参考文献表列出的文献应限于作者在论文中引用或参考过、且发表在正式出版物上的文献。", source: "格式3.8参考文献"}
+  - {text: "论文标注采用Times New Roman小四字，全文按照顺序进行标注。", source: "模板说明框（正文引用标注）"}

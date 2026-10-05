@@ -1,0 +1,203 @@
+meta:
+  id: guizhou-yunnan-xizang-swfu-grad-phd
+  title: 西南林业大学博士学位论文
+  version: "2024-10"
+  source: https://yjsy.swfu.edu.cn/info/1511/9355.htm
+  valid_from: "2024-10"
+  org: 西南林业大学
+  kind: university
+  category: 研究生（博士）
+  verified: true
+
+page:
+  source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、附表（用纸规格）：A4（210×297），页边距左右、上下 30mm，页眉、页脚距边界 20mm"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 3.0, left: 3.0, right: 3.0}
+  header_distance_cm: 2.0
+  footer_distance_cm: 2.0
+
+page_numbers:
+  source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、4 页码：前置部分用罗马数字，从绪论（第一章）开始用阿拉伯数字；页码位于页面底端居中，Times New Roman 小五"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+
+headers:
+  source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、4 页眉（3）：页眉文字为中文时宋体五号居中，英文和数字用 Times New Roman 五号居中"
+  align: center
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 五号
+
+roles:
+  chapter:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、2（4）表1 层次代号（博士论文）：大标题 黑体小三；三、6（2）大标题段前 0.5 行（段后可适当调节，不检查）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: auto, value: 1.25}
+    first_line_chars: 0
+    before_lines: 0.5
+  section_1:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、2（4）表1 层次代号（博士论文）：一级节标题 黑体四号；节序顶格书写"
+    cn_font: 黑体
+    size: 四号
+    line: {rule: auto, value: 1.25}
+    first_line_chars: 0
+  section_2:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、2（4）表1 层次代号（博士论文）：二级节标题 黑体四号；节序顶格书写"
+    cn_font: 黑体
+    size: 四号
+    line: {rule: auto, value: 1.25}
+    first_line_chars: 0
+  section_3:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、2（4）表1 层次代号（博士论文）：三级节标题 黑体小四；节序顶格书写"
+    cn_font: 黑体
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    first_line_chars: 0
+  body:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、5 论文中所用中文字体（除各级标题外）为宋体小四号，数字和英文为 Times New Roman 小四号；三、6 段落和标题均取固定值 1.25 行的行间距，所有段落首行空 4 个半角字符"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）附件5：摘要（黑体小三）"
+    cn_font: 黑体
+    size: 小三
+    line: {rule: auto, value: 1.25}
+  abstract_title_en:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）附件5：ABSTRACT（Times New Roman，小三加粗）"
+    latin_font: Times New Roman
+    size: 小三
+    bold: true
+    line: {rule: auto, value: 1.25}
+  abstract_body:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）附件5：内容宋体小四；英文摘要内容 Times New Roman 小四；三、6 所有段落首行空 4 个半角字符，行距 1.25 行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.25}
+    first_line_chars: 2
+  toc_item:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、6（4）目录及参考文献行间距取固定值为 1.25 倍的行间距"
+    line: {rule: auto, value: 1.25}
+  references_title:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、7 附录、参考文献、个人简介、导师简介、获得成果目录和致谢标题为黑体小三号，段前0.5行，段后0.5行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    line: {rule: auto, value: 1.25}
+    before_lines: 0.5
+    after_lines: 0.5
+  ref_item:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、2 表（格式要求）参考文献及页眉：中文宋体五号，数字和英文 Times New Roman 五号；三、6（4）参考文献行间距取 1.25 倍"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: auto, value: 1.25}
+  ack_title:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、7 附录、参考文献、个人简介、导师简介、获得成果目录和致谢标题为黑体小三号，段前0.5行，段后0.5行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    line: {rule: auto, value: 1.25}
+    before_lines: 0.5
+    after_lines: 0.5
+  appendix_title:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、7 附录、参考文献、个人简介、导师简介、获得成果目录和致谢标题为黑体小三号，段前0.5行，段后0.5行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    line: {rule: auto, value: 1.25}
+    before_lines: 0.5
+    after_lines: 0.5
+  end_title:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、7 附录、参考文献、个人简介、导师简介、获得成果目录和致谢标题为黑体小三号，段前0.5行，段后0.5行"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    line: {rule: auto, value: 1.25}
+    before_lines: 0.5
+    after_lines: 0.5
+  fig_caption:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、5 图（4）图题居中置于图的下方；二、2 表（格式要求）表题、图题和注：中文宋体五号，数字和英文 Times New Roman 五号；三、6（5）中文图题段前、段后 0 行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+  table_caption:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、5 表（3）表题居中置于表的上方；二、2 表（格式要求）表题、图题和注：中文宋体五号，数字和英文 Times New Roman 五号；三、6（5）中文表题段后 0 行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.25}
+    after: 0
+  equation:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、6（5）公式的段前段后为 0 行；二、5 公式另起行并居中书写"
+    align: center
+    line: {rule: auto, value: 1.25}
+    before: 0
+    after: 0
+
+checks:
+  keywords:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）附件5：关键词 3-5 个，中间用“，”分开；Key words 3-5 个，中间用“, ”分开"
+    min_count: 3
+    max_count: 5
+    zh_separator: "，"
+    en_separator: ","
+  caption_numbering:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、5 文中的图、表、公式一律采用阿拉伯数字分章连续编号，如图 2-5，表 3-2"
+  table_caption:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、5 表（3）表题居中置于表的上方"
+  figure_caption:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、5 图（4）图题居中置于图的下方"
+  equation_number:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、5 文中的公式采用阿拉伯数字分章连续编号，如公式（5-1）；公式的序号右端对齐"
+  table_cell:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、5 表（2）表中文字为中文时用宋体五号；数字和英文时用 Times New Roman 五号字"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  footnotes:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、4 脚注采用小五号字，按两端对齐格式书写，单倍行距，段前段后均空 0 行；序号按页编排，采用“①，……，⑩”样式"
+    format:
+      source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、4 脚注：小五号字，两端对齐，单倍行距，段前段后均空 0 行"
+      size: 小五
+      align: justify
+      line: {rule: auto, value: 1.0}
+      before: 0
+      after: 0
+    circled: true
+    restart_each_page: true
+
+layout:
+  new_page:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、2（2）（3）博士论文每章应另起一页；一、5 英文摘要另起一页开始书写；一、17 作者简历、导师简介、研究成果、致谢分页单列"
+    roles: [chapter, abstract_title_en, ack_title, end_title]
+  first_chapter_odd_page:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、4 页码（3）第一章以奇数页（第“1”页）开始"
+  page_start:
+    source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、4 页码（3）从绪论（第一章）开始按阿拉伯数字连续编排，第一章以奇数页（第“1”页）开始"
+    body_first: 1
+
+manual:
+  - {text: "页眉：中文摘要、英文摘要、目录、参考文献等部分用各部分内容的标题；从第一章开始奇数页页眉用“本章标题”，偶数页页眉用“西南林业大学博士学位论文”，页眉线为单横线。", source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、4 页眉（1）（2）（3）"}
+  - {text: "中文摘要约 1500 字左右；关键词另起一行置于摘要页下方。", source: "《西南林业大学研究生学位论文撰写规范》（2024-10）一、4 中文摘要"}
+  - {text: "论文题目控制在 25 字以内；标题不超过一行，标题中不加标点符号。", source: "《西南林业大学研究生学位论文撰写规范》（2024-10）一、1（1）；二、2"}
+  - {text: "大标题段后 0.5 行；各级节标题段前 0.5 行、段后 0 行；两标题之间没有文字时第二个标题段前为 0；段后行距可适当调节，故这些不检查，请人工核对（大标题段前 0.5 行及附录等标题的段前段后已检查）。", source: "《西南林业大学研究生学位论文撰写规范》（2024-10）三、6（2）（3）"}
+  - {text: "各层次的节序及标题不得置于页面的最后一行，只有一行或两行的文字不得作为一页的内容。", source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、2"}
+  - {text: "引用文献标注可采用顺序编码制，也可采用著者-出版年制，但全文必须统一；顺序编码制编号用方括号内阿拉伯数字，置于所引内容最后一个字的右上角，不得置于各级标题处。", source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、3 引用文献标注"}
+  - {text: "图之前、表之前正文中必须有相关提示（如“见图 1-1”“如表 1-1 所示”）；图题不能跨页，图与图题不得拆开排于两页，一般情况下表不能拆开两页编排。", source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、5 图（4）（5）、表（2）"}
+  - {text: "表题中不允许出现标点符号；图名、表名在图序、表序之后空 1 个半角字符。", source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、5 图（1）、表（1）"}
+  - {text: "公式应另起行并居中书写，序号右端对齐；公式较长时在等号处转行。", source: "《西南林业大学研究生学位论文撰写规范》（2024-10）二、5 公式"}
+  - {text: "致谢不超过 300 字；不要在一篇参考文献中间换页。", source: "《西南林业大学研究生学位论文撰写规范》（2024-10）一、17 致谢；三、6（4）"}

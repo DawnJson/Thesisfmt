@@ -1,0 +1,192 @@
+# 长春工业大学继续教育学院本科毕业论文：以《附件1 本科毕业论文-格式范文》内的“（注：…）”说明为规范。
+meta:
+  id: jilin-ccut-ug-ce
+  title: 长春工业大学继续教育学院本科（学士学位）毕业论文
+  version: 2025-01
+  source: https://jxjyxy.ccut.edu.cn/info/1031/1653.htm
+  org: 长春工业大学
+  kind: university
+  category: 本科
+  verified: true
+page:
+  source: 模板《附件1.长春工业大学本科毕业论文-格式范文》示例格式（范文注未作页面设置的文字规定）
+  paper: A4
+  margins_cm:
+    top: 3.3
+    bottom: 3.0
+    left: 3.0
+    right: 2.5
+  header_distance_cm: 2.5
+  footer_distance_cm: 2.0
+page_numbers:
+  source: 模板《附件1.长春工业大学本科毕业论文-格式范文》示例格式（目录“摘要 I”“Abstract II”“绪论 1”；规范未作文字规定）
+  front_format: upperRoman
+  body_format: decimal
+roles:
+  chapter:
+    source: 范文注「一级标题、第x章与后面的文字空二个空格并居中，小二黑体，标题、段落设为：段前：13磅、段后：13磅，行距为：固定值20磅」
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: exact
+      value: 20
+    before: 13
+    after: 13
+  section_1:
+    source: 范文注「二级标题：X.X数字与后面的文字空一个格，数字要用Times New Roman，中文用黑体，标题为三号字，段落设为：段前：13磅、段后：13磅，行距为：固定值20磅」
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    line:
+      rule: exact
+      value: 20
+    before: 13
+    after: 13
+  section_2:
+    source: 范文注「三级标题：X.X.X数字与后面的文字空一个格，数字要用Times New Roman，中文用黑体，标题为小三号字，段落设为：段前：13磅、段后：13磅，行距均为：固定值20磅」
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    line:
+      rule: exact
+      value: 20
+    before: 13
+    after: 13
+  body:
+    source: 范文注「正文使用宋体小四，行间距为：固定值20磅」
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: exact
+      value: 20
+  abstract_title_zh:
+    source: 范文注「“摘  要”为一级标题、小二黑体，加粗，标题段落设为段前：13磅、段后：13磅，行距为：固定值20磅，并居中」
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line:
+      rule: exact
+      value: 20
+    before: 13
+    after: 13
+  abstract_title_en:
+    source: 范文注「“Abstract”为一级标题…字号为小二Times New Roman体，标题段落设为段前：13磅、段后：13磅，行距为：固定值20磅，并居中」
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: exact
+      value: 20
+    before: 13
+    after: 13
+  toc_title:
+    source: 范文注「“目  录”二字之间空二格，字体为小二黑体并居中，间距段前、段后均为13磅，固定值为20磅」
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: exact
+      value: 20
+    before: 13
+    after: 13
+  toc_chapter:
+    source: 范文注「自动生成的目录…整个目录部分（包括文字、数字等）均设为：宋体正文、小四号字、间距段前、段后均为0行，行距均为：固定值20磅」
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+  toc_item:
+    source: 范文注「自动生成的目录…整个目录部分（包括文字、数字等）均设为：宋体正文、小四号字、间距段前、段后均为0行，行距均为：固定值20磅」
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+  references_title:
+    source: 范文注「“参考文献”为一级标题并居中，小二黑体，标题、段落设为：段前：13磅、段后：13磅，行距为：固定值20磅」
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: exact
+      value: 20
+    before: 13
+    after: 13
+  ref_item:
+    source: 范文注「序号均用Times New Roman字体…中文参考文献使用宋体，英文参考文献使用Times New Roman字体，字号都为小四号」
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  ack_title:
+    source: 范文注「“致  谢”为一级标题并居中，中间空二格，小二黑体，加粗，标题、段落设为：段前：13磅、段后：13磅，行距为：固定值20磅」
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line:
+      rule: exact
+      value: 20
+    before: 13
+    after: 13
+  fig_caption:
+    source: 范文注「图X.X与文字空一个格，数字要用Times New Roman，中、英文均为五号字，并设为段前、段后均0行，固定值20磅，并居中」
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+  table_caption:
+    source: 范文注「表与正文之间空一行…设为五号字，段前、段后均0行，固定值20磅，并居中」
+    size: 五号
+    align: center
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+checks:
+  caption_numbering:
+    source: 范文注「图X.X与文字空一个格」；范文示例图1.1、表2-1 按章编号
+  table_caption:
+    source: 范文注「表序及表名置于表的上方」
+  figure_caption:
+    source: 范文注「图序及图名置于图的下方」
+  table_cell:
+    source: 范文注「图或表：（1）字体为五号字」
+    size: 五号
+  abstract_text:
+    source: 范文摘要说明「摘要一般要求500字以内，其中不能使用公式、图表以及非通用的符号和术语」
+    zh_max_chars: 500
+    no_figures: true
+  footnotes:
+    source: 范文注「脚注：序号加圆圈放在加注处右上角，例如①；注释内容排在加注处所在页下方。每页注释序号均从①开始，不与前页的注释连续编号」
+    circled: true
+    restart_each_page: true
+layout:
+  toc:
+    source: 范文注「自动生成的目录，生成后需要调整页边距，之后再调整整个目录部分」
+manual:
+- text: 关键词一般选用三到五个；“关键词”三字用黑体小四；冒号与中文关键词之间不空格，关键词之间加二个空格（不用标点）；一行写不下时第二行第一个字与第一行冒号后的字对齐。
+  source: 范文注（关键词）
+- text: 英文关键词：每个关键词头字母大写、其余小写，“Key words”加粗，冒号与第一个关键词之间空一个空格，关键词之间空二个空格；摘要标题“Abstract”仅头字母大写。
+  source: 范文注（Key words）
+- text: 摘要一般 500 字以内，外文摘要以不超过 300 个单词为宜；英文翻译要与中文对应一致，尽量不用英文缩写词；摘要不标注引用文献。
+  source: 范文摘要说明
+- text: “摘  要”“目  录”“绪  论”“结  论”“致  谢”二字之间空二格；标题“第x章”与后面文字空二个空格。
+  source: 范文注
+- text: 目录中一级标题顶格，二级标题空两个字符，三级标题空四个字符。
+  source: 范文注（目录）
+- text: 图、表与上下文之间的空行：图序及图名与下面文字之间空一行，表序及表名与上面文字之间空一行，但紧邻标题时不空行；此空行段落设为段前、段后 0 行，固定值 20 磅。图与上文、图形与图序、表或图与页眉、表格底线与下文靠得很近时，加一空行设为段前、段后 0 行，固定值 10 磅。
+  source: 范文注（图或表 (2)(3) 及特殊情况 (1)–(4)）
+- text: 参考文献序号后的文字一行写不下时，第二行第一个字与上一行序号后的字对齐；英文标点一律用英文状态下的标点；著录参见 GB7714-87。
+  source: 范文注（参考文献）

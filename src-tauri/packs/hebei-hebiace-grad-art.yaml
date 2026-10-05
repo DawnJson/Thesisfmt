@@ -1,0 +1,136 @@
+meta:
+  id: hebei-hebiace-grad-art
+  title: 河北建筑工程学院艺术硕士研究生学位论文
+  version: "2026"
+  source: https://www.hebiace.edu.cn/
+  valid_from: "2026"
+  org: 河北建筑工程学院
+  kind: university
+  category: 研究生（艺术硕士）
+  verified: true
+
+page:
+  source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.2：论文打印用 A4 纸，页边距为上 25.4mm，下 25.4mm，左 31.7mm，右 31.7mm"
+  paper: A4
+  margins_cm: {top: 2.54, bottom: 2.54, left: 3.17, right: 3.17}
+
+page_numbers:
+  source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.2：页码在页面底端居中放置；摘要、目录等文前部分的页码用罗马数字单独编排，正文以后的页码用阿拉伯数字编排"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+
+headers:
+  source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.2、3.5：书眉 / 眉题字号为 9.5pt 楷体，居中放"
+  align: center
+  cn_font: 楷体
+  size: 9.5pt
+
+roles:
+  chapter:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.2：章标题 3 号黑体；3.8：艺术类学科章节建议按“一、（一）1.(1)”编排，按章级标题对待"
+    cn_font: 黑体
+    size: 三号
+  section_1:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.2：节标题 4 号黑体（艺术类按“（一）”级标题对待，规范3.8）"
+    cn_font: 黑体
+    size: 四号
+    first_line_chars: 0
+  body:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.1：字体要求为宋体，数字、字母等均用 Times New Roman 体；3.2：正文小 4 号宋体；2.2：论文正文行距为 1.3"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.3}
+  abstract_title_zh:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.6：摘要题头应居中，“摘  要”（中文摘要标题 1，3 号黑体）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  abstract_body:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.6：中文摘要正文内容及关键词用小 4 号宋体，多倍行距 1.3；3.1 数字、字母用 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.3}
+  keywords_zh:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.6：中文摘要正文内容及关键词用小 4 号宋体，多倍行距 1.3（“关键词”三字用小 4 号黑体，故不检查中文字体）"
+    size: 小四
+    line: {rule: auto, value: 1.3}
+  keywords_en:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.6：英文摘要的关键词通常应用 Times New Roman 小 4 号字体"
+    latin_font: Times New Roman
+    size: 小四
+  toc_item:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.7：目录中其余用小 4 号宋体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  ref_item:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.1：论文所用字体要求为宋体，数字、字母等均用 Times New Roman 体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+  fig_caption:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.13.2：图题置于图下，用中、英文两种文字居中书写，中文在上，要求用 5 号宋体字；3.1 数字、字母用 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.12：表题置于表上，用中、英文两种文字居中排写，中文在上，要求用 5 号宋体字，英文在下，为 10.5 磅 Times New Roman 字体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "《艺术硕士研究生专业学位论文写作规范》二、3：提供 3-6 个论文里最重要的词；规范3.6 关键词：(词)；(词)；…"
+    min_count: 3
+    max_count: 6
+    zh_separator: "；"
+    en_separator: ","
+  abstract_text:
+    source: "《艺术硕士研究生专业学位论文写作规范》二、2：摘要的字数掌握在 150—300 字左右；3.6：英文摘要和关键词应当与中文相同"
+    zh_min_chars: 150
+    zh_max_chars: 300
+    chars_approx: true
+    keywords_match: true
+  caption_numbering:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.12、2.13.2：表序、图号按章编排，如“表1-1”“图1-1”"
+  table_caption:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.12：表题置于表上"
+  figure_caption:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.13.2：图题置于图下"
+  table_lines:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.12：三线表，顶线和底线为 0.75pt 粗线，栏目线为 0.5pt 细线"
+    top_bottom_pt: 0.75
+    header_pt: 0.5
+  table_cell:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.12：表中字体分别为小 5 宋体和 9 磅 Times New Roman 字体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小五
+  equation_number:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.11：公式序号按章编排，如第 1 章第一个公式序号为“(1-1)”；3.9：公式序号的右侧与右边线顶边排写"
+  appendix_number:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.15：附录序号采用“附录A”“附录B”等"
+
+layout:
+  new_page:
+    source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.5.1：论文正文分章节撰写，每章应另起一页；2.2：扉页、摘要的英文部分另起一页"
+    roles: [chapter, abstract_title_en]
+
+manual:
+  - {text: "页眉：除封面及内封外各页均加页眉，页眉线 0.5pt；前置部分页眉为本章标题，正文部分奇数页眉为本章的题序及标题，偶数页眉为“河北建筑工程学院硕士学位论文”。", source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.5"}
+  - {text: "摘要页不需写出论文题目；英文摘要与中文摘要的内容应完全一致；摘要中不宜使用公式、图表，不标注引用文献编号。", source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》1.3.1、2.3、3.6"}
+  - {text: "中文关键词在摘要正文之后隔一行顶格书写；“关键词”三字用小 4 号黑体。", source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.6"}
+  - {text: "题目中文不超过 25 字，非特殊情况一般不设副标题；各章标题字数一般在 15 字以内，不得使用标点符号。", source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》1.1、2.5.1"}
+  - {text: "目录应包括全部章、节、条三级标题及其页号；一级标题顶格书写，二级标题缩进一格，三级标题缩进两格。", source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.4"}
+  - {text: "各层次题序及标题不得置于页面的最后一行（孤行）。", source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》3.8"}
+  - {text: "表题中不允许使用标点符号，表序与表名之间空一格，表名后不加标点；表注在表格底线后转行顶格书写，格式为“注：（具体内容）”，中文 6 号宋体、西文 7.5 磅 Times New Roman。", source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.12"}
+  - {text: "图名在图号之后空一格排写；有图注或其他说明时置于图题之上；插图之前文中必须有提示（如“见图1-1”）；插图与其图题不得拆开排写于两页。", source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.13.2、2.13.3"}
+  - {text: "公式原则上应居中书写，公式末不加标点；公式较长时在等号处转行。", source: "《河北建筑工程学院研究生学位论文撰写规范（试行）》2.11、3.9"}
+  - {text: "艺术硕士正文各部分用“一、二、三”等序号，下一级为“（一）（二）（三）”，再下一级为“1.2.3.”，再下一级为“（1）（2）（3）”。", source: "《艺术硕士研究生专业学位论文写作规范》二、5；《河北建筑工程学院研究生学位论文撰写规范（试行）》3.8"}
+  - {text: "注释采用脚注方式列于每一页下方；参考文献列于文末，中文按作者姓名拼音字母顺序，外文按西文字母次序排列。", source: "《艺术硕士研究生专业学位论文写作规范》二、7"}
+  - {text: "论文标题正标题一般不超过 20 个字（可另加副标题）；文本核心部分字数不少于 0.5 万（不含谱例、图表）。", source: "《艺术硕士研究生专业学位论文写作规范》二、1，二、7"}

@@ -1,0 +1,142 @@
+# 湖南女子学院本科毕业论文：模板自带“仅作参考，以学院通知为准”，无文字规范，故 verified: false，仅保留模板中一致的格式。
+meta:
+  id: hunan-hnwu-ug
+  title: 湖南女子学院本科毕业论文（设计）
+  version: '2024'
+  source: http://www.hnwu.edu.cn/ewebeditor/uploadfile/20250424174318580.doc
+  org: 湖南女子学院
+  kind: university
+  category: 本科
+  verified: false
+page:
+  source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：正文各节的页面设置
+  paper: A4
+  margins_cm:
+    top: 2.5
+    bottom: 2.5
+    left: 2.5
+    right: 2.5
+roles:
+  chapter:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的章标题（5 段）
+    cn_font: 黑体
+    size: 小二
+    line:
+      rule: exact
+      value: 23
+  section_1:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的一级节标题（13 段）
+    cn_font: 黑体
+    size: 四号
+    line:
+      rule: exact
+      value: 23
+  section_2:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的二级节标题（2 段）
+    cn_font: 黑体
+    size: 小四
+    line:
+      rule: exact
+      value: 23
+  body:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的正文（38 段）
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: exact
+      value: 23
+  abstract_title_zh:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的中文摘要标题（1 段）
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: exact
+      value: 23
+  abstract_title_en:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的英文摘要标题（1 段）
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: exact
+      value: 23
+  abstract_body:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的摘要正文（3 段）
+    cn_font: 宋体
+    size: 小四
+    align: justify
+    line:
+      rule: exact
+      value: 23
+  keywords_en:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的英文关键词（1 段）
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: exact
+      value: 23
+  toc_title:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的目录标题（1 段）
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: exact
+      value: 23
+  references_title:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的参考文献标题（1 段）
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: exact
+      value: 22
+  ref_item:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的参考文献条目（18 段）
+    cn_font: 宋体
+    size: 五号
+    align: justify
+    line:
+      rule: exact
+      value: 22
+    before: 0
+    after: 0
+    hanging_chars: 1.5
+  ack_title:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的致谢标题（1 段）
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: exact
+      value: 23
+  fig_caption:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的图题（1 段）
+    cn_font: 黑体
+    size: 小四
+    align: center
+    line:
+      rule: auto
+      value: 1
+    before: 0
+    after: 0
+  table_caption:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的表题（6 段）
+    cn_font: 黑体
+    size: 小四
+    align: center
+  table_source:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的表注 / 资料来源（2 段）
+    cn_font: 宋体
+    size: 小五
+    align: justify
+    line:
+      rule: exact
+      value: 23
+    before: 0
+    after: 0
+checks:
+  caption_numbering:
+    source: 模板《湖南女子学院本科毕业论文撰写格式范例（2024参考版）》示例格式（规范未作文字规定；模板标注“仅作参考，以学院通知为准”）：中的图表题注按章编号

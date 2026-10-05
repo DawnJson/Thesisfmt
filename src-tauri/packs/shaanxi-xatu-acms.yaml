@@ -1,0 +1,192 @@
+meta:
+  id: shaanxi-xatu-acms
+  title: 西安工业大学学术硕士学位论文
+  version: "2024"
+  source: https://grs.xatu.edu.cn/info/1044/3933.htm
+  valid_from: "2024-05"
+  org: 西安工业大学
+  kind: university
+  category: 学术硕士
+  verified: true
+
+page:
+  source: "《西安工业大学学术硕士学位论文编写规范（2024版）》2(3)：上边距为 2.5cm；下边距为 2.1cm；左边距为 2.1cm；右边距为 2.1cm；装订线为 0.5cm；页眉为 1.5cm；页脚为 1.5cm"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.1, left: 2.1, right: 2.1}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.5
+
+roles:
+  chapter:
+    source: "规范 3(10)：每一章的一级题目采用“标题 1”的格式：居中，黑体，三号。多倍行距：4；2(13)：1 ××××（标题，3 号字黑体，占 4 行，居中排）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 4}
+  section_1:
+    source: "规范 3(10)：二级题目采用“标题 2”的格式：左顶格，黑体，四号。多倍行距：2.5（左顶格即无缩进）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    first_line_chars: 0
+    line: {rule: auto, value: 2.5}
+  section_2:
+    source: "规范 3(10)：三级题目采用“标题 3”的格式：左顶格，宋体，小四号，加粗。两倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    first_line_chars: 0
+    line: {rule: auto, value: 2}
+  body:
+    source: "规范 2(4)：所有数字和字母均为 Times New Roman。正文为小四宋体。每段首行缩进 2 字符，间距为固定值 20 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+  abstract_title_zh:
+    source: "规范 3(4)：中文摘要的一级标题为“摘要”……字体为黑体，三号，加粗，居中"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+  abstract_title_en:
+    source: "规范 3(5)：英文摘要的一级标题为 Abstract，字体采用 Times New Roman，三号字，加粗，居中"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+  abstract_body:
+    source: "规范 3(4)：中文摘要正文字体为宋体，小四号；3(5)：英文摘要正文字体为 Times New Roman，小四号，每段落首行缩进 2 字符；固定值 20 磅取自模板《西安工业大学学术硕士学位论文编写规范附件（2024版）》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+  keywords_zh:
+    source: "规范 3(6)：中文关键词内容字体为宋体，小四号"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  keywords_en:
+    source: "规范 3(6)：英文关键词……字体为 Times New Roman，小四号"
+    latin_font: Times New Roman
+    size: 小四
+  toc_title:
+    source: "规范 3(7)：目录的标题为“目录”……黑体，三号，加粗，居中"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+  toc_chapter:
+    source: "规范 2(6)、3(7)：目录的第一级左顶格，黑体，小四号字"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+  toc_item:
+    source: "规范 2(6)：其中 1 级题目为小四黑体，其余 2 级和 3 级题目为小四宋体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  ref_item:
+    source: "模板《西安工业大学学术硕士学位论文编写规范附件（2024版）》“参考文献”一节：参考文献正文均采用五号字"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  table_caption:
+    source: "模板附件 2.3.2 2)：表序与表名一起在表的上方用 5 号黑体居中排列"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  fig_caption:
+    source: "模板附件 2.2.2 1)：图题应在图的下方用五号黑体居中排列"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "规范 3(6)：关键词一般为 4~8 个；英文关键词之间用分号；中文分号取自模板示例格式"
+    min_count: 4
+    max_count: 8
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "模板附件 2.2.2 1)、2.3.2 1)：插图在每一章内按顺序编号，如图 1.2；表按章顺序编号，如表 2.5"
+  table_caption:
+    source: "模板附件 2.3.2 2)：表序与表名一起在表的上方"
+  figure_caption:
+    source: "模板附件 2.2.2 1)：图题应在图的下方"
+  table_lines:
+    source: "模板附件 2.3.2 3)：一律采用三线表，即有三条线，第 1 和第 3 条线为 1.5 磅，第 2 条线为 0.25 磅"
+    top_bottom_pt: 1.5
+    header_pt: 0.25
+  table_cell:
+    source: "模板附件 2.3.2：表格中的文字采用五号字"
+    size: 五号
+  equation_number:
+    source: "模板附件 2.1 1)：公式序号按章顺序编号，如（1.2）、（2.3），公式号居公式的右端"
+  figure_citation:
+    source: "模板附件 2.2.1 1)、2.2.2 3)：有引图用语，并且图在其引用语之后出现；先文后图"
+  citations:
+    source: "模板附件“参考文献”：参考文献的序号是按照前边引用的顺序排列的，未引用的文献不得在参考文献中出现"
+  chapter_number:
+    source: "规范 2(13)：1 ××××（标题，3 号字黑体，占 4 行，居中排）；模板章标题为“1 绪 论”"
+  abstract_text:
+    source: "模板摘要示例：摘要中不能出现公式及图、表，摘要字数一般为 700～1000 字左右；规范 3(6)：英文关键词应当与中文关键词对应"
+    zh_min_chars: 700
+    zh_max_chars: 1000
+    chars_approx: true
+    no_figures: true
+    keywords_match: true
+  footnotes:
+    source: "规范 3(13)：脚注放在需要注释页面的最下方，五号宋体字，首字不空格，脚注可以有序号"
+    format:
+      source: "规范 3(13)：五号宋体字；2(4)：所有数字和字母均为 Times New Roman"
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 五号
+
+headers:
+  source: "规范 2(7)、3(8)：页眉用 5 号宋体字居中；2(11)：摘要、目录不设页眉，页眉从正文开始"
+  align: center
+  cn_font: 宋体
+  size: 五号
+  front_none: true
+
+layout:
+  figure_span:
+    source: "模板附件 2.2.2：不管是图或者图名都不能跨页；当前页放不下时可以分成两个图，并且冠以“续图”"
+  toc:
+    source: "规范 2(6)、3(7)：目录为自动生成，须自动生成"
+  new_page:
+    source: "规范 2(10)：各章之间应分页；3(14)：参考文献首页必须放在奇数页；2(5)：中英文摘要各自一页"
+    roles: [abstract_title_zh, abstract_title_en, chapter, references_title]
+  first_chapter_odd_page:
+    source: "规范 2(8)：除第一章的首页须在奇数页（第 1 页）外，其他章按顺序接排"
+  page_start:
+    source: "规范 3(8)：从绪论的第一页开始，是正文的起始页，页码从 1 开始编排"
+    body_first: 1
+
+manual:
+  - {text: "页码：目录用罗马数字（ⅰ，ⅱ…）、从绪论第一页起用阿拉伯数字从 1 编排，页码在页脚居中，Times New Roman 小五号；中英文摘要不需要页眉页脚。摘要无页码，故不启用页码检查。", source: "规范 2(11)、3(7)(8)"}
+  - {text: "页眉内容：奇数页写本章题目，偶数页写“西安工业大学硕士学位论文”；参考文献部分所有页眉均写“参考文献”（有例外页，不作自动检查）。", source: "规范 2(8)、2(14)、3(8)"}
+  - {text: "表格中的文字居中对称排列。", source: "模板附件 2.3.2"}
+  - {text: "页眉线为双细线（线粗 0.25 磅），其长度与版心宽度相同，两根细线间距 0.5mm。", source: "规范 2(7)、3(8)"}
+  - {text: "目录格式为“来自模板”，显示级别为 3 级。", source: "规范 2(6)"}
+  - {text: "硕士学位论文正文字数一般不少于 3 万字；A4 纸张，除中英文题名页外双面打印。", source: "规范 2(2)"}
+  - {text: "论文题目一般不超过 35 个字。", source: "规范 3(1)"}
+  - {text: "中文题名页为黑体小二号；英文题名页为 Times New Roman 小二号；均单页印刷排版。", source: "规范 3(2)(3)"}
+  - {text: "中文摘要在奇数页、英文摘要在偶数页；中文摘要一页、英文摘要两页时，中文摘要在奇数页，偶数页空白。", source: "规范 2(5)"}
+  - {text: "中文摘要正文最下方可写基金资助情况（非必须项），宋体五号；英文摘要同，Times New Roman 五号。", source: "规范 3(4)(5)"}
+  - {text: "章标题只有两个字时，两字中间空 2 个字符。", source: "规范 3(10)"}
+  - {text: "正文中各层次标题均不能出现在每页的最后一行。", source: "规范 2(13)"}
+  - {text: "公式不能跨页；公式中各符号都应当有说明；公式中的字体字号与正文一致，不得任意加大加黑，一般符号和数字用正体字，变量用斜体字。", source: "模板附件 2.1"}
+  - {text: "图中文字一般采用五号字，不能大于五号字，特殊情况也不能小于七号字，中文宋体、数字字母 Times New Roman；坐标图须给出“量符号/单位符号”。", source: "模板附件 2.2.2"}
+  - {text: "表格与上下文留一行空行；表中所有栏目单位相同时，单位标注在表右上方；表注用 5 号宋体附于表下；引用他人图表须注明出处。", source: "模板附件 2.3.2"}
+  - {text: "表不跨页；放不下时截断为两个表格，以“续表”形式放在下一页。", source: "模板附件 2.3.2 5)"}
+  - {text: "学位论文独创性和知识产权声明须手写签名；参考文献首页放在奇数页，“攻读硕士学位期间发表的论文及成果”“致谢”“声明”正反面打印，不需要全部放在奇数页。", source: "规范 2(12)、2(14)"}

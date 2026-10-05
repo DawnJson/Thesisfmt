@@ -1,0 +1,128 @@
+meta:
+  id: shanghai-sjtu-grad
+  title: 上海交通大学研究生学位论文（硕士、博士）
+  version: "2024-07"
+  source: https://www.gs.sjtu.edu.cn/post/detail/Z3MzNDA0
+  org: 上海交通大学
+  kind: university
+  category: 研究生
+  verified: true
+
+# 规范原文：研究生院《博士、硕士学位论文撰写指南》（简称“指南”）；页面设置等取自《论文模板（word).docx》中的说明文字（简称“模板”）。
+page:
+  source: "模板 2.3.1 页面设置：页边距上 3.5 厘米，下 4 厘米，左右均为 2.5 厘米；页眉 2.5 厘米；页脚 3 厘米；指南三（三）A4 纸页面排版"
+  paper: A4
+  margins_cm: {top: 3.5, bottom: 4.0, left: 2.5, right: 2.5}
+  header_distance_cm: 2.5
+  footer_distance_cm: 3.0
+
+page_numbers:
+  source: "模板《论文模板（word).docx》示例格式：摘要部分用大写罗马数字，正文用阿拉伯数字（指南未作文字规定）"
+  front_format: upperRoman
+  body_format: decimal
+
+roles:
+  chapter:
+    source: "指南三（一）：一级标题用三号粗黑体；西文取自模板 2.3.2“英文与数字字体要求为 Times New Roman……黑体中文中的英文与数字再加粗”；居中、段前 24 磅、段后 18 磅取自模板示例格式（指南未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    before: 24
+    after: 18
+  section_1:
+    source: "指南三（一）：二级标题用四号粗黑体；西文取自模板 2.3.2；段前后取自模板示例格式（指南未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    before: 24
+    after: 6
+  section_2:
+    source: "指南三（一）：三级标题用小四号粗黑体；西文取自模板 2.3.2；段前后取自模板示例格式（指南未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    before: 12
+    after: 6
+  body:
+    source: "指南三（一）：正文中文用小四号或五号宋体，英文或数字用小四号或五号 Times New Roman（字号二选一，故不检查字号）；首行缩进 2 字符取自模板示例格式"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "模板《论文模板（word).docx》示例格式：中文摘要标题三号黑体加粗居中，段前 24 磅、段后 18 磅（指南未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    before: 24
+    after: 18
+  abstract_title_en:
+    source: "模板《论文模板（word).docx》示例格式：Abstract 三号加粗居中，段前 24 磅、段后 18 磅；西文字体依模板 2.3.2 为 Times New Roman"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    before: 24
+    after: 18
+  abstract_body:
+    source: "指南三（一）：中文用宋体，英文或数字用 Times New Roman（字号小四或五号二选一，故不检查字号）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+  toc_title:
+    source: "模板《论文模板（word).docx》示例格式：目录标题三号黑体加粗居中，段前 24 磅、段后 18 磅（指南未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    before: 24
+    after: 18
+  references_title:
+    source: "指南三（一）：一级标题用三号粗黑体（参考文献标题与章标题同级，模板中为一级标题）；居中、段前后取自模板示例格式"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    before: 24
+    after: 18
+  ack_title:
+    source: "指南三（一）：一级标题用三号粗黑体（致谢标题与章标题同级，模板中为一级标题）；居中、段前后取自模板示例格式"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    before: 24
+    after: 18
+
+checks:
+  keywords:
+    source: "指南二（四）：摘要页的下方注明本文的关键词（4～6 个）；分隔符取自模板示例格式（中文逗号、英文逗号，指南未作文字规定）"
+    min_count: 4
+    max_count: 6
+    zh_separator: "，"
+    en_separator: ","
+  table_caption:
+    source: "指南三（二）：表序及表名置于表的上方"
+  figure_caption:
+    source: "指南三（二）：图序及图名置于图的下方"
+
+layout:
+  toc:
+    source: "指南二（五）：目录是论文各组成部分的小标题，应分别依次列出并注明页码"
+  new_page:
+    source: "模板 2.1：论文内容由封面、中文摘要、英文摘要、目录、符号说明、论文正文、参考文献、附录、致谢、学术论文目录组成，以上各部分独立为一部分，每部分应从新的一页开始"
+    roles: [abstract_title_zh, abstract_title_en, toc_title, references_title, ack_title]
+
+manual:
+  - {text: "关键词与摘要同页，写在摘要页下方；英文摘要内容应与中文摘要内容一致。", source: "指南二（四）"}
+  - {text: "图表、附注、参考文献、公式一律采用阿拉伯数字连续（或分章）编号；公式编号用括弧括起写在右边行末，其间不加虚线。", source: "指南三（二）"}
+  - {text: "参考文献格式建议参照 GB/T 7714-2015。", source: "指南二（八）"}
+  - {text: "注释作为脚注在页下分别著录，切忌在文中注释。", source: "指南二（九）"}
+  - {text: "学位论文双面打印（长边翻页）；装订线靠左 0.5 厘米；页面无网格。", source: "指南三（三）、模板 2.3.1"}
+  - {text: "英文与数字夹杂在黑体中文中时，英文与数字用 Times New Roman 并加粗。", source: "模板 2.3.2 字体"}
+  - {text: "各学院、学部学位评定委员会可根据学科特点自行制定论文撰写格式，以本学院要求为准。", source: "指南三末段"}

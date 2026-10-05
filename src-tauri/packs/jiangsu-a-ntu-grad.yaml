@@ -1,0 +1,146 @@
+# 南通大学博硕士学位论文：《格式要求》第三条指定格式详见《格式模板（2024版）》，模板批注为规范文字。
+meta:
+  id: jiangsu-a-ntu-grad
+  title: 南通大学博硕士学位论文
+  version: '2024'
+  source: https://jky.ntu.edu.cn/_upload/article/files/ab/96/ee9755a746239b17826f35875540/c0351e1e-0651-4a39-a48b-69315f077c3f.zip
+  org: 南通大学
+  kind: university
+  category: 研究生
+  verified: true
+page:
+  source: 《南通大学学位论文格式要求（2024版）》四（二）：除封面外，所有页面边界为，上3.8厘米，下3.8厘米，左3.2厘米，右3.2厘米；页眉2.8厘米，页脚2.6厘米
+  paper: A4
+  margins_cm:
+    top: 3.8
+    bottom: 3.8
+    left: 3.2
+    right: 3.2
+  header_distance_cm: 2.8
+  footer_distance_cm: 2.6
+page_numbers:
+  source: 模板《南通大学博硕士学位论文格式模板（2024版）》示例格式（规范未作文字规定）：摘要前用小写罗马数字，正文用阿拉伯数字，页脚居中五号
+  front_format: lowerRoman
+  body_format: decimal
+  footer_align: center
+  footer_size: 五号
+headers:
+  source: 模板《南通大学博硕士学位论文格式模板（2024版）》示例格式（规范未作文字规定）：页眉文字“南通大学博硕士学位论文”，左对齐五号
+  text: 南通大学博硕士学位论文
+  align: left
+  size: 五号
+roles:
+  chapter:
+    source: 模板批注“章标题上下各空一行。标题1，小三号居中”；黑体见模板示例格式（批注未写字体）
+    cn_font: 黑体
+    size: 小三
+    align: center
+  section_1:
+    source: 模板《南通大学博硕士学位论文格式模板（2024版）》示例格式（规范未作文字规定）
+    cn_font: 黑体
+    size: 四号
+  section_2:
+    source: 模板《南通大学博硕士学位论文格式模板（2024版）》示例格式（规范未作文字规定）
+    cn_font: 宋体
+    size: 小四
+  body:
+    source: 模板批注“宋体小四号，两端对齐，首行缩进0.92厘米或2字符，固定值行距20磅”；《格式要求》四（二）“对齐方式：两端对齐；首行缩进0.92厘米或2字符；行间距：固定值20磅”（首行缩进可用厘米，引擎不检查）
+    cn_font: 宋体
+    size: 小四
+    align: justify
+    line:
+      rule: exact
+      value: 20
+  abstract_title_zh:
+    source: 模板批注“黑体、小三号、居中。空一行，键入摘要内容”
+    cn_font: 黑体
+    size: 小三
+    align: center
+  abstract_title_en:
+    source: 模板批注“Times New roman 16 磅，加黑。上下各空一行”（Abstract 标题）
+    latin_font: Times New Roman
+    size: 16pt
+    bold: true
+  toc_title:
+    source: 模板批注“黑体、三号、居中。上下各空一行，行间距固定值22磅”（目录）
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line:
+      rule: exact
+      value: 22
+  abstract_body:
+    source: 模板批注“宋体，小四号，两端对齐，首行缩进0.92厘米；行距固定值20磅”（中文摘要内容）
+    cn_font: 宋体
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    size: 小四
+  references_title:
+    source: 模板文本框“小三号黑体居中，上下各空一行”（位于“参考文献”标题处）
+    cn_font: 黑体
+    size: 小三
+    align: center
+  ref_item:
+    source: 模板文本框“按论文中参考文献出现的次序，用中括号的数字连续编号，顶格书写，五号宋体，单倍行距”
+    cn_font: 宋体
+    size: 五号
+    line:
+      rule: auto
+      value: 1.0
+  ack_title:
+    source: 模板批注“黑体、小三号。对导师和给予指导或协助完成学位论文工作的组织和个人表示感谢”（致谢标题）
+    cn_font: 黑体
+    size: 小三
+  fig_caption:
+    source: 模板批注“图序和图题写在图的下方居中，五号宋体”
+    cn_font: 宋体
+    size: 五号
+    align: center
+  table_caption:
+    source: 模板批注“表题应写在表格上方正中”；字体字号见模板示例格式（批注未写）：五号宋体
+    cn_font: 宋体
+    size: 五号
+    align: center
+checks:
+  keywords:
+    source: 模板批注“限三到五个关键词，用逗号隔开”（中文关键词）；英文关键词分隔符规范未写，按逗号处理（模板示例用全角逗号）
+    min_count: 3
+    max_count: 5
+    zh_separator: ，
+    en_separator: ','
+  table_caption:
+    source: 模板批注“表题应写在表格上方正中”
+  figure_caption:
+    source: 模板批注“图序和图题写在图的下方居中，五号宋体”
+  continued_caption:
+    source: 模板批注“表格允许下页接写，接写时表题省略，表头应重复书写，并在右上方写‘续表xx’”
+  abstract_text:
+    source: 模板批注“摘要内容要求在800～1200字”
+    zh_min_chars: 800
+    zh_max_chars: 1200
+  citations:
+    source: 模板文本框“按论文中参考文献出现的次序，用中括号的数字连续编号”
+layout:
+  table_span:
+    source: 模板批注“表格允许下页接写，接写时表题省略，表头应重复书写，并在右上方写‘续表xx’”
+manual:
+- text: 正文与摘要首行缩进可取 0.92 厘米或 2 字符（引擎只检查字符数，未检查厘米写法）；章标题、目录标题、参考文献标题上下各空一行（模板用 17/16.5 磅间距实现，不检查）。
+  source: 《格式要求》四（二）；模板批注“章标题上下各空一行”
+- text: 摘要标题模板批注为黑体小三号（模板示例实际为宋体三号，以批注为准）；参考文献标题、致谢标题为黑体小三号。
+  source: 模板批注（摘要、致谢）、模板文本框（参考文献）
+- text: 参考文献用中括号的数字连续编号，顶格书写（模板示例为悬挂缩进）。
+  source: 模板文本框（参考文献）
+- text: 文中引用参考文献用方括号，括号内加半角阿拉伯数字为右上标。
+  source: 模板批注“文中引用参考文献用方括号，括号内加半角阿拉伯数字为右上标”
+- text: 中文摘要在本页最下方另起一行注明关键词（3-5 个）；英文摘要最下方一行为英文关键词（Keywords 3-5 个）。
+  source: 模板批注（摘要、Abstract）
+- text: 表序写在表题左方不加标点，空一格写表题，表题末尾不加标点；表格采用简明三线表；表格、插图可全文统一编序，也可逐章编序，序号必须连续，不得重复或跳缺。
+  source: 模板批注（表题、图表）
+- text: 公式另起一行，编号用圆括号括起、标注于该式所在行（有续行时为最后一行）的行末，可按章节或全文统一编号，序号必须连续；较长公式最好在等号处转行，否则在 +、-、×、÷ 等符号处转行，符号写在转行处的行首。
+  source: 模板文本框（公式）
+- text: 学位论文字数（不包括图表）：自然科学类博士一般不少于 5 万字；自然科学类学术学位硕士不少于 3 万字，人文社科类学术学位硕士不少于 4 万字；专业学位硕士按各专业学位类别要求。
+  source: 《南通大学学位论文格式要求（2024版）》一
+- text: 双面打印、胶装；装订后尺寸 285mm×205mm（版心 240mm×150mm）；封面博士深红色、学术学位硕士白色、专业学位硕士浅绿色。
+  source: 《南通大学学位论文格式要求（2024版）》四

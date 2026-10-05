@@ -1,0 +1,44 @@
+name: Release
+
+# 推送 v* 标签（如 v0.1.0）时：跑测试，构建 Windows 安装包，挂到草稿 Release。
+# 标签版本需与 src-tauri/tauri.conf.json 的 version 一致。
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+
+      - run: npm ci
+
+      - name: Test
+        working-directory: src-tauri
+        run: cargo test
+
+      - uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tagName: ${{ github.ref_name }}
+          releaseName: 论文格式体检 ${{ github.ref_name }}
+          releaseBody: |
+            Windows 10/11 x64。`.msi` 与 `-setup.exe` 任选其一安装。
+            安装包未签名，SmartScreen 拦截时点「更多信息」→「仍要运行」。
+          releaseDraft: true

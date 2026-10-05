@@ -1,0 +1,52 @@
+# 北京大学本科生毕业论文。校级《工作管理办法》（2021年3月修订）不含排版条款，
+# 格式依据为教务部模板《北京大学本科生毕业论文模板.docx》中的文字说明（脚注）和示例格式。
+meta:
+  id: beijing-a-pku-ug
+  title: 北京大学本科生毕业论文
+  version: "2021"
+  source: https://cese.pku.edu.cn/docs/20210427165738905731.docx
+  valid_from: "2021-03"
+  org: 北京大学
+  kind: university
+  category: 本科
+  verified: true
+
+page:
+  source: "模板《北京大学本科生毕业论文模板.docx》正文各节示例格式（规范未作文字规定）"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 2.0, right: 2.0}
+  cover_margins_cm:
+    - {name: 摘要前页面, source: "模板《北京大学本科生毕业论文模板.docx》摘要之前的节示例格式（规范未作文字规定）", top: 3.0, bottom: 2.5, left: 2.6, right: 2.6}
+
+roles:
+  chapter:
+    source: "模板《北京大学本科生毕业论文模板.docx》章标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  toc_title:
+    source: "模板《北京大学本科生毕业论文模板.docx》目录标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  references_title:
+    source: "模板《北京大学本科生毕业论文模板.docx》参考文献标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  ack_title:
+    source: "模板《北京大学本科生毕业论文模板.docx》致谢标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+
+checks:
+  caption_numbering:
+    source: "模板脚注：“图表序号分章设置，如图3.15表示第三章第15幅图”"
+  table_caption:
+    source: "模板脚注：“图标题在图下方，表标题在表上方”"
+  figure_caption:
+    source: "模板脚注：“图标题在图下方，表标题在表上方”"
+
+manual:
+  - {text: "学生应遵循院系对毕业论文行文格式和引文规范的相关要求；校级办法未给出统一的字体、字号、行距，请对照所在院系规定。", source: "《北京大学本科毕业论文（设计）工作管理办法》四、学生要求第3条"}

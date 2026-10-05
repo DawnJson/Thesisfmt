@@ -1,0 +1,184 @@
+# 宁夏大学研究生学位论文（2025 版模板）。
+# 规范文字写在官方模板《附件4：宁夏大学学位论文模板（2025版）》第2章「格式要求」中；
+# 字体字号等规范未写的项取该官方模板的示例格式。
+meta:
+  id: gqnx-nxu-grad
+  title: 宁夏大学研究生学位论文
+  version: "2025"
+  source: https://graduate.nxu.edu.cn/info/1100/8427.htm
+  org: 宁夏大学
+  kind: university
+  category: 研究生
+  verified: true
+
+page:
+  source: "模板§2.3.1 页面设置：页边距：上3cm，下3cm，左3cm，右2.5cm，装订线靠左0.5cm位置。页眉：2.5cm。页脚：2.5cm（左边距与装订线的关系不明，未检查左边距）"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 3.0, right: 2.5}
+  cover_margins_cm:
+    - {name: 封面及声明页, source: "模板《附件4：宁夏大学学位论文模板（2025版）》前三节示例页面设置（规范未作文字规定）", top: 2.54, bottom: 2.54, left: 3.0, right: 2.0}
+  header_distance_cm: 2.5
+  footer_distance_cm: 2.5
+
+page_numbers:
+  source: "模板§2.3.1：页码从摘要开始，前置部分用大写罗马数字，正文从绪论首页作为第1页按阿拉伯数字连续编排；页码统一标注在每页页脚中部，采用Times New Roman，小五号居中书写"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  restart_at: 1
+  cover_no_number: true
+
+headers:
+  source: "模板§2.3.1：页眉打印字号为5号宋体，页眉之下有一条下划线（页眉内容左“宁夏大学硕士学位论文”、右各章章名，不能用 content 检查，见 manual）"
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: atLeast, value: 20}
+    before: 24
+    after: 18
+  section_1:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    line: {rule: atLeast, value: 18}
+    before: 24
+    after: 6
+  section_2:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    line: {rule: atLeast, value: 16}
+    before: 12
+    after: 6
+  body:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: false
+    align: justify
+    line: {rule: atLeast, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: atLeast, value: 20}
+    before: 24
+    after: 18
+  abstract_title_en:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: atLeast, value: 20}
+    before: 24
+    after: 18
+  references_title:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: atLeast, value: 20}
+    before: 24
+    after: 18
+  ack_title:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: atLeast, value: 20}
+    before: 24
+    after: 18
+  appendix_title:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: atLeast, value: 20}
+    before: 24
+    after: 18
+  fig_caption:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    align: center
+    line: {rule: atLeast, value: 14}
+    before: 6
+    after: 0
+  table_caption:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    line: {rule: atLeast, value: 14}
+    after: 0
+  keywords_zh:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）；§2.3.2 英文与数字字体要求为 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+
+checks:
+  keywords:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）：中文关键词用“，”，英文 Key words 用“,”分隔"
+    zh_separator: "，"
+    en_separator: ","
+  caption_numbering:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）：图3-1、表3-1 按章编号"
+  table_caption:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）：表题（表3-1）置于表上方"
+  figure_caption:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）：图题（图3-1）置于图下方"
+  continued_caption:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）：转页表以“续表3-1”接排"
+  equation_number:
+    source: "模板《附件4：宁夏大学学位论文模板（2025版）》示例格式（规范未作文字规定）：公式序号（3-1）加括号、按章编号、置于行末"
+
+layout:
+  new_page:
+    source: "模板§2.1：以上各部分独立为一部分，每部分应从新的一页开始"
+    roles: [abstract_title_zh, abstract_title_en, toc_title, chapter, references_title, appendix_title, ack_title]
+  first_chapter_odd_page:
+    source: "模板§2.3.1：正文部分从引言（或绪论）的首页开始，作为第1页，并从右页起页"
+  page_start:
+    source: "模板§2.3.1：页码从摘要开始用大写罗马数字连续编排；正文从绪论首页作为第1页"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "页眉从摘要页开始到论文最后一页均需设置；内容左对齐为“宁夏大学硕士学位论文”（博士为“宁夏大学博士学位论文”），右对齐为各章章名。", source: "模板§2.3.1 页面设置"}
+  - {text: "页码数字两侧不要加“－”等修饰线；力求不出空白页，如有仍应以右页作为单页页码。", source: "模板§2.3.1 页面设置"}
+  - {text: "英文与数字夹杂在黑体中文中时，英文与数字用 Times New Roman 并加粗。", source: "模板§2.3.2 字体"}
+  - {text: "论文内容依次为：封面、中文摘要、英文摘要、目录、符号说明、论文正文、参考文献、附录、致谢、攻读学位期间发表的相关学术成果。", source: "模板§2.1 论文正文"}
+  - {text: "字数：硕士学位论文（学术型、专业型）不少于30000字，博士不少于80000字，也可根据各学科自定。", source: "模板§2.2 字数要求"}
+  - {text: "参考文献按学科需求，在顺序编码制、著者-出版年制、APA/MLA 三类著录格式（附件1-3）中选一种排版。", source: "模板「参考文献」说明；附件1-3"}

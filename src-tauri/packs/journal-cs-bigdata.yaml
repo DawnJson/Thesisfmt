@@ -1,0 +1,77 @@
+meta:
+  id: journal-cs-bigdata
+  title: 《大数据》文章
+  version: "2026"
+  source: http://www.j-bigdataresearch.com.cn/zh/info/15439/
+  org: 《大数据》
+  kind: journal
+  category: 期刊
+  verified: false
+
+# 规范依据：官网下载中心的《〈大数据〉文章模板》（《大数据》文章模板.doc）。
+# 投稿须知页（spec_url）只讲投稿流程、费用、版权，没有版式条款；模板正文也没有文字性的格式规定，
+# 因此下列取值都只来自模板的示例格式，source 一律标为“模板示例格式（规范未作文字规定）”。
+page:
+  source: "模板《〈大数据〉文章模板》示例格式（规范未作文字规定）：A4，上下 2.54、左右 3.18 cm，页眉距 1.5、页脚距 1.75 cm"
+  paper: A4
+  margins_cm: {top: 2.54, bottom: 2.54, left: 3.18, right: 3.18}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+roles:
+  chapter:
+    source: "模板《〈大数据〉文章模板》示例格式（规范未作文字规定）：章标题（如“1 国外政府数据开放发展现状和特点”）宋体小四加粗，1.5 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    line: {rule: auto, value: 1.5}
+  section_1:
+    source: "模板《〈大数据〉文章模板》示例格式（规范未作文字规定）：一级节标题（如“1.1 形成较完善的法律法规体系”）宋体五号加粗，1.5 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    line: {rule: auto, value: 1.5}
+  section_2:
+    source: "模板《〈大数据〉文章模板》示例格式（规范未作文字规定）：二级节标题（如“2.1.1 第一阶段”）宋体五号加粗，1.5 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: true
+    line: {rule: auto, value: 1.5}
+  body:
+    source: "模板《〈大数据〉文章模板》示例格式（规范未作文字规定）：正文宋体 / Times New Roman 五号，首行缩进 2 字符，1.5 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: false
+    line: {rule: auto, value: 1.5}
+    first_line_chars: 2
+  fig_caption:
+    source: "模板《〈大数据〉文章模板》示例格式（规范未作文字规定）：图题宋体 / Times New Roman 五号居中，1.5 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.5}
+  table_caption:
+    source: "模板《〈大数据〉文章模板》示例格式（规范未作文字规定）：表题宋体 / Times New Roman 五号居中，1.5 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line: {rule: auto, value: 1.5}
+
+checks:
+  keywords:
+    source: "模板《〈大数据〉文章模板》示例格式（规范未作文字规定）：中文关键词“政府数据；开放共享；应用；保障机制”用全角分号，英文 Key words 用逗号"
+    zh_separator: "；"
+    en_separator: ","
+  table_caption:
+    source: "模板《〈大数据〉文章模板》示例格式（规范未作文字规定）：“表1 世界主要国家政府数据开放平台”位于表上方"
+
+manual:
+  - {text: "模板首页依次为中文标题、作者、单位、摘要、关键词、中图分类号与文献标志码、doi，随后是英文标题、作者、单位、Abstract、Key words；文末附作者简介（附所有作者免冠 1 寸黑白证件照，300 像素以上）、收稿日期、通信作者、基金项目（脚注）。", source: "模板《〈大数据〉文章模板》示例内容"}
+  - {text: "正文章标题序号从“0 引言”起，一级节为“1.1”、二级节为“2.1.1”；图、表在全文中分别连续编号（图1、表1），不按章编号。", source: "模板《〈大数据〉文章模板》示例格式"}
+  - {text: "参考文献按顺序编号，中文文献后附其英文著录；类型标识如 [J]、[C]。", source: "模板《〈大数据〉文章模板》“参考文献”示例"}

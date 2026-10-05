@@ -1,0 +1,292 @@
+# 中国科学技术大学研究生学位论文（硕博统一）。依据：研究生院《研究生学位论文撰写模板》（2026-09）
+# 第2章“内容要素”、第3章“撰写要求”的文字规定。引用的章节号均为该模板中的编号。
+meta:
+  id: anhui-ustc-grad
+  title: 中国科学技术大学研究生学位论文
+  version: "2026-09"
+  source: https://gradschool.ustc.edu.cn/column/65
+  org: 中国科学技术大学
+  kind: university
+  category: 研究生
+  verified: true
+
+page:
+  source: "§3.8 页面设置：A4；上、下、左、右页边距分别为 2.54cm，2.54cm，3.17cm，3.17cm；页眉距边界 1.5cm；页脚距边界 1.75cm"
+  paper: A4
+  margins_cm: {top: 2.54, bottom: 2.54, left: 3.17, right: 3.17}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "§3.8 页码：封面和原创声明不要页码，从“摘要”开始至“第1章”前结束用罗马数字，从“第1章”开始用阿拉伯数字；页码置于页脚中部，五号 Times New Roman 体，居中"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 五号
+  restart_at: 1
+  cover_no_number: true
+
+headers:
+  source: "§3.8 页眉：从“摘要”起到最后，每一页均须有页眉，页眉内容为章级标题；五号字体，中文宋体，英文 Times New Roman 体，居中"
+  content: chapter_title
+  align: center
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 五号
+
+roles:
+  chapter:
+    source: "§3.4 各章标题：三号字，中文黑体，英文和数字 Arial 体，居中，单倍行距，段前24磅，段后18磅"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  section_1:
+    source: "§3.4 一级节标题：四号（14pt）字，中文黑体，英文和数字 Arial 体，居左，固定行距20磅，段前24磅，段后6磅"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 四号
+    align: left
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 6
+  section_2:
+    source: "§3.4 二级节标题：13pt字居左，中文黑体，英文和数字 Arial 体，固定行距20磅，段前12磅，段后6磅"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 13pt
+    align: left
+    line: {rule: exact, value: 20}
+    before: 12
+    after: 6
+  section_3:
+    source: "§3.4 三级节标题：小四号（12pt）字，中文黑体，英文和数字 Arial 体，居左，固定行距20磅，段前12磅，段后6磅"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 小四
+    align: left
+    line: {rule: exact, value: 20}
+    before: 12
+    after: 6
+  body:
+    source: "§3.2 正文文字统一采用小四号（12pt）字，汉字用宋体，英文和阿拉伯数字用 Times New Roman 体，两端对齐，首行左缩进2个汉字符，固定行距20磅，段前0磅，段后0磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "§2.5 中文摘要部分的标题为“摘要”，用黑体三号字，居中书写，单倍行距，段前24磅，段后18磅"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  abstract_title_en:
+    source: "§2.5 英文摘要部分的标题为“ABSTRACT”，用 Arial 三号字体加粗，居中书写，单倍行距，段前24磅，段后18磅"
+    latin_font: Arial
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  abstract_body:
+    source: "§2.5 摘要内容用小四号宋体字书写，两端对齐，固定行距20磅，段前、段后0磅；英文摘要内容用小四号 Times New Roman 字体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  keywords_zh:
+    source: "§2.5 关键词用小四号宋体，行距同摘要内容，左对齐，悬挂缩进4个字符"
+    cn_font: 宋体
+    size: 小四
+    align: left
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    hanging_chars: 4
+  keywords_en:
+    source: "§2.5 英文关键词字号、字体、行距同摘要内容，左对齐，悬挂缩进6.5个字符"
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    hanging_chars: 6.5
+  toc_title:
+    source: "§2.6 目录的标题用黑体三号字，居中书写，单倍行距，段前24磅，段后18磅"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  toc_chapter:
+    source: "§2.6 目录中的章标题行采用小四号字，中文黑体，英文和数字 Arial 体，固定行距20磅，段前6磅，段后0磅；章标题行居左书写"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 小四
+    align: left
+    line: {rule: exact, value: 20}
+    before: 6
+    after: 0
+  toc_item:
+    source: "§2.6 其他内容采用宋体小四号字，英文和数字用 Times New Roman 体，行距20磅，段前、段后均为0磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  front_title:
+    source: "§2.7 章标题“插图清单”“附表清单”“插图和附表清单”黑体三号字，居中，单倍行距，段前24磅，段后18磅；§2.8 “符号和缩略语说明”标题格式与章标题同"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  references_title:
+    source: "§2.10 “参考文献”四个字与章标题格式相同；§3.4 摘要、目录和列于目录中与章平级的其它部分的标题也用这同一种格式"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  ref_item:
+    source: "§2.10 内容部分五号字体，中文用宋体，英文用 Times New Roman 体，固定行距20磅，段前0磅、段后0磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  ack_title:
+    source: "§2.12 标题“致谢”的格式要求与章标题同"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  appendix_title:
+    source: "§2.11 每个附录应有标题，格式要求与章标题同"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  fig_caption:
+    source: "§3.5.1 中文图题采用宋体（英文采用 Times New Roman 体）11pt，加粗，居中书写，单倍行距，段前6磅，段后0磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 11pt
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 0
+  table_caption:
+    source: "§3.5.2 表题置于表的上方，加粗，居中书写，单倍行距，段前6磅，段后0磅；文字中文采用宋体，英文和阿拉伯数字采用 Times New Roman 体，字号11pt"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 11pt
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 0
+  table_source:
+    source: "§3.5.2 表注置于表的下方，单倍行距，段前6磅，段后0磅"
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 0
+  equation:
+    source: "§3.5.3 表达式采用与正文相同的字号另起一段居中书写，或另起一段空两个汉字符书写；段前6磅、段后6磅"
+    size: 小四
+    before: 6
+    after: 6
+
+checks:
+  keywords:
+    source: "§2.5 每篇论文应选取3～8个关键词，每个关键词之间用分号间隔；英文关键词之间用半角逗号加空一格间隔"
+    min_count: 3
+    max_count: 8
+    zh_separator: "；"
+    en_separator: ","
+  abstract_text:
+    source: "§2.5 英文摘要使用英文标点符号"
+    en_punctuation: true
+  caption_numbering:
+    source: "§3.5 图、表和表达式按章连续编号，前一数字为章的序号，后一数字为本章内顺序号，两数字间用半角小数点“.”连接，如“图2.1”“表5.6”“式（1.2）”"
+  punctuation:
+    source: "§3.3 论文写作时标点符号应符合 GB/T 15834-2011 标点符号用法"
+  table_caption:
+    source: "§3.5.2 表题置于表的上方"
+  figure_caption:
+    source: "§3.5.1 图题置于图的下方"
+  table_cell:
+    source: "§3.5.2 表格文字中文采用宋体，英文和阿拉伯数字采用 Times New Roman 体，字号11pt；表单元格中的文字，单倍行距，段前3磅，段后3磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 11pt
+    line: {rule: auto, value: 1.0}
+    before: 3
+    after: 3
+  continued_caption:
+    source: "§3.5.2 以“续表”的形式另页打印，只需在另页的的表序前加“续”字，例如“续表2.1 实验方式”；续表均应重复给出横表头"
+  equation_number:
+    source: "§3.5.3 表达式的序号用括号括起置于表达式右边行末；§2.11 附录中表达式冠以附录序号，如“式（C.3）”"
+  equation_layout:
+    source: "§3.5.3 另起一段居中书写，或另起一段空两个汉字符书写，一旦采用了上述两种格式中的一种，全文都要使用同一种格式"
+  chapter_number:
+    source: "§3.4 章序号采用阿拉伯数字，如“第1章 引言”"
+  appendix_number:
+    source: "§2.11 附录依顺序用大写字母编序号，如附录A、附录B；只有一个附录时也要编序号，即附录A；附录中的图、表、表达式冠以附录序号，如“图A.1”“表B.2”“式（C.3）”"
+  figure_citation:
+    source: "§3.5 各图、表不要出现在文中首次提及之前，又不要距之过远"
+
+layout:
+  table_span:
+    source: "§3.5.2 当表格较大而不能在一页内打印时，可以“续表”的形式另页打印，只需在另页的表序前加“续”字；续表均应重复给出横表头"
+  toc:
+    source: "§2.6 目录页由论文的章、节、附录等序号、名称和页码组成；§2.7 清单宜在文档编辑软件中自动生成"
+  new_page:
+    source: "§2.9 正文部分应从另页右页开始，每一章应另起页；§3.4 每章应另起一面"
+    roles: [chapter]
+  first_chapter_odd_page:
+    source: "§2.9 正文部分应从另页右页开始"
+  page_start:
+    source: "§3.8 从“摘要”开始至“第1章”前结束，页码用罗马数字“Ⅰ、Ⅱ、Ⅲ……”表示；从“第1章”开始至论文结束，页码用阿拉伯数字“1、2、3……”表示"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "摘要篇幅：博士论文中文摘要一般800～1000个汉字，硕士论文中文摘要一般600个汉字；英文摘要的篇幅参照中文摘要；中英文关键词须相互呼应。", source: "§2.5 摘要和关键词"}
+  - {text: "摘要中不宜使用公式、图表、化学结构式、非公知公用的符号和术语，不引用文献。", source: "§2.5 摘要和关键词"}
+  - {text: "各章标题字数一般应15字以内，用短语而非句子，末尾不加标点；一般不建议使用三级节标题，不得使用三级以下节标题。", source: "§3.4 章、节标题"}
+  - {text: "参考文献采用“顺序编码制”或“著者-出版年制”之一，全文不得混用；所有标点符号使用半角符号，著录格式参见 GB/T 7714-2025。", source: "§2.10 参考文献"}
+  - {text: "插图不允许跨页；插图前后与文字段落之间须留有10磅空行，与其它插图或表格连续排版时留20磅空行；表格同理。", source: "§3.5.1 插图 / §3.5.2 表格"}
+  - {text: "图题、表题末尾不可加标点；图序与图名之间、表序与表名之间空一个汉字符。", source: "§3.5.1 插图 / §3.5.2 表格"}
+  - {text: "注释采用文中编号加脚注方式，置于所注释正文所在页的底部，标注符合 CY/T 121；脚注格式模板未作规定。", source: "§3.7 注释"}
+  - {text: "封面、原创性与使用授权声明、人工智能工具声明使用学校统一模板；封面和原创声明不编页码。", source: "§2.1、§2.3、§2.4、§3.8"}
+  - {text: "致谢字数不超过1000个汉字，格式要求与正文同。", source: "§2.12 致谢"}
+  - {text: "硕士学位论文正文一般不少于3万字，博士学位论文正文一般不少于5万字。", source: "§3.1 论文的基本要求"}

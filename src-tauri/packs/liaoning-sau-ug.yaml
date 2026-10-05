@@ -1,0 +1,43 @@
+meta:
+  id: liaoning-sau-ug
+  title: 沈阳航空航天大学本科毕业设计（论文）（电子信息工程学院格式实例）
+  version: "2020"
+  source: https://dzx.sau.edu.cn/info/1109/1269.htm
+  org: 沈阳航空航天大学
+  kind: university
+  category: 本科
+  # 未核实：校级《本科毕业设计（论文）工作规定》（校发〔2013〕8 号）第十五条只规定页面为 A4 纸，
+  # 具体格式交由各二级学院制定；学院页面没有「统一按此实例排版」的通知文字。
+  # 下列规则只取自电子信息工程学院发布的 2020 届格式实例，实例由占位文字（XXXX）构成，没有文字说明。
+  verified: false
+
+page:
+  source: "校发〔2013〕8 号第十五条：页面大小为 A4 纸；页边距取自学院格式实例《毕业设计实例（正文）》的页面设置（规范未作文字规定）"
+  paper: A4
+  margins_cm: {top: 3.5, bottom: 2.5, left: 3.0, right: 2.5}
+  header_distance_cm: 2.5
+  footer_distance_cm: 1.8
+
+roles:
+  chapter:
+    source: "学院格式实例《毕业设计实例（正文）》章标题示例格式（3 段一致；未见文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.5}
+  body:
+    source: "学院格式实例《毕业设计实例（正文）》正文示例格式（字体、行距多数一致；字号、缩进在实例中不统一，未列入）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    line: {rule: auto, value: 1.5}
+
+checks:
+  caption_numbering:
+    source: "学院格式实例《毕业设计实例（正文）》图 2.1、表 2.1 按章编号（未见文字规定）"
+
+manual:
+  - {text: "校级规定要求各二级学院在校定规范基础上制定本专业的毕业设计（论文）格式要求；本包只依据电子信息工程学院的格式实例，其他学院请以本学院要求为准。", source: "《沈阳航空航天大学本科毕业设计（论文）工作规定》第十五条"}
+  - {text: "理工科专业参考文献 10 篇以上、外文文献 1 篇以上；经管类专业参考文献 15 篇以上、外文文献 1 篇以上。", source: "《沈阳航空航天大学本科毕业设计（论文）工作规定》第十五条 2.（4）"}
+  - {text: "毕业设计（论文）装订顺序：封面、内封、任务书（理工类）、中文摘要及关键词、外文摘要及关键词、目录、正文、参考文献、致谢、附录。", source: "《沈阳航空航天大学本科毕业设计（论文）工作规定》第十五条 1.（1）"}

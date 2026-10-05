@@ -1,0 +1,136 @@
+meta:
+  id: beijing-a-buct-phd
+  title: 北京化工大学研究生学位论文（博士/硕士，学术型/专业型通用）
+  version: '2017'
+  source: https://graduate.buct.edu.cn/_upload/article/files/c2/46/6583559645f5b1854ee980846fe7/8c436335-f8fb-46b1-81d9-adaf02a1100b.pdf
+  org: 北京化工大学
+  kind: university
+  category: 研究生（博士/硕士）
+  verified: true
+page:
+  source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）一.4、一.5：A4 纸双面打印；建议页面上下方分别留边 25mm，左右侧分别留边 27mm
+  paper: A4
+  margins_cm:
+    top: 2.5
+    bottom: 2.5
+    left: 2.7
+    right: 2.7
+page_numbers:
+  source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）一.7：论文页码从“绪论”起用阿拉伯数字编连续码；中英文摘要、目录、符号和缩略词说明等用罗马数字单独编连续码
+  body_format: decimal
+roles:
+  chapter:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.5：每章的标题以三号黑体字居中打印
+    cn_font: 黑体
+    size: 三号
+    align: center
+  section_1:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.5：条的标题以四号黑体字左起打印
+    cn_font: 黑体
+    size: 四号
+    align: left
+  section_2:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.5：款的标题以小四号黑体字左起打印
+    cn_font: 黑体
+    size: 小四
+    align: left
+  section_3:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.5：项的标题以小四号黑体字左起打印
+    cn_font: 黑体
+    size: 小四
+    align: left
+  body:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.6：中文正文采用小四号宋体打印，英文正文采用小四号 Times New Roman。文字的行间距 20 磅
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: exact
+      value: 20
+  abstract_title_zh:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.2(2)：“摘要”二字（小三号黑体）居中打印
+    cn_font: 黑体
+    size: 小三
+    align: center
+  abstract_title_en:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.3：论文中的英文一律采用“Times New Roman”字体
+    latin_font: Times New Roman
+  abstract_body:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.2(3)：摘要内容四号宋体；三.3 英文一律采用 Times New Roman
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+  keywords_zh:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.2(4)：“关键词：”四号黑体，其后关键词四号宋体
+    size: 四号
+  keywords_en:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.3：论文中的英文一律采用“Times New Roman”字体
+    latin_font: Times New Roman
+  toc_title:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.4：“目录”两字居中打印（三号黑体字）
+    cn_font: 黑体
+    size: 三号
+    align: center
+  toc_chapter:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.4：章（四号黑体）
+    cn_font: 黑体
+    size: 四号
+  toc_item:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.4：条（小四）、款（小四）、项（小四）
+    size: 小四
+  ref_item:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.10：参考文献中文采用五号宋体，英文采用五号 Times New Roman 体，行间距 20 磅
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line:
+      rule: exact
+      value: 20
+  fig_caption:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.7：图的编号和图题应置于图下方的居中位置；中文字体为五号宋体，英文字体为五号 Times New Roman
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.8：表的编号和表题应置于表上方的居中位置；中文字体为五号宋体，英文字体为五号 Times New Roman
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+checks:
+  table_caption:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.8：表的编号和表题应置于表上方的居中位置
+  figure_caption:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.7：图的编号和图题应置于图下方的居中位置
+  equation_number:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.9：公式序号一律采用阿拉伯数字分章依序编排，如式（2-13）；标注于该公式所在行的最右侧
+  appendix_number:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.11：论文的附录依序编排为附录1，附录2……
+    style: arabic
+  abstract_text:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）二.4(4)：摘要中不用图、表、化学结构式、非公知公用的符号和术语
+    no_figures: true
+  citations:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.10：参考文献按照在文中出现的顺序采用阿拉伯数字连续编号
+layout:
+  page_start:
+    source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）一.7：页码从“绪论”数起
+    body_first: 1
+manual:
+- text: 关键词 3-8 个，另起一行排在摘要左下方，中文关键词用“，”分隔，句末不加标点；英文关键词“KEY WORDS：”后小写。规范未规定英文关键词的分隔符，故不启用关键词检查。
+  source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）二.5、三.2(4)、三.3(3)
+- text: 摘要字数：硕士论文 500 字左右，博士论文 1500 字左右；英文摘要应与中文摘要内容一致。
+  source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）二.4(3)
+- text: 英文论文题目全部采用大写字母，可分成 1-3 行居中打印；英文摘要每段开头留四个字符空格；“ABSTRACT”与“KEY WORDS：”的上下空行按规范执行。
+  source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.3
+- text: 图、表编号建议分章依序编排（如图 1-1、表 2-2）；图中标注、图题、表中标注、表题采用中英文对照。
+  source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.7、三.8
+- text: 公式另起一行居中横排，公式与编号之间用“……”连接；较长的公式只可在符号处（+、-、*、/、≤、≥等）转行。
+  source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.9
+- text: 附录依序编排为附录 1，附录 2……，附录中的图表公式另编序号，与正文分开；附录置于参考文献之后，页码与正文连续。
+  source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）二.11、三.11
+- text: 注释作为脚注在页下分散著录。
+  source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）二.10
+- text: 参考文献的著录格式按 GB/T 7714-2015 著录。
+  source: 《北京化工大学研究生学位论文撰写规范（修订）》（校教发〔2017〕39号）三.10

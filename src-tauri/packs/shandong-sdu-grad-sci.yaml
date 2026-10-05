@@ -1,0 +1,226 @@
+meta:
+  id: shandong-sdu-grad-sci
+  title: 山东大学研究生学位论文（理工医学类）
+  version: "2022"
+  source: https://www.grad.sdu.edu.cn/info/1064/3372.htm
+  org: 山东大学
+  kind: university
+  category: 研究生（理工医学类）
+  verified: true
+
+page:
+  source: "模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定；博士、硕士及各类型模板格式一致）；《山东大学学位论文规范（试行）》四：论文用 A4 标准纸输出，双面打印"
+  paper: A4
+  margins_cm: {top: 2.8, bottom: 2.5, left: 2.5, right: 2.5}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定；博士、硕士及各类型模板格式一致）（前置部分罗马数字、正文阿拉伯数字）；《山东大学学位论文规范（试行）》三（八）每页页码标注在页面低端（页角）外侧"
+  front_format: upperRoman
+  body_format: decimal
+  outside: true
+
+headers:
+  source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（八）每页要有页眉，其上居中打印“山东大学博（硕）士学位论文”字样"
+  align: center
+
+roles:
+  chapter:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（八）论文中的章的标题用小三号加重黑体；段前后与行距取模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    bold: true
+    align: center
+    line: {rule: auto, value: 1}
+    before: 24
+    after: 18
+    first_line_chars: 0
+  section_1:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（八）节的标题用四号加重黑体；对齐与段前后取模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    align: justify
+    line: {rule: auto, value: 1}
+    before: 24
+    after: 6
+    first_line_chars: 0
+  section_2:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（八）目及子目以下的标题用小四号加重黑体；对齐与段前后取模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    align: justify
+    line: {rule: auto, value: 1}
+    before: 12
+    after: 6
+    first_line_chars: 0
+  section_3:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（八）目及子目以下的标题用小四号加重黑体"
+    cn_font: 黑体
+    size: 小四
+    bold: true
+  body:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（八）内容用小四号宋体打印；行距、缩进取模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: false
+    align: justify
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（五）“中文摘要”标题字用小三号加重黑体打印；对齐与段前后取模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    align: center
+    line: {rule: auto, value: 1}
+    before: 24
+    after: 18
+    first_line_chars: 0
+  abstract_title_en:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（六）外文摘要标题字用加重小三号字体打印；字体、对齐与段前后取模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    latin_font: Times New Roman
+    size: 小三
+    bold: true
+    align: center
+    line: {rule: auto, value: 1}
+    before: 24
+    after: 18
+    first_line_chars: 0
+  abstract_body:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（五）摘要内容用小四号宋体打印；行距、缩进取模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: false
+    align: justify
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  toc_title:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（四）中文的“目录”标题字用小三号加重黑体字打印；对齐与段前后取模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    align: center
+    line: {rule: auto, value: 1}
+    before: 24
+    after: 18
+    first_line_chars: 0
+  toc_chapter:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（四）目录内容用小四号宋体打印；段前与行距取模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: false
+    align: justify
+    line: {rule: auto, value: 1}
+    before: 6
+    after: 0
+    first_line_chars: 0
+  toc_item:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（四）目录内容用小四号宋体打印；段前与行距取模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: false
+    align: justify
+    line: {rule: auto, value: 1}
+    before: 6
+    after: 0
+    first_line_chars: 0
+  references_title:
+    source: "模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）（参考文献标题与章标题同一格式）"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    align: center
+    line: {rule: auto, value: 1}
+    before: 24
+    after: 18
+    first_line_chars: 0
+  ref_item:
+    source: "模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: false
+    align: justify
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  ack_title:
+    source: "模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）（致谢标题与章标题同一格式）"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    align: center
+    line: {rule: auto, value: 1}
+    before: 24
+    after: 18
+    first_line_chars: 0
+  appendix_title:
+    source: "模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）（附录标题与章标题同一格式）"
+    cn_font: 黑体
+    size: 小三
+    bold: true
+    align: center
+    line: {rule: auto, value: 1}
+    before: 24
+    after: 18
+    first_line_chars: 0
+  fig_caption:
+    source: "模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: false
+    align: center
+    line: {rule: auto, value: 1}
+    before: 6
+    after: 6
+    first_line_chars: 0
+  table_caption:
+    source: "模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    bold: false
+    align: center
+    line: {rule: auto, value: 1}
+    before: 6
+    after: 6
+    first_line_chars: 0
+
+checks:
+  keywords:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（五）并在摘要后列出 3-5 个关键词，之间用分号相隔；英文关键词分隔符取模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）（图、表题注按章编号，如“表 1-1”“图 1-1”）"
+  abstract_text:
+    source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（六）并在其后列出与中文相对应的外文关键词"
+    keywords_match: true
+  continued_caption:
+    source: "模板《山东大学硕士学位论文模板-理工医学类.docx》示例格式（规范未作文字规定）（示例含“续表 1-2”与重复表头）"
+
+manual:
+  - {text: "页眉文字为“山东大学博（硕）士学位论文”，须按所攻读学位核对。", source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（八）"}
+  - {text: "正文一般每行 32～34 字，每页 29～31 行。", source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（八）"}
+  - {text: "章、节、目的标题应简明扼要、体现阐述内容的重点，无标点符号。", source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（八）"}
+  - {text: "摘要字数：硕士学位论文摘要 1000 字左右，博士学位论文摘要 3000 字以上。", source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）一、学位论文的基本要求"}
+  - {text: "须有中、外文目录各一份；外文目录标题字用加重小三号字体大写字母，目录内容用小四号字体小写字母；外文摘要标题用大写字母，摘要内容用小四号字体小写字母。", source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（四）、三（六）"}
+  - {text: "论文封面采用研究生院统一印制的封面，中、外文题目均需标示；中文题目小二号加重黑体，外文题目三号加重；论文题目不得超过 30 个汉字。", source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（一）"}
+  - {text: "参考文献按文中使用的顺序列出，并注明作者、题名、刊物（出版社）名称、出版时间、页码等；理学、工学、医学类按国际惯例执行。", source: "《山东大学学位论文规范（试行）》（山大研字〔2006〕53号）三（十）"}

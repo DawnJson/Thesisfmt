@@ -1,0 +1,60 @@
+meta:
+  id: neimenggu-imau-grad
+  title: 内蒙古农业大学博（硕）士学位论文（研究生院论文样本）
+  version: "2026"
+  source: https://yjsy.imau.edu.cn/info/1040/7505.htm
+  org: 内蒙古农业大学
+  kind: university
+  category: 研究生
+  # 未核实：研究生院只发布《博（硕）士论文样本》（印刷论文所交材料），样本内没有格式说明文字，
+  # 页面通知也没有“按此样本排版”的文字规定；下列规则取自样本的示例格式，只保留样本中多段一致的项目。
+  verified: false
+
+page:
+  source: "样本《内蒙古农业大学博（硕）士论文样本202612》正文页面设置示例格式（规范未作文字规定）"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.5, left: 3.0, right: 2.5}
+  header_distance_cm: 2.4
+  footer_distance_cm: 1.75
+
+roles:
+  chapter:
+    source: "样本《内蒙古农业大学博（硕）士论文样本202612》章标题示例格式（6 段一致；规范未作文字规定）"
+    cn_font: 黑体
+    size: 小四
+  section_1:
+    source: "样本《内蒙古农业大学博（硕）士论文样本202612》一级节标题示例格式（4 段一致；规范未作文字规定）"
+    cn_font: 黑体
+    size: 小四
+  section_2:
+    source: "样本《内蒙古农业大学博（硕）士论文样本202612》二级节标题示例格式（2 段一致；规范未作文字规定）"
+    cn_font: 黑体
+    size: 小四
+  abstract_body:
+    source: "样本《内蒙古农业大学博（硕）士论文样本202612》摘要正文示例格式（14 段多数一致；规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  toc_chapter:
+    source: "样本《内蒙古农业大学博（硕）士论文样本202612》目录章标题行示例格式（10 段多数一致；规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  toc_item:
+    source: "样本《内蒙古农业大学博（硕）士论文样本202612》目录节标题行示例格式（53 段多数一致；规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  fig_caption:
+    source: "样本《内蒙古农业大学博（硕）士论文样本202612》图题示例格式（2 段一致；规范未作文字规定）"
+    cn_font: 黑体
+    size: 小五
+    align: center
+  table_caption:
+    source: "样本《内蒙古农业大学博（硕）士论文样本202612》表题示例格式（2 段一致；规范未作文字规定）"
+    cn_font: 黑体
+    size: 小五
+    align: center
+
+manual:
+  - {text: "研究生院未发布独立的论文格式规范文字，样本内也没有格式说明；本规则包只依据样本示例格式，学院另有规定的以学院为准。", source: "样本《内蒙古农业大学博（硕）士论文样本202612》；研究生院通知页面"}

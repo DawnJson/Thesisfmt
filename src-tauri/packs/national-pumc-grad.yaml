@@ -1,0 +1,238 @@
+meta:
+  id: national-pumc-grad
+  title: 北京协和医学院研究生学位论文（硕士、博士通用）
+  version: "2025-09"
+  source: https://graduate.pumc.edu.cn/__local/F/26/C3/2291774A6E8181649E5E1F54EB6_A07AD123_B542A.pdf
+  valid_from: "2025-09"
+  org: 北京协和医学院（中国医学科学院）
+  kind: university
+  category: 研究生
+  verified: true
+
+page:
+  source: "《北京协和医学院研究生学位论文写作规范》（2025 年 7 月）第 3.1 节：内页 A4；边距上 2.5cm，下 2.5cm，左 3.0cm，右 3.0cm，页眉、页脚距页边界 1.5cm"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 3.0, right: 3.0}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.5
+
+page_numbers:
+  source: "规范第 3.1 节：页码居中位于页面底端，Times New Roman 小五号；正文前部分用大写罗马数字单独编排，从第 1 章起阿拉伯数字连续编排；附件 6 摘要页码为 I"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  restart_at: 1
+
+headers:
+  source: "规范第 3.1 节：页眉从“摘要”开始编写，页眉内容与章节标题相同，居中设置；宋体小五号，英文和阿拉伯数字用 Times New Roman 体"
+  content: chapter_title
+  align: center
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 小五
+
+roles:
+  chapter:
+    source: "规范第 3.5 节章标题：黑体三号（英文和阿拉伯数字用 Times New Roman 体），居中对齐，单倍行距，段前 24 磅，段后 18 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  section_1:
+    source: "规范第 3.5 节二级标题：黑体小三号（英文和阿拉伯数字用 Times New Roman 体），左对齐，单倍行距，段前 24 磅，段后 6 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: left
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 6
+  section_2:
+    source: "规范第 3.5 节三级标题：黑体四号（英文和阿拉伯数字用 Times New Roman 体），顶左，单倍行距，段前 12 磅，段后 6 磅"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    line: {rule: auto, value: 1.0}
+    before: 12
+    after: 6
+  section_3:
+    source: "规范第 3.5 节四级标题：宋体小四号（英文和阿拉伯数字用 Times New Roman 体），左对齐，单倍行距，段前 12 磅，段后 6 磅（缩进 2 字符见 manual）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.0}
+    before: 12
+    after: 6
+  body:
+    source: "规范第 3.5 节段落文字：宋体小四号（英文和阿拉伯数字用 Times New Roman 体），两端对齐，首行缩进 2 字符，段前段后 0 磅，行距 20 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "规范第 3.3 节中文摘要标题：“摘要”黑体三号字，居中对齐，单倍行距，段前 24 磅，段后 18 磅"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  abstract_title_en:
+    source: "规范第 3.3 节英文摘要标题：“ABSTRACT”Times New Roman 三号加粗居中，单倍行距，段前 24 磅，段后 18 磅"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  abstract_body:
+    source: "规范第 3.3 节：中文摘要宋体小四号字，两端对齐，首行缩进 2 字符，行距 20 磅；英文摘要 Times New Roman 小四号字，格式同"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+  toc_title:
+    source: "规范第 3.4 节目录标题：两字间空 2 字符，黑体三号加粗，居中对齐，单倍行距，段前 24 磅，段后 18 磅"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  toc_chapter:
+    source: "规范第 3.4 节一级标题目录及附录、参考文献等：黑体小四号（英文和阿拉伯数字用 Times New Roman 体），行距 20 磅，段前 6 磅，段后 0 磅，两端对齐，页码右对齐"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: exact, value: 20}
+    before: 6
+    after: 0
+  toc_item:
+    source: "规范第 3.4 节二、三级标题目录：宋体小四号（英文和阿拉伯数字用 Times New Roman 体），行距 20 磅，段前 6 磅，段后 0 磅，两端对齐，页码右对齐（左缩进 2 / 4 字符见 manual）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: exact, value: 20}
+    before: 6
+    after: 0
+  references_title:
+    source: "规范第 3.8 节：标题“参考文献”黑体三号字，居中对齐，单倍行距，段前 24 磅，段后 18 磅"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  ref_item:
+    source: "规范第 3.8 节：著录部分宋体五号字（英文和阿拉伯数字用 Times New Roman 体），行距 16 磅，两端对齐"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: justify
+    line: {rule: exact, value: 16}
+  appendix_title:
+    source: "规范第 3.9 节附录：标题黑体三号字，居中对齐，单倍行距，段前 24 磅，段后 18 磅；附件 6 附录标题黑体三号（英文和阿拉伯数字用 Times New Roman 体）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  ack_title:
+    source: "规范第 3.9 节致谢：标题黑体三号字，居中对齐，单倍行距，段前 24 磅，段后 18 磅"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  fig_caption:
+    source: "规范第 3.6 节图注：图序、图题楷体五号字，居中对齐，无缩进，行距 20 磅"
+    cn_font: 楷体
+    size: 五号
+    align: center
+    line: {rule: exact, value: 20}
+    first_line_chars: 0
+  table_caption:
+    source: "规范第 3.6 节表注：表序、表题楷体五号字，居中对齐，无缩进，行距 20 磅"
+    cn_font: 楷体
+    size: 五号
+    align: center
+    line: {rule: exact, value: 20}
+    first_line_chars: 0
+
+checks:
+  keywords:
+    source: "规范第 1.4 节：摘要下方应列 3-5 个关键词；第 3.3 节：分号隔开，最后不加标点"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "规范第 2.8.2 节：图、表、公式一律用阿拉伯数字分章依序连续编码，如图 1-1、图 2-2、表 3-2"
+  table_caption:
+    source: "规范第 2.8.6 节：每一表应有简短确切的题名，连同表序置于表上居中"
+  figure_caption:
+    source: "规范第 2.8.5 节：每一图应有简短确切的图题，连同图序置于图下居中"
+  continued_caption:
+    source: "规范第 2.8.6 节：如某个表需要转页接排，续表均应重复表头，如“续表 2-1 XXX”"
+  chapter_number:
+    source: "规范第 2.8.2 节：各层次标题一律用阿拉伯数字连续编号，如“1.1”“1.1.1”；模板章标题为“第 1 章”"
+  abstract_text:
+    source: "规范第 1.4 节：英文题目、摘要、关键词须与其中文相对应"
+    keywords_match: true
+  citations:
+    source: "规范附件 1：文后参考文献和正文标注一般采用顺序编码制，按首次引用先后以阿拉伯数字连续编码；凡正文里标注了参考文献的，其文献都必须列入文后参考文献，未引用的文献不得出现（第 1.8 节）"
+  footnotes:
+    source: "规范附件 1 三：如需对相关内容进行附加说明，可在当页底部加脚注，每页单独用①，②，③等编码（脚注字体字号规范未规定）"
+    circled: true
+    restart_each_page: true
+
+layout:
+  table_span:
+    source: "规范第 2.8.6 节：如某个表需要转页接排，续表均应重复表头，如“续表 2-1 XXX”"
+  toc:
+    source: "规范第 3.4 节：目录由章节序号、标题名称和页码组成，目录宜在文字编辑软件中自动生成"
+  new_page:
+    source: "规范第 3.1 节：摘要、目录、正文、参考文献、附录、致谢等均需另页右页开始；第 3.5 节：论文各章应另起页"
+    roles: [abstract_title_zh, abstract_title_en, toc_title, chapter, references_title, appendix_title, ack_title]
+  first_chapter_odd_page:
+    source: "规范第 3.1 节：正文均需另页右页（奇数页）开始撰写；附件 6：第 1 章起始页没有位于奇数页，则需要在前方加入空白页"
+  page_limits:
+    - {role: ack_title, max_pages: 1, source: "规范第 3.9 节：致谢内容限 1 页"}
+  page_start:
+    source: "规范第 3.1 节：正文前的部分页码用大写罗马数字单独编排，从第 1 章（引言）开始以阿拉伯数字（1,2,3…）连续编排"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "中文摘要字数：硕士论文 1000 字左右，博士论文 1500 字左右。", source: "规范第 1.4 节"}
+  - {text: "封面、书脊、首页按附件 2、3、4 的统一格式制作：封面论文题目黑体三号加粗，首页论文题目黑体小三号居中，封面和首页下方信息宋体四号、1.5 倍行距；论文题目不宜在词语之间换行。", source: "规范第 3.2 节、附件 2–4"}
+  - {text: "独创性声明和学位论文版权使用授权书须作者和指导教师本人手写签字。", source: "规范第 1.3 节"}
+  - {text: "四级标题（如 1.2.1.1）左对齐并缩进 2 字符；目录二、三级条目分别左缩进 2 字符、4 字符。", source: "规范第 3.4 节、第 3.5 节"}
+  - {text: "章序号与章名间空 2 个字符，节、条序号与题名间空 1 个字符；标题结尾不应加标点。", source: "规范第 3.5 节"}
+  - {text: "图序与图题、表序与表题文字之间空 1 个字符，图题、表题后不加标点；图序、图题、图注依次置于图的下方；表注位于表下方，“注”字加粗，左缩进两个汉字符。", source: "规范第 3.6 节"}
+  - {text: "表的编排一般采用国际通行的三线表，避免竖线；表内容宋体五号字，表内同一栏数字上下对齐。", source: "规范第 2.8.6 节、第 3.6 节"}
+  - {text: "图片大小适当，图边界在页面范围内；图片中文字大小不超过正文字大小；图表不得分割正文内容。引用的图、表必须注明来源。", source: "规范第 2.8.5 节、第 3.6 节"}
+  - {text: "参考文献换行缩进至编码之后（悬挂缩进）；参考文献标注方式为方括号上标序号，同一处引用多篇文献时序号间用“,”，连续序号用短横线连接。", source: "规范第 3.8 节、附件 1"}
+  - {text: "摘要、目录、正文、参考文献、附录、致谢、攻读学位期间取得的学术成果与奖励、同行评阅情况均需另页右页（奇数页）开始，空白页不写页眉、不编页码。", source: "规范第 3.1 节"}
+  - {text: "表达式需另行起、原则上居中；有两个以上表达式时从“1”开始用阿拉伯数字编号，编号置于括号内、右端对齐，较多时可分章编号（如第 3 章第 1 个表达式（3-1））；序号宋体小四（英文和阿拉伯数字用 Times New Roman 体）；较长表达式只能在 +、-、×、÷、＜、＞ 等运算符之后转行。", source: "规范第 3.7 节"}
+  - {text: "标点符号用法以 GB/T 15834-2011 为准，数字用法以 GB/T 15835-2011 为准。", source: "规范第 2.6 节"}

@@ -1,0 +1,107 @@
+meta:
+  id: zhejiang-hzcu-ug
+  title: 浙大城市学院本科毕业论文（设计）
+  version: "2024"
+  source: https://sjjx.hzcu.edu.cn/bysj/index.aspx
+  org: 浙大城市学院
+  kind: university
+  category: 本科
+  verified: false
+
+# 学校只公布了 Word 模板（论文管理系统下载页），没有找到另行的文字规范，也没有“须按此模板”的通知；
+# 模板内的说明文字只讲内容与编号，不给字体字号。故所有格式值均取自《2024届毕业论文（设计）模板》示例格式，verified 为 false。
+
+page:
+  source: "模板《2024届毕业论文（设计）模板.docx》示例格式（无文字规定）"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 3.0, left: 3.0, right: 3.0}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+roles:
+  chapter:
+    source: "模板《2024届毕业论文（设计）模板.docx》示例格式（无文字规定）：宋体二号加粗居中"
+    cn_font: 宋体
+    size: 二号
+    bold: true
+    align: center
+    first_line_chars: 0
+  section_1:
+    source: "模板《2024届毕业论文（设计）模板.docx》示例格式（无文字规定）：小二号加粗，1.5 倍行距"
+    size: 小二
+    bold: true
+    line: {rule: auto, value: 1.5}
+    first_line_chars: 0
+  section_2:
+    source: "模板《2024届毕业论文（设计）模板.docx》示例格式（无文字规定）：三号加粗，1.5 倍行距"
+    size: 三号
+    bold: true
+    line: {rule: auto, value: 1.5}
+    first_line_chars: 0
+  body:
+    source: "模板《2024届毕业论文（设计）模板.docx》示例格式（无文字规定）：宋体 / Times New Roman 小四，两端对齐，首行缩进 2 字符，1.5 倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: auto, value: 1.5}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  toc_title:
+    source: "模板《2024届毕业论文（设计）模板.docx》示例格式（无文字规定）：宋体二号加粗居中"
+    cn_font: 宋体
+    size: 二号
+    bold: true
+    align: center
+  references_title:
+    source: "模板《2024届毕业论文（设计）模板.docx》示例格式（无文字规定）：宋体二号加粗居中"
+    cn_font: 宋体
+    size: 二号
+    bold: true
+    align: center
+  ack_title:
+    source: "模板《2024届毕业论文（设计）模板.docx》示例格式（无文字规定）：宋体二号加粗居中"
+    cn_font: 宋体
+    size: 二号
+    bold: true
+    align: center
+  appendix_title:
+    source: "模板《2024届毕业论文（设计）模板.docx》示例格式（无文字规定）：宋体二号加粗居中"
+    cn_font: 宋体
+    size: 二号
+    bold: true
+    align: center
+  fig_caption:
+    source: "模板《2024届毕业论文（设计）模板.docx》示例格式（无文字规定）：黑体五号居中"
+    cn_font: 黑体
+    size: 五号
+    align: center
+  table_caption:
+    source: "模板《2024届毕业论文（设计）模板.docx》示例格式（无文字规定）：黑体五号居中"
+    cn_font: 黑体
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "模板说明文字：关键词一般为 3～5 个，每个关键词不超过 5 个字；分隔符取自模板示例“【关键词】 ，，，，”"
+    min_count: 3
+    max_count: 5
+    zh_separator: "，"
+    en_separator: ","
+  abstract_text:
+    source: "模板说明文字：中文摘要一般为 300 字左右，不含公式、图表和注释；英文摘要与中文摘要的内容应一致，英文关键词与中文关键词一一对应"
+    no_figures: true
+    keywords_match: true
+  caption_numbering:
+    source: "模板说明文字：每一章的图、表、公式都要统一编号，如图 2.1、表 2.1、公式（2.1）"
+  table_caption:
+    source: "模板说明文字与示例：表编号和表标题位于表上方（示例格式）"
+  figure_caption:
+    source: "模板说明文字与示例：图编号和图标题位于图下方（示例格式）"
+
+manual:
+  - {text: "题目字数一般不超过 24 字，副标题字数一般不超过题目字数；英文题目应与中文题目一致。", source: "模板说明文字“题目的确定”“Abstract”部分"}
+  - {text: "摘要应采用第三人称写法；章标题字数一般在 15 字以内；插图、表格先见文字后见图表，图（表）与标题不能破页；公式另行居中书写，编号加圆括号右对齐。", source: "模板说明文字"}
+  - {text: "中文摘要一般为 300 字左右（无明确范围，不检查字数）。", source: "模板说明文字“摘要”部分"}

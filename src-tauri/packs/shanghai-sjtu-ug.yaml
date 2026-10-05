@@ -1,0 +1,185 @@
+meta:
+  id: shanghai-sjtu-ug
+  title: 上海交通大学本科生毕业设计（论文）
+  version: "2025"
+  source: https://www.jwc.sjtu.edu.cn/info/1222/123971.htm
+  org: 上海交通大学
+  kind: university
+  category: 本科
+  verified: true
+
+# 规范原文：《本科生毕业设计（论文）撰写规范（2025年）》；规范未规定的值取自教务处《中文毕业设计模板250928.docx》示例格式。
+page:
+  source: "模板《中文毕业设计模板250928.docx》示例格式（规范只规定“A4 纸打印”，未规定页边距）"
+  paper: A4
+  margins_cm: {top: 3.9, bottom: 3.8, left: 2.5, right: 2.5}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "模板《中文毕业设计模板250928.docx》示例格式：摘要用大写罗马数字，正文用阿拉伯数字（规范三.3 仅规定“中英文摘要单独编页码”）"
+  front_format: upperRoman
+  body_format: decimal
+
+roles:
+  chapter:
+    source: "规范三.3 正文：每章标题为三号黑体字加粗居中；段前 24 磅、段后 18 磅取自模板示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    before: 24
+    after: 18
+  section_1:
+    source: "规范三.8 标题层次：1.1 二级标题顶左书写序数，用四号黑体加黑书写标题；段前后取自模板示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 四号
+    bold: true
+    before: 24
+    after: 6
+  section_2:
+    source: "规范三.8 标题层次：1.1.1 三级标题顶左书写序数，用小四黑体加黑书写标题；段前后取自模板示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小四
+    bold: true
+    before: 12
+    after: 6
+  body:
+    source: "规范三.3 绪论/正文：内容为小四号宋体，首行缩进二个字，段前段后 0 磅，行距固定值 20 磅；西文字体取自模板示例格式"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "规范三.3 中文摘要：“摘要”为三号黑字体加粗居中，段前 24 磅，段后 18 磅"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    before: 24
+    after: 18
+  abstract_title_en:
+    source: "规范三.3 英文摘要：“ABSTRACT”为三号 Arial 居中加黑；书写格式与中文摘要相对应，段前后取自模板示例格式"
+    latin_font: Arial
+    size: 三号
+    bold: true
+    align: center
+    before: 24
+    after: 18
+  abstract_body:
+    source: "规范三.3 中文摘要内容为小四号宋体字，首行缩进 2 字符，段前段后 0 磅，行距固定值 20 磅；英文摘要内容为小四号 Times New Roman，首行缩进二个字，行距固定值 20 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  keywords_zh:
+    source: "规范三.3 中文摘要：顶格输入“关键词”，其后为关键词（小四号宋体字）"
+    cn_font: 宋体
+    size: 小四
+    first_line_chars: 0
+  keywords_en:
+    source: "规范三.3 英文摘要：“Key words”小四号 Times New Roman 加黑，顶格书写，关键词小四号 Times New Roman"
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 0
+  toc_title:
+    source: "规范三.3 目录：“目录”为三号黑体字居中加粗（段前 24 磅，段后 18 磅）"
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    before: 24
+    after: 18
+  toc_chapter:
+    source: "规范三.3 目录：章目录宋体四号，单倍行距"
+    cn_font: 宋体
+    size: 四号
+    line: {rule: auto, value: 1.0}
+  toc_item:
+    source: "规范三.3 目录：小节目录宋体小四号、二级小节目录宋体五号（字号因级别而异，只检查字体），单倍行距"
+    cn_font: 宋体
+    line: {rule: auto, value: 1.0}
+  references_title:
+    source: "模板《中文毕业设计模板250928.docx》示例格式（规范对参考文献标题未作文字规定）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before: 24
+    after: 18
+  ref_item:
+    source: "规范三.3 参考文献：五号宋体，顶格书写，单倍行距；西文字体取自模板示例格式"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: auto, value: 1.0}
+  ack_title:
+    source: "规范三.3：攻读学位期间学术论文和科研成果目录、符号与标记、致谢，标题为三号黑字体居中；段前后取自模板示例格式"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before: 24
+    after: 18
+  fig_caption:
+    source: "规范三.12 图：每幅插图应有图序和图题（五号宋体加黑），图题写在图下方正中"
+    cn_font: 宋体
+    size: 五号
+    bold: true
+    align: center
+  table_caption:
+    source: "规范三.11 表格：表题写在表格上方正中，表题用五号宋体加黑"
+    cn_font: 宋体
+    size: 五号
+    bold: true
+    align: center
+
+checks:
+  keywords:
+    source: "规范二（三）关键词一般列 3～5 个；三.3 各关键词之间中文用中文逗号、英文用英文逗号分开"
+    min_count: 3
+    max_count: 5
+    zh_separator: "，"
+    en_separator: ","
+  abstract_text:
+    source: "规范二（二）摘要：中英文摘要以 300－500 字为宜（不超过 800 字）"
+    zh_max_chars: 800
+  table_caption:
+    source: "规范三.11 表题应写在表格上方正中"
+  figure_caption:
+    source: "规范三.12 图题应写在图下方正中"
+  table_cell:
+    source: "规范三.11 表格内中文用五号宋体，英文用五号 Times New Roman 字体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  continued_caption:
+    source: "规范三.11 表格允许下页接写，接写时表题省略，表头应重复书写，并在左上方写“续表××”"
+  citations:
+    source: "规范三.3 参考文献按论文中参考文献出现的次序，用中括号的数字连续编号；三.13 所引文献编号用阿拉伯数字置于中括号“[]”中"
+
+layout:
+  toc:
+    source: "规范二（四）目录中标题应与正文中标题一致"
+  new_page:
+    source: "模板《中文毕业设计模板250928.docx》2.1：以上各部分独立为一部分，每部分应从新的一页开始"
+    roles: [abstract_title_zh, abstract_title_en, toc_title, references_title, ack_title]
+
+manual:
+  - {text: "标题字数一般不宜超过 20 字；有主副标题时合计最多不超过 36 字。", source: "规范二（一）标题"}
+  - {text: "最后一个关键词后面无标点符号；关键词按外延层次排列，外延大的排在前面。", source: "规范二（三）关键词、三.3"}
+  - {text: "目录一般按三级标题编写；小节目录左缩进一个字，二级小节目录宋体五号、左缩进二个字。", source: "规范二（四）目录、三.3 目录"}
+  - {text: "中英文摘要单独编页码；英文大摘要重新编页码。", source: "规范三.3"}
+  - {text: "二级标题末尾不加标点；四级标题空两格书写序数，用小四宋体书写标题；第四级以下标题用 A、B、C…和 a、b、c… 两层。", source: "规范三.8 标题层次"}
+  - {text: "注释可用页末注或篇末注，不用行中注；页末注按出现先后顺序编号，只限写在注释符号出现的同页。", source: "规范三.9 注释"}
+  - {text: "公式另起一行写在中央，编号用圆括号括起放在公式右边行末；公式可全文统一编序也可逐章编序，序号必须连续，不得重复或跳缺。", source: "规范三.10 公式"}
+  - {text: "表格格式推荐采用简明三线表；表序写在表题左方不加标点，空一格接写表题，表题末尾不加标点；表格写在离正文首次出现处的近处。", source: "规范三.11 表格"}
+  - {text: "图序和表序可统一编序也可逐章编序，序号必须连续，不得重复或跳缺；分图用 a、b、c…标序，图注写在图题下方。", source: "规范三.11、三.12"}
+  - {text: "引用文献标示置于所引内容最末句的右上角，用五号 Times New Roman 字体、中括号上标；不得将引用文献标示置于各级标题处。", source: "规范三.13 引用文献"}
+  - {text: "参考文献著录格式应符合 GB/T 7714-2015。", source: "规范三.14"}
+  - {text: "封面须包含中英文封面，首页为中文封面页，次页为英文封面页，英文标题应为全大写字母。", source: "规范三.2"}

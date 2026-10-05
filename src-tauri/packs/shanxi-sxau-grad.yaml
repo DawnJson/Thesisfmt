@@ -1,0 +1,167 @@
+meta:
+  id: shanxi-sxau-grad
+  title: 山西农业大学研究生学位论文（学术学位、专业学位，硕士、博士）
+  version: "2025"
+  source: https://grs.sxau.edu.cn/info/1032/4338.htm
+  valid_from: "2025-04"
+  org: 山西农业大学
+  kind: university
+  category: 研究生
+  verified: true
+
+# 依据：《关于进一步规范研究生学位论文格式的通知》（2025-04-30）二“检测依据”列出《山西农业大学研究生学位论文格式模版》，
+# 即附件1 的六份模板（学术/专业 × 硕士/博士 × 自然科学/人文社科）。该通知没有逐项的文字规定，
+# 下列数值均取自模板示例格式（六份模板的标题、正文、目录格式经核对完全一致，人文社科类仅参考文献缩进写法略有不同）。
+page:
+  source: "附件1《山西农业大学研究生学位论文格式模版》各份模板示例格式（通知未作文字规定）"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.5, left: 3.0, right: 2.5}
+  header_distance_cm: 2.3
+  footer_distance_cm: 1.8
+
+page_numbers:
+  source: "附件1《山西农业大学研究生学位论文格式模版》示例格式：前置部分用大写罗马数字，正文用阿拉伯数字（通知未作文字规定）"
+  front_format: upperRoman
+  body_format: decimal
+
+roles:
+  chapter:
+    source: "模板示例格式：“第一章”等章标题三号加粗居中（六份模板一致；中文字体：章标题仿宋、参考文献等标题黑体，模板内混用，不检查字体；通知未作文字规定）"
+    size: 三号
+    bold: true
+    align: center
+  section_1:
+    source: "模板示例格式：1.1 级标题四号楷体、居左，段前段后各 0.5 行（六份模板一致，通知未作文字规定）"
+    before_lines: 0.5
+    after_lines: 0.5
+    cn_font: 楷体
+    size: 四号
+    align: left
+  section_2:
+    source: "模板示例格式：1.1.1 级标题小四号黑体、居左，段前段后各 0.5 行（六份模板一致，通知未作文字规定）"
+    before_lines: 0.5
+    after_lines: 0.5
+    cn_font: 黑体
+    size: 小四
+    align: left
+  body:
+    source: "模板示例格式：正文宋体小四号，两端对齐，首行缩进 2 字符，行距固定值 21 磅，段前段后 0（通知未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 21}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "模板示例格式：“摘要”三号黑体加粗居中，段前 0.5 行、段后 1.5 行，行距固定值 21 磅（通知未作文字规定）"
+    before_lines: 0.5
+    after_lines: 1.5
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: exact, value: 21}
+  abstract_title_en:
+    source: "模板示例格式：“Abstract”三号 Times New Roman 加粗居中，段前 0.5 行、段后 1.5 行，行距固定值 21 磅（通知未作文字规定）"
+    before_lines: 0.5
+    after_lines: 1.5
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: exact, value: 21}
+  abstract_body:
+    source: "模板示例格式：摘要正文楷体 / Times New Roman 小四号，两端对齐，首行缩进 2 字符，行距固定值 21 磅（通知未作文字规定）"
+    cn_font: 楷体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 21}
+    before: 0
+    after: 0
+  toc_title:
+    source: "模板示例格式：“目录”三号黑体加粗居中，段前 0.5 行、段后 1.5 行，行距固定值 21 磅（通知未作文字规定）"
+    before_lines: 0.5
+    after_lines: 1.5
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: exact, value: 21}
+  toc_item:
+    source: "模板示例格式：目录各级条目小四号宋体，行距固定值 21 磅（TOC2、TOC3 样式，通知未作文字规定）"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 21}
+  references_title:
+    source: "模板示例格式：“参考文献”三号黑体加粗居中，段前 0.5 行、段后 1.5 行，行距固定值 21 磅（通知未作文字规定）"
+    before_lines: 0.5
+    after_lines: 1.5
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: exact, value: 21}
+  ref_item:
+    source: "模板示例格式：参考文献条目五号宋体 / Times New Roman，居左，悬挂缩进，行距固定值 18 磅（通知未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: left
+    line: {rule: exact, value: 18}
+    hanging_chars: 2
+  ack_title:
+    source: "模板示例格式：“致谢”三号黑体加粗居中，段前 0.5 行、段后 1.5 行，行距固定值 21 磅（通知未作文字规定）"
+    before_lines: 0.5
+    after_lines: 1.5
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: exact, value: 21}
+  appendix_title:
+    source: "模板示例格式：“附录 A”三号黑体加粗居中，段前 0.5 行、段后 1.5 行，行距固定值 21 磅（通知未作文字规定）"
+    before_lines: 0.5
+    after_lines: 1.5
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: exact, value: 21}
+  end_title:
+    source: "模板示例格式：“攻读××学位期间取得的学术成果”三号黑体加粗居中，段前 0.5 行、段后 1.5 行，行距固定值 21 磅（通知未作文字规定）"
+    before_lines: 0.5
+    after_lines: 1.5
+    cn_font: 黑体
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: exact, value: 21}
+
+checks:
+  keywords:
+    source: "模板示例格式：“关键词：关键词1；关键词2”、“Key words: keyword1; keyword2”，中文用全角分号、英文用半角分号（通知未作文字规定）"
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "模板示例格式：图表按章编号，如“表1-1”“图1-1”“表A.1”（通知未作文字规定）"
+  table_caption:
+    source: "模板示例格式：表题（中英文各一行）位于表的上方"
+  figure_caption:
+    source: "模板示例格式：图题（中英文各一行）位于图的下方"
+  continued_caption:
+    source: "模板示例格式：转页的表以“续表1-2 表名 / Table 1-2 Table name(continued)”重复表头续接"
+  equation_number:
+    source: "模板示例格式：表达式编号“（1-1）”加括号、按章编号、位于行末"
+  appendix_number:
+    source: "模板示例格式：“附录A 标题”，附录内“表A.1”“图A.1”"
+
+manual:
+  - {text: "参考文献采用著者-出版年制（文中标注“（曹凌，2011）”“（Thomas, 2001; Nalamura et al., 2014）”，文末按著者排列），著录格式依据 GB/T 7714-2015。", source: "通知二检测依据、模板示例格式"}
+  - {text: "论文还须符合《学位论文编写规则》（GB/T 7713.1-2006）、《科技文献的章节编号方法》（CY/T 35-2001）、《标点符号用法》（GB/T 15834-2011）和《出版物上数字用法》（GB/T 15835-2011）。", source: "通知二检测依据"}
+  - {text: "表目录、图目录、缩略词语表按模板排在目录之后；博士学位论文另需按附件4 制作书脊。", source: "附件1 模板、附件4"}
+  - {text: "学位论文原则上不应存在格式错误，以差错率低于万分之三（每万字错误不超过 3 个）为合格。", source: "通知四"}
+  - {text: "章标题段前段后各 1 行（模板以“行”为单位设置；模板的“缩略词语表”标题段前后为 0.5 行 / 1.5 行但被引擎当作章标题，故不检查章标题行数间距）。", source: "附件1 模板示例格式"}

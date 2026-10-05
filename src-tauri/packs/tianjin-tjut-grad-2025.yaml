@@ -1,0 +1,207 @@
+meta:
+  id: tianjin-tjut-grad-2025
+  title: 天津理工大学博士、硕士学位论文
+  version: "2025-04"
+  source: https://yjs.tjut.edu.cn/info/1023/1165.htm
+  valid_from: "2019-05"
+  org: 天津理工大学
+  kind: university
+  category: 研究生
+  verified: true
+
+# 依据《天津理工大学关于博士、硕士学位论文统一格式的规定》（津理工研究生院〔2019〕1号，下称“规定”；原件为扫描 PDF，经 OCR 并人工核对页图）。
+# 规定的博士、硕士排版要求相同，故合为一个规则包；博士、硕士自动生成模板（.dotm）均与规定一致。
+
+page:
+  source: "规定二（11）（12）：A4（210×297mm）；页边距上下 2.54cm，左 3.57cm，右 2.77cm；页眉顶端距离 1.5cm，页脚底端距离 1.75cm"
+  paper: A4
+  margins_cm: {top: 2.54, bottom: 2.54, left: 3.57, right: 2.77}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "规定二（12）：页脚中的内容为页码；目录页页码用 I、II 等编排；页码从第一章开始按阿拉伯数字（Times New Roman 小五号）连续编排，居中书写"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+
+roles:
+  chapter:
+    source: "规定二（6）表2：一级标题居中，黑体小三号（段前后 30-36pt 为区间，未检查）；正文段落和标题的行距为最小值 20pt"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: atLeast, value: 20}
+  section_1:
+    source: "规定二（6）表2：二级标题左对齐，黑体四号（段前后 18-24pt 为区间，未检查）；行距最小值 20pt"
+    cn_font: 黑体
+    size: 四号
+    align: left
+    line: {rule: atLeast, value: 20}
+  section_2:
+    source: "规定二（6）表2：三级标题左对齐，黑体小四号（段前后 12-15pt 为区间，未检查）；行距最小值 20pt"
+    cn_font: 黑体
+    size: 小四
+    align: left
+    line: {rule: atLeast, value: 20}
+  body:
+    source: "规定二（6）(b)：正文中文宋体小四号，英文字母及数字 Times New Roman 小四号；行距最小值 20pt，段前段后 0，首行缩进 2 个中文字符，两端对齐"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: atLeast, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "规定二（3）：“摘要”两字为黑体三号字，居中显示；本部分段落行间距为最小值 20pt，段落前后间距为 0"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: atLeast, value: 20}
+    before: 0
+    after: 0
+  abstract_title_en:
+    source: "规定二（4）：此部分皆为 Times New Roman 字体，“Abstract”为三号字加粗，居中显示；行距最小值 20pt，段落前后间距 0"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: atLeast, value: 20}
+    before: 0
+    after: 0
+  abstract_body:
+    source: "规定二（3）（4）：摘要内容宋体小四号（英文 Times New Roman 小四号），首行缩进 2 个中文字符，两端对齐；行距最小值 20pt，段落前后间距 0"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: atLeast, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  keywords_zh:
+    source: "规定二（3）：关键词与内容摘要间隔一行，无缩进左对齐书写；“关键词：”黑体小四号、内容宋体小四号，换行不缩进（标签与内容字体不同，故只限制字号）"
+    size: 小四
+    align: left
+    first_line_chars: 0
+  keywords_en:
+    source: "规定二（4）：英文关键词与内容摘要间隔一行，无缩进左对齐书写；“Key words：”与内容均为 Times New Roman 小四号，换行不缩进"
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    first_line_chars: 0
+  toc_title:
+    source: "规定二（5）：“目录”两字为黑体小三号字，居中显示，标题行段前间距 36pt，段后间距 16pt；行距最小值 20pt"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: atLeast, value: 20}
+    before: 36
+    after: 16
+  toc_chapter:
+    source: "规定二（5）：目录中各章节及其页码的字体为宋体小四号；行距最小值 20pt；内容部分段落前后间距为 0"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: atLeast, value: 20}
+    before: 0
+    after: 0
+  toc_item:
+    source: "规定二（5）：目录中各章节及其页码的字体为宋体小四号，各级标题每级缩进 2 字符；行距最小值 20pt；内容部分段落前后间距为 0"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: atLeast, value: 20}
+    before: 0
+    after: 0
+  references_title:
+    source: "规定二（7）：“参考文献”采用黑体小三号字，居中显示，标题的段前间距 30pt、段后间距 36pt"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    before: 30
+    after: 36
+  ref_item:
+    source: "规定二（7）：参考文献内容字体为宋体小四号字，参考文献正文取最小行距 17pt，段前加间距 3pt"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: atLeast, value: 17}
+    before: 3
+  ack_title:
+    source: "规定二（10）：标题居中显示，黑体小三号字，段前间距 30pt、段后间距 36pt；行距最小值 20pt"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: atLeast, value: 20}
+    before: 30
+    after: 36
+  end_title:
+    source: "规定二（9）在学期间取得的科研成果和参加科研情况说明：标题居中显示，黑体小三号字，段前间距 30pt、段后间距 36pt；行距最小值 20pt"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    line: {rule: atLeast, value: 20}
+    before: 30
+    after: 36
+  fig_caption:
+    source: "规定二（6）(a)：图题的编号和说明居中置于图的下方"
+    align: center
+  table_caption:
+    source: "规定二（6）(a)：表头的序号和说明置于表的上方"
+
+checks:
+  keywords:
+    source: "规定一（4）：关键词 3-5 个；二（3）（4）：关键词之间用逗号分隔（中文用全角“，”、英文用半角“,”）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "，"
+    en_separator: ","
+  abstract_text:
+    source: "规定一（4）（5）：摘要一般 300~600 字左右；英文关键词应与中文关键词对应"
+    zh_min_chars: 300
+    zh_max_chars: 600
+    keywords_match: true
+    chars_approx: true
+  caption_numbering:
+    source: "规定二（6）(a)：图、表、附注、公式一律采用阿拉伯数字分章编号，如图 2.5，表 3.2，公式（5.1）"
+  table_caption:
+    source: "规定二（6）(a)：表头的序号和说明置于表的上方"
+  figure_caption:
+    source: "规定二（6）(a)：图题的编号和说明居中置于图的下方"
+  table_cell:
+    source: "规定二（6）(a)：图、表内容为五号字，中文字体为宋体，英文字体为 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  appendix_number:
+    source: "规定二（8）：附录依序用大写正体 A、B、C……编序号，如：附录 A"
+
+headers:
+  source: "规定二（12）：页眉从第一章开始，宋体五号，居中书写（奇数页章节名称、偶数页校名，单双面不同，未检查内容）"
+  front_none: true
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+layout:
+  toc:
+    source: "规定一（6）：目录应由文字处理软件自动生成并带页号，目录应列至三级标题；目录的文字应与相应标题文字完全一致"
+  new_page:
+    source: "规定二（3）（4）（5）（6）（7）（8）（9）（10）：中文摘要、英文摘要、目录、每章、参考文献、附录、科研成果说明、致谢均应另页右页开始"
+    roles: [abstract_title_zh, abstract_title_en, toc_title, chapter, references_title, appendix_title, end_title, ack_title]
+  first_chapter_odd_page:
+    source: "规定二（6）：正文每章应另页右页开始；二（12）：双面打印的论文每一章节的第一页必须在奇数页"
+  page_limits:
+    - {role: ack_title, max_pages: 1, source: "规定一（11）：致谢限一页"}
+
+manual:
+  - {text: "页眉从第一章开始，宋体五号，居中书写：双面打印的奇数页为章节名称，偶数页为“天津理工大学博士学位论文”或“天津理工大学硕士学位论文”；单面打印为“天津理工大学硕士学位论文 章节名称”（奇偶页页眉不同，引擎无法检查）。", source: "规定二（12）"}
+  - {text: "章标题段前后 30-36pt；二级标题 18-24pt；三级标题 12-15pt（区间值，引擎无法检查）。", source: "规定二（6）表2"}
+  - {text: "“目录”两字中间空四个中文字符；“致谢”两字中间空四个中文字符；致谢内容宋体小四号、两端对齐、首行缩进 2 个中文字符、段前后 0。", source: "规定二（5）（10）"}
+  - {text: "表的编排建议采用国际通行的三线表；表中参数应标明量和单位的符号；公式编号用括号括起写在右边行末；图、表、公式等与正文之间要有一行的间距；图、表附注采用英文小写字母顺序编号。", source: "规定一（7）、二（6）(a)"}
+  - {text: "参考文献按 GB/T 7714-2015 书写，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一；正文引用标识“[ ]”上标，宋体；作者不超过 3 个时全部照录，超过 3 个只列前 3 个，其后加“，等”；一般放在正文结束后。", source: "规定一（8）、二（7）"}
+  - {text: "附录中的图、表、公式、参考文献另行编序号，数码前冠以附录序码，如图 A.1、表 B.2、公式（B.3）、文献 [A5]；附录的格式参照正文部分。", source: "规定二（8）"}
+  - {text: "论文题目一般控制在 25 字以内；博士学位论文正文不少于 3 万字、硕士不少于 2 万字；参考文献博士一般不少于 80 篇、硕士不少于 50 篇；封面采用学校统一印制的四种封面之一。", source: "规定一（1）（7）（8）、二（1）"}
+  - {text: "在学期间取得的科研成果和参加科研情况说明：内容宋体小四号，两端对齐，段前后 0，“取得的科研成果”“参与的科研项目：”宋体小四号加粗。", source: "规定二（9）"}

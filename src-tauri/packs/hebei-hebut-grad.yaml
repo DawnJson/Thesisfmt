@@ -1,0 +1,266 @@
+meta:
+  id: hebei-hebut-grad
+  title: 河北工业大学研究生学位论文
+  version: 2024-09
+  source: https://yjs.hebut.edu.cn/docs/2026-05/03c09920406a43ed96ba2e20f6c14550.pdf
+  valid_from: 2024-09
+  org: 河北工业大学
+  kind: university
+  category: 研究生
+  verified: true
+page:
+  source: §2.3.1 页面设置：A4（210mm×297mm），上页边距为 34mm、下页边距为 25mm，左、右页边距为 27mm，页眉为 25mm，页脚为 22mm
+  paper: A4
+  margins_cm:
+    top: 3.4
+    bottom: 2.5
+    left: 2.7
+    right: 2.7
+  header_distance_cm: 2.5
+  footer_distance_cm: 2.2
+page_numbers:
+  source: §2.3.2 自摘要开始到注释表，采用“Ⅰ”、“Ⅱ”、“Ⅲ”编排页码；页码一律采用 Times New Roman 五号；§2.1 中文题名页、英文题名页、原创性声明和版权使用授权的说明、答辩委员会决议书单面印刷，不加页码（正文页码为“-1-”格式，schema 无此格式，不检查 body_format）；§2.3.2 正文页码置于页面底端外侧
+  front_format: upperRoman
+  footer_latin_font: Times New Roman
+  footer_size: 五号
+  cover_no_number: true
+  outside: true
+headers:
+  source: §2.3.3 页眉从正文开始，在页眉的下端画一条双横线
+  front_none: true
+roles:
+  chapter:
+    source: §2.2.8.1 各章标题，例如“第一章 绪论”：采用黑体小二号，居中书写，上下各空一行
+    cn_font: 黑体
+    size: 小二
+    align: center
+  section_1:
+    source: §2.2.8.1 各节一级标题，例如“1.1 研究意义和创新点”：采用黑体三号，居左书写，采用 1.25 倍行距，段前段后各 12 磅
+    cn_font: 黑体
+    size: 三号
+    align: left
+    line:
+      rule: auto
+      value: 1.25
+    before: 12
+    after: 12
+  section_2:
+    source: §2.2.8.1 各节二级标题，例如“1.1.1 研究意义”：采用宋体四号，加粗，居左书写，采用 1.25 倍行距，段前段后各 6 磅
+    cn_font: 宋体
+    size: 四号
+    bold: true
+    align: left
+    line:
+      rule: auto
+      value: 1.25
+    before: 6
+    after: 6
+  section_3:
+    source: §2.2.8.1 各节三级标题，例如“1.1.1.1 研究实践意义”：采用宋体小四号，不加粗，居左书写，采用 1.25 倍行距，段前段后各 6 磅
+    cn_font: 宋体
+    size: 小四
+    bold: false
+    align: left
+    line:
+      rule: auto
+      value: 1.25
+    before: 6
+    after: 6
+  body:
+    source: §2.2.8.2 中文文字部分采用宋体小四号，行间距 1.25 倍；西文字符和数字均采用 Times New Roman 字体，字号为小四号；两端对齐书写，段落首行左缩进 2 个汉字符；段前空 0 磅，段后空 0 磅
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: §2.2.4 中文摘要部分的标“摘要”二字，采用黑体小二号，之间空两个汉字符，上下各空一行
+    cn_font: 黑体
+    size: 小二
+    align: center
+  abstract_title_en:
+    source: §2.2.4 英文摘要部分的标题“ABSTRACT”，字体选用 Times New Roman 小二号，上下各空一行
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+  abstract_body:
+    source: §2.2.4 摘要正文用宋体小四号，行间距为 1.25 倍（英文摘要正文用 Times New Roman 小四号，见 manual）
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: auto
+      value: 1.25
+  toc_title:
+    source: §2.2.5 “目录”二字用黑体小二号，之间空两个汉字符，上下各空一行
+    cn_font: 黑体
+    size: 小二
+    align: center
+  toc_chapter:
+    source: §2.2.5 各章目录用黑体小四号；目录中内容行间距均为 1.25 倍，页码采用 Times New Roman 小四号字体
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: auto
+      value: 1.25
+  toc_item:
+    source: §2.2.5 一级标题和二级标题目录用宋体小四号；目录中内容行间距均为 1.25 倍，页码采用 Times New Roman 小四号字体
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: auto
+      value: 1.25
+  references_title:
+    source: §3.2 “参考文献”四个字的格式与章标题的格式相同
+    cn_font: 黑体
+    size: 小二
+    align: center
+  ref_item:
+    source: §3.2 参考文献正文部分，汉字用五号宋体，英文用五号 Times New Roman 体，行间距为 1.25 倍，段前空 0 磅，段后空 0 磅；采用悬挂格式，序号悬挂在外（§3.2.3.2（3），悬挂字符数规范未规定，取模板示例 2.5 字符）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+    hanging_chars: 2.5
+  ack_title:
+    source: §2.2.14 “致谢”二字采用黑体小二号，之间要空两个汉字符，上下各空一行
+    cn_font: 黑体
+    size: 小二
+    align: center
+  appendix_title:
+    source: §2.2.12 在“附录 A”后空一汉字符写附录的题名，格式与章标题相同
+    cn_font: 黑体
+    size: 小二
+    align: center
+  end_title:
+    source: §2.2.13 “攻读学位期间所取得的相关科研成果”的格式与章标题的格式相同
+    cn_font: 黑体
+    size: 小二
+    align: center
+  fig_caption:
+    source: §2.2.9 图题以及内容中的文字采用宋体五号字体，英文字符和数字均采用 Times New Roman 字体，行距为 1.25 倍；中文图题段前空 0 磅，段后空 0 磅；图题位于图下方的居中位置
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line:
+      rule: auto
+      value: 1.25
+    before: 0
+    after: 0
+  table_caption:
+    source: §2.2.10 表题以及表单元格中的文字采用宋体五号字体，英文字符和数字均采用 Times New Roman 字体，行距为 1.25 倍；中文表题的段落格式为段前 6 磅，段后 0 磅；表的编号和表题置于表上方的居中位置
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line:
+      rule: auto
+      value: 1.25
+    before: 6
+    after: 0
+checks:
+  keywords:
+    source: §2.2.4 每篇论文选取 3～8 个关键词，建议 5 个为宜，每个关键词之间用分号（；）间隔，最后一个关键词后不加标点；英文关键词每个之间用分号间隔
+    min_count: 3
+    max_count: 8
+    zh_separator: ；
+    en_separator: ;
+  abstract_text:
+    source: §2.2.4 中文摘要控制在 800-1000 字；摘要中不采用图、表；英文摘要标点符号用英文标点符号；“Key words”与中文摘要部分的关键词对应
+    zh_min_chars: 800
+    zh_max_chars: 1000
+    no_figures: true
+    en_punctuation: true
+    keywords_match: true
+  caption_numbering:
+    source: §2.2.9 图的编号由“图”、章编号和从 1 开始的阿拉伯数字组成，例如第 2 章的第 4 个图应表示为“图 2.4”；§2.2.10 表同理，如“表 2.4”
+  table_caption:
+    source: §2.2.10 表的编号和表题置于表上方的居中位置
+  figure_caption:
+    source: §2.2.9 图题置于图的编号之后，位于整个图下方的居中位置
+  table_lines:
+    source: §2.2.10 均采用国际通行的三线表；表的上下线为 1.5 磅，中间线要求为 1 磅
+    top_bottom_pt: 1.5
+    header_pt: 1.0
+  table_cell:
+    source: §2.2.10 表单元格中的文字采用宋体五号字体，英文字符和数字均采用 Times New Roman 字体，行距为 1.25 倍
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line:
+      rule: auto
+      value: 1.25
+  equation_number:
+    source: §2.2.11（2）公式序号应按章编号，公式编号在行末列出，加英文小括号，如(3.1)、(3.2)
+  appendix_number:
+    source: §2.2.12 论文的附录依次为“附录 A”，“附录 B”，“附录 C”等编号；如果只有一个附录，也写成“附录 A”
+  figure_citation:
+    source: §2.2.9 图宜紧置于首次引用该图的文字之后
+  citations:
+    source: §2.2.8.4 按正文中引用的文献出现的先后顺序用阿拉伯数字连续编码；§3.2.3.1（4）文献表中的序号与正文中标注的文献顺序号要一一对应
+  footnotes:
+    source: §2.2.8.3 脚注内容采用宋体小五号字，英文字符和数字均采用 Times New Roman 字体；两端对齐书写，单倍行距，段前空 0 磅，段后空 0 磅；序号“①，②，③……”；脚注的序号按页编排
+    format:
+      source: §2.2.8.3 脚注
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小五
+      align: justify
+      line:
+        rule: auto
+        value: 1.0
+      before: 0
+      after: 0
+    circled: true
+    restart_each_page: true
+layout:
+  new_page:
+    source: §2.1 以上各项各自独立成为一部分，每部分从新的一页开始；§2.2.8 论文的每一章应另起一页；§2.3.2 正文、附录中各章也另起一页
+    roles:
+    - abstract_title_zh
+    - toc_title
+    - chapter
+    - references_title
+    - appendix_title
+    - ack_title
+    - end_title
+  first_chapter_odd_page:
+    source: §2.1 从“中文摘要”开始各部分双面印刷，从奇数页开始书写，必要时可留空白页
+  page_limits:
+  - role: ack_title
+    max_pages: 1
+    source: §2.2.14 致谢限一页
+  page_start:
+    source: §2.3.2 自摘要开始用“Ⅰ”、“Ⅱ”、“Ⅲ”编排页码；自正文开始用阿拉伯数字编排页码
+    front_first: 1
+    body_first: 1
+manual:
+- text: 页眉从正文开始，页眉下端画一条双横线；奇数页双横线上方宋体五号居中打印“河北工业大学××学位论文”（××为博士或硕士），偶数页宋体五号居中打印学位论文题目。
+  source: §2.3.3 页眉设置
+- text: 正文页码采用“-1-”、“-2-”格式，置于页面底端外侧。
+  source: §2.3.2 页码编排
+- text: 转页接排的表在随后各页重复表的编号，编号后跟“（续）”，并重复表头和关于单位的陈述；图页面积太大分在两页时，次页注明“续”字及图题，如“续图 2.2 ……”。
+  source: §2.2.10 表、§2.2.9 图
+- text: 题名页论文题目不得超过 25 个汉字，宋体二号居中加粗，1.25 倍行距；封面、题名页、声明、致谢（致谢内容仿宋小四号，1.25 倍行距）等各部分按指南规定字体排版。
+  source: §2.2.2、§2.2.14
+- text: 中文摘要原则上不超过一页；摘要中不标注引用文献编号；建议新的章从奇数页开始，上一章结束页控制在偶数页。
+  source: §2.2.4、§2.3.2
+- text: 攻读学位期间所取得的相关科研成果：汉字用五号宋体，英文用五号 Times New Roman 体，行间距 1.25 倍，段前后 0 磅。
+  source: §2.2.13
+- text: 公式整行右对齐并使公式部分居中显示，表达式采用 Cambria Math 或 Times New Roman 体，公式之间及上下文间设置段前和段后 6 磅（可适当调整）。
+  source: §2.2.11（1）（3）
+- text: 图应水平居中放置、表应水平居中放置；图中文字采用宋体五号，尽量避免使用颜色区分。
+  source: §2.2.9、§2.2.10
+- text: 英文摘要正文用 Times New Roman 小四号，行间距 1.25 倍。
+  source: §2.2.4

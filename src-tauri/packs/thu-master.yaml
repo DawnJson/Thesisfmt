@@ -1,0 +1,305 @@
+meta:
+  id: thu-master
+  title: 清华大学研究生学位论文（学术型硕士）
+  version: "2023-03"
+  source: https://www.dhs.tsinghua.edu.cn/wp-content/uploads/2023/12/2024031107044595.pdf
+  valid_from: "2023-03"
+  org: 清华大学
+  kind: university
+  category: 研究生（学术型硕士）
+  verified: true
+
+page:
+  source: "§2.4.1"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 3.0, left: 3.0, right: 3.0}
+  cover_margins_cm:
+    - {name: 中文封面, source: "§2.3.1", top: 6.0, bottom: 6.0, left: 4.0, right: 4.0}
+    - {name: 英文封面, source: "§2.3.2", top: 5.5, bottom: 5.0, left: 3.6, right: 3.6}
+  header_distance_cm: 2.2
+  footer_distance_cm: 2.2
+
+page_numbers:
+  source: "§2.4.2"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 五号
+  restart_at: 1
+  cover_no_number: true
+
+headers:
+  source: "§2.4.2"
+  content: chapter_title
+  align: center
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 五号
+  same_odd_even: true
+
+roles:
+  chapter:
+    source: "§2.3.9.2 章标题"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  section_1:
+    source: "§2.3.9.2 一级节标题"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 14pt
+    align: left
+    line: {rule: exact, value: 20}
+    before: 24
+    after: 6
+  section_2:
+    source: "§2.3.9.2 二级节标题"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 13pt
+    align: left
+    line: {rule: exact, value: 20}
+    before: 12
+    after: 6
+  section_3:
+    source: "§2.3.9.2 三级节标题"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 12pt
+    align: left
+    line: {rule: exact, value: 20}
+    before: 12
+    after: 6
+  body:
+    source: "§2.3 正文"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  abstract_title_zh:
+    source: "§2.3.5 中文摘要标题"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  abstract_title_en:
+    source: "§2.3.5 英文摘要标题“Abstract”用 Arial 体三号字，居中书写，单倍行距，段前空 24 磅，段后空 18 磅"
+    latin_font: Arial
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  abstract_body:
+    source: "§2.3.5 摘要内容用小四号宋体字书写，两端对齐；英文摘要用小四号 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+  toc_title:
+    source: "§2.3.6 目录的标题用黑体三号字，居中书写，单倍行距，段前空 24 磅，段后空 18 磅"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  toc_chapter:
+    source: "§2.3.6 目录中的章标题行居左书写，小四号字，中文黑体，英文和数字 Arial；行距固定值 20 磅，段前段后 0 磅"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 小四
+    align: left
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  toc_item:
+    source: "§2.3.6 目录其他内容采用宋体小四号字，英文和数字用 Times New Roman，行距固定值 20 磅，段前段后 0 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  references_title:
+    source: "§2.3.9.2 参考文献等部分的标题与章标题同级，使用章标题格式"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  appendix_title:
+    source: "§2.3.9.2 附录标题与章标题同级，使用章标题格式"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  ack_title:
+    source: "§2.3.9.2 致谢标题与章标题同级，使用章标题格式"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+  fig_caption:
+    source: "§2.3.19 图序与图题采用 11pt 字居中书写，汉字宋体，英文和数字 Times New Roman，段前 6 磅，段后 12 磅，单倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 11pt
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 12
+  table_caption:
+    source: "§2.3.19 表题"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 11pt
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 12
+    after: 6
+  table_source:
+    source: "§2.3.19 若在表下方注明资料来源，则此部分用五号字，汉字用宋体，英文用 Times New Roman 体，单倍行距，段前空 6 磅，段后空 12 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 12
+  ref_item:
+    source: "§2.3.10 参考文献：五号字，宋体 / Times New Roman，固定值 16 磅，段前 3 磅、段后 0 磅，悬挂缩进 2 个汉字符或 1 厘米"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: exact, value: 16}
+    before: 3
+    after: 0
+    hanging_chars: 2
+  equation:
+    source: "§2.3.19 表达式采用 Cambria Math 或 Times New Roman 12pt，单倍行距，段前、段后各 6 磅"
+    size: 12pt
+    line: {rule: auto, value: 1.0}
+    before: 6
+    after: 6
+  end_title:
+    source: "§2.3.9.2 声明，个人简历、在学期间完成的相关学术成果，指导教师（小组）评语，答辩委员会决议书等部分的标题与章标题属于同一等级，也使用上述格式"
+    cn_font: 黑体
+    latin_font: Arial
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 24
+    after: 18
+
+checks:
+  keywords:
+    source: "§2.3 摘要"
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "§2.3 图表按章编号"
+  punctuation:
+    source: "§2.3 正文"
+  table_caption:
+    source: "§2.3.19 表序与表题置于表的上方"
+  table_lines:
+    source: "§2.3.19 表采用三线表：上、下边线为单直线，线粗 1.5 磅；第三条线为单直线，线粗 1 磅"
+    top_bottom_pt: 1.5
+    header_pt: 1.0
+  # align: center 同时要求单元格上下居中（§2.3.19「居中书写（上下居中，左右居中）」）
+  table_cell:
+    source: "§2.3.19 表单元格中的文字一般应居中书写（上下居中，左右居中），不宜居中的可两端对齐；11pt，宋体 / Times New Roman，单倍行距，段前段后 3 磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 11pt
+    align: center
+    line: {rule: auto, value: 1.0}
+    before: 3
+    after: 3
+  figure_caption:
+    source: "§2.3.19 图序与图题置于图的下方"
+  continued_caption:
+    source: "§2.3.19 表 转页接排的表在每页表序前加“续”字，续表均应重复表头；§2.3.19 图 图分在两页时，次页注明“续”字及图题"
+  equation_number:
+    source: "§2.3.19 表达式序号加括号置于表达式右边行末，按章编号；§2.3.11 附录中冠以附录序号，如“式（C-3）”"
+  equation_layout:
+    source: "§2.3.19 表达式一般应另行起，采用与正文相同的字号居中书写，或另起一段空两个汉字符书写，一旦采用了上述两种格式中的一种，全文都要使用同一种格式"
+  abstract_text:
+    source: "§2.3.5 中文摘要控制在 800-1000 汉字（符）；论文摘要中不要出现图片、图表、表格或其他插图材料；英文摘要标点符号用英文标点符号；“Keywords”与中文摘要部分的关键词对应"
+    zh_min_chars: 800
+    zh_max_chars: 1000
+    no_figures: true
+    en_punctuation: true
+    keywords_match: true
+  chapter_number:
+    source: "§2.3.9.2 章序号采用阿拉伯数字"
+  appendix_number:
+    source: "§2.3.11 附录依顺序用大写字母 A，B，C，……编序号；只有一个附录时也要编序号，即附录 A"
+  figure_citation:
+    source: "§2.3.19 图宜紧置于首次引用该图的文字之后"
+  citations:
+    source: "§3.4.1 按正文中引用的文献出现的先后顺序用阿拉伯数字连续编码；§3.5 参考文献表中所列参考文献应与正文中引用的参考文献一一对应"
+  footnotes:
+    source: "§2.3.9.4 脚注内容采用小五号字，中文用宋体，英文和数字用 Times New Roman 体，两端对齐，单倍行距，段前段后均空 0 磅，悬挂缩进 1.5 字符；①②③ 序号按页编排"
+    format:
+      source: "§2.3.9.4 脚注"
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小五
+      align: justify
+      line: {rule: auto, value: 1.0}
+      before: 0
+      after: 0
+      hanging_chars: 1.5
+    circled: true
+    restart_each_page: true
+
+# 精确检查（需要本机 Word / WPS 排版分页后才能判断）。
+layout:
+  table_span:
+    source: "§2.3.19 表 如某个表需要转页接排，可以“续表”的形式另页打印，只需在每页表序前加“续”字；续表均应重复表头"
+  figure_span:
+    source: "§2.3.19 图 图页面积太大分在两页时，次页注明“续”字及图题"
+  toc:
+    source: "§2.3.6 目录是论文各组成部分章、节序号和标题行以及页码按顺序的排列；目录宜在文档编辑软件中自动生成"
+  new_page:
+    source: "§2.1 以上各项均独立成为一部分，每部分从新的一页开始；§2.3.9.1 每一章应另起页；§2.3.13 声明单独一页"
+    roles: [abstract_title_zh, abstract_title_en, toc_title, chapter, references_title, appendix_title, ack_title, end_title]
+  first_chapter_odd_page:
+    source: "§2.3.9.1 正文应从另页右页开始；§2.4.1 正文从另页右页开始"
+  page_limits:
+    - {role: abstract_title_zh, max_pages: 1, source: "§2.3.5 中文摘要篇幅限制在一页内书写"}
+    - {role: ack_title, max_pages: 1, source: "§2.3.12 致谢限一页"}
+  page_start:
+    source: "§2.4.2 页码从“摘要”开始，用大写罗马数字从“Ⅰ”开始连续编排；从正文“第 1 章”开始，页码用阿拉伯数字从“1”开始连续编排"
+    front_first: 1
+    body_first: 1
+  ref_entry_page:
+    source: "§2.3.10 每一条文献的内容要尽量写在同一页内"
+
+manual:
+  - {text: "图应精选、具有自明性，切忌与表及文字表述重复；表应具有自明性，表中参数应标明量和单位的符号。", source: "§2.3.19 图 表"}
+  - {text: "表需转页接排时，以“续表”形式另页打印，每页表序前加“续”字并重复表头。", source: "§2.3.19 表", replaced_by: table_span}
+  - {text: "图页面积太大分在两页时，次页注明“续”字及图题。", source: "§2.3.19 图", replaced_by: figure_span}
+  - {text: "表达式采用 Cambria Math 或 Times New Roman 体；较长的表达式必须转行时，应在“=”或“+”“-”“×”“/”等运算符或“]”“}”等括号之后回行，上下行尽可能在“=”处对齐。", source: "§2.3.19 表达式"}
+  - {text: "尽量避免用颜色区分图中内容。", source: "§2.3.19 图"}
+  - {text: "致谢限一页。", source: "§2.3 致谢", replaced_by: page_limits}

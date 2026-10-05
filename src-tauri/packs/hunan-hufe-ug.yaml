@@ -1,0 +1,208 @@
+# 湖南财政经济学院本科毕业论文（设计）撰写规范（2024 年 10 月修订版，非语言类）
+# 依据：附件2《本科毕业论文（设计）管理规范》“本科毕业论文（设计）撰写规范”；规范未写明处以附件3模板示例格式补充。
+meta:
+  id: hunan-hufe-ug
+  title: 湖南财政经济学院本科毕业论文（设计）（非语言类）
+  version: "2024"
+  source: https://www.hufe.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2058699371&wbfileid=D4365AF71EE888323E010F7448A3E6D3
+  valid_from: "2024-10"
+  org: 湖南财政经济学院
+  kind: university
+  category: 本科
+  verified: true
+
+page:
+  source: "《管理规范》撰写规范（五）9：上边距30mm；下边距27mm；左边距30mm；右边距30mm；（八）10：页眉页脚设置均为2厘米"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.7, left: 3.0, right: 3.0}
+  header_distance_cm: 2.0
+  footer_distance_cm: 2.0
+
+page_numbers:
+  source: "《管理规范》撰写规范（五）10、（七）4：摘要、目录页脚用五号罗马体Ⅰ、Ⅱ…连续排序；（八）5：正文至附录用阿拉伯数字连续编排，页码居中，Times New Roman 五号；三（三）2：诚信承诺书页脚不标页码"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 五号
+  cover_no_number: true
+
+roles:
+  chapter:
+    source: "《管理规范》撰写规范（八）5：一级标题宋体小三号加粗，行间距固定值22磅，标题首行缩进2个字符，段前后空0.5行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小三
+    bold: true
+    line: {rule: exact, value: 22}
+    first_line_chars: 2
+    before_lines: 0.5
+    after_lines: 0.5
+  section_1:
+    source: "《管理规范》撰写规范（八）5：二级标题宋体四号加粗，首行缩进2个字符，行间距固定值22磅，段前后空0.5行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    line: {rule: exact, value: 22}
+    first_line_chars: 2
+    before_lines: 0.5
+    after_lines: 0.5
+  section_2:
+    source: "《管理规范》撰写规范（八）5：其他各级标题用宋体小四号加粗，首行缩进2个字符，行间距固定值22磅，段前后空0.5行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    line: {rule: exact, value: 22}
+    first_line_chars: 2
+    before_lines: 0.5
+    after_lines: 0.5
+  body:
+    source: "《管理规范》撰写规范（八）5：正文中文用小四号宋体，英文和数字用 Times New Roman，正文内容段前段后不空行；行距、对齐、缩进规范未作文字规定，取自模板《本科毕业论文（设计）模板（非语言类）（2024年修订）》示例格式"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: exact, value: 22}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "《管理规范》撰写规范（五）7：居中打印“摘要”两个字(黑体小三号)，段前段后0.5行"
+    cn_font: 黑体
+    size: 小三
+    align: center
+    before_lines: 0.5
+    after_lines: 0.5
+  abstract_title_en:
+    source: "《管理规范》撰写规范（六）4：居中打印“ABSTRACT”（Times New Roman字体小三号加粗），段前段后0.5行"
+    latin_font: Times New Roman
+    size: 小三
+    bold: true
+    align: center
+    before_lines: 0.5
+    after_lines: 0.5
+  abstract_body:
+    source: "《管理规范》撰写规范（五）7：摘要内容宋体小四号，行间距22磅，首行缩进2个字符，两端对齐；（六）4：英文摘要内容 Times New Roman 小四号，两端对齐"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line: {rule: exact, value: 22}
+  toc_title:
+    source: "《管理规范》撰写规范（七）2：“目录”两字居中（黑体小三号）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+  toc_chapter:
+    source: "《管理规范》撰写规范（七）2、3：一级目录用宋体四号加粗，行间距为固定值22，一级标题左对齐"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    align: left
+    line: {rule: exact, value: 22}
+  toc_item:
+    source: "《管理规范》撰写规范（七）2：二级、三级目录用宋体小四号，行间距为固定值22"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 22}
+  references_title:
+    source: "《管理规范》撰写规范（九）2：“参考文献”标题宋体为小三号加粗居中"
+    cn_font: 宋体
+    size: 小三
+    bold: true
+    align: center
+  ref_item:
+    source: "《管理规范》撰写规范（九）2：具体引用文献内容用宋体五号(英语文献为五号Times New Roman字体)行间距18磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: exact, value: 18}
+  ack_title:
+    source: "模板《本科毕业论文（设计）模板（非语言类）（2024年修订）》示例格式（规范只规定致谢内容宋体小四号，未规定标题）"
+    cn_font: 宋体
+    size: 小三
+    bold: true
+    align: center
+  fig_caption:
+    source: "《管理规范》撰写规范（八）7（3）：图标题字体设为五号宋体加粗，居中并置于图的正下方"
+    cn_font: 宋体
+    size: 五号
+    bold: true
+    align: center
+  table_caption:
+    source: "《管理规范》撰写规范（八）8（3）：表格标题字体设为五号宋体加粗，居中并置于表格的正上方"
+    cn_font: 宋体
+    size: 五号
+    bold: true
+    align: center
+  table_source:
+    source: "《管理规范》撰写规范（八）8（5）：表格下方“资料来源”或者“注”的格式为小五号宋体"
+    cn_font: 宋体
+    size: 小五
+
+checks:
+  keywords:
+    source: "《管理规范》撰写规范（五）6、8：关键词以3—5个为宜，每一关键词之间用中文分号隔开；（六）5：英文关键词之间用分号隔开（模板示例为半角“;”）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  abstract_text:
+    source: "《管理规范》撰写规范（五）5：中文摘要字数控制在300字以内，摘要中不宜使用公式、图表"
+    zh_max_chars: 300
+    no_figures: true
+  table_caption:
+    source: "《管理规范》撰写规范（八）8（3）：表格标题置于表格的正上方"
+  figure_caption:
+    source: "《管理规范》撰写规范（八）7（3）：图标题置于图的正下方"
+  table_cell:
+    source: "《管理规范》撰写规范（八）8（7）：表格中具体内容的中文字体字号为五号宋体，英文或者数字为五号Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  appendix_number:
+    source: "《管理规范》撰写规范（十二）2：论文的附录依次为附录1，附录2……编号"
+    style: arabic
+  chapter_number:
+    source: "《管理规范》撰写规范（七）2、（八）6：毕业论文分别用“1”、“2”、“3”……表示章，下级用“1.1”、“1.1.1”表示"
+  citations:
+    source: "《管理规范》撰写规范（九）1：参考文献应按文中引用出现的顺序列出，只列出在正文中被引用过的文献，与文中一一对应"
+  footnotes:
+    source: "《管理规范》撰写规范（八）11：注释采用脚注，每页重新编号，编号格式为“1，2，3……”；注释的格式为宋体小五号，固定行距12磅"
+    format:
+      source: "《管理规范》撰写规范（八）11（7）：注释宋体小五号，固定行距12磅"
+      cn_font: 宋体
+      size: 小五
+      line: {rule: exact, value: 12}
+    restart_each_page: true
+
+layout:
+  toc:
+    source: "《管理规范》撰写规范（七）1：目录逐项自动生成页码，列出一级、二级、三级标题"
+  new_page:
+    source: "《管理规范》撰写规范（五）10、（六）8：中文摘要与关键词单独为一页，英文摘要与关键词单独另起一页；（九）2：“参考文献”另起一页"
+    roles: [abstract_title_zh, abstract_title_en, references_title]
+  first_chapter_odd_page:
+    source: "《管理规范》三（一）：目录及正文的首面必须位于正面（奇数页）"
+  page_limits:
+    - {role: abstract_title_zh, max_pages: 1, source: "《管理规范》撰写规范（五）10：中文摘要与关键词单独为一页"}
+  page_start:
+    source: "《管理规范》撰写规范（五）10：摘要页脚用罗马体Ⅰ、Ⅱ…标明页码"
+    front_first: 1
+
+manual:
+  - {text: "页眉：奇数页为“湖南财政经济学院本科毕业论文”（毕业设计为“…毕业设计”），偶数页为论文题目（不含副标题）；页眉页脚从摘要部分所在页开始计算，诚信承诺书页眉不需要。", source: "《管理规范》撰写规范（八）10、三（三）2"}
+  - {text: "一级标题序号后空1格，其余各级标题序号后不空格（规范用“行”为单位）。", source: "《管理规范》撰写规范（八）5"}
+  - {text: "摘要标题“摘要”两字之间空两个字；摘要前空1行；关键词前后加实心方头括号【】，关键词与摘要内容之间空一行；英文摘要每段开头留四个字符空格。", source: "《管理规范》撰写规范（五）7、8，（六）4、5"}
+  - {text: "中文摘要200—300字为宜，原则上为一个自然段，不标注引用文献编号；英文摘要200—300个单词；中英文关键词应基本对应。", source: "《管理规范》撰写规范（五）5、（六）2、3"}
+  - {text: "图、表序号全文统一顺序编号（图1、表1），序号与标题之间空1个中文字符，标题末尾不加标点；图表与正文上下各空0.5行；图、表不得拆开排写于两页。", source: "《管理规范》撰写规范（八）7、8"}
+  - {text: "表格一般采用三线表，两端开放；表中数据应表明量纲；数字空缺的格内加“一”字线。", source: "《管理规范》撰写规范（八）8"}
+  - {text: "公式全文统一顺序编号，编号用括号括起写在右边行末（公式1）；公式较长时在等号处转行。", source: "《管理规范》撰写规范（八）9"}
+  - {text: "正文部分文字量不少于10000字；标题字数一般不宜超过20个字。", source: "《管理规范》撰写规范（八）1、（三）2"}
+  - {text: "参考文献应尽量为5年内的，应有外文参考文献；著录格式按 GB/T 7714-2015，标点符号半角，序号自动生成。", source: "《管理规范》撰写规范（九）3、4、5、7"}
+  - {text: "附录中的图表公式另编排序号，用宋体小四号。", source: "《管理规范》撰写规范（十二）"}
+  - {text: "封面、承诺书单面打印；中英文摘要、目录、正文及附录双面打印。", source: "《管理规范》三（一）"}

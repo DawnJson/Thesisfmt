@@ -1,0 +1,169 @@
+meta:
+  id: shaanxi-nwpu-grad
+  title: 西北工业大学研究生学位论文
+  version: "2025"
+  source: https://gs.nwpu.edu.cn/info/2284/30487.htm
+  valid_from: "2025"
+  org: 西北工业大学
+  kind: university
+  category: 研究生
+  verified: true
+
+page:
+  source: "《西北工业大学研究生学位论文写作指南（2025版）》3.1：A4 纸张，页边距为：上、下 25.4mm；左、右 25mm。页眉距边界 15.0mm；页脚距边界 17.5mm"
+  paper: A4
+  margins_cm: {top: 2.54, bottom: 2.54, left: 2.5, right: 2.5}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "指南 3.2(2)：页脚只标注页码，字体设置为 Times New Roman，小五号，居中。摘要页、目录页等用大写罗马数字连续编码；从“绪论”起用阿拉伯数字连续编码"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  restart_at: 1
+
+# 页眉奇偶页内容不同（奇数页章标题、偶数页校名），不能用 content: chapter_title，见 manual
+headers:
+  source: "指南 3.2(1)：页眉的设置应从摘要页开始至整本论文结束；页眉奇偶页均为宋体，小五号"
+  cn_font: 宋体
+  size: 小五
+
+roles:
+  chapter:
+    source: "指南 3.5.1：一级标题：黑体，三号，段前 0.5 行，段后 0 行，固定行间距 20pt"
+    cn_font: 黑体
+    size: 三号
+    before_lines: 0.5
+    after_lines: 0
+  section_1:
+    source: "指南 3.5.1：二级标题：黑体，四号，段前 0.5 行，段后 0 行，固定行间距 20pt"
+    cn_font: 黑体
+    size: 四号
+    before_lines: 0.5
+    after_lines: 0
+  section_2:
+    source: "指南 3.5.1：三级标题：黑体，小四号，段前 0.5 行，段后 0 行，固定行间距 20pt"
+    cn_font: 黑体
+    size: 小四
+    before_lines: 0.5
+    after_lines: 0
+  body:
+    source: "指南 3.5.2：中文：宋体，小四号，固定行间距 20pt；西文（含数字及外文单词）：Times New Roman，小四号，固定行间距 20pt"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+  abstract_title_zh:
+    source: "指南 3.3：“摘要”两字为黑体，三号，居中显示"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  abstract_title_en:
+    source: "指南 3.3：英文“Abstract”为 Times New Roman，三号，加粗，居中显示"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+  abstract_body:
+    source: "指南 3.3：中文摘要内容部分采用正文样式，宋体，小四号，固定行间距 20pt；英文摘要内容部分采用 Times New Roman，小四号，固定行间距 20pt"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+  toc_title:
+    source: "指南 3.4：“目录”两字采用不编号章标题样式（即一级标题：黑体，三号，固定行间距 20pt，3.5.1）"
+    cn_font: 黑体
+    size: 三号
+    line: {rule: exact, value: 20}
+  toc_chapter:
+    source: "指南 3.4：目录条目采用正文样式（宋体，小四号，固定行间距 20pt，3.5.2）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+  toc_item:
+    source: "指南 3.4：目录条目采用正文样式（宋体，小四号，固定行间距 20pt，3.5.2）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+  appendix_title:
+    source: "指南 3.8：附录标题各占一行，按一级标题编排（黑体，三号，固定行间距 20pt，3.5.1）"
+    cn_font: 黑体
+    size: 三号
+    line: {rule: exact, value: 20}
+  fig_caption:
+    source: "指南 3.5.3：图号及图题应置于图下方的居中位置"
+    align: center
+  table_caption:
+    source: "指南 3.5.3：表号和表题应置于表上方的居中位置"
+    align: center
+
+checks:
+  keywords:
+    source: "指南 2.4：列取 3~6 个关键词；3.3：每个关键词之间以分号分隔（中文）/以分号间隔（英文）；中文分号取自附件 4 示例“关键词：XXX；XXX”"
+    min_count: 3
+    max_count: 6
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "指南 3.5.3：图、表、公式等一律用阿拉伯数字按章编号，如图 1-3、表 2-1、（3-2）"
+  table_caption:
+    source: "指南 3.5.3：表号和表题应置于表上方的居中位置"
+  figure_caption:
+    source: "指南 3.5.3：图号及图题应置于图下方的居中位置"
+  table_lines:
+    source: "指南 3.5.3 对表的要求（2）：一律使用三线表，表的上、下边线为单直线，线粗为 1.5 磅；第三条线为单直线，线粗为 1 磅"
+    top_bottom_pt: 1.5
+    header_pt: 1.0
+  table_cell:
+    source: "指南 3.5.3 对表的要求（2）：表中用字为五号字体；表单元格中的文字一般应居中书写（上下居中，左右居中），不宜左右居中书写的，可采取两端对齐的方式书写"
+    size: 五号
+    align: center
+  equation_number:
+    source: "指南 3.5.3：公式按章编号，如（3-2）；对公式的要求（2）：公式编号右对齐，且应加英文小括号"
+  figure_citation:
+    source: "指南 3.5.3 对图的要求（1）：插图须紧跟文述，一般应先见图号及图的内容后再见图，一般情况下不能提前见图"
+  citations:
+    source: "指南 2.7、3.7：参考文献按顺序编码制，只列出在正文中被引用过的文献，按文中引用出现的顺序列出"
+  chapter_number:
+    source: "指南 2.6：绪论独立成章（如第 1 章）；附件 4 示例：第 1 章 绪论"
+  appendix_number:
+    source: "指南 3.8：附录编号依次编为附录 A、附录 B"
+  abstract_text:
+    source: "指南 2.4：摘要中不允许出现插图；英文关键词应与中文关键词一致"
+    no_figures: true
+    keywords_match: true
+
+layout:
+  toc:
+    source: "指南 2.5：目录内容从中文摘要开始，直至论文结束"
+  new_page:
+    source: "指南 3.5：正文各部分首页为另页奇数页；3.9：声明单独一页，不编页码"
+    roles: [chapter, end_title]
+  first_chapter_odd_page:
+    source: "指南 3.5：正文各部分首页为另页奇数页"
+  page_start:
+    source: "指南 3.2(2)、附件 4 目录示例：摘要页起用罗马数字 I 连续编码；“第 1 章 绪论”起页码为 1"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "页眉从摘要页开始，内容按章变化、奇偶页不同：奇数页与该部分的章标题相同，偶数页为“西北工业大学博士学位论文”或“西北工业大学硕士学位论文”，单倍行距，页眉下框线为“文武线”。", source: "指南 3.2(1)"}
+  - {text: "一级标题前、后各留一空行（宋体，小四号，单倍行距）。", source: "指南 3.5.1"}
+  - {text: "关键词排在摘要下方空一行处，最后一个词不加标点符号；“关键词”三字为黑体，小四号；中文关键词按词条外延层次从大到小排列。", source: "指南 2.4、3.3"}
+  - {text: "目录各级标题逐级缩进，每级缩进 2 字符，页码前导符采用“…”。", source: "指南 3.4"}
+  - {text: "中文、英文摘要应以第三人称陈述；英文摘要内容与中文摘要一致。", source: "指南 2.4"}
+  - {text: "论文题目一般不超过 25 个汉字。", source: "指南 2.1"}
+  - {text: "图中用字为五号，排列过密时可小于五号字，但不得小于七号字；图的大小一般为宽 6.67cm×高 5.00cm，特殊情况也可宽 9.00cm×高 6.75cm，或宽 13.5cm×高 9.00cm；同类图片大小应保持一致。", source: "指南 3.5.3 对图的要求（4）（5）"}
+  - {text: "表格必须通栏，即表格宽度与正文版面平齐；表中用字为五号，排列过密时可小于五号字，但不小于七号；使用他人表格须注明出处。", source: "指南 3.5.3 对表的要求（2）（3）"}
+  - {text: "表需要转页接排时，在随后的各页上重复表的编号，编号后跟表题（可省略）和“（续）”，如表 1（续），续表均应重复表头和关于单位的陈述。", source: "指南 3.5.3 对表的要求（1）"}
+  - {text: "图或表中有附注时，采用英文小写字母顺序编号，附注写在图或表的下方；引用图或表应在图题或表题右上角标出文献来源。", source: "指南 3.5.3"}
+  - {text: "公式应另起一行，居中编排，较长的公式尽可能在等号后换行，或者在“+”“-”等符号后换行。", source: "指南 3.5.3 对公式的要求（1）"}
+  - {text: "参考文献按文中引用的顺序放在论文结束后，不得放在各章之后。", source: "指南 3.7"}
+  - {text: "附录每一个一般应另起一页编排，如果有多个较短的附录，也可接排。", source: "指南 3.8"}
+  - {text: "声明单独一页，不编页码；“学位论文作者签名”和“指导教师签名”均须亲笔签名。", source: "指南 2.11、3.9"}
+  - {text: "学位论文中有人工智能生成合成内容时，须依照《人工智能生成合成内容标识办法》进行内容标识。", source: "指南 3.6"}

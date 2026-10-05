@@ -1,0 +1,79 @@
+meta:
+  id: journal-eng-jme
+  title: 《材料工程》投稿论文
+  version: "2025-12"
+  source: https://jme.biam.ac.cn/CN/column/column14.shtml
+  valid_from: "2025-12"
+  org: 《材料工程》
+  kind: journal
+  category: 期刊
+  verified: true
+
+page:
+  source: "模板《《材料工程》论文模板.docx》页面设置示例（模板与投稿须知均无页面设置文字规定，仅取纸张 A4）"
+  paper: A4
+
+roles:
+  chapter:
+    source: "模板《《材料工程》论文模板.docx》示例格式（规范未作文字规定）：“1 实验材料与方法”等章标题"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+  section_1:
+    source: "模板《《材料工程》论文模板.docx》示例格式（规范未作文字规定）：“1.1 实验材料”等二级标题"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 五号
+  body:
+    source: "模板《《材料工程》论文模板.docx》示例格式（规范未作文字规定）；摘要中英文用 Times New Roman（模板“英文摘要，Times New Roman字体”）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  keywords_zh:
+    source: "模板《《材料工程》论文模板.docx》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  keywords_en:
+    source: "模板《《材料工程》论文模板.docx》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  references_title:
+    source: "模板《《材料工程》论文模板.docx》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小五
+    align: center
+  fig_caption:
+    source: "模板《《材料工程》论文模板.docx》示例格式（规范未作文字规定）：图题中文在前、英文在后"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小五
+    align: center
+
+checks:
+  keywords:
+    source: "模板《《材料工程》论文模板.docx》“关键词：中文关键词；分号间隔；4~8个；中英文对应”；英文关键词行分隔符取模板示例“Key words：list the keywords；covered in your paper”"
+    min_count: 4
+    max_count: 8
+    zh_separator: "；"
+    en_separator: "；"
+  abstract_text:
+    source: "投稿须知三 1)：中文摘要不少于200字；模板：“Key words：……与中文关键词一一对应”"
+    zh_min_chars: 200
+    keywords_match: true
+  citations:
+    source: "模板“参考文献”：应在正文中顺次引述（按在正文中被提及的先后来排列各篇参考文献的序号，所有参考文献均应在正文中提及）；投稿须知三 2)：按“[文献序号（右上角标）]”顺序标注"
+
+manual:
+  - {text: "表格使用三线表（表中文字左对齐，数字个位对齐），如需要可加横辅线，内容用英文表述。", source: "模板《《材料工程》论文模板.docx》2.1 结果与分析"}
+  - {text: "图题、表头须中英文对照（图题中文在前、英文在后；表题中文在上、英文在下），图表中内容使用英文表达，分图题也须中英文对照。", source: "模板《《材料工程》论文模板.docx》2.1 结果与分析、图题与表题示例"}
+  - {text: "图中标注均采用英文，Arial 字体；插图提供矢量图，四边封闭，刻度线朝内，无背景色；坐标轴变量与单位之间用“/”隔开。", source: "模板《《材料工程》论文模板.docx》2.1 结果与分析"}
+  - {text: "单一图片尺寸以 45 mm×70 mm 为宜，组图宽度约 140 mm，分辨率至少 300 dpi，单张图片尽量不超过 2 Mb。", source: "模板《《材料工程》论文模板.docx》2.1 结果与分析"}
+  - {text: "物理量单位用正体，物理量符号用斜体，矢量矩阵符号用黑斜体；公式用 MathType 或 Word 公式编辑器编写，不能用图片，公式后用“式中：A为某某；B为某某；……”说明符号。", source: "模板《《材料工程》论文模板.docx》注意事项 2、2.1.2 量、单位和公式"}
+  - {text: "引言不编排节号，不单独列出“引言”二字，不应有插图和列表；引言部分以 1000 字左右为宜（模板另写不少于 600 字）。", source: "模板《《材料工程》论文模板.docx》前言段；投稿须知三 3)"}
+  - {text: "研究性论文 6000~9000 字，综述 8000~15000 字（模板写研究论文 6000~8000 字、综述 10000~15000 字）。", source: "投稿须知二 4)；模板前言段"}
+  - {text: "参考文献：文中参考文献数量不应少于 15 篇（模板建议研究论文 25~40 个、综述 80~120 个），以近几年文献为主，中文期刊文献须中英文对照；格式遵循 GB/T 7714。", source: "投稿须知三 2)；模板“参考文献”"}
+  - {text: "西文人名“姓”全部大写、“名”缩写只写首字母大写且不加缩写点，姓名间加空格，如 WANG C Y；文献有多个作者的只著录前 3 位，从第 4 位起用“等”（英译文用“et al.”）。", source: "模板《《材料工程》论文模板.docx》“参考文献”"}
+  - {text: "中文摘要一般为 400 字左右；英文摘要 500~1000 words，采用一般现在时。", source: "模板“摘要”；投稿须知三 1)"}
+  - {text: "正文中的缩略词在首次出现时应给出中英文全称，后附缩略词并用括号括起，之后直接用缩略词。", source: "模板《《材料工程》论文模板.docx》注意事项 3"}

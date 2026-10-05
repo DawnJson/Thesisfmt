@@ -1,0 +1,178 @@
+# 长春大学硕士研究生学位论文：以《附件1 写作模板》内的“书写格式”说明为规范；正文字体字号模板注未写，故不设正文角色。
+meta:
+  id: jilin-ccu-grad
+  title: 长春大学硕士研究生学位论文
+  version: '2024'
+  source: https://cdjxxy.ccu.edu.cn/info/1295/3651.htm
+  org: 长春大学
+  kind: university
+  category: 硕士
+  verified: true
+page:
+  source: 模板《附件1：长春大学硕士研究生学位论文写作模板》示例格式（写作模板注未作页面设置的文字规定）
+  paper: A4
+  margins_cm:
+    top: 2.0
+    bottom: 2.0
+    left: 3.0
+    right: 3.0
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+page_numbers:
+  source: 模板《附件1：长春大学硕士研究生学位论文写作模板》示例格式（目录“摘要 II”“Abstract III”“第1章 1”；写作模板注未作文字规定）
+  front_format: upperRoman
+  body_format: decimal
+roles:
+  chapter:
+    source: 写作模板注（第1章）「一级标题：第x章与后面的文字空二个空格并居中，小三宋体标题、段落设为：段前：13磅、段后：13磅，行距均为：固定值22磅」
+    cn_font: 宋体
+    size: 小三
+    align: center
+    line:
+      rule: exact
+      value: 22
+    before: 13
+    after: 13
+  section_1:
+    source: 写作模板注（1.1）「二级标题：X.X数字与后面的文字空一个格，数字要用Times New Roman，中文用宋体标题四号字，段落设为：段前：13磅、段后：13磅，行距均为：固定值22磅」
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    line:
+      rule: exact
+      value: 22
+    before: 13
+    after: 13
+  section_2:
+    source: 写作模板注（1.2.1）「三级标题：X.X与后面的文字空一个格，数字要用Times New Roman，中文用宋体标题小四号字，段落设为：段前：13磅、段后：13磅，行距均为：固定值22磅」
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: exact
+      value: 22
+    before: 13
+    after: 13
+  abstract_title_zh:
+    source: 写作模板注（摘要）「中文“摘  要”二个字之间加二个空格键，用小三号宋体，加粗」
+    cn_font: 宋体
+    size: 小三
+    bold: true
+  abstract_title_en:
+    source: 写作模板注（Abstract）「Abstract第一个英文字母用大写，其余的字母用小写，小三号，加粗」
+    size: 小三
+    bold: true
+  abstract_body:
+    source: 写作模板注（摘要）「内容用小四号宋体，固定值22磅」；（Abstract）「摘要内容用小四Times New Roman 字体」
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: exact
+      value: 22
+  toc_title:
+    source: 写作模板注（目录）「“目  录”二字之间空二格，字体为小三宋体、加粗并居中，间距段前、段后均为13磅」
+    cn_font: 宋体
+    size: 小三
+    bold: true
+    align: center
+    before: 13
+    after: 13
+  toc_chapter:
+    source: 写作模板注（目录）「整个目录部分（包括文字、数字等）均设为：宋体正文、小四号字、间距段前、段后均为0行，行距均为：固定值22磅」
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: exact
+      value: 22
+    before: 0
+    after: 0
+  toc_item:
+    source: 写作模板注（目录）「整个目录部分（包括文字、数字等）均设为：宋体正文、小四号字、间距段前、段后均为0行，行距均为：固定值22磅」
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: exact
+      value: 22
+    before: 0
+    after: 0
+  references_title:
+    source: 写作模板注（参考文献）「作一级标题居中，小三宋体标题、段落设为：段前：13磅、段后：13磅，行距均为：固定值22磅」
+    cn_font: 宋体
+    size: 小三
+    align: center
+    line:
+      rule: exact
+      value: 22
+    before: 13
+    after: 13
+  ref_item:
+    source: 写作模板注（参考文献）「序号均用Times New Roman字体…英文参考文献使用Times New Roman字体」
+    latin_font: Times New Roman
+  appendix_title:
+    source: 写作模板注（附录）「作一级标题居中，小三宋体标题、段落设为：段前：13磅、段后：13磅，行距均为：固定值22磅」
+    cn_font: 宋体
+    size: 小三
+    align: center
+    line:
+      rule: exact
+      value: 22
+    before: 13
+    after: 13
+  ack_title:
+    source: 写作模板注（致谢）「作一级标题居中，小三宋体标题、段落设为：段前：13磅、段后：13磅，行距均为：固定值22磅」
+    cn_font: 宋体
+    size: 小三
+    align: center
+    line:
+      rule: exact
+      value: 22
+    before: 13
+    after: 13
+  end_title:
+    source: 写作模板注（作者简介、攻读硕士学位期间研究成果）「作一级标题居中，小三宋体标题、段落设为：段前：13磅、段后：13磅，行距均为：固定值22磅」
+    cn_font: 宋体
+    size: 小三
+    align: center
+    line:
+      rule: exact
+      value: 22
+    before: 13
+    after: 13
+  fig_caption:
+    source: 写作模板注（图）「图：字体为五号字。此文字段落均设为：段前：0行、段后：0行，行距均为：固定值22磅」
+    size: 五号
+    line:
+      rule: exact
+      value: 22
+    before: 0
+    after: 0
+checks:
+  caption_numbering:
+    source: 写作模板注（图3-1）「图序采用阿拉伯数字分章编号」；示例图1-1、表2-1
+  table_caption:
+    source: 写作模板注（表2-1）「表序及表名置于表的上方」
+  figure_caption:
+    source: 写作模板注（图1-1）「图序及图名置于图的下方」
+  equation_number:
+    source: 写作模板注（第4章）「公式采用阿拉伯数字分章编号」；「（X-X）数字要右对齐，括号里的数字用小四Times New Roman，括号用宋体」
+layout:
+  toc:
+    source: 写作模板注（目录）「自动生成的目录，生成后需要调整页边距，之后再调整整个目录部分」
+manual:
+- text: 摘要、Abstract：页首空两行，标题下面空一行，空行段落段前、段后均 0，固定值 12 磅；“摘  要”二字之间加二个空格键。
+  source: 写作模板注（摘要、Abstract）
+- text: 关键词与上文空一行，冒号与中文关键词之间不空格，关键词之间加二个空格键；一行写不下时第二行第一个字与第一行冒号后的字对齐。英文关键词：冒号与第一个关键词之间空一个空格，关键词之间空二个空格，第二行第一个字母与第一行冒号后的字母对齐。
+  source: 写作模板注（摘要、Abstract）
+- text: 目录：页首空两行，标题下空一行（固定值 12 磅）；目录不作为一级标题，目录中无“目录”一项；一级标题顶格，二级标题空两个字符，三级标题空四个字符；“绪  论”“结  论”“致  谢”二字之间空二格。
+  source: 写作模板注（目录）
+- text: 每章页首空两行，章节标题下空一行，空行段落段前、段后 0，固定值 12 磅；标题“第x章”与后面文字空二个空格，X.X 与后面文字空一个格。
+  source: 写作模板注（第1章）
+- text: 图序及图名与下面文字之间空一行（空行段落段前后 0 行、固定值 22 磅），下面是标题则不空行；图与上面文字、图形与图序、表或图与页眉靠得很近时，加一空行设为段前、段后 0 行、固定值 12 磅。
+  source: 写作模板注（图1-1）
+- text: 表序及表名与上面文字之间空一行（空行段落段前后 0 行、固定值 22 磅），表的上方是标题则不空行；表格底线与下面正文靠得很近时加一空行，设为段前、段后 0 行、固定值 12 磅。
+  source: 写作模板注（表2-1）
+- text: 参考文献中的标点符号一律用英文状态下的标点；序号后的文字一行写不下时，第二行第一个字与上一行序号后的字对齐；英文参考文献按类型对应格式编写。
+  source: 写作模板注（参考文献）
+- text: 作者简介上面文字与下面文字之间空 10 行，设为段前、段后 0 行，固定值 22 磅；攻读硕士学位期间研究成果含发表论著、获奖项目、获专利。
+  source: 写作模板注（作者简介、研究成果）

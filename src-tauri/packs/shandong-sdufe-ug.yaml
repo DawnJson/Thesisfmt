@@ -1,0 +1,182 @@
+meta:
+  id: shandong-sdufe-ug
+  title: 山东财经大学本科生毕业论文（设计）
+  version: "2023"
+  source: https://jwc.sdufe.edu.cn/info/1013/3795.htm
+  valid_from: "2023-08"
+  org: 山东财经大学
+  kind: university
+  category: 本科
+  verified: true
+
+# 规范依据：政教〔2023〕12号《山东财经大学本科生毕业论文（设计）工作管理规定》第四条及附件4《基本结构》、
+# 附件5《参考文献规范格式》；附件6《毕业论文样本参考》为范例。下文「附件4」即附件4中带说明的格式要求。
+
+page:
+  source: "附件4 第7条：页面采用A4纸型，纵向。上边距为2.5厘米，下边距为2厘米，内侧为2.5厘米，外侧为2厘米，页眉1.5厘米，页脚1.75厘米"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.0, left: 2.5, right: 2.0}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+headers:
+  source: "附件4 第7条：页眉为“山东财经大学本科毕业论文（设计）”，从正文开始"
+  text: "山东财经大学本科毕业论文（设计）"
+  front_none: true
+
+roles:
+  chapter:
+    source: "附件4 第1条：正文中各章（单元）标题居中对齐，黑体，三号字；标题段前、段后0.5行，单倍行距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 0.5
+    after_lines: 0.5
+    line: {rule: auto, value: 1.0}
+  section_1:
+    source: "附件4 第1条：节标题，黑体，四号字，左起；单倍行距"
+    cn_font: 黑体
+    size: 四号
+    align: left
+    line: {rule: auto, value: 1.0}
+  section_2:
+    source: "附件4 第1条：小节标题为缩进2字符后左起，黑体，小四号字；单倍行距"
+    cn_font: 黑体
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.0}
+    first_line_chars: 2
+  body:
+    source: "附件4 第1条：正文内容：宋体，小四号字，两端对齐，段落格式为缩进2字左起，1.5倍行距。英文用小四号字，Times New Roman体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  abstract_title_zh:
+    source: "附件4 中文摘要说明：“摘 要”黑体，三号，居中，段前段后0.5行"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    before_lines: 0.5
+    after_lines: 0.5
+  abstract_title_en:
+    source: "附件4 英文摘要说明：ABSTRACT Times New Roman字体，三号，加粗，居中，段前段后0.5行"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    before_lines: 0.5
+    after_lines: 0.5
+  abstract_body:
+    source: "附件4 摘要说明：中文摘要宋体，小四号字，段落首行缩进2字符；英文摘要Times New Roman字体，小四号字，段落首行缩进2字符"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+  keywords_zh:
+    source: "附件4 中文摘要说明：关键词……宋体，小四号字"
+    cn_font: 宋体
+    size: 小四
+  keywords_en:
+    source: "附件4 英文摘要说明：Keywords……Times New Roman字体，小四号字"
+    latin_font: Times New Roman
+    size: 小四
+  toc_title:
+    source: "附件4 目录说明：“目录”二字，黑体，小二号字，加粗，居中，段前40磅，段后20磅，行距20磅"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+    line: {rule: exact, value: 20}
+    before: 40
+    after: 20
+  toc_chapter:
+    source: "附件4 目录说明：章标题用黑体小四号字，行间距为20磅"
+    cn_font: 黑体
+    size: 小四
+    line: {rule: exact, value: 20}
+  toc_item:
+    source: "附件4 目录说明：其他级节标题用宋体小四号字，行间距为20磅"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 20}
+  references_title:
+    source: "附件4 第3条：“参考文献”四字，黑体，小二号字，加粗，居中"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+  ref_item:
+    source: "附件4 第3条：中文参考文献为宋体，五号字，单倍行距，首行无缩进；英文参考文献为Times new roman，五号字，单倍行距，首行无缩进"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: auto, value: 1.0}
+    first_line_chars: 0
+  appendix_title:
+    source: "附件4 第4条：“附录”二字为黑体，小二号字，加粗，居中，中间空4个空格"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+  ack_title:
+    source: "附件4 第5条：“致谢”二字，黑体，小二号字，加粗，居中，中间空4个空格"
+    cn_font: 黑体
+    size: 小二
+    bold: true
+    align: center
+  fig_caption:
+    source: "附件4 第2条：图表标题……宋体，五号字，以图、表为基准居中对齐"
+    cn_font: 宋体
+    size: 五号
+    align: center
+  table_caption:
+    source: "附件4 第2条：图表标题……宋体，五号字，以图、表为基准居中对齐"
+    cn_font: 宋体
+    size: 五号
+    align: center
+checks:
+  keywords:
+    source: "附件4 摘要说明：关键字之间用中文分号间隔，一般不少于3个，不超出6个；英文关键字之间用英文分号间隔"
+    min_count: 3
+    max_count: 6
+    zh_separator: "；"
+    en_separator: ";"
+  abstract_text:
+    source: "附件4 英文摘要说明：英文关键字与中文关键字对应"
+    keywords_match: true
+  caption_numbering:
+    source: "附件4 第2条：正文中图、表按章（单元）顺序编号，如图3-1为第三章第一个图；附录中图表编号在阿拉伯数码前加附录的编号，如图A.1、表B.2"
+  table_caption:
+    source: "附件4 第2条：图表标题的标注位置应为图下表上"
+  figure_caption:
+    source: "附件4 第2条：图表标题的标注位置应为图下表上"
+  appendix_number:
+    source: "附件4 第4条：附录按大写字母编号，即附录A，附录B，……。只有一个附录时，也要编号，即附录A"
+  citations:
+    source: "附件4 第3条：参考文献按毕业论文（设计）中参考文献出现的先后顺序编号；附件5：参考文献序号用方括号表示，根据正文中首次引用出现的先后次序递增，与正文中的指示序号一致"
+
+layout:
+  new_page:
+    source: "附件4 摘要说明：摘要单独成页；英文摘要单独成页"
+    roles: [abstract_title_zh, abstract_title_en]
+  page_start:
+    source: "附件4 第6条：正文的页码从1开始编号"
+    body_first: 1
+  toc:
+    source: "政教〔2023〕12号 四（一）4：目录中的标题应与正文中的标题一致"
+
+manual:
+  - {text: "题目不宜超过20个汉字；外文题目要求有对应中文题目，封面、题目用小一号黑体加粗。", source: "附件4 封面说明；政教〔2023〕12号 四（一）1"}
+  - {text: "页码设置在页脚处，居中放置，字体为小五号宋体；正文的页码从1开始编号（规范未规定前置部分页码，程序的前置部分页码检查可能误报，故不启用页码格式检查，仅保留正文起始页码检查）。", source: "附件4 第6条"}
+  - {text: "中文摘要以300字左右为宜，应简要说明研究目的、研究方法、主要结果（结论）；英文摘要与中文摘要相对应。", source: "政教〔2023〕12号 四（一）2；附件4 摘要说明"}
+  - {text: "中文摘要行距1.5倍，英文摘要行距单倍；中、英文题目居中，英文题目Times New Roman三号加粗。", source: "附件4 摘要说明"}
+  - {text: "封面不要页眉（页眉从正文开始）。", source: "附件4 第7条；附件6 说明“封面不要页眉”"}
+  - {text: "公式必须单独起行，需要时可为公式编号，如公式3-1为第三章第一个公式；公式和符号输入一律使用公式编辑器。", source: "附件4 第2条；附件6 示例说明"}
+  - {text: "参考文献先中文后外文；数量不应少于10篇，一般最多不超过30篇，其中近三年文献与国外文献的数量原则上均不低于30%。", source: "附件4 第3条"}
+  - {text: "正文引用序号放在引文或转述观点的最后一个句号之前，用小四号Times New Roman、以上角标形式置于方括号中；条目著录须符合附件5的GB/T 7714式样。", source: "附件5 第1、2条"}
+  - {text: "论文字数以8000字左右为宜；论文不得体现指导教师姓名和学生姓名，并须删除“致谢”页后上传查重。", source: "政教〔2023〕12号 四（二）、八（二）1"}
+  - {text: "附录内容为宋体小四号字，1.5倍行距，首行缩进两字符；致谢内容同；致谢应言简意赅，不得对本组人员致谢。", source: "附件4 第4、5条"}
+  - {text: "“目录”二字中间空两个汉字符宽度；建议使用自动生成方式产生目录，目录一般只列到三级标题。", source: "附件4 目录说明"}

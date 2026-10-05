@@ -1,0 +1,190 @@
+meta:
+  id: shaanxi-xjtu-ug
+  title: 西安交通大学本科毕业设计（论文）
+  version: "2012"
+  source: https://yxbpyc.xjtu.edu.cn/info/1072/1843.htm
+  org: 西安交通大学
+  kind: university
+  category: 本科
+  verified: true
+
+# 依据《西安交通大学毕业设计(论文)质量规范》第三部分 二（四）3「格式规范」（2012 版，教务处电子模板与之配套）
+# 与教务处《本科毕业设计(论文)模板》。
+page:
+  source: "质量规范 §二（四）3 页面设置：A4；页边距上、下、左、右 3.0cm, 2.5cm, 2.6cm, 2.6cm；页眉距边界 2.0cm，页脚距边界 1.75cm"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.5, left: 2.6, right: 2.6}
+  header_distance_cm: 2.0
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "质量规范 §二（四）3 页码：第一页从正文开始用阿拉伯数字；正文前的内容（除封面）用罗马数字单独标注页码；大写罗马数字为模板示例格式（规范未区分大小写）；页码位于页面底端，对齐方式为“外侧”"
+  front_format: upperRoman
+  body_format: decimal
+  outside: true
+
+headers:
+  source: "质量规范 §二（四）3 页眉：从摘要到最后，每一页均须有页眉；页眉用五号宋体，居中排列"
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "质量规范 §二（四）3 一级标题：另起一页，居中，三号，段前空三行、段后空两行，单倍行距；中文宋体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    before_lines: 3
+    after_lines: 2
+    line: {rule: auto, value: 1.0}
+  section_1:
+    source: "质量规范 §二（四）3 二级标题：左对齐顶格，小三号，段前空一行、段后空 0.5 行，单倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小三
+    align: left
+    before_lines: 1
+    after_lines: 0.5
+    line: {rule: auto, value: 1.0}
+  section_2:
+    source: "质量规范 §二（四）3 三级标题：左起空两字符，四号，段前空 0.5 行、段后空 0 行，单倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    before_lines: 0.5
+    after_lines: 0
+    line: {rule: auto, value: 1.0}
+  body:
+    source: "质量规范 §二（四）3 正文：除 3 级标题、图题、表题之外，均采用小四号；段前段后不空行；两端对齐、首行缩进 2 字符为模板《本科毕业设计(论文)模板》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "质量规范 §二（四）3（1）中文摘要：居中编排“摘要”二字（三号宋体）"
+    cn_font: 宋体
+    size: 三号
+    align: center
+  abstract_title_en:
+    source: "质量规范 §二（四）3（2）英文摘要：居中编排“ABSTRACT”（三号 Times New Roman）"
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+  abstract_body:
+    source: "质量规范 §二（四）3（1）（2）摘要正文小四号；英文摘要内容用小四号 Times New Roman；段前段后不空行（中文每段空两字符、英文顶格，故不限对齐与缩进）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    before: 0
+    after: 0
+  keywords_zh:
+    source: "质量规范 §二（四）3（1）“关键词”三字（五号加黑），后接冒号，其后为关键词（五号宋体）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  keywords_en:
+    source: "质量规范 §二（四）3（2）英文摘要的内容、格式和字号必须与中文摘要的一致（关键词五号）"
+    latin_font: Times New Roman
+    size: 五号
+  toc_title:
+    source: "质量规范 §二（四）3（3）目录：“目录”二字按一级标题编排（三号、居中）"
+    cn_font: 宋体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+  ack_title:
+    source: "质量规范 §二（四）3（8）致谢：“致谢”二字按一级标题编排（三号、居中、单倍行距）"
+    cn_font: 宋体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+  appendix_title:
+    source: "质量规范 §二（四）3（7）附录：附录标题各占一行，按一级标题编排（三号、居中、单倍行距）"
+    cn_font: 宋体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.0}
+  ref_item:
+    source: "质量规范 §二（四）3 参考文献：文后参考文献著录格式范例样板，采用五号"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  fig_caption:
+    source: "质量规范 §二（四）3 图题和表题：采用中文，居中，五号；图号和图题置于图下方的居中位置"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: "质量规范 §二（四）3 图题和表题：采用中文，居中，五号；表号和表题置于表上方的居中位置"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "质量规范 §二（四）3（1）关键词由 3～5 个组成，每一关键词之间用分号隔开，最后一个关键词后无标点符号"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "质量规范 §二（四）3（5）图、表、公式等一律用阿拉伯数字分章连续编号，如图 1-3、表 2-1、（3-2）"
+  table_caption:
+    source: "质量规范 §二（四）3（5）表号和表题应置于表上方的居中位置"
+  figure_caption:
+    source: "质量规范 §二（四）3（5）图号和图题应置于图下方的居中位置"
+  table_cell:
+    source: "质量规范 §二（四）3（5）b 表格（e）表中用字为五号字体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  equation_number:
+    source: "质量规范 §二（四）3（5）c 公式（b）公式号置于小括号中，如(2-3)，写在右边行末；公式按章连续编号"
+  chapter_number:
+    source: "质量规范 §二（四）3（5）①“章”、“节”、“小节”的编号统一为：1、1.1、1.1.1"
+  appendix_number:
+    source: "质量规范 §二（四）3（7）附录：附录编号依次编为附录 1、附录 2，附录中的图表公式编号前加“附录 1-”字样"
+    style: arabic
+  continued_caption:
+    source: "质量规范 §二（四）3（5）b 表格（a）：表格转页接排时，随后各页重复表的编号，编号后跟表题（可省略）和“（续）”，如表1（续）"
+    style: suffix
+  abstract_text:
+    source: "质量规范 §二（四）（4）摘要：要求用中、英文分别书写，一篇摘要不少于 400 字"
+    zh_min_chars: 400
+  footnotes:
+    source: "质量规范 §二（四）3 页面设置：脚注：全文的脚注一律采用五号；注释使用上角标（序号①、②…）标注"
+    format:
+      source: "质量规范 §二（四）3 脚注：全文的脚注一律采用五号"
+      size: 五号
+    circled: true
+
+layout:
+  toc:
+    source: "质量规范 §二（四）3（3）目录由标题名称和页码组成，标题的编号与正文一致；建议采用 Word 目录自动生成功能"
+  new_page:
+    source: "质量规范 §二（四）3 一级标题：另起一页；“目录”“致谢”和附录标题均按一级标题编排"
+    roles: [chapter, toc_title, ack_title, appendix_title]
+  table_span:
+    source: "质量规范 §二（四）3（5）b 表格（a）：表格转页接排时，随后各页应重复表的编号，编号后跟“（续）”，续表均应重复表头"
+  page_start:
+    source: "质量规范 §二（四）3 页码：论文页码的第一页从正文开始用阿拉伯数字标注"
+    body_first: 1
+
+manual:
+  - {text: "图、表、公式与正文之间间隔 0.5 行（以“行”为单位，不检查）。", source: "质量规范 §二（四）3（5）②"}
+  - {text: "字距和行距：全文一律采用无网格、1.5 倍或 1.2 倍行距，段前段后不空行（规范允许两种倍数，程序不检查正文行距）。", source: "质量规范 §二（四）3 字距和行距"}
+  - {text: "页眉奇偶页不同：奇数页页眉为相应内容的名称、正文中相应各章的名称，偶数页页眉为“西安交通大学本科毕业设计(论文)”（括号半/全角写法规范与模板不一，不作自动检查）；页眉文字之下划两条横线，线粗 1/2 磅，线长与页面齐宽。", source: "质量规范 §二（四）3 页眉"}
+  - {text: "页码格式为最简单的数字，不带任何其它符号或信息；页码不能缺页或重复；页边距为左右对称页边距、装订线 0cm、位置在左。", source: "质量规范 §二（四）3 页码；页边距"}
+  - {text: "一律使用三线表，与文字齐宽，中线线粗 1 磅（顶线和底线线粗在规范原文中是公式对象，无法读出数值，故未设三线表线宽检查）。", source: "质量规范 §二（四）3（5）b 表格（c）"}
+  - {text: "公式应另起一行，左起空两个字编排；公式下面的“式中：”单独占一行，符号解释分行空两个字排，再用破折号与释文连接。", source: "质量规范 §二（四）3（5）c 公式（a）（c）"}
+  - {text: "参考文献数量一般不得少于 10 篇，其中外文文献不得少于 2 篇；参考文献用上角标 [1]、[2] 标注，同一文献多次引用始终标注第一次引用的序号。", source: "质量规范 §二（四）1（5）；3（5）③"}
+  - {text: "图中用字为五号，不得小于七号；图的大小一般为宽 6.67cm×高 5.00cm，同类图片大小应一致。表中用字为五号，不小于七号；表格必须通栏。", source: "质量规范 §二（四）3（5）a（d）（e）；b（e）（f）"}
+  - {text: "“摘要”“目录”“致谢”二字间距为两个字符；英文摘要每段开头不空格、每段之间空一行；“KEY WORDS”大写，每个关键词组首字母大写。", source: "质量规范 §二（四）3（1）（2）（3）（8）"}

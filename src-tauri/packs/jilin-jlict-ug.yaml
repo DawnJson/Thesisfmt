@@ -1,0 +1,238 @@
+# 吉林化工大学本科毕业论文（设计）：规范即模板《毕业论文撰写规范及标准模版2023修订版》内的说明。
+meta:
+  id: jilin-jlict-ug
+  title: 吉林化工大学本科毕业论文（设计）
+  version: '2023'
+  source: https://hkxy.jlict.edu.cn/info/1098/2273.htm
+  org: 吉林化工学院(吉林化工大学)
+  kind: university
+  category: 本科
+  verified: true
+page:
+  source: 规范 2.3 / 4.2「正文版心设置为：上边距：3.5厘米，下边距：2.5厘米，左边距：3.5厘米，右边距：2厘米，页眉：2.5厘米，页脚：2厘米」；4.1「纸型：A4」
+  paper: A4
+  margins_cm:
+    top: 3.5
+    bottom: 2.5
+    left: 3.5
+    right: 2.0
+  header_distance_cm: 2.5
+  footer_distance_cm: 2.0
+page_numbers:
+  source: 规范 2.2「摘要、Abstract、目录等文前部分的页码用罗马数字单独编排。正文以后的页码用阿拉伯数字编排。页码必须标注在每页“页脚居中”位置，宋体，小五」「封面、设计任务书不编入页码」；罗马数字大小写规范未写，取模板示例（目录“摘要 I”“Abstract II”，节页码格式 upperRoman）
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_size: 小五
+  cover_no_number: true
+headers:
+  source: 规范 2.2「奇数页页眉内容是“吉林化工大学本科毕业论文”…宋体，五号，居中；偶数页页眉内容是“学生姓名：毕业论文题目”，宋体，五号，居中」（奇偶页页眉内容不同，不设 content）
+  align: center
+  cn_font: 宋体
+  size: 五号
+roles:
+  chapter:
+    source: 规范 2.4 第 1 条「章标题…黑体，居中，字号：小二，1.5倍行距，段后11磅，段前为0」
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after: 11
+  section_1:
+    source: 规范 2.4 第 2 条「节标题…黑体，居左，字号：四号，1.5倍行距，段后为0，段前1行」
+    cn_font: 黑体
+    size: 四号
+    align: left
+    line:
+      rule: auto
+      value: 1.5
+    before_lines: 1
+    after: 0
+  section_2:
+    source: 规范 2.4 第 3 条「节中的一级标题…黑体，居左，字号：小四，1.5倍行距，段后为0，段前0.5行」
+    cn_font: 黑体
+    size: 小四
+    align: left
+    line:
+      rule: auto
+      value: 1.5
+    before_lines: 0.5
+    after: 0
+  body:
+    source: 规范 2.3「每段落首行缩进2字…字体：宋体，字号：小四，行距：多倍行距 1.3，间距：前段、后段均为0行」
+    cn_font: 宋体
+    size: 小四
+    line:
+      rule: auto
+      value: 1.3
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: 规范「摘要」书写格式说明「字体：黑体，居中。字号：小二，1.5倍行距，段后11磅，段前为0」
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after: 11
+  abstract_title_en:
+    source: 规范「Abstract」书写格式说明「字体：Times New Roman，居中。字号：小二，1.5倍行距。段后11磅，段前为0」
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after: 11
+  abstract_body:
+    source: 规范「摘要」「Abstract」书写格式说明「每段落首行缩进2字，字体：宋体 / Times New Roman，字号：小四，行距：多倍行距 1.3，间距：前段、后段均为0行」
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line:
+      rule: auto
+      value: 1.3
+    before: 0
+    after: 0
+    first_line_chars: 2
+  toc_item:
+    source: 模板目录处注「如果出现字号、字体不正确…设为小四宋体，然后对字体再设置一次Times New Roman字体」
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  toc_chapter:
+    source: 模板目录处注「如果出现字号、字体不正确…设为小四宋体，然后对字体再设置一次Times New Roman字体」
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  references_title:
+    source: 规范 3.4.3 第 3 条「标题“参考文献”…字体：黑体，居中，字号：小二，1.5倍行距，段后11磅，段前为0」
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after: 11
+  ref_item:
+    source: 规范 3.4.3 第 4 条「参考文献正文设置成字体：宋体，居左，字号：五号，多倍行距1.3行，段后、段前均为0」
+    cn_font: 宋体
+    size: 五号
+    align: left
+    line:
+      rule: auto
+      value: 1.3
+    before: 0
+    after: 0
+  ack_title:
+    source: 规范「致谢」书写格式说明「字体：黑体，居中，字号：小二，1.5倍行距，段后11磅，段前为0」
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after: 11
+  appendix_title:
+    source: 规范「附录」书写格式说明「字体：黑体，居中，字号：小二，1.5倍行距，段后11磅，段前为0」
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line:
+      rule: auto
+      value: 1.5
+    before: 0
+    after: 11
+  fig_caption:
+    source: 规范 3.1.2 第 4 条「图名居中并位于图下」「中文图名设置为宋体，五号，居中」
+    cn_font: 宋体
+    size: 五号
+    align: center
+  table_caption:
+    source: 规范 3.2.2 第 4 条「表名应当在表的上方并且居中」「中文表名设置为宋体，五号，且居中」
+    cn_font: 宋体
+    size: 五号
+    align: center
+checks:
+  keywords:
+    source: 规范 1.2.2「关键词…一般列3～5个」；「关键词词间用分号间隔，末尾不加标点，3-5个」；分号全角半角规范未写，取模板示例“关键词：内容；要求；格式”“Key Words：Content；Request；Format”
+    min_count: 3
+    max_count: 5
+    zh_separator: ；
+    en_separator: ；
+  caption_numbering:
+    source: 规范 3.1.2「图名…编号应分章编号」；3.2.2「表序一般按章编排」
+  table_caption:
+    source: 规范 3.2.2 第 4 条「表名应当在表的上方并且居中」
+  figure_caption:
+    source: 规范 3.1.2 第 4 条「图名居中并位于图下」
+  table_cell:
+    source: 规范 3.2.2 第 4 条「表内文字全文统一，设置为宋体，五号」
+    cn_font: 宋体
+    size: 五号
+  abstract_text:
+    source: 规范 1.2.1「中外文摘要以300-500字为宜…摘要中不宜使用公式、图表」；「Key words与中文“关键词”一致」
+    zh_min_chars: 300
+    zh_max_chars: 500
+    no_figures: true
+    keywords_match: true
+  citations:
+    source: 规范 1.6「在论文正文中必须有参考文献的编号，参考文献的序号应按在正文中出现的顺序排列」；3.4.3「参考文献按照在正文中引用的顺序进行编码」
+  equation_number:
+    source: 规范 3.3.2 第 3 条「公式序号应按章编号，公式编号在行末列出」
+  appendix_number:
+    source: 规范「附录」书写格式说明「标题“附录A 附录内容名称”」
+layout:
+  toc:
+    source: 规范 1.3「目录应独立成页，包括论文中全部章、节的标题及页码」；模板目录处注「点击鼠标右键，选择“更新域…”，选择“更新整个目录”」自动生成
+  new_page:
+    source: 规范 2.5「各章之间应重新分页」；1.2.1「中文摘要和外文摘要应各占一页」；1.3「目录应独立成页」
+    roles:
+    - chapter
+    - abstract_title_zh
+    - abstract_title_en
+    - toc_title
+  page_limits:
+  - role: abstract_title_zh
+    max_pages: 1
+    source: 规范 1.2.1「中文摘要和外文摘要应各占一页」
+  - role: abstract_title_en
+    max_pages: 1
+    source: 规范 1.2.1「中文摘要和外文摘要应各占一页」
+  page_start:
+    source: 规范 2.2「页码应由第一章绪论首页开始，作为第1页」
+    body_first: 1
+  table_span:
+    source: 规范 3.2.2 第 3 条「表的大小尽量以一页的页面为限，不要超限，一旦超限要加续表」；第 4 条「表及其名称要放在同一页中，不能跨接两页」
+  figure_span:
+    source: 规范 3.1.2 第 3、4 条「图的大小尽量以一页的页面为限，一旦超限要加续图」「图及其名称要放在同一页中，不能跨接两页」
+manual:
+- text: 题目不超过 25 字，不得使用标点符号，不设副标题（封面题目黑体、小二）。
+  source: 规范 1.1；封面题目注「黑体，小二，不宜超过25字」
+- text: 正文字数：工程设计类不少于 1.5 万字，研究类不少于 2 万字。
+  source: 规范 2.1
+- text: 页眉：奇数页为“吉林化工大学本科毕业论文”（设计类按所在学院模板），偶数页为“学生姓名：毕业论文题目”，宋体五号居中。
+  source: 规范 2.2
+- text: 参考文献一般 10～15 篇，其中外文不少于 3 篇，学术期刊文献不少于 7 篇；序号顶格、置于方括号内，换行时与作者名第一个字对齐。
+  source: 规范 1.6、3.4.3
+- text: 正文引用编号用方括号和阿拉伯数字以右上角标形式标注，方括号及序号为 Times New Roman、小四；不得置于各级标题处。
+  source: 规范 3.4.2
+- text: 公式必须用公式编辑器编辑，缩进 2 个汉字，序号按章编号并在行末列出，公式上下与正文各隔一空行。
+  source: 规范 3.3.2
+- text: 图居中排列，与上文留一行空格，版式为“上下型”或“嵌入型”，不得“浮于文字之上”；图内文字宋体五号。
+  source: 规范 3.1.2
+- text: 表格不加左、右边线，居中排列，与下文留一行空格；表名中不允许使用标点符号。
+  source: 规范 3.2.2
+- text: “结论”“致谢”标题格式同章标题（黑体小二居中，1.5 倍行距，段后 11 磅），标题“摘要”“结论”“致谢”中间留两个字的空格。
+  source: 规范「摘要」「结论」「致谢」书写格式说明
+- text: 单面打印，材料前后加透明塑料薄膜，左侧打孔并用塑料压条装订。
+  source: 规范 4.3

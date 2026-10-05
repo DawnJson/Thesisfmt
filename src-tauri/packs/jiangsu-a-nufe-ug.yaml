@@ -1,0 +1,120 @@
+# 南京财经大学本科毕业论文（设计）规范化要求（附件1经管法文、附件2工、附件3外语、附件5数学：排版要求逐字相同；艺术设计类页眉与字体不同，不在本包范围内）
+# 依据：教务处2025届通知附件4《南京财经大学论文格式》；规范未写处以附件4“参考模板”示例补充。
+meta:
+  id: jiangsu-a-nufe-ug
+  title: 南京财经大学本科毕业论文（设计）（经管法文、工、外语、数学类）
+  version: "2025"
+  source: http://jwc.nufe.edu.cn/info/1029/17490.htm
+  org: 南京财经大学
+  kind: university
+  category: 本科
+  verified: true
+
+page:
+  source: "《本科毕业论文（设计）规范化要求》二（五）排版要求：页边距设置为上2.5cm、下2.5cm、左3.0cm、右2.0m（“m”为“cm”之误，模板右边距实为2.0cm）"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 3.0, right: 2.0}
+
+page_numbers:
+  source: "《规范化要求》二（五）：页码统一设置为居中"
+  footer_align: center
+
+headers:
+  source: "《规范化要求》二（五）：页眉右对齐的内容是“南京财经大学本科毕业论文（设计）”，字体为五号仿宋体"
+  text: "南京财经大学本科毕业论文（设计）"
+  align: right
+  cn_font: 仿宋
+  size: 五号
+
+roles:
+  chapter:
+    source: "《规范化要求》二（五）：正文一级标题用四号黑体；行距设置值28磅"
+    cn_font: 黑体
+    size: 四号
+    line: {rule: exact, value: 28}
+  section_1:
+    source: "《规范化要求》二（五）：正文（含二级标题及以下所有标题）用小四号仿宋体；行距设置值28磅"
+    cn_font: 仿宋
+    size: 小四
+    line: {rule: exact, value: 28}
+  section_2:
+    source: "《规范化要求》二（五）：正文（含二级标题及以下所有标题）用小四号仿宋体；行距设置值28磅"
+    cn_font: 仿宋
+    size: 小四
+    line: {rule: exact, value: 28}
+  section_3:
+    source: "《规范化要求》二（五）：正文（含二级标题及以下所有标题）用小四号仿宋体；行距设置值28磅"
+    cn_font: 仿宋
+    size: 小四
+    line: {rule: exact, value: 28}
+  body:
+    source: "《规范化要求》二（五）：正文用小四号仿宋体，行距设置值28磅；模板《1.1经管法文论文参考模板》注“正文中文使用仿宋，小四；英文使用Times New Roman，小四”"
+    cn_font: 仿宋
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 28}
+  abstract_title_zh:
+    source: "模板《1.1经管法文论文参考模板》示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 四号
+    align: center
+  abstract_body:
+    source: "《规范化要求》二（五）：摘要用五号仿宋体；行距设置值28磅"
+    cn_font: 仿宋
+    size: 五号
+    line: {rule: exact, value: 28}
+  toc_title:
+    source: "模板《1.1经管法文论文参考模板》“目 录(黑体二号)”"
+    cn_font: 黑体
+    size: 二号
+  references_title:
+    source: "《规范化要求》五：以“［参考文献］”（居中）作为标识；字体取自模板《1.1经管法文论文参考模板》示例格式"
+    cn_font: 黑体
+    size: 四号
+    align: center
+  ref_item:
+    source: "《规范化要求》二（五）：参考文献用五号仿宋体"
+    cn_font: 仿宋
+    size: 五号
+  fig_caption:
+    source: "模板《1.1经管法文论文参考模板》示例格式（规范只规定图号图名排印在图的下方）"
+    cn_font: 仿宋
+    size: 五号
+    align: center
+  table_caption:
+    source: "模板《1.1经管法文论文参考模板》示例格式（规范只规定表号表名排印在表的上方）"
+    cn_font: 仿宋
+    size: 五号
+    align: center
+  table_source:
+    source: "模板《2.1工科论文参考模板》“对图或表的注释段前空两格，使用五号字”"
+    cn_font: 仿宋
+    size: 五号
+    first_line_chars: 2
+
+checks:
+  abstract_text:
+    source: "《规范化要求》一（二）3：中文摘要一般为200-300字，不用图表、符号和专用术语"
+    zh_min_chars: 200
+    zh_max_chars: 300
+    chars_approx: true
+    no_figures: true
+  table_caption:
+    source: "《规范化要求》二（三）：表号、表名、表注排印在表的上方"
+  figure_caption:
+    source: "《规范化要求》二（三）：图号、图名、图注排印在图的下方"
+
+layout:
+  new_page:
+    source: "《规范化要求》一（二）4：英文摘要另页排在“中文摘要与关键词”之后"
+    roles: [abstract_title_en]
+
+manual:
+  - {text: "论文题目用二号黑体；全文行距设置值28磅。", source: "《规范化要求》二（五）"}
+  - {text: "中文关键词选取3-4个，之间用“；”分隔，最后一个关键词后不标注符号；英文关键词之间用空格分隔（空两格）。", source: "《规范化要求》一（二）3、4"}
+  - {text: "各级标题序号：一、二、三……；（一）（二）（三）……；1.2.3.……；（1）（2）（3）……；① ② ③……，各级序号不得混用；目录不少于三级，致谢和参考文献不编入目录序号。", source: "《规范化要求》一（二）2、二（四）"}
+  - {text: "文中的附图、表格统一编排序号并赋予图名、表名；表内文字连续重复时不可用“同上”；表内数字使用同一计量单位时，可将单位提出置于圆括号内。", source: "《规范化要求》二（三）"}
+  - {text: "引用文献时不作注释（脚注、尾注），在引用处加括号注明作者姓名、出版年份、必要时页码；参考文献按正文中出现的先后次序列于文后，序号用方括号数字，先中文后英文，每条以“.”结束，按 GB/T 7714 类著录。", source: "《规范化要求》一（二）5.5、五"}
+  - {text: "公式用公式编辑器编辑，一般居中；有编号的公式顶格放置，编号加圆括号居右，公式与编号之间不加虚线；较长公式在等号或加减乘除符号处转行，符号写在行首。", source: "《规范化要求》二（七）"}
+  - {text: "致谢篇幅一般不超过一个页码；字数以8000字为宜（不含参考文献）。", source: "《规范化要求》一（二）5.4、二（一）"}
+  - {text: "装订顺序：封面、原创声明、目录、题目与摘要及关键词（中英文）、正文、参考文献、附录、其他材料；A4纸印制。", source: "《规范化要求》二（六）"}

@@ -1,0 +1,217 @@
+meta:
+  id: sichuan-nsu-ug
+  title: 成都东软学院本科毕业设计报告（论文）
+  version: "2021-10"
+  source: https://dean.nsu.edu.cn/2021/83BEF8E0-AC79-481C-9BA0-EAA9DD0C720B.html
+  valid_from: "2021-10"
+  org: 成都东软学院
+  kind: university
+  category: 本科
+  verified: true
+
+page:
+  source: "《本科生毕业设计报告（论文）撰写规范（2021.10修订）》三（一）：标准A4复印纸（210mm×297mm）；上、下、左、右各25mm；页眉距边距1.5cm，页脚距边距1.75cm"
+  paper: A4
+  margins_cm: {top: 2.5, bottom: 2.5, left: 2.5, right: 2.5}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "撰写规范三（二）：自摘要页起加页脚，摘要、目录共同编页码，采用大写罗马数字，宋体小五号，居中；三（三）2：正文页码用阿拉伯数字连续编页，Times New Roman，小五，页底居中"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_size: 小五
+  cover_no_number: true
+
+headers:
+  source: "撰写规范三（二）：自摘要页起加页眉：宋体五号，页眉内容统一为“成都东软学院毕业设计报告（或成都东软学院毕业论文）”；三（三）2：页眉居中"
+  align: center
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "撰写规范三（三）1 标题表：第一级（章）小二号黑体，数字、英文小二号Times New Roman，居中，段前1行，段后1行，单倍行距"
+    before_lines: 1
+    after_lines: 1
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  section_1:
+    source: "撰写规范三（三）1 标题表：第二级（节）小三号黑体，数字、英文小三号Times New Roman，居左，段前1行，段后1行，单倍行距"
+    before_lines: 1
+    after_lines: 1
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    align: left
+    line: {rule: auto, value: 1.0}
+  section_2:
+    source: "撰写规范三（三）1 标题表：第三级（条）四号黑体，数字、英文四号Times New Roman，居左，段前1行，段后1行，单倍行距"
+    before_lines: 1
+    after_lines: 1
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    align: left
+    line: {rule: auto, value: 1.0}
+  body:
+    source: "撰写规范三（三）2：字体字号：中文小四号宋体，数字、英文小四号“Times New Roman”字体，全文统一，首行缩进2个中文字符，1.5倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  abstract_title_zh:
+    source: "撰写规范三（二）1：中文摘要标题采用黑体小二号，居中，单倍行距"
+    cn_font: 黑体
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  abstract_title_en:
+    source: "撰写规范三（二）2：英文摘要标题采用“Times New Roman”字体小二号，居中，单倍行距"
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  abstract_body:
+    source: "撰写规范三（二）1、2：摘要内容采用小四号宋体（英文为小四号 Times New Roman），首行缩进2字符，1.5倍行距"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  keywords_zh:
+    source: "撰写规范三（二）1：中文摘要内容和中文关键词采用小四号宋体，首行缩进2字符，1.5倍行距（“关键词”三字为黑体加粗，故不限制中文字体）"
+    size: 小四
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  keywords_en:
+    source: "撰写规范三（二）2：英文摘要内容和英文关键词采用小四号“Times New Roman”字体，首行缩进2字符，1.5倍行距（“Key Words”为黑体加粗，故不限制字体）"
+    size: 小四
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  toc_title:
+    source: "撰写规范三（二）3：“目录”采用黑体小二号，居中"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  toc_chapter:
+    source: "撰写规范三（二）3：一级标题（章）目录文字字体采用小四号黑体，1.5倍行距；目录中数字内容、页码为小四号 Times New Roman；标题文字居左"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.5}
+  toc_item:
+    source: "撰写规范三（二）3：其余各级标题的目录文字字体采用小四号宋体，1.5倍行距；数字内容、页码为小四号 Times New Roman；标题文字居左"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.5}
+  references_title:
+    source: "撰写规范三（四）1：“参考文献”标题采用一级标题格式排版（小二号黑体，居中，段前段后1行，单倍行距）"
+    before_lines: 1
+    after_lines: 1
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  ref_item:
+    source: "撰写规范三（四）1：中文字体采用小四号宋体，外文、数字、标点字号与汉字相同，字体用“Times New Roman”，1.5倍行距；一行排不下要缩进，且与第一个词对齐（悬挂缩进 2 字符取自模板《附件4》示例，规范未给具体数值）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+    hanging_chars: 2
+  ack_title:
+    source: "撰写规范三（四）2：“致谢”标题采用一级标题格式排版（小二号黑体，居中，段前段后1行，单倍行距）"
+    before_lines: 1
+    after_lines: 1
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  appendix_title:
+    source: "撰写规范三（四）3：“附录”标题采用一级标题格式排版（小二号黑体，居中，段前段后1行，单倍行距）"
+    before_lines: 1
+    after_lines: 1
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  end_title:
+    source: "撰写规范三（四）4：“原创承诺书”标题采用一级标题格式排版（小二号黑体，居中，段前段后1行，单倍行距）"
+    before_lines: 1
+    after_lines: 1
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line: {rule: auto, value: 1.0}
+  fig_caption:
+    source: "撰写规范三（三）3 插图：图题用五号宋体，须全文统一"
+    cn_font: 宋体
+    size: 五号
+  table_caption:
+    source: "撰写规范三（三）3 表：表题用五号宋体，置于表的上方居中"
+    cn_font: 宋体
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "撰写规范二（一）2：关键词一般为3-6个；三（二）1、2：中文词间用“，”相隔，英文词间用半角“,”相隔，最后一个关键词后无标点"
+    min_count: 3
+    max_count: 6
+    zh_separator: "，"
+    en_separator: ","
+  abstract_text:
+    source: "撰写规范二（一）2：摘要中不宜使用公式、图表，不标注引用文献编号"
+    no_figures: true
+  caption_numbering:
+    source: "撰写规范三（三）3：图号、表号编码用章序号，如“图4.1”表示第4章第1图，“表5.1”是第5章中的第1表"
+  table_caption:
+    source: "撰写规范二（二）2：图序及图名置于图的下方，表序及表名置于表的上方"
+  figure_caption:
+    source: "撰写规范二（二）2、三（三）3：图序及图名置于图的下方，图号、图题置于图的正下方"
+  table_cell:
+    source: "撰写规范三（三）3 表：表中文字用五号宋体，须全文统一"
+    cn_font: 宋体
+    size: 五号
+  equation_number:
+    source: "撰写规范三（三）3 公式：按章序号用阿拉伯数字编号，如式（3-1）表示第3章第1式，式号与公式同行居公式右侧排版"
+  chapter_number:
+    source: "撰写规范三（三）1：章、节、条、项用阿拉伯数字编号，章举例“第1章 XXX”"
+  citations:
+    source: "撰写规范二（三）1：正文引用处右上角加[1][2]…注号，注号全文统一排序并与参考文献页序号一致；参考文献按引用文献的顺序统一编号"
+
+layout:
+  toc:
+    source: "撰写规范二（一）3：目录由设计报告（论文）的章、节、条、致谢、参考文献、附录等的序号、名称和页码组成，须注明各级标题的起始页码"
+  new_page:
+    source: "撰写规范二（一）3：目录应独立成页；三（三）1：每章应另起一页"
+    roles: [chapter, toc_title]
+
+manual:
+  - {text: "题目不宜超过35个汉字；每章标题不宜超过25个汉字。", source: "撰写规范二（一）1、三（三）1"}
+  - {text: "第四级条目以下：首行缩进2字符，段前段后1行，1.5倍行距，可使用不同编号。", source: "撰写规范三（三）1 标题表"}
+  - {text: "各层次题序及标题不得置于页面的最后一行（孤行）；编号与题目之间空一格。", source: "撰写规范三（三）1"}
+  - {text: "中文摘要标题“摘要”二字间间隔2空格；“目录”二字间间隔2空格。", source: "撰写规范三（二）1、3"}
+  - {text: "“关键词”三字、“Key Words”采用黑体小四号加粗，位于摘要内容后下空一行。", source: "撰写规范三（二）1、2"}
+  - {text: "目录：三级标题目录左缩进2个字符；标题与页码用“·······”相连，转行的标题文字缩进1字。", source: "撰写规范三（二）3"}
+  - {text: "正文页眉使用单线，页眉内容为“成都东软学院毕业设计报告（或成都东软学院毕业论文）”。", source: "撰写规范三（三）2"}
+  - {text: "正文页码从正文开始重新编排，至文章结尾连续编页。", source: "撰写规范三（三）2"}
+  - {text: "图与图题、表与表题应在同一页；图中标注文字字号、表中内容和项目字号不大于图题、表题字号。", source: "撰写规范三（三）3"}
+  - {text: "附录内图表、公式冠以附录序码，如图A.1、式（B.2）、表C.3。", source: "撰写规范三（四）3"}
+  - {text: "代码：第1行段前0.5行，行首缩进2个汉字，其后各行段前段后各0行，多倍行距1.25，Times New Roman 五号，中文宋体五号，不加粗。", source: "撰写规范三（三）3 代码"}
+  - {text: "参考文献：序号用方括号阿拉伯数字、左顶格，序号后一个半角空格；条目末尾以半角实心点结束；作者写到第三位，余者写“等”。", source: "撰写规范三（四）1"}
+  - {text: "正文字数应不少于0.8万字；中文摘要一般为400字左右。", source: "撰写规范二（一）2、二（二）2"}
+  - {text: "原创承诺书不加页脚。", source: "撰写规范三（四）4"}

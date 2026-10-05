@@ -1,0 +1,170 @@
+# 集美大学研究生学位论文。
+# 规范：《集美大学研究生学位论文规范》（下称「规范」）；规范写明“其它以论文样本格式为准”，
+# 规范未作文字规定的字号等取《集美大学研究生学位论文样本》示例格式（下称「样本」）。
+# 各学院（外国语、海洋文化与法律、马克思主义学院等）的样本为本校样本的学科变体，此处只按全校规范与全校样本。
+meta:
+  id: fujian-jmu-grad
+  title: 集美大学研究生学位论文
+  version: "2023"
+  source: https://yjs.jmu.edu.cn/info/1100/3256.htm
+  org: 集美大学
+  kind: university
+  category: 研究生
+  verified: true
+
+page:
+  source: "规范「三、1 纸张要求及页面设置」：上方和左侧2.5cm，下方和右侧2cm，页眉1.5cm、页脚1.75cm，装订线0cm（纸张写作 210×290 mm，与 A4 不符，未检查纸张）"
+  margins_cm: {top: 2.5, bottom: 2.0, left: 2.5, right: 2.0}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "规范「二、2 页眉和页码」：页码位于页面底端，居中，从第1章（绪论）开始按阿拉伯数字连续编排，除封面和封底外的中文摘要、Abstract、目录等用大写罗马数字单独编排；「三、1」页码 Times New Roman 小五 居中"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  restart_at: 1
+  cover_no_number: true
+
+headers:
+  source: "规范「二、2 页眉和页码」：页眉从绪论开始（摘要、目录等前置部分无页眉），奇偶页相同，宋体五号；页眉内容见 manual"
+  front_none: true
+  same_odd_even: true
+  cn_font: 宋体
+  size: 五号
+
+roles:
+  chapter:
+    source: "规范「二、1」除大标题居中书写外；样本「第1章 绪论」示例格式：小二，固定值20磅（段前后样本各章不一致，未检查）；规范「二」英文和数字一般采用 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小二
+    align: center
+    line: {rule: exact, value: 20}
+  section_1:
+    source: "规范「二」中文采用宋体，英文和数字一般采用 Times New Roman（节标题字号规范与样本均不统一，对齐只规定序号左顶格，均未检查）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+  section_2:
+    source: "规范「二」中文采用宋体，英文和数字一般采用 Times New Roman（节标题字号规范与样本均不统一，对齐只规定序号左顶格，均未检查）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+  body:
+    source: "规范「三、1」正文内容 宋体小四号；「二」英文和数字一般采用 Times New Roman；样本示例格式：固定值20磅（样本各段首行缩进不一致，未检查缩进）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+  abstract_title_zh:
+    source: "样本「摘 要」示例格式（规范未作文字规定）：四号宋体加粗居中"
+    cn_font: 宋体
+    size: 四号
+    bold: true
+    align: center
+  toc_title:
+    source: "样本「目 录」示例格式（规范未作文字规定）：四号宋体加粗居中"
+    cn_font: 宋体
+    size: 四号
+    bold: true
+    align: center
+  references_title:
+    source: "样本「参考文献」示例格式（规范未作文字规定）：四号宋体加粗居中"
+    cn_font: 宋体
+    size: 四号
+    bold: true
+    align: center
+  ack_title:
+    source: "样本「致 谢」示例格式（规范未作文字规定）：四号宋体加粗居中"
+    cn_font: 宋体
+    size: 四号
+    bold: true
+    align: center
+  appendix_title:
+    source: "样本「附 录」示例格式（规范未作文字规定）：四号宋体加粗居中"
+    cn_font: 宋体
+    size: 四号
+    bold: true
+    align: center
+  keywords_zh:
+    source: "规范「二」中文采用宋体（字号规范未规定，样本标签与内容字号不一致，未检查）"
+    cn_font: 宋体
+  keywords_en:
+    source: "规范「二」英文和数字一般采用 Times New Roman（字号规范未规定，未检查）"
+    latin_font: Times New Roman
+  ref_item:
+    source: "样本「参考文献」条目示例格式（规范未作文字规定）：宋体 / Times New Roman 五号，固定值17磅"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line: {rule: exact, value: 17}
+  fig_caption:
+    source: "规范「二、3 1)(c)」图序与图名居中排于图的下方；「二」中文宋体，英文和数字一般采用 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    align: center
+  table_caption:
+    source: "规范「二、3 2)(b)」表序与表题居中排于表的上方；样本表题示例格式（规范未作文字规定）：五号宋体"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "规范「5、摘要」关键词在摘要内容后另起一行标明，一般3~5个，之间用中文“；”分开；样本 Keywords 示例亦用“；”"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: "；"
+  abstract_text:
+    source: "规范「5、摘要」中文摘要一般不超过1000字；摘要中一般不用图表、化学结构式和非公有符号和术语"
+    zh_max_chars: 1000
+    no_figures: true
+  caption_numbering:
+    source: "规范「二、3」图序、表序一律采用阿拉伯数字分章编号，第3章第2个图的图序为“图3-2”；表序如“表3.1”"
+  table_caption:
+    source: "规范「二、3 2)(b)」表序与表题居中排于表的上方"
+  figure_caption:
+    source: "规范「二、3 1)(c)」图序和图名居中排于图的下方"
+  continued_caption:
+    source: "规范「二、3 2)(d)」跨页显示时，需在续表上方注明“续表”和表序，如“续表3.1”，续表的表头应重复排出"
+  equation_number:
+    source: "规范「二、3 3)(b)」公式后应注明编号，置于小括号中，如(3-2)，写在右边行末"
+  chapter_number:
+    source: "规范「二、1 2)」各层次标题一律用阿拉伯数字连续编号"
+  appendix_number:
+    source: "规范「13、附录」附录的序号用A，B，C…系列，如附录A，附录B…；附录中的公式、图和表的编号分别用A1，A2…系列"
+  footnotes:
+    source: "规范「二、4 注释」使用上角标(序号①、②…)标注，采用脚注(页注)方式在本页进行说明，可用小号字(一般五号宋体)"
+    format:
+      source: "规范「二、4 注释」脚注一般五号宋体"
+      cn_font: 宋体
+      size: 五号
+    circled: true
+
+layout:
+  table_span:
+    source: "规范「二、3 2)(d)」表格较大需要跨页显示时，需在续表上方注明“续表”和表序，续表的表头应重复排出"
+  new_page:
+    source: "规范「一」正文部分应从另页右页开始，每一章每一部分应另起页；「二、1 1)」每章应另起一页"
+    roles: [abstract_title_zh, toc_title, chapter, ack_title, references_title, appendix_title]
+  first_chapter_odd_page:
+    source: "规范「一」学位论文正文部分应从另页右页开始；「二、1 1)」双面打印论文，正文第一章须另起右页"
+  page_start:
+    source: "规范「二、2 页眉和页码」页码从第1章（绪论）开始按阿拉伯数字连续编排，摘要、目录等用大写罗马数字单独编排"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "页眉内容为“集美大学硕士学位论文（或博士学位论文）”加论文题目，页眉下加一横线。（前置部分无页眉、奇偶页相同、宋体五号已由 headers 检查）", source: "规范「二、2」；样本「页眉和页码」"}
+  - {text: "各章标题字数一般在15个之内；节标题最多不超过5级，且同一层次至少有2个节标题时才设立节标题（没有1.1.2则不设1.1.1）；下级标题的显目程度不超过上一级。", source: "规范「二、1 标题和层次」"}
+  - {text: "目录级别不得超过3级；目录由章、节、附录等的序号、名称和页码组成。", source: "规范「6、目录」"}
+  - {text: "表格一般采用三线表，不加左右边线，上下边线为粗实线1.5磅（规范未给第三条线线宽，未做线宽检查）。", source: "规范「二、3 2)(c)」"}
+  - {text: "表中参数应标明量和单位的符号；表一般随文排，先见相应文字后见表；图要精选、具有自明性，切忌与表及文字表述重复。", source: "规范「二、3 图 表」"}
+  - {text: "注释脚注与正文部分用细线（版面宽度的1/4长）隔开，应尽量少用注释。", source: "规范「二、4 注释」；样本「页眉和页码」"}
+  - {text: "参考文献一般采用顺序编码制，文中用上角标[1]标注；作者不超过3位全部列出，超过3位只列前3位加“等”；同一文献多次引用始终标注第一次引用的序号；若采用著者出版年制须全文统一。", source: "规范「二、5 参考文献」"}
+  - {text: "论文题名一般不应超过25个字；字数不少于3万。", source: "规范「1、封面内容」(7)；「一、学位论文的内容」"}
+  - {text: "严格执行 GB 3100~3102—93 关于量和单位的规定，单位符号用国际符号且用正体。", source: "规范「二、6 计量单位」"}
+  - {text: "超过80页（按最后一页页码为准）的学位论文必须双面打印。", source: "规范「三、3 印刷及装订要求」"}

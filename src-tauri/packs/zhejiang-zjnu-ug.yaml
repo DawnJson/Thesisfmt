@@ -1,0 +1,225 @@
+meta:
+  id: zhejiang-zjnu-ug
+  title: 浙江师范大学本科生毕业论文（设计）
+  version: "2025"
+  source: https://wdxy.zjnu.edu.cn/2025/0313/c11607a511318/page.htm
+  org: 浙江师范大学
+  kind: university
+  category: 本科
+  verified: true
+
+# 依据：《浙江师范大学本科毕业论文（设计）格式要求》（2025 届模板包 5.1）；
+# 规范未作文字规定、取自《5.2.浙江师范大学毕业论文模板.docx》示例格式的项在 source 中注明。
+
+page:
+  source: "《格式要求》二.1（3）页边距：上 2.0 cm，下 2.0 cm，左 2.5 cm，右 2.0 cm；（1）纸张规格标准为 A4"
+  paper: A4
+  margins_cm: {top: 2.0, bottom: 2.0, left: 2.5, right: 2.0}
+
+page_numbers:
+  source: "《格式要求》二.4（5）、二.6 目录 2、二.7（7）：前置部分罗马数字 i,ii,iii，正文 1,2,3 从 1 开始编号，Times New Roman，小五，居中"
+  front_format: lowerRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  restart_at: 1
+
+headers:
+  source: "《格式要求》二.4（4）、二.5（4）、二.6 目录 1“无页眉”；二.7（6）页眉为本科毕业（设计）论文的题目，宋体、小五号、居中（题目因人而异，内容未检查）"
+  front_none: true
+  align: center
+  cn_font: 宋体
+  size: 小五
+
+roles:
+  chapter:
+    source: "《格式要求》二.7（1）一级标题：宋体、三号、加粗，居中，间距：段前12磅；二.1（5）行距 1.5 倍"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.5}
+    before: 12
+  section_1:
+    source: "《格式要求》二.7（2）二级标题：宋体、四号、加粗，顶格；二.1（5）行距 1.5 倍"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+    bold: true
+    line: {rule: auto, value: 1.5}
+    first_line_chars: 0
+  section_2:
+    source: "《格式要求》二.7（3）三级及三级以下的标题：宋体、小四号、加粗，顶格；二.1（5）行距 1.5 倍"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    line: {rule: auto, value: 1.5}
+    first_line_chars: 0
+  section_3:
+    source: "《格式要求》二.7（3）三级及三级以下的标题：宋体、小四号、加粗，顶格；二.1（5）行距 1.5 倍"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    bold: true
+    line: {rule: auto, value: 1.5}
+    first_line_chars: 0
+  body:
+    source: "《格式要求》二.1（4）全文汉字宋体、字母数字 Times New Roman，（5）1.5 倍行距、两端对齐；字号与首行缩进为模板《5.2.浙江师范大学毕业论文模板.docx》示例格式（规范未作文字规定）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  abstract_title_zh:
+    source: "《格式要求》二.4（1）摘 要(宋体，三号，加粗，居中，间距：段前12磅)"
+    cn_font: 宋体
+    size: 三号
+    bold: true
+    align: center
+    before: 12
+  abstract_title_en:
+    source: "《格式要求》二.5（1）Abstract(Times New Roman，三号加粗，居中，间距：段前12磅)"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    before: 12
+  abstract_body:
+    source: "《格式要求》二.4（2）摘要内容(宋体，小四号)……每段落首行缩进2字符，两端对齐；二.5（2）Times New Roman，小四号"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  keywords_zh:
+    source: "《格式要求》二.4（3）关键词(宋体，小四号，加粗)：3-5个关键词(宋体，小四号)……每段落首行缩进2字符"
+    cn_font: 宋体
+    size: 小四
+    first_line_chars: 2
+  keywords_en:
+    source: "《格式要求》二.5（3）Key words(Times New Roman,小四号)……每段落首行缩进2字符"
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+  toc_title:
+    source: "《格式要求》二.6（1）目 录(宋体、三号、加粗，居中，间距段前12磅，两字之间空两格)"
+    cn_font: 宋体
+    size: 三号
+    bold: true
+    align: center
+    before: 12
+  toc_chapter:
+    source: "《格式要求》二.6 目录示例：第1章 绪论(宋体，五号，顶格)"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    first_line_chars: 0
+  toc_item:
+    source: "《格式要求》二.6 目录示例：1.1 二级标题(宋体，五号，缩进1字符)、1.1.1 三级标题(宋体，五号，缩进2字符)"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  references_title:
+    source: "模板《5.2.浙江师范大学毕业论文模板.docx》示例格式（规范未对“参考文献”标题作文字规定）"
+    cn_font: 宋体
+    size: 三号
+    bold: true
+    align: center
+    before: 12
+  ack_title:
+    source: "《格式要求》二.9（1）致 谢(此两字用宋体、三号、居中，间距：段前12磅，两字间空两格)"
+    cn_font: 宋体
+    size: 三号
+    align: center
+    before: 12
+  appendix_title:
+    source: "《格式要求》二.10（1）附录(此两字用宋体、三号、居中，间距：段前12磅，两字之间空两格)"
+    cn_font: 宋体
+    size: 三号
+    align: center
+    before: 12
+  fig_caption:
+    source: "《格式要求》二.7（8）②图号和图名（五号宋体）要居图下方的正中"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: "《格式要求》二.7（9）②表名（五号宋体）；表号和表名要居表上方正中"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_source:
+    source: "《格式要求》二.7（9）③资料来源要标明“作者、资料来源名称、时间”用小五宋体，置表格左下方"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小五
+    align: left
+  equation:
+    source: "《格式要求》二.7（10）③公式字体用Times New Roman五号"
+    latin_font: Times New Roman
+    size: 五号
+
+checks:
+  keywords:
+    source: "《格式要求》二.4（3）3-5个关键词，关键词之间用分号分隔；二.5（3）Key words 之间用分号分隔"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  abstract_text:
+    source: "《格式要求》二.5（3）Key words ……与中文摘要关键词相同"
+    keywords_match: true
+  caption_numbering:
+    source: "《格式要求》二.7（8）②（9）②应按顺序编号(有章节按章编号，如 第一章第一个图记为图1-1)"
+  table_caption:
+    source: "《格式要求》二.7（9）②表号和表名要居表上方正中"
+  figure_caption:
+    source: "《格式要求》二.7（8）②图号和图名要居图下方的正中"
+  table_lines:
+    source: "《格式要求》二.7（9）①须为“三线表”(无竖线)，上下线为1.5磅，中间线为0.5磅"
+    top_bottom_pt: 1.5
+    header_pt: 0.5
+  table_cell:
+    source: "《格式要求》二.7（9）①②表中字体为五号宋体；表内文字为宋体五号居中"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  equation_number:
+    source: "《格式要求》二.7（10）②文中公式应用阿拉伯数字连续编序号(有章节按章编号，如 第二章第一个公式记为2-1)，序号加圆括号，标记于公式后面"
+  citations:
+    source: "《格式要求》二.8（1）参考文献的著录采用顺序编码制，在引文处按论文中引用文献出现的先后以阿拉伯数字连续编码，序号置于方括号内"
+  footnotes:
+    source: "《格式要求》二.7（11）②注释用页末注，序号要用①、②、③等数码表示，注释字体用宋体小五号"
+    format:
+      source: "《格式要求》二.7（11）②注释字体用宋体小五号"
+      cn_font: 宋体
+      size: 小五
+    circled: true
+
+layout:
+  page_start:
+    source: "《格式要求》二.6 目录 2 页码从 i 开始编号；二.7（7）正文页码从 1 开始编号"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "正文页眉内容应为本科毕业（设计）论文的题目（无页眉、字体字号居中已检查，题目内容未检查）。", source: "《格式要求》二.7（6）"}
+  - {text: "摘要内容 500 字左右，概述研究的问题、意义、创新之处和主要观点、结论；外文摘要与中文摘要内容相同。", source: "《格式要求》二.4（2）、二.5（2）"}
+  - {text: "正文部分字数不少于 1 万字。", source: "《格式要求》一"}
+  - {text: "“文档网格”一律使用“无网格”；装订线位置居左；双面印刷。", source: "《格式要求》二.1（1）（2）（3）"}
+  - {text: "标题简明扼要，标题结束处无标点符号；各章节编号尽量一致，不使用“半括号”“（一）、”“（一、）”等不规范用法；章序号与章名间空一个字符，二级及以下标题序号和名称空一个字符。", source: "《格式要求》二.7（1）（2）（3）（4）（5）"}
+  - {text: "图的资料来源标明“作者、来源名称、时间”，用小五宋体置图左下方；图中字体为五号宋体；图、表与上下正文之间各空一行。", source: "《格式要求》二.7（8）③④、（9）④"}
+  - {text: "图要精选、清晰、线条均匀；图要标明计量单位；表格要注明“项目”，单位相同可统一写在表头或表顶线右侧。", source: "《格式要求》二.7（8）①②、（9）②"}
+  - {text: "表格跨页时在各页顶端以标题行形式重复出现。", source: "《格式要求》二.7（9）②"}
+  - {text: "公式居中、序号右对齐，另起一行；变量符号（含下标）用斜体。", source: "《格式要求》二.7（10）②③"}
+  - {text: "时间表示用“1999年10月”，不用“99年10月”或“1999.10”；能用阿拉伯数字且得体处尽量使用阿拉伯数字；全文错别字或不规范之处不超过万分之二。", source: "《格式要求》二.7（11）①③④"}
+  - {text: "参考文献以“参考文献：”（左顶格）或“［参考文献］”（居中）为标识；序号左顶格；著录项目齐全，每条末尾以实心点结束；作者 3 人以内全部列出，超过 3 人只列前 3 人加“等”或“et al”；按 GB7714 著录。", source: "《格式要求》二.8（2）"}
+  - {text: "致谢、附录内容字体采用宋体小四号。", source: "《格式要求》二.9（2）、二.10（2）"}

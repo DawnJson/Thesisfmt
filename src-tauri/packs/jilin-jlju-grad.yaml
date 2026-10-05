@@ -1,0 +1,363 @@
+# 吉林建筑大学研究生学位论文：依据《吉林建筑大学研究生学位论文撰写指南》（理工类，学术/专业学位同格式）。
+meta:
+  id: jilin-jlju-grad
+  title: 吉林建筑大学研究生学位论文（硕士 / 博士，理工类）
+  version: '2026'
+  source: https://jzxy.jlju.edu.cn/info/1821/16551.htm
+  org: 吉林建筑大学
+  kind: university
+  category: 研究生
+  verified: true
+page:
+  source: 《吉林建筑大学研究生学位论文撰写指南》四、学位论文的打印与装订：全文采用A4纸，左右边距2.50厘米、上边距3.00厘米、下边距2.50厘米，页眉边距1.6厘米，页脚边距1.5厘米
+  paper: A4
+  margins_cm:
+    top: 3.0
+    bottom: 2.5
+    left: 2.5
+    right: 2.5
+  header_distance_cm: 1.6
+  footer_distance_cm: 1.5
+page_numbers:
+  source: 《撰写指南》三（十三）页脚：摘要、目录用大写罗马数字连续编排，正文从第1章起用阿拉伯数字从1开始；页码位于页面底端居中，Times New Roman，小五号
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 小五
+  restart_at: 1
+headers:
+  source: 《撰写指南》三（十三）页眉：从摘要页开始至论文最后一页，奇数页页眉内容为本章标题（偶数页为“吉林建筑大学硕士/博士学位论文”，硕博不同，见 manual）；中文字体为宋体，西文字体为Times New Roman，五号
+  content: chapter_title
+  cn_font: 宋体
+  latin_font: Times New Roman
+  size: 五号
+roles:
+  chapter:
+    source: 《撰写指南》三（九）一级标题：黑体，Times New Roman，三号，无缩进，段前0.5行，段后0.5行，固定值20磅（对齐：理工类左对齐、人文社科类居中，不检查）
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 0.5
+    after_lines: 0.5
+  section_1:
+    source: 《撰写指南》三（九）二级标题：黑体，Times New Roman，小三号，无缩进，段前1行（紧跟一级标题时无需空行），段后0行，固定值20磅（对齐：人文社科类居中，不检查）
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小三
+    line:
+      rule: exact
+      value: 20
+    after: 0
+    first_line_chars: 0
+    before_lines: 1
+  section_2:
+    source: 《撰写指南》三（九）三级标题：黑体，Times New Roman，四号，无缩进，段前0行，段后0行，固定值20磅（对齐：人文社科类不同，不检查）
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 四号
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 0
+  body:
+    source: 《撰写指南》三（八）正文：中文字体为宋体，西文字体为Times New Roman，小四号，两端对齐，首行缩进2字符，段前和段后0行，行距固定值20磅
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: 《撰写指南》三（五）中文摘要：摘要标题为黑体，三号，居中对齐，无缩进，段前0.5行，段后0.5行，固定值20磅
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 0.5
+    after_lines: 0.5
+  abstract_title_en:
+    source: 《撰写指南》三（六）英文摘要：Abstract标题为Times New Roman，三号，加粗，居中对齐，无缩进，段前0.5行，段后0.5行，固定值20磅
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 0.5
+    after_lines: 0.5
+  abstract_body:
+    source: 《撰写指南》三（五）摘要内容：宋体，Times New Roman，小四号，两端对齐，首行缩进2字符，段前段后0行，固定值20磅；三（六）英文摘要内容同为小四号、两端对齐、首行缩进2字符、固定值20磅
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 2
+  keywords_zh:
+    source: 《撰写指南》三（五）：关键词，西文字体为Times New Roman，小四号，两端对齐，无缩进，段前和段后0行，行距固定值20磅
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 0
+  keywords_en:
+    source: 《撰写指南》三（六）：Keywords关键词为Times New Roman，小四号，两端对齐，无缩进，段前和段后0行，行距固定值20磅
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 0
+  toc_title:
+    source: 《撰写指南》三（七）目录：目录标题为黑体，三号，居中对齐，无缩进，段前0.5行，段后0.5行，固定值20磅
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 0.5
+    after_lines: 0.5
+  toc_chapter:
+    source: 《撰写指南》三（七）一级目录项：宋体，Times New Roman，小四号，两端对齐，无首行缩进，段前0行，段后0行，固定值20磅
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 0
+  toc_item:
+    source: 《撰写指南》三（七）二、三级目录项：宋体，Times New Roman，小四号，两端对齐，无首行缩进，段前0行，段后0行，固定值20磅（左缩进1 / 2字符不检查）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 0
+  references_title:
+    source: 《撰写指南》三（十四）参考文献：标题黑体，Times New Roman，三号，居中对齐，无缩进，段前0.5行，段后0.5行，固定值20磅
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 0.5
+    after_lines: 0.5
+  ref_item:
+    source: 《撰写指南》三（十四）参考文献内容：宋体，Times New Roman，五号，两端对齐，悬挂缩进2字符，段前和段后0行，行距固定值20磅
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    hanging_chars: 2
+  ack_title:
+    source: 《撰写指南》三（十五）致谢：标题黑体，Times New Roman，三号，居中对齐，无缩进，段前0.5行，段后0.5行，固定值20磅
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 0.5
+    after_lines: 0.5
+  appendix_title:
+    source: 《撰写指南》三（十六）附录：标题黑体，Times New Roman，三号，居中对齐，无缩进，段前0.5行，段后0.5行，固定值20磅
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line:
+      rule: exact
+      value: 20
+    first_line_chars: 0
+    before_lines: 0.5
+    after_lines: 0.5
+  fig_caption:
+    source: 《撰写指南》三（十）中文图题：宋体，Times New Roman，五号，居中对齐，无缩进，段前0行，段后0行，固定值20磅
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 0
+  table_caption:
+    source: 《撰写指南》三（十一）中文表题：宋体，Times New Roman，五号，居中对齐，无缩进，段前0行，段后0行，固定值20磅
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 0
+  table_source:
+    source: 《撰写指南》三（十一）表注或资料来源：宋体，Times New Roman，小五号，两端对齐，首行缩进2字符，段前和段后0行，固定值20磅
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小五
+    align: justify
+    line:
+      rule: exact
+      value: 20
+    before: 0
+    after: 0
+    first_line_chars: 2
+  equation:
+    source: 《撰写指南》三（十二）公式：包含公式的段落行间距可设置为段前和段后6磅，行距最小值18磅，Times New Roman，五号
+    latin_font: Times New Roman
+    size: 五号
+    line:
+      rule: atLeast
+      value: 18
+    before: 6
+    after: 6
+checks:
+  keywords:
+    source: 《撰写指南》二（五）在摘要后列出3～8个关键词，关键词之间用分号相隔；三（五）每一关键词之间用全角分号“；”隔开；三（六）英文关键词用半角分号“;”隔开
+    min_count: 3
+    max_count: 8
+    zh_separator: ；
+    en_separator: ;
+  table_lines:
+    source: 《撰写指南》三（十一）表格采用国际通用的三线表，顶、底两条线粗1.5磅，横表头线粗0.75磅
+    top_bottom_pt: 1.5
+    header_pt: 0.75
+  table_cell:
+    source: 《撰写指南》三（十一）表格内容：中文字体为宋体，西文字体为Times New Roman，五号，段前0行，段后0行，单倍行距
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    line:
+      rule: auto
+      value: 1.0
+    before: 0
+    after: 0
+  figure_caption:
+    source: 《撰写指南》三（十）分图：主图名列在所有分图的下方居中位置（图题位于图下）
+  equation_number:
+    source: 《撰写指南》三（十二）论文公式应分章编号，并将编号置于括号内，如（1.1），公式编号右端对齐
+  abstract_text:
+    source: 《撰写指南》三（六）英文关键词与中文相对应（二（六）列出与中文相对应的英文关键词）
+    keywords_match: true
+  citations:
+    source: 《撰写指南》二（九）参考文献使用顺序编码制，按文中使用的顺序列出
+  footnotes:
+    source: 《撰写指南》三（十七）脚注：宋体，Times New Roman，小四号，左对齐，首行无缩进，段前0行，段后0行，单倍行距；用①②③……样式的数字编排序号，每页重新编号
+    format:
+      source: 《撰写指南》三（十七）脚注
+      cn_font: 宋体
+      latin_font: Times New Roman
+      size: 小四
+      align: left
+      line:
+        rule: auto
+        value: 1.0
+      before: 0
+      after: 0
+      first_line_chars: 0
+    circled: true
+    restart_each_page: true
+layout:
+  toc:
+    source: 《撰写指南》三（七）正文修改后注意刷新目录保持一致；目录项显示到3级，页码右对齐
+  new_page:
+    source: 《撰写指南》三（五）（六）（七）中文摘要、英文摘要、目录“另起一页”；三（九）每章另起一页；三（十四）（十五）（十六）参考文献、致谢、附录“另起一页”
+    roles:
+    - abstract_title_zh
+    - abstract_title_en
+    - toc_title
+    - chapter
+    - references_title
+    - ack_title
+    - appendix_title
+  page_start:
+    source: 《撰写指南》三（十三）页脚：摘要、目录的页码用大写罗马数字（I，II，III，……）连续编排；正文从第1章开始按阿拉伯数字从1开始连续编排
+    front_first: 1
+    body_first: 1
+manual:
+- text: 页眉从摘要页开始至最后一页：偶数页为“吉林建筑大学硕士学位论文”（博士为“吉林建筑大学博士学位论文”），页眉横线为单实线；英文类论文偶数页为 Master's thesis of Jilin Jianzhu University / Doctoral Dissertation of Jilin Jianzhu University。
+  source: 《撰写指南》三（十三）页眉
+- text: 一级标题对齐：理工类左对齐、人文社科类与英文类居中；二级标题人文社科类居中；三级标题、四五级标题人文社科类另有格式。本规则包按理工类编制，对齐方式未检查，章节编号建议理工类用“1”“1.1”“1.1.1”，人文社科类用“第一章”“第一节”“一、”。
+  source: 《撰写指南》三（九）章、节标题
+- text: 章节标题序号和标题间空1个汉字符（两个半角空格）；章节标题应简明扼要，无标点符号；标题避免单独出现在页末。
+  source: 《撰写指南》二（八）、三（九）
+- text: 摘要标题、目录标题、致谢标题、附录标题的字间空两个全角空格或4个半角空格（如“摘  要”）。
+  source: 《撰写指南》三（五）（七）（十五）（十六）
+- text: 中文摘要建议300~1500汉字；论文题名一般不超过25字；学术硕士主体部分一般不少于3万字，专业学位硕士不少于2万字，博士正文一般不少于5万。
+  source: 《撰写指南》一、总体要求；二（二）
+- text: 图表编号：图片、表格较少时可全文依序编号（图1、表1），较多时分章依序（图1.1、表1.1），全文编号方式需统一；图题、表题中不允许使用标点符号，题后不加标点；编号与题名之间空2格。
+  source: 《撰写指南》三（十）（十一）
+- text: 英文图题 / 表题另起一行位于中文图题 / 表题之下（Figure 1.1 Figure Name / Table 1.1 Table Name），Times New Roman，五号，居中，固定值20磅；分图用(a)、(b)、(c)编序，列在各分图正下方。
+  source: 《撰写指南》三（十）（十一）
+- text: 图与上文间、图题（含图注或资料来源）与下文间各留一空行；表题与上文、表格（含表注）与下文各留一空行；图注或资料来源为宋体 / Times New Roman 小五号居中，固定值20磅。
+  source: 《撰写指南》三（十）（十一）
+- text: 表格宽度应与页面左右边距相同；列数超出页边距时改为横向页面；表格内容不能在同一页面显示时需做续表，续表表题可省略，但应再次出现表头内容。
+  source: 《撰写指南》三（十一）
+- text: 引用的参考文献用阿拉伯数字编号，前后加中括号，格式如[1]，Times New Roman 小四号，上标；参考文献编号和标题内容之间空1个半角空格；著录格式按 GB/T 7714-2025。
+  source: 《撰写指南》三（十四）、四
+- text: 正文中出现的图、表、公式需在正文中有描述（如图1.1、见表1.1、见式（1.1））；公式编号括号为全角括号，公式内容置于页面中部。
+  source: 《撰写指南》三（八）（十二）
+- text: 除封面外，所有英文字母、阿拉伯数字和半角标点符号默认用 Times New Roman 字体。
+  source: 《撰写指南》三（八）
+- text: 目录通常显示到三级，各级目录项左缩进依次为0、1、2字符；页码右对齐并有前导符，目录标题、条目及前导符须整体撑满版心。
+  source: 《撰写指南》二（七）、三（七）
+- text: 致谢落款：致谢人姓名为华文行楷小二号右对齐，落款日期及地点为宋体小四号右对齐。
+  source: 《撰写指南》三（十五）
+- text: 封面至原创性声明页装订线左1厘米，摘要至文末装订线为左0厘米；论文双面打印，封面、题名页、原创性声明和使用授权声明单面印刷。
+  source: 《撰写指南》四、学位论文的打印与装订
+- text: 正文中出现括号需使用全角括号（包括括号内为英文）；标点依据《标点符号用法》（GB/T 15834）。
+  source: 《撰写指南》开头、三（八）
+- text: 表题置于表上方、英文表题在中文表题之下（模板示例格式；规范只写“表题与上文留一空行，表格与下文应留一行空行”），因表题与表之间有英文表题，未启用 table_caption 检查。
+  source: 模板《吉林建筑大学硕士论文模板》示例格式

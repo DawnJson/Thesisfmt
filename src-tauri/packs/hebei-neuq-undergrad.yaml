@@ -1,0 +1,192 @@
+meta:
+  id: hebei-neuq-undergrad
+  title: 东北大学秦皇岛分校本科生毕业设计（论文）
+  version: "未标注年份"
+  source: https://jwc.neuq.edu.cn/
+  org: 东北大学秦皇岛分校
+  kind: university
+  category: 本科
+  verified: true
+
+# 规范与模板合一：《东北大学秦皇岛分校本科生毕业设计（论文）撰写规范与模板》。
+# 以下 source 中「规范」指该文件开头的（一）至（五）条文，「模板」指其后各部分的示例与括号内说明。
+
+page:
+  source: "规范（二）页面设置要求：奇数页上边距 30mm，下边距 25mm；页眉顶端距离 1.5cm，底端距离 1.75cm；纸张为模板示例（规范未作文字规定）"
+  paper: A4
+  # 左右边距奇偶页对调（奇数页左 30mm 右 20mm，偶数页左 20mm 右 30mm），schema 不能表达，只检查上下边距
+  margins_cm: {top: 3.0, bottom: 2.5}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "规范（三）：页码位于页脚中间；摘要和目录页码用罗马数字单独编排；论文页码从绪论部分开始至附录，用阿拉伯数字连续编排；规范（一）页码：五号，Times New Roman 体"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_latin_font: Times New Roman
+  footer_size: 五号
+
+headers:
+  source: "规范（二）1：页眉“东北大学秦皇岛分校本科生毕业设计（论文）”黑体，四号，居中"
+  text: 东北大学秦皇岛分校本科生毕业设计（论文）
+  align: center
+  cn_font: 黑体
+  size: 四号
+
+roles:
+  chapter:
+    source: "规范（一）各章标题：三号黑体；模板“1 绪论”说明：一级标题，黑体，三号，居中；行间距 1.5 倍（规范（二）4）；西文字体取模板示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.5}
+  section_1:
+    source: "规范（一）各节各级标题：小四号黑体；模板“1.1 引言”说明：二级标题，黑体，小四号；二、三级标题左对齐；行间距 1.5 倍（规范（二）4）；西文字体取模板示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.5}
+  section_2:
+    source: "规范（一）各节各级标题：小四号黑体；模板：二、三级标题左对齐；行间距 1.5 倍（规范（二）4）；西文字体取模板示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    align: left
+    line: {rule: auto, value: 1.5}
+  body:
+    source: "规范（一）：正文中中文内容小四号宋体，英文、数字小四号 Times New Roman 体；模板正文说明：首行缩进 2 字符，行间距为 1.5 倍；正文两端对齐"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  abstract_title_zh:
+    source: "规范（一）：中文摘要标题三号黑体；模板“摘要”说明：黑体，三号，居中，1.5 倍行间距"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.5}
+  abstract_title_en:
+    source: "规范（一）：英文摘要标题粗体三号，Times New Roman 体；模板“ABSTRACT”说明：Times New Roman 体，粗体，三号，居中；1.5 倍行间距"
+    latin_font: Times New Roman
+    size: 三号
+    bold: true
+    align: center
+    line: {rule: auto, value: 1.5}
+  abstract_body:
+    source: "规范（一）：中文摘要内容小四号宋体，英文摘要内容小四号 Times New Roman 体；模板摘要说明：宋体，小四号，首行缩进 2 字符，行间距 1.5 倍"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 2
+    line: {rule: auto, value: 1.5}
+  keywords_zh:
+    source: "规范（一）：中文关键词小四号宋体（“关键词：”标签为黑体小四，故不检查中文字体）；行间距 1.5 倍（规范（二）4）"
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  keywords_en:
+    source: "规范（一）：英文关键词小四号，Times New Roman 体；行间距 1.5 倍（规范（二）4）"
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  toc_title:
+    source: "规范（一）目录标题：三号黑体；模板“目录”说明：黑体，三号，居中；行间距为 1.5 倍"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.5}
+  toc_chapter:
+    source: "规范（一）：目录中各章标题（含结论、参考文献、致谢、附录标题）小四号黑体，其他数字、英文小四号 Times New Roman 体；模板目录说明：行间距为 1.5 倍"
+    cn_font: 黑体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  toc_item:
+    source: "规范（一）：目录中其他中文内容小四号宋体，其他英文、数字小四号 Times New Roman 体；模板目录说明：行间距为 1.5 倍"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  references_title:
+    source: "规范（一）：中文摘要、结论、参考文献标题三号黑体；模板“参考文献”说明：黑体，三号，居中；行间距 1.5 倍"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.5}
+  ref_item:
+    source: "规范（一）：中文摘要、结论、参考文献内容小四号宋体，英文小四号 Times New Roman 体；行间距 1.5 倍（规范（二）4）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: auto, value: 1.5}
+  ack_title:
+    source: "模板“致谢”说明：黑体，三号，居中；行间距 1.5 倍"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.5}
+  appendix_title:
+    source: "模板“附 录”说明：黑体，三号，居中；行间距 1.5 倍"
+    cn_font: 黑体
+    size: 三号
+    align: center
+    line: {rule: auto, value: 1.5}
+  fig_caption:
+    source: "模板图题说明：图题居中置于图下，宋体，五号，数字字母 Times New Roman 体，五号"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: "模板表题说明：表序号与表题置于表上居中（宋体，五号；数字和字母为 Times New Roman，五号）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+
+checks:
+  keywords:
+    source: "模板关键词说明：关键词一般为 3～5 个，最后一个关键词后无标点符号；分号分隔取模板示例格式（规范未作文字规定）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  abstract_text:
+    source: "模板摘要说明：篇幅以 300～500 字为宜（“为宜”，字数超出只作提示）"
+    zh_min_chars: 300
+    zh_max_chars: 500
+    chars_approx: true
+  caption_numbering:
+    source: "模板图题、表题说明：图题编号为每章分开编写，按顺序编排，第一章从 1.1 起，第二章从 2.1 起；表序号为每章分开编写，第一章从 1.1 起"
+  table_caption:
+    source: "模板表题说明：表序号与表题置于表上居中"
+  figure_caption:
+    source: "模板图题说明：图题居中置于图下"
+  table_lines:
+    source: "模板表题说明：三线表格式如表所示，上下线宽 1.5 磅，中间线宽 0.5 磅，两边开口，表格居中"
+    top_bottom_pt: 1.5
+    header_pt: 0.5
+  equation_number:
+    source: "模板公式说明：公式的编号采用圆括号括起来放在公式右边行末，公式序号按章编排，如第 3 章第 2 个公式序号为“(3.2)”"
+  chapter_number:
+    source: "模板“1 绪论”说明：标题的阿拉伯数字编号之间用半角实心下圆点“.”相隔；章标题示例“1 绪论”"
+  citations:
+    source: "模板参考文献说明：参考文献按照全文中出现的前后次序排序；正文说明：参考文献在文中引用地方标注，并按顺序进行编号"
+
+layout:
+  new_page:
+    source: "规范（三）4：各章之间加分页符"
+    roles: [chapter]
+  first_chapter_odd_page:
+    source: "规范（三）4：绪论首页必须在奇数页码上"
+
+manual:
+  - {text: "左右页边距奇偶页对调：奇数页左 30mm、右 20mm，偶数页左 20mm、右 30mm。", source: "规范（二）2、3"}
+  - {text: "封皮、郑重声明单面打印，从摘要开始双面打印。", source: "规范（四）"}
+  - {text: "表格一页放不下时，下一页表格要包含表头，并在表格外上一行右上角写“表x.x（续表）”。", source: "规范（五）续表说明"}
+  - {text: "各级标题处不得引用参考文献；绪论一般不少于 2000 字；参考文献中所有标点符号均为英文标点。", source: "模板“1 绪论”、“参考文献”说明"}
+  - {text: "题目不超过 24 字；封面、郑重声明、摘要、目录等各部分的字体字号按模板括号内说明排版。", source: "模板封面等说明"}

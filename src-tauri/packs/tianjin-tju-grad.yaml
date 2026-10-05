@@ -1,0 +1,220 @@
+meta:
+  id: tianjin-tju-grad
+  title: 天津大学博士、硕士学位论文
+  version: "2025-06"
+  source: https://gs.tju.edu.cn/info/1191/14312.htm
+  valid_from: "2021-04"
+  org: 天津大学
+  kind: university
+  category: 研究生
+  verified: true
+
+# 依据《天津大学关于博士、硕士学位论文统一格式的规定》（2021 年修订，20250605 更新扉页版，下称“规定”）。
+# 规定对博士、硕士，学术型、专业型的正文排版要求相同，只在封面、扉页和偶数页页眉文字（“天津大学博士/硕士学位论文”）上不同，故合为一个规则包。
+
+page:
+  source: "规定三、2：A4（210×297mm）；页边距上 27.5mm，下 25.4mm，左 35.7mm，右 27.7mm；页眉距边界 15.0mm，页脚距边界 17.5mm"
+  paper: A4
+  margins_cm: {top: 2.75, bottom: 2.54, left: 3.57, right: 2.77}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "规定四、页眉、页脚：页脚的字号为小五号，居中；从中文摘要开始页脚从 I 开始顺序编页码，为大写罗马数字格式；正文第一页开始用阿拉伯数字重新从 1 开始顺序编页码，至学位论文结尾"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_size: 小五
+  restart_at: 1
+  cover_no_number: true
+
+roles:
+  chapter:
+    source: "规定四、多级标题：章标题（一级标题）采用黑体小三号字，居中显示，编号为阿拉伯数字（形如“第1章”）；段前、段后间距 30～36 磅（区间值，未检查）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+  section_1:
+    source: "规定四、多级标题：二级标题采用黑体四号字，无缩进左对齐；段前、段后间距 18～24 磅（区间值，未检查）"
+    cn_font: 黑体
+    size: 四号
+    align: left
+    first_line_chars: 0
+  section_2:
+    source: "规定四、多级标题：三级标题采用黑体四号字，无缩进左对齐；段前、段后间距 12～15 磅（区间值，未检查）"
+    cn_font: 黑体
+    size: 四号
+    align: left
+    first_line_chars: 0
+  section_3:
+    source: "规定四、多级标题：四级标题采用黑体小四号字，无缩进左对齐；段前、段后间距 9～12 磅（区间值，未检查）"
+    cn_font: 黑体
+    size: 小四
+    align: left
+    first_line_chars: 0
+  body:
+    source: "规定四、正文 字体和段落：正文中文字体为宋体，英文字体为 Times New Roman，正文采用小四号字，段落行间距为固定值 20 磅，段落前后间距为 0，首行缩进 2 字符"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  abstract_title_zh:
+    source: "规定四、中英文摘要：“摘要”两字为宋体二号字加粗，居中显示"
+    cn_font: 宋体
+    size: 二号
+    bold: true
+    align: center
+  abstract_title_en:
+    source: "规定四、中英文摘要：英文摘要皆为 Times New Roman 字体，“ABSTRACT”为二号字加粗，居中显示"
+    latin_font: Times New Roman
+    size: 二号
+    bold: true
+    align: center
+  abstract_body:
+    source: "规定四、中英文摘要：内容摘要采用正文样式（宋体 / Times New Roman，小四号，固定值 20 磅，段落前后 0，首行缩进 2 字符）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+    first_line_chars: 2
+  keywords_zh:
+    source: "规定四、中英文摘要：中文关键词与内容摘要间隔一行，无缩进左对齐书写，换行不缩进（“关键词：”宋体四号加粗、内容采用正文样式，字号不统一故不检查）"
+    first_line_chars: 0
+  keywords_en:
+    source: "规定四、中英文摘要：英文关键词与内容摘要间隔一行，无缩进左对齐书写，换行不缩进（“KEY WORDS:”四号加粗、内容采用正文样式，字号不统一故不检查）"
+    first_line_chars: 0
+  toc_title:
+    source: "规定四、目录：“目录”两字采用不编号章标题样式（黑体小三号，居中）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+  toc_chapter:
+    source: "规定四、目录：目录条目采用正文样式（宋体 / Times New Roman，小四号，固定值 20 磅，段落前后 0）；各级标题逐级缩进，每级缩进 2 字符"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  toc_item:
+    source: "规定四、目录：目录条目采用正文样式（宋体 / Times New Roman，小四号，固定值 20 磅，段落前后 0）；各级标题逐级缩进，每级缩进 2 字符"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 20}
+    before: 0
+    after: 0
+  references_title:
+    source: "规定四、参考文献格式：“参考文献”四字采用不编号章标题样式（同章标题：黑体小三号，居中）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+  ref_item:
+    source: "规定四、参考文献格式：内容条目固定行距 17 磅，段前间距 3 磅，段后间距为 0，其余样式与正文相同（宋体 / Times New Roman，小四号）"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    line: {rule: exact, value: 17}
+    before: 3
+    after: 0
+  ack_title:
+    source: "规定四、发表论文和参加科研情况说明及致谢：标题应采用不编号章标题样式（同章标题：黑体小三号，居中）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+  appendix_title:
+    source: "规定四、附录：附录标题应采用不编号章标题样式（同章标题：黑体小三号，居中）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+  end_title:
+    source: "规定四、发表论文和参加科研情况说明及致谢：标题应采用不编号章标题样式（同章标题：黑体小三号，居中）"
+    cn_font: 黑体
+    size: 小三
+    align: center
+  fig_caption:
+    source: "规定四、图、表、公式：图序及图题居中置于图的下方"
+    align: center
+  table_caption:
+    source: "规定四、图、表、公式：表序及表题居中置于表的上方"
+    align: center
+
+checks:
+  keywords:
+    source: "规定二、中文摘要：关键词的数量为 3-8 个；四、中英文摘要：关键词之间用逗号分隔（中文用全角“，”，英文用半角“,”）"
+    min_count: 3
+    max_count: 8
+    zh_separator: "，"
+    en_separator: ","
+  abstract_text:
+    source: "规定二、中文摘要：中文摘要一般字数为 300-600 字（特殊需要可略多）；英文关键词内容应与中文关键词一致"
+    zh_min_chars: 300
+    zh_max_chars: 600
+    keywords_match: true
+    chars_approx: true
+  caption_numbering:
+    source: "规定四、图、表、公式：图、表、公式一律采用阿拉伯数字分章编号，以“图”或“表”开始，章节号和编号之间用“-”连接"
+  table_caption:
+    source: "规定四、图、表、公式：表序及表题居中置于表的上方"
+  figure_caption:
+    source: "规定四、图、表、公式：图序及图题居中置于图的下方"
+  table_cell:
+    source: "规定四、图、表、公式：图、表内容为五号字，中文字体为宋体，英文字体为 Times New Roman"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+  chapter_number:
+    source: "规定四、多级标题：章标题编号为阿拉伯数字（形如“第1章”）"
+  appendix_number:
+    source: "规定四、附录：附录依序用大写正体 A、B、C……编序号，如：附录 A"
+  continued_caption:
+    source: "规定四、图、表、公式：表需转页接排时，在随后各页上重复表序，后跟表题（可省略）和“（续）”，置于表格上方"
+    style: suffix
+  footnotes:
+    source: "规定四、脚注：脚注采用阿拉伯数字上标，分章节连续标号；脚注字号为五号，其余样式与正文相同"
+    format:
+      source: "规定四、脚注：脚注字号为五号"
+      size: 五号
+
+headers:
+  source: "规定四、页眉、页脚：从正文开始到论文结尾设页眉；页眉字号五号、居中（奇数页章标题、偶数页校名因博士/硕士不同，未检查内容）"
+  front_none: true
+  align: center
+  size: 五号
+
+layout:
+  toc:
+    source: "规定二、目录：目录应列至三级标题，包含正文及其后的各部分，并附有相应页码；目录的文字应与相应标题文字完全一致"
+  new_page:
+    source: "规定三、2：每一章从另页右页（奇数页）开始"
+    roles: [chapter]
+  first_chapter_odd_page:
+    source: "规定三、2：学位论文要求双面打印，每一章从另页右页（奇数页）开始"
+  table_span:
+    source: "规定四、图、表、公式：表需转页接排时，在随后各页上重复表序和“（续）”，续表均应重复表头"
+  page_limits:
+    - {role: abstract_title_zh, max_pages: 1, source: "规定二、中文摘要：中文摘要原则上不能超过一页"}
+    - {role: ack_title, max_pages: 1, source: "规定二、致谢：致谢的篇幅限一页"}
+  page_start:
+    source: "规定四、页眉、页脚：从中文摘要开始页脚从 I 开始顺序编页码；正文第一页开始用阿拉伯数字重新从 1 开始"
+    front_first: 1
+    body_first: 1
+
+manual:
+  - {text: "页眉：从正文开始到论文结尾，奇数页为相应的章标题或无编号章标题，偶数页为“天津大学博士学位论文”或“天津大学硕士学位论文”；页眉字号五号、居中，其余样式与正文相同（奇偶页页眉不同，引擎无法检查）。", source: "规定四、页眉、页脚"}
+  - {text: "章标题段前、段后间距 30～36 磅；二级标题 18～24 磅；三级标题 12～15 磅；四级标题 9～12 磅（均为区间，引擎无法检查）。", source: "规定四、多级标题"}
+  - {text: "标题编号与标题内容之间键入 1 个空格；二、三、四级标题编号包含上级编号，用英文句号连接。", source: "规定四、多级标题"}
+  - {text: "表的编排建议采用国际通行的三线表；表中参数应标明量和单位的符号。", source: "规定二、正文"}
+  - {text: "图、表等与其前后的正文之间要有一行的间距；若图或表中有附注，采用英文小写字母顺序编号；子图采用英文字母编号；图或表的附注应位于图或表的下方；引用图或表应在图题或表题右上角标出文献来源。", source: "规定四、图、表、公式"}
+  - {text: "表需转页接排时，在随后各页上重复表序，后跟表题（可省略）和“（续）”，置于表格上方；续表均应重复表头。", source: "规定四、图、表、公式"}
+  - {text: "公式编号只能用于行间公式，右对齐，加英文小括号，不加引导符；分章编号；变量和参数必须正确使用数学格式或行内公式格式。", source: "规定四、图、表、公式"}
+  - {text: "参考文献可采用顺序编码制，也可采用著者-出版年制，但全文必须统一；引用使用上标；作者 3 人以下全部著录，3 人以上可只著录前 3 人，后加“，等”（外文“, et al”）；参考文献只列作者直接阅读过且在正文中被引用过的文献，不应放在章节末尾或页面脚注中。", source: "规定二、参考文献，四、参考文献格式"}
+  - {text: "参考文献条目除固定行距 17 磅、段前 3 磅、段后 0 外，其余样式与正文相同（含首行缩进规定）；参考文献标点：中文文献用全角标点接排后续内容，英文文献用半角标点后空一格。", source: "规定四、参考文献格式"}
+  - {text: "附录中的图、表、式、参考文献另行编序号，数码前冠以附录序码，如图 A01、表 B-2、式 (B-3)、文献 [A5]。", source: "规定四、附录"}
+  - {text: "脚注分章节连续标号，数字上标用 Times New Roman。", source: "规定四、脚注"}
+  - {text: "论文题目严格控制在 25 字以内；硕士学位论文一般不少于 3 万字，博士学位论文一般不少于 5 万字；封面由学校统一印制；扉页“中文论文题目”宋体二号加粗，“英文论文题目”Times New Roman 二号加粗。", source: "规定二、封面、正文，四、扉页"}

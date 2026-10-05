@@ -1,0 +1,128 @@
+# 江苏警官学院本科毕业论文（设计）：规范即《毕业论文（设计）正文部分统一模板》内的文字说明。
+meta:
+  id: jiangsu-b-jspi-ug
+  title: 江苏警官学院本科毕业论文（设计）
+  version: '2021'
+  source: https://zq.jspi.cn/jwc/info/1009/1525.htm
+  org: 江苏警官学院
+  kind: university
+  category: 本科
+  verified: true
+page:
+  source: 模板说明（摘要页后）「页眉顶端：2cm，页脚底端：1.75cm」；页边距规范未作文字规定，取模板《4.毕业论文（设计）正文部分统一模板》示例格式（16 节一致）
+  paper: A4
+  margins_cm:
+    top: 3.0
+    bottom: 2.5
+    left: 2.6
+    right: 2.6
+  header_distance_cm: 2.0
+  footer_distance_cm: 1.75
+page_numbers:
+  source: 模板说明「摘要页、目录页采用罗马数字编排页码…正文页采用阿拉伯数字编排页码」；罗马数字大小写规范未写，取模板示例格式（upperRoman）
+  front_format: upperRoman
+  body_format: decimal
+headers:
+  source: 模板说明（摘要页后）「全文奇数页页眉引用本页章节，偶数页页眉固定为“江苏警官学院本科毕业论文（设计）”」
+  content: chapter_title
+  even:
+    text: 江苏警官学院本科毕业论文（设计）
+roles:
+  chapter:
+    source: 模板《4.毕业论文（设计）正文部分统一模板》示例格式（10 章标题一致；模板说明未作文字规定）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+  section_1:
+    source: 模板《4.毕业论文（设计）正文部分统一模板》示例格式（10 处一致；模板说明未作文字规定）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小三
+  section_2:
+    source: 模板《4.毕业论文（设计）正文部分统一模板》示例格式（10 处一致；模板说明未作文字规定）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 四号
+  body:
+    source: 模板《4.毕业论文（设计）正文部分统一模板》示例格式（模板说明未作文字规定）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    align: justify
+    first_line_chars: 2
+  fig_caption:
+    source: 模板说明「图号和图题应置于图下方的居中位置」；字体字号取模板示例格式（13 处一致，模板说明未作文字规定）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+  table_caption:
+    source: 模板说明「表号和表题应置于表上方的居中位置」；字体字号取模板示例格式（4 处一致，模板说明未作文字规定）
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 五号
+    align: center
+checks:
+  keywords:
+    source: 模板说明（关键词）「关键词由3～5个组成…每一关键词之间用分号分开，最后一个关键词后不打标点符号」；英文「每一关键词之间用分号（半角）+一空格分开」
+    min_count: 3
+    max_count: 5
+    zh_separator: ；
+    en_separator: ;
+  abstract_text:
+    source: 模板说明（摘要）「论文摘要正文不超过600字（此处与教学规程不同）」
+    zh_max_chars: 600
+  caption_numbering:
+    source: 模板说明（图）「图、表、公式等一律用阿拉伯数字分章连续编号，如 图1-3、表2-1、（3-2）等」
+  table_caption:
+    source: 模板说明「表号和表题应置于表上方的居中位置」
+  figure_caption:
+    source: 模板说明「图号和图题应置于图下方的居中位置」
+  table_lines:
+    source: 模板说明（表）「一律使用三线表，与文字齐宽，上下线粗1.5磅。表内线，线粗1磅」
+    top_bottom_pt: 1.5
+    header_pt: 1.0
+  equation_number:
+    source: 模板说明（公式）「公式号应置于小括号中，靠右写在公式末」；「分章连续编号，如…（3-2）」
+  continued_caption:
+    source: 模板说明（表 (1)）「如某个表需要转页接排，在随后的各页上应重复表的编号，编号后跟表题（可省略）和“（续）”，如表1-1（续）」
+    style: suffix
+  appendix_number:
+    source: 模板说明（附录）「附录编号依次编为附录A，附录B」「附录中的图表公式另行编排序号，与正文分开，编号前加“附录A-”字样」
+  footnotes:
+    source: 模板说明（参考文献）「请特别注意文内脚注使用圆圈，参考文献标注使用方括号」
+    circled: true
+  table_cell:
+    source: 模板说明（表 (5)）「表中用字为五号字体」
+    size: 五号
+layout:
+  table_span:
+    source: 模板说明（表 (1)）「如某个表需要转页接排，在随后的各页上应重复表的编号…如表1-1（续）」
+  first_chapter_odd_page:
+    source: 模板说明（目录后【特别重要】）「如目录页仅有一页，请在此处插入空白页，保证正文第一页在奇数页」
+manual:
+- text: 摘要页、目录页、正文页的页码奇偶页位置注意区别；全文双面打印。
+  source: 模板说明（摘要页后）
+- text: 摘要正文不超过 600 字；摘要一般不用图、表、化学结构式、非公知公用的符号和术语；摘要和关键词之间适当空行。
+  source: 模板说明（摘要）
+- text: 关键词应从“汉语主题词表”中摘选，自行设计的关键词须在右上角标注 * 并在该页页脚注明“*表示非汉语主题词”；英文关键词每个词组第一个字母大写、其余小写。
+  source: 模板说明（关键词）
+- text: 英文摘要正文使用齐头式，每段开头不空格，每段之间空一行。
+  source: 模板说明（ABSTRACT）
+- text: 图、表、公式等与正文之间间隔 0.5 行。
+  source: 模板说明（正文）
+- text: 图中用字一般为五号，排列过密时可小于五号但不得小于七号；表中用字为五号，排列过密时可小于五号但不小于七号；图、表若有附注，采用英文小写字母顺序编号，附注写在图或表的下方。
+  source: 模板说明（图 (4)、表 (5)）
+- text: 续表均应重复表头和关于单位的陈述；表格必须通栏，宽度与正文版面平齐。
+  source: 模板说明（表 (1)(6)）
+- text: 图、表引用他人内容须注明出处；图应有自明性；插图须紧跟文述，一般应先见图号再见图；分图用 (a)、(b)、(c) 编号，分题注在各自分图正下方，总题注在所有分图下方正中。
+  source: 模板说明（图 (1)(3)(6)(8)）
+- text: 公式应另起一行居中编排；公式后注明编号，靠右写在公式末，中间不加空格或虚线；公式解释以“式中：”左起顶格。
+  source: 模板说明（公式 (1)(2)(3)）
+- text: 致谢字数不超过 1000 字。
+  source: 模板说明（致谢）
+- text: 参考文献一般 10 篇以上，以近 5 年文献为主；引用处用右上角方括号加阿拉伯数字标注并与文献序号对应；引用过的文献必须著录，未引用的不得出现；著录格式符合 GB/T 7714-2015，范例采用五号；英文文献标点用半角、中文文献用全角。
+  source: 模板说明（参考文献）
+- text: 附录标题各占一行，按一级标题编排；每个附录一般另起一页，多个较短附录可接排。
+  source: 模板说明（附录）

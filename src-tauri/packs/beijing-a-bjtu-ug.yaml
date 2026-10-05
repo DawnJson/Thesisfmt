@@ -1,0 +1,137 @@
+# 北京交通大学本科毕业设计（论文）。依据：
+#  (1)《北京交通大学本科毕业设计（论文）规范与质量抽检办法》第八章“格式规范”第三十六、三十七条（简称“办法”）；
+#  (2) 教务处《附件3 毕设论文模板（论文主体）》中的文字说明与示例格式（简称“模板”）。
+meta:
+  id: beijing-a-bjtu-ug
+  title: 北京交通大学本科毕业设计（论文）
+  version: "2023"
+  source: http://saad.bjtu.edu.cn/docs/2024-10/20241015151729448136.pdf
+  org: 北京交通大学
+  kind: university
+  category: 本科
+  verified: true
+
+page:
+  source: "办法第三十六条：A4(21×29.7cm)标准白纸，页边距为上 3.0cm，下 2.5cm，左 2.5cm，右 2.5cm，页眉 1.5cm，页脚 1.75cm"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.5, left: 2.5, right: 2.5}
+  header_distance_cm: 1.5
+  footer_distance_cm: 1.75
+
+page_numbers:
+  source: "模板《附件3-毕设论文模板-论文主体（A4）》示例格式（规范未作文字规定）：摘要至目录用小写罗马数字，正文起用阿拉伯数字"
+  front_format: lowerRoman
+  body_format: decimal
+
+roles:
+  chapter:
+    source: "办法第三十六条：第一层次（章）题序和标题用三号黑体字；模板“1级标题，三号黑体字”"
+    cn_font: 黑体
+    size: 三号
+  section_1:
+    source: "办法第三十六条：第二层次（节）题序和标题用小三号黑体字；模板“2级标题，小三号黑体字”"
+    cn_font: 黑体
+    size: 小三
+  section_2:
+    source: "办法第三十六条：第三层次（条）题序和标题用四号黑体字；模板“3级标题，四号黑体字”"
+    cn_font: 黑体
+    size: 四号
+  section_3:
+    source: "办法第三十六条：第四及以下层次（款）题序和标题用小四号黑体字"
+    cn_font: 黑体
+    size: 小四
+  body:
+    source: "办法第三十六条：正文用小四号宋体或楷体字，正文行间距为固定值 20 磅（宋体或楷体二选一，故不限定中文字体）"
+    size: 小四
+    line: {rule: exact, value: 20}
+  abstract_title_zh:
+    source: "模板《附件3-毕设论文模板-论文主体（A4）》“中文摘要”标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  abstract_title_en:
+    source: "模板《附件3-毕设论文模板-论文主体（A4）》“ABSTRACT”标题示例格式（规范未作文字规定）"
+    size: 小二
+    align: center
+  abstract_body:
+    source: "模板中文摘要说明：“内容为小四号宋体”；英文摘要说明：“内容为小四号Times New Roman”"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+  keywords_zh:
+    source: "模板中文摘要说明：关键词用小四号宋体（示例格式，规范未作文字规定）"
+    cn_font: 宋体
+    size: 小四
+  keywords_en:
+    source: "模板英文摘要说明：内容为小四号 Times New Roman（示例格式）"
+    latin_font: Times New Roman
+    size: 小四
+  toc_title:
+    source: "模板《附件3-毕设论文模板-论文主体（A4）》“目 录”标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  toc_chapter:
+    source: "模板目录说明：“1级标题 （小四、黑体、左对齐、空1字符）”"
+    cn_font: 黑体
+    size: 小四
+    align: left
+  toc_item:
+    source: "模板目录说明：“2级标题 （小四、宋体、首行缩进1字符）”“3级标题 （小四、宋体、首行缩进2字符）”"
+    cn_font: 宋体
+    size: 小四
+  references_title:
+    source: "模板《附件3-毕设论文模板-论文主体（A4）》“参考文献”标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  ref_item:
+    source: "模板参考文献说明：“内容为五号宋体”"
+    cn_font: 宋体
+    size: 五号
+  ack_title:
+    source: "模板《附件3-毕设论文模板-论文主体（A4）》“致 谢”标题示例格式（规范未作文字规定）"
+    cn_font: 黑体
+    size: 小二
+    align: center
+  appendix_title:
+    source: "模板附录示例：“附录A 程序代码 【1级标题，三号黑体字】”"
+    cn_font: 黑体
+    size: 三号
+
+checks:
+  keywords:
+    source: "办法第三十七条：摘要包括关键词（3 至 5 个）；模板：关键词以分号分隔（中文用“；”，英文用“;”，规范未区分全半角）"
+    min_count: 3
+    max_count: 5
+    zh_separator: "；"
+    en_separator: ";"
+  caption_numbering:
+    source: "办法第三十七条：正文，图表和公式要按章编号；模板：图的编号如“图2-1”，表如“表2-1”"
+  table_caption:
+    source: "模板：“表的编号和表题应置于表上方”"
+  figure_caption:
+    source: "模板：“图的编号和图题应置于图下方”"
+  equation_number:
+    source: "办法第三十七条：公式要按章编号；模板：“将编号置于括号内。公式的编号右端对齐”，示例“(2-1)”"
+  appendix_number:
+    source: "模板：“论文的附录依序用大写正体英文字母A、B、C……编序号，如：附录A”"
+  continued_caption:
+    source: "模板“表”说明：表转页接排时，在随后各页上重复表的编号，编号后跟表题（可省略）和“（续）”，置于表上方"
+    style: suffix
+
+layout:
+  toc:
+    source: "办法第三十七条：目录按三级标题编写，要求层次清晰，且与正文标题一致，主要包括摘要、正文主要层次标题、参考文献、附录等"
+  table_span:
+    source: "模板“表”说明：随后各页重复表的编号并加“（续）”；续表均应重复表头"
+
+manual:
+  - {text: "题目用小二号黑体字（分两行书写时用小一号）；题序和标题之间空1个字符，不加标点。", source: "办法第三十六条第2款"}
+  - {text: "中文摘要字数应在400字左右，包括论文题目、论文摘要、关键词；英文摘要与中文摘要内容要相对应。", source: "办法第三十七条 摘要"}
+  - {text: "表的编排建议采用国际通行的三线表。", source: "模板“表”说明"}
+  - {text: "公式应另行起，并缩格书写，与周围文字留足够的空间区分开。", source: "模板“公式”说明"}
+  - {text: "引文标注遵照 GB/T 7714，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一；参考文献按标准格式书写，且要与论文工作直接相关。", source: "模板“引文标注”“参考文献”说明；办法第三十七条 参考文献"}
+  - {text: "注释建议采用文中编号加“脚注”的方式，最好不采用尾注，且数量不宜过多。", source: "模板“注释”说明"}
+  - {text: "论文主体组成及装订顺序：封面；论文诚信声明；论文使用授权书；中文摘要；英文摘要；目录；正文；参考文献；致谢；附录。正文文字应在15000字以上。", source: "办法第三十七条"}
+  - {text: "涉及工程设计内容的，须全部符合相关国际国内行业标准、设计规范和政策法规，并在设计内容首页写明所符合的规范标准文号和名称。", source: "办法第三十六条第3款"}

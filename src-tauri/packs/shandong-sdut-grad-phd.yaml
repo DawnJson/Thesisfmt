@@ -1,0 +1,142 @@
+meta:
+  id: shandong-sdut-grad-phd
+  title: 山东理工大学学术型博士学位论文
+  version: "2024"
+  source: https://yjsh.sdut.edu.cn/2025/0314/c5145a537151/page.htm
+  valid_from: "2024"
+  org: 山东理工大学
+  kind: university
+  category: 研究生（博士）
+  verified: true
+
+# 规范依据：学校发布的《学术型博士学位论文模版》（2024版）内的格式说明正文及批注文本框，下文 source 中「模板」即此。
+
+page:
+  source: "模板 1.1：纸型A4，双面打印；页边距左边距30mm、右边距25mm、上边距30mm、下边距25mm；页眉23mm、页脚18mm，左侧装订"
+  paper: A4
+  margins_cm: {top: 3.0, bottom: 2.5, left: 3.0, right: 2.5}
+  header_distance_cm: 2.3
+  footer_distance_cm: 1.8
+
+page_numbers:
+  source: "模板批注：页码由正文起用阿拉伯数字连续编排，小5号宋体字，页脚居中排列；前置部分页码用大写罗马数字为模板目录示例（摘要Ⅰ、AbstractⅡ）"
+  front_format: upperRoman
+  body_format: decimal
+  footer_align: center
+  footer_size: 小五
+
+headers:
+  source: "模板批注：页眉摘要文起设置，左侧为山东理工大学学位论文，右侧为一级标题，小5号宋体字"
+  cn_font: 宋体
+  size: 小五
+
+roles:
+  chapter:
+    source: "模板批注：一级标题三号黑体，段前段后的间距为一行"
+    cn_font: 黑体
+    size: 三号
+    before_lines: 1
+    after_lines: 1
+  section_1:
+    source: "模板批注：二级标题四号黑体，段前段后的间距为一行"
+    cn_font: 黑体
+    size: 四号
+    before_lines: 1
+    after_lines: 1
+  section_2:
+    source: "模板批注：三级标题小四号黑体，段前段后的间距为一行"
+    cn_font: 黑体
+    size: 小四
+    before_lines: 1
+    after_lines: 1
+  body:
+    source: "模板批注与 1.1（4）：正文为宋体小四号、行间距为19.5磅"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 19.5}
+  abstract_title_zh:
+    source: "模板批注：题目用三号黑体字（居中排）"
+    cn_font: 黑体
+    size: 三号
+    align: center
+  abstract_title_en:
+    source: "模板批注：题目用三号Times New Roman字体（居中排）"
+    latin_font: Times New Roman
+    size: 三号
+    align: center
+  abstract_body:
+    source: "模板批注：摘要内容用宋体，字号小四号，段落设置段前段后间距为1行；英文摘要内容Times New Roman字体，字号小四号，段前段后间距为1行"
+    cn_font: 宋体
+    latin_font: Times New Roman
+    size: 小四
+    before_lines: 1
+    after_lines: 1
+  keywords_zh:
+    source: "模板批注：关键词另起一行黑体小四号（顶格排），每个关键词中间用分号分开"
+    cn_font: 黑体
+    size: 小四
+    first_line_chars: 0
+  keywords_en:
+    source: "模板批注：用小四号Times New Roman体（顶格排），每个关键词中间用逗号分开"
+    latin_font: Times New Roman
+    size: 小四
+    first_line_chars: 0
+  toc_title:
+    source: "模板目录批注：标题“目录”，字体：黑体，字号：三号"
+    cn_font: 黑体
+    size: 三号
+  toc_chapter:
+    source: "模板目录批注：标题为宋体小四号，一级标题加黑；行间距21磅"
+    cn_font: 宋体
+    size: 小四
+    bold: true
+    line: {rule: exact, value: 21}
+  toc_item:
+    source: "模板目录批注：标题为宋体小四号；行间距21磅"
+    cn_font: 宋体
+    size: 小四
+    line: {rule: exact, value: 21}
+  fig_caption:
+    source: "模板 2.1.1 与 2.1.2 4：图、表标题采用五号黑体；中文图名设置为黑体，五号，居中；英文名称设置为Times New Roman，五号，居中"
+    cn_font: 黑体
+    size: 五号
+    align: center
+  table_caption:
+    source: "模板 2.1.1 与 2.2.2（4）⑤：图、表标题采用五号黑体；中文表名设置为黑体，五号，且居中；英文名称设置为Times New Roman，五号，且居中"
+    cn_font: 黑体
+    size: 五号
+    align: center
+  table_source:
+    source: "模板 2.1.1：表注采用小五号宋体；2.2.2（5）：表注应置于表的下方"
+    cn_font: 宋体
+    size: 小五
+
+checks:
+  keywords:
+    source: "模板批注：中文关键词之间用分号分开，英文关键词之间用逗号分开"
+    zh_separator: "；"
+    en_separator: ","
+  caption_numbering:
+    source: "模板 2.1.2 4：图名编号应分章编号，如图2-1；2.2.2（4）①：表名编号应分章编号，如表2-1、表2-2"
+  figure_caption:
+    source: "模板 2.1.2 4：图名居中并位于图下"
+  table_cell:
+    source: "模板 2.2.2（4）④：表内文字全文统一，设置为宋体，五号；2.1.1：表格中文字、图例说明采用五号宋体"
+    cn_font: 宋体
+    size: 五号
+  equation_number:
+    source: "模板 2.3.1：公式编号用小括号括起，右对齐；示例（2-1）、（3-10）按章节编号"
+
+layout:
+  page_start:
+    source: "模板批注：页码由正文起用阿拉伯数字连续编排"
+    body_first: 1
+
+manual:
+  - {text: "页眉左侧为“山东理工大学学位论文”，右侧为一级标题，小5号宋体字，自摘要起设置。", source: "模板批注（页眉）"}
+  - {text: "表采用标准三线表形式（可参照正式出版物中的表格形式）；表居中排列，用WORD绘制，不要粘贴；表名应在表的上方并居中，编号分章，表名与上文留一空行；表及其名称放在同一页。", source: "模板 2.2.1、2.2.2"}
+  - {text: "图居中排列；图的版式为“上下型”或“嵌入型”，不得“浮于文字之上”；图的大小尽量以一页为限，超限要加续图；图及其名称放在同一页，不能跨页。", source: "模板 2.1.2"}
+  - {text: "公式一般居中对齐，公式编号用小括号括起、右对齐，其间不加线条。", source: "模板 2.3.1"}
+  - {text: "中文摘要在论文第一页，字数在1000字左右；英文摘要在第二页，内容与中文摘要一致；封面中文论文题目二号宋体加粗、英文题目三号Times New Roman加粗。", source: "模板 摘要说明与批注；封面批注"}
+  - {text: "“攻读博士期间发表的论文”书写格式参照参考文献书写格式，发表的论文要注明对应章节；致谢中不得书写与论文工作无关的人和事，对导师的致谢要实事求是。", source: "模板 攻读博士期间发表的论文、致谢"}
+  - {text: "单位名称的书写，可采用国际通用符号，也可用中文名称，但全文应统一；量和单位须符合GB 3100~3102，标点符号符合GB/T 15834。", source: "模板 2.5、2.6"}
